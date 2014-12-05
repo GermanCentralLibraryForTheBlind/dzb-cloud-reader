@@ -20,6 +20,7 @@ module.exports = function(grunt) {
             }
         },
 
+        
 // grunt-watch will monitor the projects files
 // https://github.com/gruntjs/grunt-contrib-watch
         watch: {
