@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 
 
     grunt.initConfig({
-// Grunt express - our webserver
+// runt express - our webserver
 // https://github.com/blai/grunt-express
         express: {
             all: {
