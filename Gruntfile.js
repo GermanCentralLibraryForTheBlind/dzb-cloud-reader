@@ -7,7 +7,8 @@ module.exports = function(grunt) {
 
 
     grunt.initConfig({
-// runt express - our webserver
+
+// Grunt express - our webserver
 // https://github.com/blai/grunt-express
         express: {
             all: {
@@ -19,7 +20,6 @@ module.exports = function(grunt) {
             }
         },
 
-        
 // grunt-watch will monitor the projects files
 // https://github.com/gruntjs/grunt-contrib-watch
         watch: {
