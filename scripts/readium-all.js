@@ -15020,7 +15020,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.16.0","chromeVersion":"2.16.0","sha":"ada97eb7a20c905fc4460c64937311a165596328","tag":"0.16.0-158-gada97eb","clean":false,"release":false,"timestamp":1417788324791}';});
+define('text!viewer-version',[],function () { return '{"version":"0.16.0","chromeVersion":"2.16.0","sha":"1d9a6e88530f944910b836a6f64e66217c327833","tag":"0.16.0-161-g1d9a6e8","clean":false,"release":false,"timestamp":1418035222520}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
