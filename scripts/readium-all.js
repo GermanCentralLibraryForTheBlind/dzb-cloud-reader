@@ -15164,29 +15164,30 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
         }else {
             focusSizePix = 3;
         }
+        
 
-        var numberOfStylesheets=document.styleSheets.length;
-
-        for(i=0; i<numberOfStylesheets; i++){
-            if( document.styleSheets[i].href && document.styleSheets[i].href.indexOf("viewer.css")>-1 ) {
-                var stylesheet = document.styleSheets[i];
-                break;
-            }
-        }
-
-        var rules=stylesheet.cssRules || stylesheet.rules;
-        for (var i=0; i<rules.length; i++){
-            if(rules[i].type==1 && rules[i].selectorText.toLowerCase().indexOf(":focus")>-1){ //find ":focus" rules
-                if (rules[i].style.outlineWidth!="0px"){
-                    var alt="alt"+rules[i].cssText;
-                    rules[i].style.setProperty("outline-width", focusSizePix+"px","important");
-                    //alert(i+": neu"+rules[i].cssText+"\n"+alt);
-                }
-                if (rules[i].style.borderWidth!="0px"){
-                    rules[i].style.setProperty("border-width", focusSizePix+"px","important");
-                }
-            }
-        }
+        //var numberOfStylesheets=document.styleSheets.length;
+        //
+        //for(i=0; i<numberOfStylesheets; i++){
+        //    if( document.styleSheets[i].href && document.styleSheets[i].href.indexOf("viewer.css")>-1 ) {
+        //        var stylesheet = document.styleSheets[i];
+        //        break;
+        //    }
+        //}
+        //
+        //var rules=stylesheet.cssRules || stylesheet.rules;
+        //for (var i=0; i<rules.length; i++){
+        //    if(rules[i].type==1 && rules[i].selectorText.toLowerCase().indexOf(":focus")>-1){ //find ":focus" rules
+        //        if (rules[i].style.outlineWidth!="0px"){
+        //            var alt="alt"+rules[i].cssText;
+        //            rules[i].style.setProperty("outline-width", focusSizePix+"px","important");
+        //            //alert(i+": neu"+rules[i].cssText+"\n"+alt);
+        //        }
+        //        if (rules[i].style.borderWidth!="0px"){
+        //            rules[i].style.setProperty("border-width", focusSizePix+"px","important");
+        //        }
+        //    }
+        //}
     }
 
     var setPreviewTheme = function($previewText, readerSettings){
@@ -15672,7 +15673,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.16.0","chromeVersion":"2.16.0","sha":"c0a0531511f6eee4b089f9754c68c749c644113d","tag":"0.16.0-262-gc0a0531","clean":false,"release":false,"timestamp":1423477132843}';});
+define('text!viewer-version',[],function () { return '{"version":"0.16.0","chromeVersion":"2.16.0","sha":"d22a8fda4eac04c5aaa684d2e0417f14ba9234bf","tag":"0.16.0-263-gd22a8fd","clean":false,"release":false,"timestamp":1423485997910}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
