@@ -15150,7 +15150,7 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
             backgroundColor: isAuthorTheme ? "" : previewStyle.backgroundColor,
             color: isAuthorTheme ? "" : previewStyle.color
         }}];
-        return bookStyles;
+     return bookStyles;
     }
 
     var setFocusSize = function(focusSize){
@@ -15177,7 +15177,6 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
                         if (rules[i].style.outlineWidth!="0px"){
                             var alt="alt"+rules[j].cssText;
                             rules[j].style.setProperty("outline-width", focusSizePix+"px","important");
-                            //alert(i+": neu"+rules[i].cssText+"\n"+alt);
                         }
                         if (rules[j].style.borderWidth!="0px"){
                             rules[j].style.setProperty("border-width", focusSizePix+"px","important");
@@ -15672,7 +15671,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.16.0","chromeVersion":"2.16.0","sha":"4a99a08f3d0d4a9509c49a23c0b1390c11df937f","tag":"","clean":true,"release":false,"timestamp":1423487397000}';});
+define('text!viewer-version',[],function () { return '{"version":"0.16.0","chromeVersion":"2.16.0","sha":"00a96ae7918457274432fd6c53aa2f3d745070e9","tag":"","clean":false,"release":false,"timestamp":1423747385748}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
@@ -53222,8 +53221,8 @@ define('EpubLibrary',['jquery', 'bootstrap', 'storage/StorageManager', 'storage/
             });
             $('#details-dialog').on('shown.bs.modal', function () {
                 if (caller=='library') {
-                    document.getElementById('details-button-div').hidden = false;
-                    document.getElementById('details-button-div').setAttribute('aria-hidden', false);
+                   $('#details-button-div').attr('hidden', false);
+                   $('#details-button-div').attr('aria-hidden', false);
                 }
                 setTimeout(function(){ $('#closeMetadataCross')[0].focus(); }, 50);
                 Keyboard.scope('details');
@@ -57419,7 +57418,7 @@ require(['jquery', 'EpubLibrary', 'EpubReader', 'ReaderSettingsDialog', 'storage
 		EpubReader.loadUI({epub: url});
 	}
 
-    //This function restores settings that are needed on Readium Start (focus size)
+    //This function restores settings that are needed on Readium Start (applies for: focus size)
     var restoreLastSettings = function(){
         var focusSize;
         Settings.get('reader', function(json){
