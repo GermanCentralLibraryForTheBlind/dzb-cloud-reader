@@ -21,8 +21,8 @@
 
 .highlight {
     position: absolute;
-    opacity: 0.2;
-    background-color: red;
+    opacity: 0.6;
+    background-color: #4d61ff;
 }
 
 .hover-highlight {

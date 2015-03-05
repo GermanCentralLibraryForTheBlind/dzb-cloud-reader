@@ -12163,37 +12163,37 @@ define('text',['module'], function (module) {
 });
 
 
-define('text!i18n/_locales/de/messages.json',[],function () { return '{ "about": {\r\n    "message": "Über Readium"\r\n},\r\n    "add_epub_dialog": {\r\n        "message": "Epub zur Bibliothek hinzufügen"\r\n    },\r\n    "list_view_thumbnail_view_toggle": {\r\n        "message": "Kachel- und Listenansicht umschalten"\r\n    },\r\n    "preview": {\r\n        "message": "Vorschau"\r\n    },\r\n    "list_view": {\r\n        "message": "Listenansicht"\r\n    },\r\n    "thumbnail_view": {\r\n        "message": "Kachelansicht"\r\n    },\r\n    "show_metadata":{\r\n        "message" : "Epub Metadaten"\r\n    },\r\n    "view_library": {\r\n        "message": "Bibliothek"\r\n    },\r\n    "zoom": {\r\n        "message": "Vergrößerung"\r\n    },\r\n    "zoom_custom": {\r\n        "message" : "Nutzerdefiniert"\r\n    },\r\n    "zoom_fit_width": {\r\n        "message" : "Seitenbreite"\r\n    },\r\n    "zoom_fit_screen": {\r\n        "message" : "Seitenhöhe"\r\n    },\r\n    "highlight_selection": {\r\n        "message": "Ausgewählten Text hervorheben"\r\n    },\r\n    "toc": {\r\n        "message": "Inhaltsverzeichnis"\r\n    },\r\n    "settings": {\r\n        "message": "Einstellungen"\r\n    },\r\n    "layout": {\r\n        "message": "Layout"\r\n    },\r\n    "style": {\r\n        "message": "Stil"\r\n    },\r\n    "enter_fullscreen": {\r\n        "message": "Vollbildmodus"\r\n    },\r\n    "exit_fullscreen": {\r\n        "message": "Vollbildmodus verlassen"\r\n    },\r\n    "chrome_extension_name": {\r\n        "message": "Readium"\r\n    },\r\n    "chrome_extension_description": {\r\n        "message": "Ein Leseprogramm für EPUB3 Bücher."\r\n    },\r\n    "ok": {\r\n        "message": "Ok"\r\n    },\r\n    "i18n_readium_library": {\r\n        "message": "Readium Bibliothek"\r\n    },\r\n    "i18n_loading": {\r\n        "message": "Bibliothek wird geladen"\r\n    },\r\n    "i18n_readium_options": {\r\n        "message": "Readium Einstellungen:"\r\n    },\r\n    "i18n_save_changes": {\r\n        "message": "Änderungen speichern"\r\n    },\r\n    "i18n_close": {\r\n        "message": "Schließen"\r\n    },\r\n    "i18n_keyboard_shortcuts": {\r\n        "message": "Funktionstasten"\r\n    },\r\n    "i18n_keyboard_reload": {\r\n        "message": "Bitte laden Sie die Seite im Browser neu, damit die Änderungen der Tastaturkürzel wirksam werden."\r\n    },\r\n    "i18n_reset_key": {\r\n        "message": "Taste zurücksetzen"\r\n    },\r\n    "i18n_reset_key_all": {\r\n        "message": "Alle Funktionstasten auf Standard zurücksetzen"\r\n    },\r\n    "i18n_duplicate_keyboard_shortcut": {\r\n        "message": "Doppelbelegung"\r\n    },\r\n    "i18n_invalid_keyboard_shortcut": {\r\n        "message": "Nicht zulässig"\r\n    },\r\n    "i18n_paginate_all": {\r\n        "message": "Fließtext des EPUB Inhalts paginieren"\r\n    },\r\n    "i18n_automatically": {\r\n        "message": "*.epub URLs automatisch in Readium öffnen"\r\n    },\r\n    "i18n_show_warning": {\r\n        "message": "Warnhinweise beim Entpacken von EPUB Dateien anzeigen"\r\n    },\r\n    "i18n_details": {\r\n        "message": "Details"\r\n    },\r\n    "i18n_read": {\r\n        "message": "Lesen"\r\n    },\r\n    "i18n_delete": {\r\n        "message": "Löschen"\r\n    },\r\n    "i18n_are_you_sure": {\r\n        "message": "Möchten Sie diese Datei wirklich unwiderruflich löschen?"\r\n    },\r\n    "i18n_show_metadata_dialog": {\r\n        "message": "Zeige Epub Metadaten"\r\n    },\r\n    "delete_dlg_title": {\r\n        "message": "Löschen bestätigen"\r\n    },\r\n\r\n    "i18n_auto_page_turn_enable": {\r\n        "message": "Automatisches Umblättern einschalten"\r\n    },\r\n    "i18n_auto_page_turn_disable": {\r\n        "message": "Automatisches Umblättern ausschalten"\r\n    },\r\n\r\n    "i18n_playback_scroll_enable": {\r\n        "message": "Scrollen während der Wiedergabe"\r\n    },\r\n    "i18n_playback_scroll_disable": {\r\n        "message": "Kein Scrollen während der Wiedergabe"\r\n    },\r\n    "i18n_audio_touch_enable": {\r\n        "message": "Touch-to-play einschalten"\r\n    },\r\n    "i18n_audio_touch_disable": {\r\n        "message": "Touch-to-play ausschalten"\r\n    },\r\n    "i18n_audio_highlight_default": {\r\n        "message": "Standard"\r\n    },\r\n    "i18n_audio_highlight": {\r\n        "message": "Hervorhebungsfarbe"\r\n    },\r\n\r\n    "delete_progress_title": {\r\n        "message": "Löschen wird ausgeführt"\r\n    },\r\n    "delete_progress_message": {\r\n        "message": "Löschen"\r\n    },\r\n    "migrate_dlg_title": {\r\n        "message": "Bücher migrieren"\r\n    },\r\n    "migrate_dlg_message": {\r\n        "message": "Daten werden geladen..."\r\n    },\r\n    "migrating": {\r\n        "message": "Migrieren..."\r\n    },\r\n    "replace_dlg_title": {\r\n        "message": "Konflikt festgestellt"\r\n    },\r\n    "replace_dlg_message": {\r\n        "message": "Soll das bestehende EPUB wirklich ersetzt werden?"\r\n    },\r\n    "import_dlg_title": {\r\n        "message": "EPUB importieren"\r\n    },\r\n    "import_dlg_message": {\r\n        "message": "EPUB Inhalt überprüfen..."\r\n    },\r\n    "storing_file": {\r\n        "message": "Datei speichern"\r\n    },\r\n    "err_unknown": {\r\n        "message": "Unbekannter Fehler. Für Details öffnen Sie die Konsole."\r\n    },\r\n    "err_storage": {\r\n        "message": "Zugriff auf Dateispeicher nicht möglich."\r\n    },\r\n    "err_epub_corrupt": {\r\n        "message": "Ungültiges oder beschädigtes EPUB Paket"\r\n    },\r\n    "err_dlg_title": {\r\n        "message": "Unerwarteter Fehler"\r\n    },\r\n    "replace": {\r\n        "message": "Ersetzen"\r\n    },\r\n    "i18n_author": {\r\n        "message": "Autor: "\r\n    },\r\n    "i18n_publisher": {\r\n        "message": "Verlag: "\r\n    },\r\n    "i18n_source": {\r\n        "message": "Quelle: "\r\n    },\r\n    "i18n_pub_date": {\r\n        "message": "Veröffentlicht am: "\r\n    },\r\n    "i18n_modified_date": {\r\n        "message": "Zuletzt geändert am: "\r\n    },\r\n    "i18n_id": {\r\n        "message": "ID: "\r\n    },\r\n    "i18n_epub_version": {\r\n        "message": "EPUB Version: "\r\n    },\r\n    "i18n_created_at": {\r\n        "message": "Erstellt am: "\r\n    },\r\n    "i18n_format": {\r\n        "message": "Format: "\r\n    },\r\n    "i18n_added": {\r\n        "message": "Hinzugefügt am: "\r\n    },\r\n    "i18n_unknown": {\r\n        "message": "Unbekannt"\r\n    },\r\n    "i18n_sorry": {\r\n        "message": "Das aktuelle EPUB enthält für diesen Inhalt keine Media Overlays."\r\n    },\r\n    "i18n_add_items": {\r\n        "message": "Füge Werke zur Bibliothek hinzu."\r\n    },\r\n    "i18n_extracting": {\r\n        "message": "Entpacke: "\r\n    },\r\n    "i18n_add_book_to_readium_library": {\r\n        "message": "Buch zur Readium Bibliothek hinzufügen:"\r\n    },\r\n    "i18n_add_book": {\r\n        "message": "Buch hinzufügen"\r\n    },\r\n    "i18n_cancel": {\r\n        "message": "Abbrechen"\r\n    },\r\n    "i18n_from_the_web": {\r\n        "message": "Internet:"\r\n    },\r\n    "i18n_from_local_file": {\r\n        "message": "Lokale Datei:"\r\n    },\r\n    "i18n_enter_a_url": {\r\n        "message": "URL einer .epub Datei eingeben"\r\n    },\r\n    "i18n_unpacked_directory": {\r\n        "message": "Entpacktes Verzeichnis:"\r\n    },\r\n    "i18n_validate": {\r\n        "message": "Prüfe:"\r\n    },\r\n    "i18n_confirm_that_this_book": {\r\n        "message": "Bestätigung, dass dieses Buch mit EPUB Standards übereinstimmt"\r\n    },\r\n    "i18n_single_pages": {\r\n        "message": "Einzelseiten"\r\n    },\r\n    "i18n_double_pages": {\r\n        "message": "Doppelseiten"\r\n    },\r\n    "i18n_save_settings": {\r\n        "message": "Einstellungen speichern"\r\n    },\r\n    "i18n_font_size": {\r\n        "message": "Schriftgröße"\r\n    },\r\n    "i18n_margins": {\r\n        "message": "Rand"\r\n    },\r\n    "i18n_text_and_background_color": {\r\n        "message": "Text- und Hintergrundfarbe"\r\n    },\r\n    "i18n_author_theme": {\r\n        "message": "Vorgabe des Autors"\r\n    },\r\n    "i18n_black_and_white": {\r\n        "message": "Schwarzweiss"\r\n    },\r\n    "i18n_arabian_nights": {\r\n        "message": "Arabian Nights"\r\n    },\r\n    "i18n_sands_of_dune": {\r\n        "message": "Sands of Dune"\r\n    },\r\n    "i18n_ballard_blues": {\r\n        "message": "Ballard Blues"\r\n    },\r\n    "i18n_vancouver_mist": {\r\n        "message": "Vancouver Mist"\r\n    },\r\n    "i18n_custom_theme" : {\r\n        "message" : "eigenes Farbschema"\r\n    },\r\n    "i18n_display_format": {\r\n        "message": "Anzeigeformat"\r\n    },\r\n    "i18n_spread_auto": {\r\n        "message": "Automatisch"\r\n    },\r\n    "i18n_scroll_mode": {\r\n        "message": "Scroll Modus"\r\n    },\r\n    "i18n_scroll_mode_auto": {\r\n        "message": "Automatisch"\r\n    },\r\n    "i18n_scroll_mode_doc": {\r\n        "message": "Dokument"\r\n    },\r\n    "i18n_scroll_mode_continuous": {\r\n        "message": "Kontinuierlich"\r\n    },\r\n\r\n    "i18n_page_transition": {\r\n        "message": "Umblätter-Effekt"\r\n    },\r\n    "i18n_page_transition_none": {\r\n        "message": "Keiner"\r\n    },\r\n    "i18n_page_transition_fade": {\r\n        "message": "Fade"\r\n    },\r\n    "i18n_page_transition_slide": {\r\n        "message": "Slide"\r\n    },\r\n    "i18n_page_transition_swoosh": {\r\n        "message": "Swoosh"\r\n    },\r\n    "i18n_page_transition_butterfly": {\r\n        "message": "Butterfly"\r\n    },\r\n    "i18n_foreground_color_customize_theme" : {\r\n        "message" : "Schriftfarbe"\r\n    },\r\n    "i18n_background_color_customize_theme" : {\r\n        "message" : "Hintergrundfarbe"\r\n    },\r\n    "i18n_html_readium_tm_a_project": {\r\n        "message": "Readium für Chrome ist die Chrome Browser Erweiterung basierend auf ReadiumJS, einem Open-Source Lesesystem und einer JavaScript Bibliothek zur Darstellung von EPUB® Veröffentlichungen in Web-Browsern. ReadiumJS ist ein Projekt der Readium Foundation (Readium.org). Wenn Sie mehr darüber erfahren möchten oder das Projekt unterstützen wollen, besuchen Sie bitte die <a href=\\"http://readium.org/\\">Projekt Homepage</a>."\r\n\r\n    },\r\n    "gethelp": {\r\n        "message": "Falls Sie auf Probleme stoßen, Fragen haben oder \\"Hallo\\" sagen möchten, besuchen Sie <a href=\\"http://idpf.org/forums/readium\\">unser Forum</a>."\r\n    },\r\n    "i18n_toolbar": {\r\n        "message": "Werkzeugleiste"\r\n    },\r\n    "i18n_toolbar_show": {\r\n        "message": "Werkzeugleiste anzeigen"\r\n    },\r\n    "i18n_toolbar_hide": {\r\n        "message": "Werkzeugleiste ausblenden"\r\n    },\r\n    "i18n_audio_play": {\r\n        "message": "Audio - Abspielen"\r\n    },\r\n    "i18n_audio_pause": {\r\n        "message": "Audio - Pause"\r\n    },\r\n    "i18n_audio_play_background": {\r\n        "message": "Hintergrundaudio ein"\r\n    },\r\n    "i18n_audio_pause_background": {\r\n        "message": "Hintergrundaudio aus"\r\n    },\r\n    "i18n_audio_previous": {\r\n        "message": "Vorige Audiophrase"\r\n    },\r\n    "i18n_audio_next": {\r\n        "message": "Nächste Audiophrase"\r\n    },\r\n    "i18n_audio_volume": {\r\n        "message": "Lautstärke"\r\n    },\r\n    "i18n_audio_volume_increase": {\r\n        "message": "Lautstärke erhöhen"\r\n    },\r\n    "i18n_audio_volume_decrease": {\r\n        "message": "Lautstärke verringern"\r\n    },\r\n    "i18n_audio_time": {\r\n        "message": "Audio - Zeitmarke"\r\n    },\r\n    "i18n_audio_mute": {\r\n        "message": "Audio ausschalten"\r\n    },\r\n    "i18n_audio_unmute": {\r\n        "message": "Audio einschalten"\r\n    },\r\n    "i18n_audio_expand": {\r\n        "message": "Erweiterte Audio-Steuerung anzeigen"\r\n    },\r\n    "i18n_audio_collapse": {\r\n        "message": "Erweiterte Audio-Steuerung ausblenden"\r\n    },\r\n    "i18n_audio_esc": {\r\n        "message": "Aktuellen Audio-Bereich verlassen"\r\n    },\r\n    "i18n_audio_rate": {\r\n        "message": "Audio - Wiedergabegeschwindigkeit"\r\n    },\r\n    "i18n_audio_rate_increase": {\r\n        "message": "Audio - Wiedergabegeschwindigkeit erhöhen"\r\n    },\r\n    "i18n_audio_rate_decrease": {\r\n        "message": "Audio - Wiedergabegeschwindigkeit verringern"\r\n    },\r\n    "i18n_audio_rate_reset": {\r\n        "message": "Audio - Wiedergabegeschwindigkeit zurücksetzen"\r\n    },\r\n    "i18n_audio_skip_disable": {\r\n        "message": "Audio - Überspringen unterbinden "\r\n    },\r\n    "i18n_audio_skip_enable": {\r\n        "message": "Audio - Überspringen ermöglichen"\r\n    },\r\n    "i18n_audio_sync": {\r\n        "message": "Text-Audio-Synchronisation"\r\n    },\r\n    "i18n_audio_sync_default": {\r\n        "message": "Nach Vorgabe"\r\n    },\r\n    "i18n_audio_sync_word": {\r\n        "message": "Wort"\r\n    },\r\n    "i18n_audio_sync_sentence": {\r\n        "message": "Satz"\r\n    },\r\n    "i18n_audio_sync_paragraph": {\r\n        "message": "Absatz"\r\n    },\r\n    "i18n_page_previous": {\r\n        "message": "Vorige Seite"\r\n    },\r\n    "i18n_page_next": {\r\n        "message": "Nächste Seite"\r\n    },\r\n    "chrome_accept_languages": {\r\n        "message": "$CHROME$ akzeptiert $languages$ Sprachen",\r\n        "placeholders": {\r\n            "chrome": {\r\n                "content": "Chrome",\r\n                "example": "Chrome"\r\n            },\r\n            "languages": {\r\n                "content": "$1",\r\n                "example": "en-US,ja,sr,de,zh_CN"\r\n            }\r\n        }\r\n    }\r\n}';});
+define('text!i18n/_locales/de/messages.json',[],function () { return '{ "about": {\n    "message": "Über Readium"\n},\n    "add_epub_dialog": {\n        "message": "Epub zur Bibliothek hinzufügen"\n    },\n    "list_view_thumbnail_view_toggle": {\n        "message": "Kachel- und Listenansicht umschalten"\n    },\n    "preview": {\n        "message": "Vorschau"\n    },\n    "list_view": {\n        "message": "Listenansicht"\n    },\n    "thumbnail_view": {\n        "message": "Kachelansicht"\n    },\n    "show_metadata":{\n        "message" : "Epub Metadaten"\n    },\n    "view_library": {\n        "message": "Bibliothek"\n    },\n    "zoom": {\n        "message": "Vergrößerung"\n    },\n    "zoom_custom": {\n        "message" : "Nutzerdefiniert"\n    },\n    "zoom_fit_width": {\n        "message" : "Seitenbreite"\n    },\n    "zoom_fit_screen": {\n        "message" : "Seitenhöhe"\n    },\n    "highlight_selection": {\n        "message": "Ausgewählten Text hervorheben"\n    },\n    "toc": {\n        "message": "Inhaltsverzeichnis"\n    },\n    "settings": {\n        "message": "Einstellungen"\n    },\n    "layout": {\n        "message": "Layout"\n    },\n    "style": {\n        "message": "Stil"\n    },\n    "enter_fullscreen": {\n        "message": "Vollbildmodus"\n    },\n    "exit_fullscreen": {\n        "message": "Vollbildmodus verlassen"\n    },\n    "chrome_extension_name": {\n        "message": "Readium"\n    },\n    "chrome_extension_description": {\n        "message": "Ein Leseprogramm für EPUB3 Bücher."\n    },\n    "ok": {\n        "message": "Ok"\n    },\n    "i18n_readium_library": {\n        "message": "Readium Bibliothek"\n    },\n    "i18n_loading": {\n        "message": "Bibliothek wird geladen"\n    },\n    "i18n_readium_options": {\n        "message": "Readium Einstellungen:"\n    },\n    "i18n_save_changes": {\n        "message": "Änderungen speichern"\n    },\n    "i18n_close": {\n        "message": "Schließen"\n    },\n    "i18n_keyboard_shortcuts": {\n        "message": "Funktionstasten"\n    },\n    "i18n_keyboard_reload": {\n        "message": "Bitte laden Sie die Seite im Browser neu, damit die Änderungen der Tastaturkürzel wirksam werden."\n    },\n    "i18n_reset_key": {\n        "message": "Taste zurücksetzen"\n    },\n    "i18n_reset_key_all": {\n        "message": "Alle Funktionstasten auf Standard zurücksetzen"\n    },\n    "i18n_duplicate_keyboard_shortcut": {\n        "message": "Doppelbelegung"\n    },\n    "i18n_invalid_keyboard_shortcut": {\n        "message": "Nicht zulässig"\n    },\n    "i18n_paginate_all": {\n        "message": "Fließtext des EPUB Inhalts paginieren"\n    },\n    "i18n_automatically": {\n        "message": "*.epub URLs automatisch in Readium öffnen"\n    },\n    "i18n_show_warning": {\n        "message": "Warnhinweise beim Entpacken von EPUB Dateien anzeigen"\n    },\n    "i18n_details": {\n        "message": "Details"\n    },\n    "i18n_read": {\n        "message": "Lesen"\n    },\n    "i18n_delete": {\n        "message": "Löschen"\n    },\n    "i18n_are_you_sure": {\n        "message": "Möchten Sie diese Datei wirklich unwiderruflich löschen?"\n    },\n    "i18n_show_metadata_dialog": {\n        "message": "Zeige Epub Metadaten"\n    },\n    "delete_dlg_title": {\n        "message": "Löschen bestätigen"\n    },\n\n    "i18n_auto_page_turn_enable": {\n        "message": "Automatisches Umblättern einschalten"\n    },\n    "i18n_auto_page_turn_disable": {\n        "message": "Automatisches Umblättern ausschalten"\n    },\n\n    "i18n_playback_scroll_enable": {\n        "message": "Scrollen während der Wiedergabe"\n    },\n    "i18n_playback_scroll_disable": {\n        "message": "Kein Scrollen während der Wiedergabe"\n    },\n    "i18n_audio_touch_enable": {\n        "message": "Touch-to-play einschalten"\n    },\n    "i18n_audio_touch_disable": {\n        "message": "Touch-to-play ausschalten"\n    },\n    "i18n_audio_highlight_default": {\n        "message": "Standard"\n    },\n    "i18n_audio_highlight": {\n        "message": "Hervorhebungsfarbe"\n    },\n\n    "delete_progress_title": {\n        "message": "Löschen wird ausgeführt"\n    },\n    "delete_progress_message": {\n        "message": "Löschen"\n    },\n    "migrate_dlg_title": {\n        "message": "Bücher migrieren"\n    },\n    "migrate_dlg_message": {\n        "message": "Daten werden geladen..."\n    },\n    "migrating": {\n        "message": "Migrieren..."\n    },\n    "replace_dlg_title": {\n        "message": "Konflikt festgestellt"\n    },\n    "replace_dlg_message": {\n        "message": "Soll das bestehende EPUB wirklich ersetzt werden?"\n    },\n    "import_dlg_title": {\n        "message": "EPUB importieren"\n    },\n    "import_dlg_message": {\n        "message": "EPUB Inhalt überprüfen..."\n    },\n    "storing_file": {\n        "message": "Datei speichern"\n    },\n    "err_unknown": {\n        "message": "Unbekannter Fehler. Für Details öffnen Sie die Konsole."\n    },\n    "err_storage": {\n        "message": "Zugriff auf Dateispeicher nicht möglich."\n    },\n    "err_epub_corrupt": {\n        "message": "Ungültiges oder beschädigtes EPUB Paket"\n    },\n    "err_dlg_title": {\n        "message": "Unerwarteter Fehler"\n    },\n    "replace": {\n        "message": "Ersetzen"\n    },\n    "i18n_author": {\n        "message": "Autor: "\n    },\n    "i18n_publisher": {\n        "message": "Verlag: "\n    },\n    "i18n_source": {\n        "message": "Quelle: "\n    },\n    "i18n_pub_date": {\n        "message": "Veröffentlicht am: "\n    },\n    "i18n_modified_date": {\n        "message": "Zuletzt geändert am: "\n    },\n    "i18n_id": {\n        "message": "ID: "\n    },\n    "i18n_epub_version": {\n        "message": "EPUB Version: "\n    },\n    "i18n_created_at": {\n        "message": "Erstellt am: "\n    },\n    "i18n_format": {\n        "message": "Format: "\n    },\n    "i18n_added": {\n        "message": "Hinzugefügt am: "\n    },\n    "i18n_unknown": {\n        "message": "Unbekannt"\n    },\n    "i18n_sorry": {\n        "message": "Das aktuelle EPUB enthält für diesen Inhalt keine Media Overlays."\n    },\n    "i18n_add_items": {\n        "message": "Füge Werke zur Bibliothek hinzu."\n    },\n    "i18n_extracting": {\n        "message": "Entpacke: "\n    },\n    "i18n_add_book_to_readium_library": {\n        "message": "Buch zur Readium Bibliothek hinzufügen:"\n    },\n    "i18n_add_book": {\n        "message": "Buch hinzufügen"\n    },\n    "i18n_cancel": {\n        "message": "Abbrechen"\n    },\n    "i18n_from_the_web": {\n        "message": "Internet:"\n    },\n    "i18n_from_local_file": {\n        "message": "Lokale Datei:"\n    },\n    "i18n_enter_a_url": {\n        "message": "URL einer .epub Datei eingeben"\n    },\n    "i18n_unpacked_directory": {\n        "message": "Entpacktes Verzeichnis:"\n    },\n    "i18n_validate": {\n        "message": "Prüfe:"\n    },\n    "i18n_confirm_that_this_book": {\n        "message": "Bestätigung, dass dieses Buch mit EPUB Standards übereinstimmt"\n    },\n    "i18n_single_pages": {\n        "message": "Einzelseiten"\n    },\n    "i18n_double_pages": {\n        "message": "Doppelseiten"\n    },\n    "i18n_save_settings": {\n        "message": "Einstellungen speichern"\n    },\n    "i18n_font_size": {\n        "message": "Schriftgröße"\n    },\n    "i18n_margins": {\n        "message": "Rand"\n    },\n    "i18n_text_and_background_color": {\n        "message": "Text- und Hintergrundfarbe"\n    },\n    "i18n_author_theme": {\n        "message": "Vorgabe des Autors"\n    },\n    "i18n_black_and_white": {\n        "message": "Schwarzweiss"\n    },\n    "i18n_arabian_nights": {\n        "message": "Arabian Nights"\n    },\n    "i18n_sands_of_dune": {\n        "message": "Sands of Dune"\n    },\n    "i18n_ballard_blues": {\n        "message": "Ballard Blues"\n    },\n    "i18n_vancouver_mist": {\n        "message": "Vancouver Mist"\n    },\n    "i18n_custom_theme" : {\n        "message" : "eigenes Farbschema"\n    },\n    "i18n_display_format": {\n        "message": "Anzeigeformat"\n    },\n    "i18n_spread_auto": {\n        "message": "Automatisch"\n    },\n    "i18n_scroll_mode": {\n        "message": "Scroll Modus"\n    },\n    "i18n_scroll_mode_auto": {\n        "message": "Automatisch"\n    },\n    "i18n_scroll_mode_doc": {\n        "message": "Dokument"\n    },\n    "i18n_scroll_mode_continuous": {\n        "message": "Kontinuierlich"\n    },\n\n    "i18n_page_transition": {\n        "message": "Umblätter-Effekt"\n    },\n    "i18n_page_transition_none": {\n        "message": "Keiner"\n    },\n    "i18n_page_transition_fade": {\n        "message": "Fade"\n    },\n    "i18n_page_transition_slide": {\n        "message": "Slide"\n    },\n    "i18n_page_transition_swoosh": {\n        "message": "Swoosh"\n    },\n    "i18n_page_transition_butterfly": {\n        "message": "Butterfly"\n    },\n    "i18n_foreground_color_customize_theme" : {\n        "message" : "Schriftfarbe"\n    },\n    "i18n_background_color_customize_theme" : {\n        "message" : "Hintergrundfarbe"\n    },\n    "i18n_html_readium_tm_a_project": {\n        "message": "Readium für Chrome ist die Chrome Browser Erweiterung basierend auf ReadiumJS, einem Open-Source Lesesystem und einer JavaScript Bibliothek zur Darstellung von EPUB® Veröffentlichungen in Web-Browsern. ReadiumJS ist ein Projekt der Readium Foundation (Readium.org). Wenn Sie mehr darüber erfahren möchten oder das Projekt unterstützen wollen, besuchen Sie bitte die <a href=\\"http://readium.org/\\">Projekt Homepage</a>."\n\n    },\n    "gethelp": {\n        "message": "Falls Sie auf Probleme stoßen, Fragen haben oder \\"Hallo\\" sagen möchten, besuchen Sie <a href=\\"http://idpf.org/forums/readium\\">unser Forum</a>."\n    },\n    "i18n_toolbar": {\n        "message": "Werkzeugleiste"\n    },\n    "i18n_toolbar_show": {\n        "message": "Werkzeugleiste anzeigen"\n    },\n    "i18n_toolbar_hide": {\n        "message": "Werkzeugleiste ausblenden"\n    },\n    "i18n_audio_play": {\n        "message": "Audio - Abspielen"\n    },\n    "i18n_audio_pause": {\n        "message": "Audio - Pause"\n    },\n    "i18n_audio_play_background": {\n        "message": "Hintergrundaudio ein"\n    },\n    "i18n_audio_pause_background": {\n        "message": "Hintergrundaudio aus"\n    },\n    "i18n_audio_previous": {\n        "message": "Vorige Audiophrase"\n    },\n    "i18n_audio_next": {\n        "message": "Nächste Audiophrase"\n    },\n    "i18n_audio_volume": {\n        "message": "Lautstärke"\n    },\n    "i18n_audio_volume_increase": {\n        "message": "Lautstärke erhöhen"\n    },\n    "i18n_audio_volume_decrease": {\n        "message": "Lautstärke verringern"\n    },\n    "i18n_audio_time": {\n        "message": "Audio - Zeitmarke"\n    },\n    "i18n_audio_mute": {\n        "message": "Audio ausschalten"\n    },\n    "i18n_audio_unmute": {\n        "message": "Audio einschalten"\n    },\n    "i18n_audio_expand": {\n        "message": "Erweiterte Audio-Steuerung anzeigen"\n    },\n    "i18n_audio_collapse": {\n        "message": "Erweiterte Audio-Steuerung ausblenden"\n    },\n    "i18n_audio_esc": {\n        "message": "Aktuellen Audio-Bereich verlassen"\n    },\n    "i18n_audio_rate": {\n        "message": "Audio - Wiedergabegeschwindigkeit"\n    },\n    "i18n_audio_rate_increase": {\n        "message": "Audio - Wiedergabegeschwindigkeit erhöhen"\n    },\n    "i18n_audio_rate_decrease": {\n        "message": "Audio - Wiedergabegeschwindigkeit verringern"\n    },\n    "i18n_audio_rate_reset": {\n        "message": "Audio - Wiedergabegeschwindigkeit zurücksetzen"\n    },\n    "i18n_audio_skip_disable": {\n        "message": "Audio - Überspringen unterbinden "\n    },\n    "i18n_audio_skip_enable": {\n        "message": "Audio - Überspringen ermöglichen"\n    },\n    "i18n_audio_sync": {\n        "message": "Text-Audio-Synchronisation"\n    },\n    "i18n_audio_sync_default": {\n        "message": "Nach Vorgabe"\n    },\n    "i18n_audio_sync_word": {\n        "message": "Wort"\n    },\n    "i18n_audio_sync_sentence": {\n        "message": "Satz"\n    },\n    "i18n_audio_sync_paragraph": {\n        "message": "Absatz"\n    },\n    "i18n_page_previous": {\n        "message": "Vorige Seite"\n    },\n    "i18n_page_next": {\n        "message": "Nächste Seite"\n    },\n    "chrome_accept_languages": {\n        "message": "$CHROME$ akzeptiert $languages$ Sprachen",\n        "placeholders": {\n            "chrome": {\n                "content": "Chrome",\n                "example": "Chrome"\n            },\n            "languages": {\n                "content": "$1",\n                "example": "en-US,ja,sr,de,zh_CN"\n            }\n        }\n    }\n}';});
 
 
-define('text!i18n/_locales/es/messages.json',[],function () { return '{\r\n\r\n    "chrome_extension_name": {\r\n        "message": "Readium"\r\n    },\r\n    "about" : {\r\n        "message" : "Acerca de"\r\n    },\r\n    "preview" : {\r\n        "message" : "Vista previa"\r\n    },\r\n    "list_view" : {\r\n        "message" : "Vista en lista"\r\n    },\r\n    "thumbnail_view" : {\r\n        "message" : "Vista en miniaturas"\r\n    },\r\n    "view_library": {\r\n        "message" : "Biblioteca"\r\n    },\r\n    "highlight_selection" : {\r\n        "message" : "Subrayar texto seleccionado"\r\n    },\r\n    "toc" : {\r\n        "message" : "Tabla de contenidos"\r\n    },\r\n    "settings" : {\r\n        "message" : "Preferencias"\r\n    },\r\n    "enter_fullscreen" : {\r\n        "message" : "Abrir modo de pantalla completa"\r\n    },\r\n    "exit_fullscreen" : {\r\n        "message" : "Cerrar modo de pantalla completa"\r\n    },\r\n    "chrome_extension_description": {\r\n        "message": "Lector de libros EPUB3."\r\n    },\r\n    "ok" : {\r\n        "message" : "Ok"\r\n    },\r\n    "delete_dlg_title" : {\r\n        "message" : "Confirmar eliminación"\r\n    },\r\n    "delete_progress_title" : {\r\n        "message" : "Eliminación en progreso"\r\n    },\r\n    "delete_progress_message" : {\r\n        "message" : "Eliminando"\r\n    },\r\n    "migrate_dlg_title" : {\r\n        "message" : "Migrando libros"\r\n    },\r\n    "migrate_dlg_message" : {\r\n        "message" : "Cargando datos..."\r\n    },\r\n    "migrating" : {\r\n        "message" : "Migrando"\r\n    },\r\n    "replace_dlg_title" : {\r\n        "message": "Se ha detectado un conflicto"\r\n    },\r\n    "replace_dlg_message": {\r\n        "message": "Si decide continuar, el siguiente epub será reemplazado por el que está siendo importado"\r\n    },\r\n    "import_dlg_title" : {\r\n        "message": "Importando EPUB"\r\n    },\r\n    "import_dlg_message" : {\r\n        "message": "Examinando contenido del EPUB..."\r\n    },\r\n    "storing_file" : {\r\n        "message": "Guardando archivo"\r\n    },\r\n    "err_unknown" : {\r\n        "message": "Error desconocido. Chequear la consola para conocer más detalles."\r\n    },\r\n    "err_storage" : {\r\n        "message": "No es posible acceder al dispositvo"\r\n    },\r\n    "err_epub_corrupt" : {\r\n        "message": "Paquete EPUB inválido o corrupto"\r\n    },\r\n    "err_dlg_title" : {\r\n        "message": "Error inesperado"\r\n    },\r\n    "replace" : {\r\n        "message": "Reemplazar"\r\n    },\r\n    "gethelp" : {\r\n        "message" : "Si encuentra algún problema, tiene preguntas, o le gustaría decir hola, visite <a href=\\"http://idpf.org/forums/readium\\">nuestro foro</a>"\r\n    },\r\n    "i18n_readium_library" : {\r\n        "message" : "Biblioteca Readium"\r\n    },\r\n    "i18n_loading" : {\r\n        "message" : "Cargando biblioteca"\r\n    },\r\n    "i18n_readium_options" : {\r\n        "message" : "Readium Opciones:"\r\n    },\r\n    "i18n_save_changes" : {\r\n        "message" : "Guardar cambios"\r\n    },\r\n    "i18n_close" : {\r\n        "message" : "Cerrar"\r\n    },\r\n    "i18n_keyboard_shortcuts" : {\r\n        "message" : "Teclas de acceso rápido"\r\n    },\r\n    "i18n_keyboard_reload" : {\r\n        "message" : "Por favor, actualiza la página para que las teclas de acceso rápido tengan efecto."\r\n    },\r\n    "i18n_reset_key" : {\r\n        "message" : "Reestablecer tecla"\r\n    },\r\n    "i18n_reset_key_all" : {\r\n        "message" : "Reestablecer todos las teclas de acceso rápido"\r\n    },\r\n    "i18n_duplicate_keyboard_shortcut" : {\r\n        "message" : "DUPLICADO"\r\n    },\r\n    "i18n_invalid_keyboard_shortcut" : {\r\n        "message" : "INVALIDO"\r\n    },\r\n    "i18n_paginate_all" : {\r\n        "message" : "Paginar todo el contenido ePUB repaginable"\r\n    },\r\n    "i18n_automatically" : {\r\n        "message" : "Abrir automáticamente urls *.epub en readium"\r\n    },\r\n    "i18n_show_warning" : {\r\n        "message" : "Mostrar advertencias al desempaquetar archivos EPUB"\r\n    },\r\n    "i18n_details" : {\r\n        "message" : "Detalles"\r\n    },\r\n    "i18n_read" : {\r\n        "message" : "Leer"\r\n    },\r\n    "i18n_delete" : {\r\n        "message" : "Eliminar"\r\n    },\r\n    "i18n_author" : {\r\n        "message" : "Autor: "\r\n    },\r\n    "i18n_publisher" : {\r\n        "message" : "Editor: "\r\n    },\r\n    "i18n_source" : {\r\n        "message" : "Fuente: "\r\n    },\r\n    "i18n_pub_date" : {\r\n        "message" : "Fecha de publicación: "\r\n    },\r\n    "i18n_modified_date" : {\r\n        "message" : "Fecha de modificación: "\r\n    },\r\n    "i18n_id" : {\r\n        "message" : "ID: "\r\n    },\r\n    "i18n_epub_version" : {\r\n        "message" : "Versión EPUB: "\r\n    },\r\n    "i18n_created_at" : {\r\n        "message" : "Creado en: "\r\n    },\r\n    "i18n_format" : {\r\n        "message" : "Formato: "\r\n    },\r\n    "i18n_added" : {\r\n        "message" : "Añadido: "\r\n    },\r\n    "i18n_unknown" : {\r\n        "message" : "Desconocido"\r\n    },\r\n    "i18n_sorry" : {\r\n        "message" : "Disculpa, el EPUB actual no contiene superposición multimedia para este contenido"\r\n    },\r\n    "i18n_add_items" : {\r\n        "message" : "¡Añade aquí elementos a tu biblioteca!"\r\n    },\r\n    "i18n_extracting" : {\r\n        "message" : "extrayendo: "\r\n    },\r\n    "i18n_are_you_sure" : {\r\n        "message" : "¿Está seguro que desea eliminar de forma permanente"\r\n    },\r\n    "i18n_add_book_to_readium_library" : {\r\n        "message" : "Añadir libro a biblioteca Readium:"\r\n    },\r\n    "i18n_add_book" : {\r\n        "message" : "Añadir a la biblioteca"\r\n    },\r\n    "i18n_cancel" : {\r\n        "message" : "Cancelar"\r\n    },\r\n    "i18n_from_the_web" : {\r\n        "message" : "Desde la web:"\r\n    },\r\n    "i18n_from_local_file" : {\r\n        "message" : "Desde un archivo local:"\r\n    },\r\n    "i18n_enter_a_url" : {\r\n        "message" : "Ingresa una URL a un archivo .epub"\r\n    },\r\n    "i18n_unpacked_directory" : {\r\n        "message" : "Carpeta descomprimida:"\r\n    },\r\n    "i18n_validate" : {\r\n        "message" : "Validar:"\r\n    },\r\n    "i18n_confirm_that_this_book" : {\r\n        "message" : "Confirmar que este libro cumple con los estándares ePUB"\r\n    },\r\n    "i18n_single_pages" : {\r\n        "message" : "Páginas simple"\r\n    },\r\n    "i18n_double_pages" : {\r\n        "message" : "Páginas doble"\r\n    },\r\n    "i18n_save_settings" : {\r\n        "message" : "Guardar preferencias"\r\n    },\r\n    "i18n_font_size" : {\r\n        "message" : "TAMAÑO DE FUENTE"\r\n    },\r\n    "i18n_margins" : {\r\n        "message" : "MARGENES"\r\n    },\r\n    "i18n_text_and_background_color" : {\r\n        "message" : "COLOR DE FUENTE Y FONDO"\r\n    },\r\n    "i18n_black_and_white" : {\r\n        "message" : "Blanco y negro"\r\n    },\r\n    "i18n_arabian_nights" : {\r\n        "message" : "Las mil y una noches"\r\n    },\r\n    "i18n_sands_of_dune" : {\r\n        "message" : "Arenas de duna"\r\n    },\r\n    "i18n_ballard_blues" : {\r\n        "message" : "Ballard Blues"\r\n    },\r\n    "i18n_vancouver_mist" : {\r\n        "message" : "Bruma de Vancouver"\r\n    },\r\n    "i18n_display_format" : {\r\n        "message" : "MOSTRAR FORMATO"\r\n    },\r\n    "i18n_scroll_mode" : {\r\n        "message" : "MODO DE DESPLAZAMIENTO"\r\n    },\r\n    "i18n_scroll_mode_default" : {\r\n        "message" : "Por defecto"\r\n    },\r\n    "i18n_scroll_mode_doc" : {\r\n        "message" : "Documento"\r\n    },\r\n    "i18n_scroll_mode_continuous" : {\r\n        "message" : "Continuo"\r\n    },\r\n    "i18n_html_readium_tm_a_project" : {\r\n        "message" : "Readium para Chrome es la extensión para Chrome de ReadiumJS, un sistema de lectura de código abierto y librería JavaScript para renderizar publicaciones EPUB® en navegadores web. ReadiumJS es un proyecto de Readium Foundation (Readium.org). Para saber más o contribuir, visita el <a href=\\"http://readium.org/projects/readiumjs\\">sitio del proyecto</a>"\r\n    },\r\n    "i18n_toolbar_show" : {\r\n        "message" : "Mostrar barra de herramientas"\r\n    },\r\n    "i18n_toolbar_hide" : {\r\n        "message" : "Ocultar barra de herramientas"\r\n    },\r\n    "i18n_audio_play" : {\r\n        "message" : "Reproducir"\r\n    },\r\n    "i18n_audio_pause" : {\r\n        "message" : "Pausa"\r\n    },\r\n    "i18n_audio_previous" : {\r\n        "message" : "Frase de audio anterior"\r\n    },\r\n    "i18n_audio_next" : {\r\n        "message" : "Frase de audio siguiente"\r\n    },\r\n    "i18n_audio_volume" : {\r\n        "message" : "Volumen de audio"\r\n    },\r\n    "i18n_audio_volume_increase" : {\r\n        "message" : "Incrementar volumen de audio"\r\n    },\r\n    "i18n_audio_volume_decrease" : {\r\n        "message" : "Reducir volumen de audio"\r\n    },\r\n    "i18n_audio_time" : {\r\n        "message" : "Cursor de tiempo de audio"\r\n    },\r\n    "i18n_audio_mute" : {\r\n        "message" : "Desactivar audio"\r\n    },\r\n    "i18n_audio_unmute" : {\r\n        "message" : "Activar audio"\r\n    },\r\n    "i18n_audio_expand" : {\r\n        "message" : "Mostrar controles avanzados de audio"\r\n    },\r\n    "i18n_audio_collapse" : {\r\n        "message" : "Cerrar controles avanzados de audio"\r\n    },\r\n    "i18n_audio_esc" : {\r\n        "message" : "Salir de contexto actual de audio"\r\n    },\r\n    "i18n_audio_rate" : {\r\n        "message" : "Velocidad de reproducción de audio"\r\n    },\r\n    "i18n_audio_rate_increase" : {\r\n        "message" : "Incrementar velocidad de reproducción de audio"\r\n    },\r\n    "i18n_audio_rate_decrease" : {\r\n        "message" : "Reducir velocidad de reproducción de audio"\r\n    },\r\n    "i18n_audio_rate_reset" : {\r\n        "message" : "Reestablecer reproducción de audio a velocidad normal"\r\n    },\r\n    "i18n_audio_skip_disable" : {\r\n        "message" : "Desactivar capacidad de omisión"\r\n    },\r\n    "i18n_audio_skip_enable" : {\r\n        "message" : "Activar capacidad de omisión"\r\n    },\r\n    "i18n_audio_touch_enable" : {\r\n        "message" : "Activar touch-to-play"\r\n    },\r\n    "i18n_audio_touch_disable" : {\r\n        "message" : "Desactivar touch-to-play"\r\n    },\r\n    "i18n_audio_highlight_default" : {\r\n        "message" : "por defecto"\r\n    },\r\n    "i18n_audio_highlight" : {\r\n        "message" : "Color de audio"\r\n    },\r\n    "i18n_audio_sync" : {\r\n        "message" : "Granularidad de sincronización texto/audio"\r\n    },\r\n    "i18n_audio_sync_default" : {\r\n        "message" : "Por defecto"\r\n    },\r\n    "i18n_audio_sync_word" : {\r\n        "message" : "Palabra"\r\n    },\r\n    "i18n_audio_sync_sentence" : {\r\n        "message" : "Oración"\r\n    },\r\n    "i18n_audio_sync_paragraph" : {\r\n        "message" : "Párrafo"\r\n    },\r\n    "i18n_page_previous" : {\r\n        "message" : "Página previa"\r\n    },\r\n    "i18n_page_next" : {\r\n        "message" : "Página siguiente"\r\n    },\r\n    "i18n_author_theme" : {\r\n      "message" : "Por defecto (estilos de autor)"\r\n    },\r\n\r\n  "i18n_spread_auto" : {\r\n       "message" : "Automático"\r\n    },\r\n\r\n  "i18n_scroll_mode_auto" : {\r\n      "message" : "Automático"\r\n    },\r\n\r\n   "i18n_page_transition" : {\r\n      "message" : "EFECTOS DE PÁGINA"\r\n    },\r\n    "i18n_page_transition_none" : {\r\n      "message" : "Desactivado"\r\n    },\r\n    "i18n_page_transition_fade" : {\r\n      "message" : "Apagarse"\r\n    },\r\n    "i18n_page_transition_slide" : {\r\n      "message" : "Deslizar"\r\n    },\r\n    "i18n_page_transition_swoosh" : {\r\n      "message" : "Swoosh"\r\n    },\r\n    "i18n_page_transition_butterfly" : {\r\n      "message" : "Mariposa"\r\n    },\r\n\r\n  "i18n_toolbar" : {\r\n      "message" : "Barra de herramientas"\r\n    },\r\n\r\n   "i18n_audio_play_background" : {\r\n      "message" : "Reproducir pista en segundo plano"\r\n    },\r\n    "i18n_audio_pause_background" : {\r\n      "message" : "Pausar pista en segundo plano"\r\n},\r\n\r\n   "i18n_auto_page_turn_enable" : {\r\n      "message" : "Activar vuelta de página automática"\r\n    },\r\n    "i18n_auto_page_turn_disable" : {\r\n      "message" : "Desactivar vuelta de página automática"\r\n    },\r\n\r\n   "i18n_playback_scroll_enable" : {\r\n      "message" : "Activar desplazamiento durante la reproducción"\r\n    },\r\n\r\n    "i18n_playback_scroll_disable" : {\r\n      "message" : "Desactivar desplazamiento durante la reproducción"\r\n    },\r\n\r\n    "chrome_accept_languages": {\r\n        "message": "$CHROME$ acepta idiomas $languages$",\r\n        "placeholders": {\r\n            "chrome": {\r\n                "content": "Chrome",\r\n                "example": "Chrome"\r\n            },\r\n            "languages": {\r\n                "content": "$1",\r\n                "example": "en-US,ja,sr,de,zh_CN"\r\n            }\r\n        }\r\n    }\r\n}';});
+define('text!i18n/_locales/es/messages.json',[],function () { return '{\n\n    "chrome_extension_name": {\n        "message": "Readium"\n    },\n    "about" : {\n        "message" : "Acerca de"\n    },\n    "preview" : {\n        "message" : "Vista previa"\n    },\n    "list_view" : {\n        "message" : "Vista en lista"\n    },\n    "thumbnail_view" : {\n        "message" : "Vista en miniaturas"\n    },\n    "view_library": {\n        "message" : "Biblioteca"\n    },\n    "highlight_selection" : {\n        "message" : "Subrayar texto seleccionado"\n    },\n    "toc" : {\n        "message" : "Tabla de contenidos"\n    },\n    "settings" : {\n        "message" : "Preferencias"\n    },\n    "enter_fullscreen" : {\n        "message" : "Abrir modo de pantalla completa"\n    },\n    "exit_fullscreen" : {\n        "message" : "Cerrar modo de pantalla completa"\n    },\n    "chrome_extension_description": {\n        "message": "Lector de libros EPUB3."\n    },\n    "ok" : {\n        "message" : "Ok"\n    },\n    "delete_dlg_title" : {\n        "message" : "Confirmar eliminación"\n    },\n    "delete_progress_title" : {\n        "message" : "Eliminación en progreso"\n    },\n    "delete_progress_message" : {\n        "message" : "Eliminando"\n    },\n    "migrate_dlg_title" : {\n        "message" : "Migrando libros"\n    },\n    "migrate_dlg_message" : {\n        "message" : "Cargando datos..."\n    },\n    "migrating" : {\n        "message" : "Migrando"\n    },\n    "replace_dlg_title" : {\n        "message": "Se ha detectado un conflicto"\n    },\n    "replace_dlg_message": {\n        "message": "Si decide continuar, el siguiente epub será reemplazado por el que está siendo importado"\n    },\n    "import_dlg_title" : {\n        "message": "Importando EPUB"\n    },\n    "import_dlg_message" : {\n        "message": "Examinando contenido del EPUB..."\n    },\n    "storing_file" : {\n        "message": "Guardando archivo"\n    },\n    "err_unknown" : {\n        "message": "Error desconocido. Chequear la consola para conocer más detalles."\n    },\n    "err_storage" : {\n        "message": "No es posible acceder al dispositvo"\n    },\n    "err_epub_corrupt" : {\n        "message": "Paquete EPUB inválido o corrupto"\n    },\n    "err_dlg_title" : {\n        "message": "Error inesperado"\n    },\n    "replace" : {\n        "message": "Reemplazar"\n    },\n    "gethelp" : {\n        "message" : "Si encuentra algún problema, tiene preguntas, o le gustaría decir hola, visite <a href=\\"http://idpf.org/forums/readium\\">nuestro foro</a>"\n    },\n    "i18n_readium_library" : {\n        "message" : "Biblioteca Readium"\n    },\n    "i18n_loading" : {\n        "message" : "Cargando biblioteca"\n    },\n    "i18n_readium_options" : {\n        "message" : "Readium Opciones:"\n    },\n    "i18n_save_changes" : {\n        "message" : "Guardar cambios"\n    },\n    "i18n_close" : {\n        "message" : "Cerrar"\n    },\n    "i18n_keyboard_shortcuts" : {\n        "message" : "Teclas de acceso rápido"\n    },\n    "i18n_keyboard_reload" : {\n        "message" : "Por favor, actualiza la página para que las teclas de acceso rápido tengan efecto."\n    },\n    "i18n_reset_key" : {\n        "message" : "Reestablecer tecla"\n    },\n    "i18n_reset_key_all" : {\n        "message" : "Reestablecer todos las teclas de acceso rápido"\n    },\n    "i18n_duplicate_keyboard_shortcut" : {\n        "message" : "DUPLICADO"\n    },\n    "i18n_invalid_keyboard_shortcut" : {\n        "message" : "INVALIDO"\n    },\n    "i18n_paginate_all" : {\n        "message" : "Paginar todo el contenido ePUB repaginable"\n    },\n    "i18n_automatically" : {\n        "message" : "Abrir automáticamente urls *.epub en readium"\n    },\n    "i18n_show_warning" : {\n        "message" : "Mostrar advertencias al desempaquetar archivos EPUB"\n    },\n    "i18n_details" : {\n        "message" : "Detalles"\n    },\n    "i18n_read" : {\n        "message" : "Leer"\n    },\n    "i18n_delete" : {\n        "message" : "Eliminar"\n    },\n    "i18n_author" : {\n        "message" : "Autor: "\n    },\n    "i18n_publisher" : {\n        "message" : "Editor: "\n    },\n    "i18n_source" : {\n        "message" : "Fuente: "\n    },\n    "i18n_pub_date" : {\n        "message" : "Fecha de publicación: "\n    },\n    "i18n_modified_date" : {\n        "message" : "Fecha de modificación: "\n    },\n    "i18n_id" : {\n        "message" : "ID: "\n    },\n    "i18n_epub_version" : {\n        "message" : "Versión EPUB: "\n    },\n    "i18n_created_at" : {\n        "message" : "Creado en: "\n    },\n    "i18n_format" : {\n        "message" : "Formato: "\n    },\n    "i18n_added" : {\n        "message" : "Añadido: "\n    },\n    "i18n_unknown" : {\n        "message" : "Desconocido"\n    },\n    "i18n_sorry" : {\n        "message" : "Disculpa, el EPUB actual no contiene superposición multimedia para este contenido"\n    },\n    "i18n_add_items" : {\n        "message" : "¡Añade aquí elementos a tu biblioteca!"\n    },\n    "i18n_extracting" : {\n        "message" : "extrayendo: "\n    },\n    "i18n_are_you_sure" : {\n        "message" : "¿Está seguro que desea eliminar de forma permanente"\n    },\n    "i18n_add_book_to_readium_library" : {\n        "message" : "Añadir libro a biblioteca Readium:"\n    },\n    "i18n_add_book" : {\n        "message" : "Añadir a la biblioteca"\n    },\n    "i18n_cancel" : {\n        "message" : "Cancelar"\n    },\n    "i18n_from_the_web" : {\n        "message" : "Desde la web:"\n    },\n    "i18n_from_local_file" : {\n        "message" : "Desde un archivo local:"\n    },\n    "i18n_enter_a_url" : {\n        "message" : "Ingresa una URL a un archivo .epub"\n    },\n    "i18n_unpacked_directory" : {\n        "message" : "Carpeta descomprimida:"\n    },\n    "i18n_validate" : {\n        "message" : "Validar:"\n    },\n    "i18n_confirm_that_this_book" : {\n        "message" : "Confirmar que este libro cumple con los estándares ePUB"\n    },\n    "i18n_single_pages" : {\n        "message" : "Páginas simple"\n    },\n    "i18n_double_pages" : {\n        "message" : "Páginas doble"\n    },\n    "i18n_save_settings" : {\n        "message" : "Guardar preferencias"\n    },\n    "i18n_font_size" : {\n        "message" : "TAMAÑO DE FUENTE"\n    },\n    "i18n_margins" : {\n        "message" : "MARGENES"\n    },\n    "i18n_text_and_background_color" : {\n        "message" : "COLOR DE FUENTE Y FONDO"\n    },\n    "i18n_black_and_white" : {\n        "message" : "Blanco y negro"\n    },\n    "i18n_arabian_nights" : {\n        "message" : "Las mil y una noches"\n    },\n    "i18n_sands_of_dune" : {\n        "message" : "Arenas de duna"\n    },\n    "i18n_ballard_blues" : {\n        "message" : "Ballard Blues"\n    },\n    "i18n_vancouver_mist" : {\n        "message" : "Bruma de Vancouver"\n    },\n    "i18n_display_format" : {\n        "message" : "MOSTRAR FORMATO"\n    },\n    "i18n_scroll_mode" : {\n        "message" : "MODO DE DESPLAZAMIENTO"\n    },\n    "i18n_scroll_mode_default" : {\n        "message" : "Por defecto"\n    },\n    "i18n_scroll_mode_doc" : {\n        "message" : "Documento"\n    },\n    "i18n_scroll_mode_continuous" : {\n        "message" : "Continuo"\n    },\n    "i18n_html_readium_tm_a_project" : {\n        "message" : "Readium para Chrome es la extensión para Chrome de ReadiumJS, un sistema de lectura de código abierto y librería JavaScript para renderizar publicaciones EPUB® en navegadores web. ReadiumJS es un proyecto de Readium Foundation (Readium.org). Para saber más o contribuir, visita el <a href=\\"http://readium.org/projects/readiumjs\\">sitio del proyecto</a>"\n    },\n    "i18n_toolbar_show" : {\n        "message" : "Mostrar barra de herramientas"\n    },\n    "i18n_toolbar_hide" : {\n        "message" : "Ocultar barra de herramientas"\n    },\n    "i18n_audio_play" : {\n        "message" : "Reproducir"\n    },\n    "i18n_audio_pause" : {\n        "message" : "Pausa"\n    },\n    "i18n_audio_previous" : {\n        "message" : "Frase de audio anterior"\n    },\n    "i18n_audio_next" : {\n        "message" : "Frase de audio siguiente"\n    },\n    "i18n_audio_volume" : {\n        "message" : "Volumen de audio"\n    },\n    "i18n_audio_volume_increase" : {\n        "message" : "Incrementar volumen de audio"\n    },\n    "i18n_audio_volume_decrease" : {\n        "message" : "Reducir volumen de audio"\n    },\n    "i18n_audio_time" : {\n        "message" : "Cursor de tiempo de audio"\n    },\n    "i18n_audio_mute" : {\n        "message" : "Desactivar audio"\n    },\n    "i18n_audio_unmute" : {\n        "message" : "Activar audio"\n    },\n    "i18n_audio_expand" : {\n        "message" : "Mostrar controles avanzados de audio"\n    },\n    "i18n_audio_collapse" : {\n        "message" : "Cerrar controles avanzados de audio"\n    },\n    "i18n_audio_esc" : {\n        "message" : "Salir de contexto actual de audio"\n    },\n    "i18n_audio_rate" : {\n        "message" : "Velocidad de reproducción de audio"\n    },\n    "i18n_audio_rate_increase" : {\n        "message" : "Incrementar velocidad de reproducción de audio"\n    },\n    "i18n_audio_rate_decrease" : {\n        "message" : "Reducir velocidad de reproducción de audio"\n    },\n    "i18n_audio_rate_reset" : {\n        "message" : "Reestablecer reproducción de audio a velocidad normal"\n    },\n    "i18n_audio_skip_disable" : {\n        "message" : "Desactivar capacidad de omisión"\n    },\n    "i18n_audio_skip_enable" : {\n        "message" : "Activar capacidad de omisión"\n    },\n    "i18n_audio_touch_enable" : {\n        "message" : "Activar touch-to-play"\n    },\n    "i18n_audio_touch_disable" : {\n        "message" : "Desactivar touch-to-play"\n    },\n    "i18n_audio_highlight_default" : {\n        "message" : "por defecto"\n    },\n    "i18n_audio_highlight" : {\n        "message" : "Color de audio"\n    },\n    "i18n_audio_sync" : {\n        "message" : "Granularidad de sincronización texto/audio"\n    },\n    "i18n_audio_sync_default" : {\n        "message" : "Por defecto"\n    },\n    "i18n_audio_sync_word" : {\n        "message" : "Palabra"\n    },\n    "i18n_audio_sync_sentence" : {\n        "message" : "Oración"\n    },\n    "i18n_audio_sync_paragraph" : {\n        "message" : "Párrafo"\n    },\n    "i18n_page_previous" : {\n        "message" : "Página previa"\n    },\n    "i18n_page_next" : {\n        "message" : "Página siguiente"\n    },\n    "i18n_author_theme" : {\n      "message" : "Por defecto (estilos de autor)"\n    },\n\n  "i18n_spread_auto" : {\n       "message" : "Automático"\n    },\n\n  "i18n_scroll_mode_auto" : {\n      "message" : "Automático"\n    },\n\n   "i18n_page_transition" : {\n      "message" : "EFECTOS DE PÁGINA"\n    },\n    "i18n_page_transition_none" : {\n      "message" : "Desactivado"\n    },\n    "i18n_page_transition_fade" : {\n      "message" : "Apagarse"\n    },\n    "i18n_page_transition_slide" : {\n      "message" : "Deslizar"\n    },\n    "i18n_page_transition_swoosh" : {\n      "message" : "Swoosh"\n    },\n    "i18n_page_transition_butterfly" : {\n      "message" : "Mariposa"\n    },\n\n  "i18n_toolbar" : {\n      "message" : "Barra de herramientas"\n    },\n\n   "i18n_audio_play_background" : {\n      "message" : "Reproducir pista en segundo plano"\n    },\n    "i18n_audio_pause_background" : {\n      "message" : "Pausar pista en segundo plano"\n},\n\n   "i18n_auto_page_turn_enable" : {\n      "message" : "Activar vuelta de página automática"\n    },\n    "i18n_auto_page_turn_disable" : {\n      "message" : "Desactivar vuelta de página automática"\n    },\n\n   "i18n_playback_scroll_enable" : {\n      "message" : "Activar desplazamiento durante la reproducción"\n    },\n\n    "i18n_playback_scroll_disable" : {\n      "message" : "Desactivar desplazamiento durante la reproducción"\n    },\n\n    "chrome_accept_languages": {\n        "message": "$CHROME$ acepta idiomas $languages$",\n        "placeholders": {\n            "chrome": {\n                "content": "Chrome",\n                "example": "Chrome"\n            },\n            "languages": {\n                "content": "$1",\n                "example": "en-US,ja,sr,de,zh_CN"\n            }\n        }\n    }\n}';});
 
 
-define('text!i18n/_locales/en_US/messages.json',[],function () { return '{\r\n  "chrome_extension_name": {\r\n    "message": "Readium"\r\n  },\r\n  "about" : {\r\n    "message" : "About"\r\n  }, \r\n   \r\n  "add_epub_dialog"  : {\r\n      "message" : "Add epub to Library"\r\n  },\r\n     \r\n  "list_view_thumbnail_view_toggle" : {\r\n      "message" : "Toggle List View and Thumbnail View"},\r\n      \r\n  "preview" : {\r\n    "message" : "PREVIEW"\r\n  },\r\n  "list_view" : {\r\n    "message" : "List View"\r\n  },\r\n  "thumbnail_view" : {\r\n    "message" : "Thumbnail View"\r\n  },\r\n  "show_metadata":{\r\n      "message" : "Epub Metadata"\r\n  },\r\n  "view_library": {\r\n    "message" : "Library"\r\n  },\r\n  "zoom": {\r\n    "message" : "Zoom"\r\n  },\r\n  "zoom_custom": {\r\n        "message" : "Custom"\r\n  },\r\n  "zoom_fit_width": {\r\n        "message" : "Fit width"\r\n  },\r\n  "zoom_fit_screen": {\r\n        "message" : "Fit screen"\r\n  },\r\n  "highlight_selection" : {\r\n    "message" : "Highlight Selected Text"\r\n  },\r\n  "toc" : {\r\n    "message" : "Table of Contents"\r\n  },\r\n  "settings" : {\r\n    "message" : "Settings"\r\n  },\r\n  "layout" : {\r\n    "message" : "Layout"\r\n  },\r\n  "style" : {\r\n    "message" : "Style"\r\n  },\r\n  "enter_fullscreen" : {\r\n    "message" : "Enter Fullscreen"\r\n  },\r\n  "exit_fullscreen" : {\r\n    "message" : "Exit Fullscreen"\r\n  },\r\n  "chrome_extension_description": {\r\n    "message": "A reader for EPUB3 books."\r\n  },\r\n  "ok" : {\r\n    "message" : "Ok"\r\n  },\r\n  "delete_dlg_title" : {\r\n    "message" : "Confirm Delete"\r\n  },\r\n  "delete_progress_title" : {\r\n    "message" : "Delete in Progress"\r\n  },\r\n  "delete_progress_message" : {\r\n    "message" : "Deleting"\r\n  },\r\n  "migrate_dlg_title" : {\r\n    "message" : "Migrating Books"\r\n  },\r\n  "migrate_dlg_message" : {\r\n    "message" : "Loading data..."\r\n  },\r\n  "migrating" : {\r\n    "message" : "Migrating"\r\n  },\r\n  "replace_dlg_title" : {\r\n    "message": "Conflict Detected"\r\n  },\r\n  "replace_dlg_message": {\r\n    "message": "If you continue, the following epub will be replaced with the one you are importing"\r\n  },\r\n  "import_dlg_title" : {\r\n    "message": "Importing epub"\r\n  },\r\n  "import_dlg_message" : {\r\n    "message": "Examining epub content..."\r\n  },\r\n  "storing_file" : {\r\n    "message": "Storing file"\r\n  },\r\n  "err_unknown" : {\r\n    "message": "Unknown error. Check console for more details."\r\n  },\r\n  "err_storage" : {\r\n    "message": "Unable to access storage"\r\n  },\r\n  "err_epub_corrupt" : {\r\n    "message": "Invalid or corrupted epub package"\r\n  },\r\n  "err_dlg_title" : {\r\n    "message": "Unexpected Error"\r\n  },\r\n  "replace" : {\r\n    "message": "Replace"\r\n  },\r\n  "gethelp" : {\r\n    "message" : "If you encounter any problems, have questions, or would like to say hello, visit <a href=\\"http://idpf.org/forums/readium\\">our forum</a>"\r\n  },\r\n  "i18n_readium_library" : {\r\n    "message" : "Readium Library"\r\n  },\r\n  "i18n_loading" : {\r\n    "message" : "Loading Library"\r\n  },\r\n  "i18n_readium_options" : {\r\n    "message" : "Readium Options:"\r\n  },\r\n  "i18n_save_changes" : {\r\n    "message" : "Save changes"\r\n  },\r\n  "i18n_close" : {\r\n    "message" : "Close"\r\n  },\r\n  "i18n_keyboard_shortcuts" : {\r\n    "message" : "Keyboard shortcuts"\r\n  },\r\n  "i18n_keyboard_reload" : {\r\n    "message" : "Please reload the page for keyboard shortcuts to take effect."\r\n  },\r\n  "i18n_reset_key" : {\r\n    "message" : "Reset key"\r\n  },\r\n  "i18n_reset_key_all" : {\r\n    "message" : "Reset all keyboard shortcuts"\r\n  },\r\n  "i18n_duplicate_keyboard_shortcut" : {\r\n    "message" : "DUPLICATE"\r\n  },\r\n  "i18n_invalid_keyboard_shortcut" : {\r\n    "message" : "INVALID"\r\n  },\r\n  "i18n_paginate_all" : {\r\n    "message" : "Paginate all reflowable epub content"\r\n  },\r\n  "i18n_automatically" : {\r\n    "message" : "Automatically open *.epub urls in readium"\r\n  },\r\n  "i18n_show_warning" : {\r\n    "message" : "Show warning messages when unpacking epub files"\r\n  },\r\n  "i18n_details" : {\r\n    "message" : "Details"\r\n  },\r\n  "i18n_read" : {\r\n    "message" : "Read"\r\n  },\r\n  "i18n_delete" : {\r\n    "message" : "Delete"\r\n  },\r\n  "i18n_author" : {\r\n    "message" : "Author: "\r\n  },\r\n  "i18n_publisher" : {\r\n    "message" : "Publisher: "\r\n  },\r\n  "i18n_source" : {\r\n    "message" : "Source: "\r\n  },\r\n  "i18n_pub_date" : {\r\n    "message" : "Pub Date: "\r\n  },\r\n  "i18n_modified_date" : {\r\n    "message" : "Modified Date: "\r\n  },\r\n  "i18n_id" : {\r\n    "message" : "ID: "\r\n  },\r\n  "i18n_epub_version" : {\r\n    "message" : "Epub version: "\r\n  },\r\n  "i18n_created_at" : {\r\n    "message" : "Created at: "\r\n  },\r\n  "i18n_format" : {\r\n    "message" : "Format: "\r\n  },\r\n  "i18n_added" : {\r\n    "message" : "Added: "\r\n  },\r\n  "i18n_unknown" : {\r\n    "message" : "Unknown"\r\n  },\r\n  "i18n_sorry" : {\r\n    "message" : "Sorry, the current epub does not contain a media overlay for this content"\r\n  },\r\n  "i18n_add_items" : {\r\n    "message" : "Add items to your library here!"\r\n  },\r\n  "i18n_extracting" : {\r\n    "message" : "extracting: "\r\n  },\r\n  "i18n_are_you_sure" : {\r\n    "message" : "Are you sure you want to permanently delete "\r\n  },\r\n  "i18n_show_metadata_dialog": {\r\n        "message": "Show epub Metadata"\r\n  },\r\n  "i18n_add_book_to_readium_library" : {\r\n    "message" : "Add Book To Readium Library:"\r\n  },\r\n  "i18n_add_book" : {\r\n    "message" : "Add to Library"\r\n  },\r\n  "i18n_cancel" : {\r\n    "message" : "Cancel"\r\n  },\r\n  "i18n_from_the_web" : {\r\n    "message" : "From the web:"\r\n  },\r\n  "i18n_from_local_file" : {\r\n    "message" : "From Local File:"\r\n  },\r\n  "i18n_enter_a_url" : {\r\n    "message" : "Enter a URL to a .epub file"\r\n  },\r\n  "i18n_unpacked_directory" : {\r\n    "message" : "Unpacked Directory:"\r\n  },\r\n  "i18n_validate" : {\r\n    "message" : "Validate:"\r\n  },\r\n  "i18n_confirm_that_this_book" : {\r\n    "message" : "Confirm that this book complies with epub standards"\r\n  },\r\n  "i18n_single_pages" : {\r\n    "message" : "Single Pages"\r\n  },\r\n  "i18n_double_pages" : {\r\n    "message" : "Double Pages"\r\n  },\r\n  "i18n_save_settings" : {\r\n    "message" : "Save Settings"\r\n  },\r\n  "i18n_font_size" : {\r\n    "message" : "FONT SIZE"\r\n  },\r\n  "i18n_margins" : {\r\n    "message" : "MARGINS"\r\n  },\r\n  "i18n_text_and_background_color" : {\r\n    "message" : "TEXT AND BACKGROUND COLOR"\r\n  },\r\n  "i18n_author_theme" : {\r\n    "message" : "Default (author styles)"\r\n  },\r\n  "i18n_black_and_white" : {\r\n    "message" : "Black and White"\r\n  },\r\n  "i18n_arabian_nights" : {\r\n    "message" : "Arabian Nights"\r\n  },\r\n  "i18n_sands_of_dune" : {\r\n    "message" : "Sands of Dune"\r\n  },\r\n  "i18n_ballard_blues" : {\r\n    "message" : "Ballard Blues"\r\n  },\r\n  "i18n_vancouver_mist" : {\r\n    "message" : "Vancouver Mist"\r\n  },\r\n  "i18n_custom_theme" : {\r\n    "message" : "Custom Theme"\r\n  },\r\n  "i18n_display_format" : {\r\n    "message" : "DISPLAY FORMAT"\r\n  },\r\n  "i18n_spread_auto" : {\r\n     "message" : "Auto"\r\n  },\r\n  "i18n_scroll_mode" : {\r\n    "message" : "SCROLL MODE"\r\n  },\r\n  "i18n_scroll_mode_auto" : {\r\n    "message" : "Auto"\r\n  },\r\n  "i18n_scroll_mode_doc" : {\r\n    "message" : "Document"\r\n  },\r\n  "i18n_scroll_mode_continuous" : {\r\n    "message" : "Continuous"\r\n  },\r\n  "i18n_focus_size" : {\r\n      "message" : "Focus size"\r\n  },\r\n  "i18n_focus_thin" : {\r\n    "message" : "thin"\r\n  },\r\n  "i18n_focus_default" : {\r\n        "message" : "default"\r\n  },\r\n    "i18n_focus_heavy" : {\r\n        "message" : "heavy"\r\n  },\r\n  "i18n_page_transition" : {\r\n    "message" : "PAGE EFFECTS"\r\n  },\r\n  "i18n_page_transition_none" : {\r\n    "message" : "Disabled"\r\n  },\r\n  "i18n_page_transition_fade" : {\r\n    "message" : "Fade"\r\n  },\r\n  "i18n_page_transition_slide" : {\r\n    "message" : "Slide"\r\n  },\r\n  "i18n_page_transition_swoosh" : {\r\n    "message" : "Swoosh"\r\n  },\r\n  "i18n_page_transition_butterfly" : {\r\n    "message" : "Butterfly"\r\n  },\r\n  "i18n_foreground_color_customize_theme" : {\r\n    "message" : "Font Color"\r\n  },\r\n  "i18n_background_color_customize_theme" : {\r\n    "message" : "Background Color"\r\n  },\r\n  "i18n_customize_theme_header" : {\r\n    "message" : "Custom Theme"\r\n  },\r\n  "i18n_html_readium_tm_a_project" : {\r\n    "message" : "Readium for Chrome is the Chrome browser extension configuration of ReadiumJS, an open source reading system and JavaScript library for displaying EPUB® publications in web browsers. ReadiumJS is a project of the Readium Foundation (Readium.org). To learn more or to contribute, visit the <a href=\\"http://readium.org/projects/readiumjs\\">project homepage</a>"\r\n  },\r\n  "i18n_toolbar" : {\r\n    "message" : "Toolbar"\r\n  },\r\n  "i18n_toolbar_show" : {\r\n    "message" : "Show toolbar"\r\n  },\r\n  "i18n_toolbar_hide" : {\r\n    "message" : "Hide toolbar"\r\n  },\r\n  "i18n_audio_play" : {\r\n    "message" : "Play"\r\n  },\r\n  "i18n_audio_pause" : {\r\n    "message" : "Pause"\r\n  },\r\n  "i18n_audio_play_background" : {\r\n    "message" : "Play background track"\r\n  },\r\n  "i18n_audio_pause_background" : {\r\n    "message" : "Pause background track"\r\n  },\r\n  "i18n_audio_previous" : {\r\n    "message" : "Previous audio phrase"\r\n  },\r\n  "i18n_audio_next" : {\r\n    "message" : "Next audio phrase"\r\n  },\r\n  "i18n_audio_volume" : {\r\n    "message" : "Audio volume"\r\n  },\r\n  "i18n_audio_volume_increase" : {\r\n    "message" : "Increase audio volume"\r\n  },\r\n  "i18n_audio_volume_decrease" : {\r\n    "message" : "Decrease audio volume"\r\n  },\r\n  "i18n_audio_time" : {\r\n    "message" : "Audio time cursor"\r\n  },\r\n  "i18n_audio_mute" : {\r\n    "message" : "Mute audio"\r\n  },\r\n  "i18n_audio_unmute" : {\r\n    "message" : "Unmute audio"\r\n  },\r\n  "i18n_audio_expand" : {\r\n    "message" : "Show advanced audio controls"\r\n  },\r\n  "i18n_audio_collapse" : {\r\n    "message" : "Close advanced audio controls"\r\n  },\r\n  "i18n_audio_esc" : {\r\n    "message" : "Escape current audio context"\r\n  },\r\n  "i18n_audio_rate" : {\r\n    "message" : "Audio playback rate"\r\n  },\r\n  "i18n_audio_rate_increase" : {\r\n    "message" : "Increase audio playback rate"\r\n  },\r\n  "i18n_audio_rate_decrease" : {\r\n    "message" : "Decrease audio playback rate"\r\n  },\r\n  "i18n_audio_rate_reset" : {\r\n    "message" : "Reset audio playback to normal speed"\r\n  },\r\n  "i18n_audio_skip_disable" : {\r\n    "message" : "Disable skippability"\r\n  },\r\n  "i18n_audio_skip_enable" : {\r\n    "message" : "Enable skippability"\r\n  },\r\n\r\n  "i18n_auto_page_turn_enable" : {\r\n    "message" : "Enable automatic page turn"\r\n  },\r\n  "i18n_auto_page_turn_disable" : {\r\n    "message" : "Disable automatic page turn"\r\n  },\r\n\r\n  "i18n_playback_scroll_enable" : {\r\n    "message" : "Enable scroll during playback"\r\n  },\r\n  "i18n_playback_scroll_disable" : {\r\n    "message" : "Disable scroll during playback"\r\n  },\r\n  \r\n  "i18n_audio_touch_enable" : {\r\n    "message" : "Enable touch-to-play"\r\n  },\r\n  "i18n_audio_touch_disable" : {\r\n    "message" : "Disable touch-to-play"\r\n  },\r\n  "i18n_audio_highlight_default" : {\r\n    "message" : "default"\r\n  },\r\n  "i18n_audio_highlight" : {\r\n    "message" : "Audio color"\r\n  },\r\n  "i18n_audio_sync" : {\r\n    "message" : "Text/audio synchronization granularity"\r\n  },\r\n  "i18n_audio_sync_default" : {\r\n    "message" : "Default"\r\n  },\r\n  "i18n_audio_sync_word" : {\r\n    "message" : "Word"\r\n  },\r\n  "i18n_audio_sync_sentence" : {\r\n    "message" : "Sentence"\r\n  },\r\n  "i18n_audio_sync_paragraph" : {\r\n    "message" : "Paragraph"\r\n  },\r\n  "i18n_page_previous" : {\r\n    "message" : "Previous Page"\r\n  },\r\n  "i18n_page_next" : {\r\n    "message" : "Next Page"\r\n  },\r\n  "i18n_page_navigation" : {\r\n    "message" : "Page Navigation"\r\n  },\r\n  "chrome_accept_languages": {\r\n    "message": "$CHROME$ accepts $languages$ languages",\r\n    "placeholders": {\r\n      "chrome": {\r\n        "content": "Chrome",\r\n        "example": "Chrome"\r\n      },\r\n      "languages": {\r\n        "content": "$1",\r\n        "example": "en-US,ja,sr,de,zh_CN"\r\n      }\r\n    }\r\n  }\r\n}\r\n';});
+define('text!i18n/_locales/en_US/messages.json',[],function () { return '{\n  "chrome_extension_name": {\n    "message": "Readium"\n  },\n  "about" : {\n    "message" : "About"\n  }, \n   \n  "add_epub_dialog"  : {\n      "message" : "Add epub to Library"\n  },\n     \n  "list_view_thumbnail_view_toggle" : {\n      "message" : "Toggle List View and Thumbnail View"},\n      \n  "preview" : {\n    "message" : "PREVIEW"\n  },\n  "list_view" : {\n    "message" : "List View"\n  },\n  "thumbnail_view" : {\n    "message" : "Thumbnail View"\n  },\n  "show_metadata":{\n      "message" : "Epub Metadata"\n  },\n  "view_library": {\n    "message" : "Library"\n  },\n  "zoom": {\n    "message" : "Zoom"\n  },\n  "zoom_custom": {\n        "message" : "Custom"\n  },\n  "zoom_fit_width": {\n        "message" : "Fit width"\n  },\n  "zoom_fit_screen": {\n        "message" : "Fit screen"\n  },\n  "highlight_selection" : {\n    "message" : "Highlight Selected Text"\n  },\n  "toc" : {\n    "message" : "Table of Contents"\n  },\n  "settings" : {\n    "message" : "Settings"\n  },\n  "layout" : {\n    "message" : "Layout"\n  },\n  "style" : {\n    "message" : "Style"\n  },\n  "enter_fullscreen" : {\n    "message" : "Enter Fullscreen"\n  },\n  "exit_fullscreen" : {\n    "message" : "Exit Fullscreen"\n  },\n  "chrome_extension_description": {\n    "message": "A reader for EPUB3 books."\n  },\n  "ok" : {\n    "message" : "Ok"\n  },\n  "delete_dlg_title" : {\n    "message" : "Confirm Delete"\n  },\n  "delete_progress_title" : {\n    "message" : "Delete in Progress"\n  },\n  "delete_progress_message" : {\n    "message" : "Deleting"\n  },\n  "migrate_dlg_title" : {\n    "message" : "Migrating Books"\n  },\n  "migrate_dlg_message" : {\n    "message" : "Loading data..."\n  },\n  "migrating" : {\n    "message" : "Migrating"\n  },\n  "replace_dlg_title" : {\n    "message": "Conflict Detected"\n  },\n  "replace_dlg_message": {\n    "message": "If you continue, the following epub will be replaced with the one you are importing"\n  },\n  "import_dlg_title" : {\n    "message": "Importing epub"\n  },\n  "import_dlg_message" : {\n    "message": "Examining epub content..."\n  },\n  "storing_file" : {\n    "message": "Storing file"\n  },\n  "err_unknown" : {\n    "message": "Unknown error. Check console for more details."\n  },\n  "err_storage" : {\n    "message": "Unable to access storage"\n  },\n  "err_epub_corrupt" : {\n    "message": "Invalid or corrupted epub package"\n  },\n  "err_dlg_title" : {\n    "message": "Unexpected Error"\n  },\n  "replace" : {\n    "message": "Replace"\n  },\n  "gethelp" : {\n    "message" : "If you encounter any problems, have questions, or would like to say hello, visit <a href=\\"http://idpf.org/forums/readium\\">our forum</a>"\n  },\n  "i18n_readium_library" : {\n    "message" : "Readium Library"\n  },\n  "i18n_loading" : {\n    "message" : "Loading Library"\n  },\n  "i18n_readium_options" : {\n    "message" : "Readium Options:"\n  },\n  "i18n_save_changes" : {\n    "message" : "Save changes"\n  },\n  "i18n_close" : {\n    "message" : "Close"\n  },\n  "i18n_keyboard_shortcuts" : {\n    "message" : "Keyboard shortcuts"\n  },\n  "i18n_keyboard_reload" : {\n    "message" : "Please reload the page for keyboard shortcuts to take effect."\n  },\n  "i18n_reset_key" : {\n    "message" : "Reset key"\n  },\n  "i18n_reset_key_all" : {\n    "message" : "Reset all keyboard shortcuts"\n  },\n  "i18n_duplicate_keyboard_shortcut" : {\n    "message" : "DUPLICATE"\n  },\n  "i18n_invalid_keyboard_shortcut" : {\n    "message" : "INVALID"\n  },\n  "i18n_paginate_all" : {\n    "message" : "Paginate all reflowable epub content"\n  },\n  "i18n_automatically" : {\n    "message" : "Automatically open *.epub urls in readium"\n  },\n  "i18n_show_warning" : {\n    "message" : "Show warning messages when unpacking epub files"\n  },\n  "i18n_details" : {\n    "message" : "Details"\n  },\n  "i18n_read" : {\n    "message" : "Read"\n  },\n  "i18n_delete" : {\n    "message" : "Delete"\n  },\n  "i18n_author" : {\n    "message" : "Author: "\n  },\n  "i18n_publisher" : {\n    "message" : "Publisher: "\n  },\n  "i18n_source" : {\n    "message" : "Source: "\n  },\n  "i18n_pub_date" : {\n    "message" : "Pub Date: "\n  },\n  "i18n_modified_date" : {\n    "message" : "Modified Date: "\n  },\n  "i18n_id" : {\n    "message" : "ID: "\n  },\n  "i18n_epub_version" : {\n    "message" : "Epub version: "\n  },\n  "i18n_created_at" : {\n    "message" : "Created at: "\n  },\n  "i18n_format" : {\n    "message" : "Format: "\n  },\n  "i18n_added" : {\n    "message" : "Added: "\n  },\n  "i18n_unknown" : {\n    "message" : "Unknown"\n  },\n  "i18n_sorry" : {\n    "message" : "Sorry, the current epub does not contain a media overlay for this content"\n  },\n  "i18n_add_items" : {\n    "message" : "Add items to your library here!"\n  },\n  "i18n_extracting" : {\n    "message" : "extracting: "\n  },\n  "i18n_are_you_sure" : {\n    "message" : "Are you sure you want to permanently delete "\n  },\n  "i18n_show_metadata_dialog": {\n        "message": "Show epub Metadata"\n  },\n  "i18n_add_book_to_readium_library" : {\n    "message" : "Add Book To Readium Library:"\n  },\n  "i18n_add_book" : {\n    "message" : "Add to Library"\n  },\n  "i18n_cancel" : {\n    "message" : "Cancel"\n  },\n  "i18n_from_the_web" : {\n    "message" : "From the web:"\n  },\n  "i18n_from_local_file" : {\n    "message" : "From Local File:"\n  },\n  "i18n_enter_a_url" : {\n    "message" : "Enter a URL to a .epub file"\n  },\n  "i18n_unpacked_directory" : {\n    "message" : "Unpacked Directory:"\n  },\n  "i18n_validate" : {\n    "message" : "Validate:"\n  },\n  "i18n_confirm_that_this_book" : {\n    "message" : "Confirm that this book complies with epub standards"\n  },\n  "i18n_single_pages" : {\n    "message" : "Single Pages"\n  },\n  "i18n_double_pages" : {\n    "message" : "Double Pages"\n  },\n  "i18n_save_settings" : {\n    "message" : "Save Settings"\n  },\n  "i18n_font_size" : {\n    "message" : "FONT SIZE"\n  },\n  "i18n_margins" : {\n    "message" : "MARGINS"\n  },\n  "i18n_text_and_background_color" : {\n    "message" : "TEXT AND BACKGROUND COLOR"\n  },\n  "i18n_author_theme" : {\n    "message" : "Default (author styles)"\n  },\n  "i18n_black_and_white" : {\n    "message" : "Black and White"\n  },\n  "i18n_arabian_nights" : {\n    "message" : "Arabian Nights"\n  },\n  "i18n_sands_of_dune" : {\n    "message" : "Sands of Dune"\n  },\n  "i18n_ballard_blues" : {\n    "message" : "Ballard Blues"\n  },\n  "i18n_vancouver_mist" : {\n    "message" : "Vancouver Mist"\n  },\n  "i18n_custom_theme" : {\n    "message" : "Custom Theme"\n  },\n  "i18n_display_format" : {\n    "message" : "DISPLAY FORMAT"\n  },\n  "i18n_spread_auto" : {\n     "message" : "Auto"\n  },\n  "i18n_scroll_mode" : {\n    "message" : "SCROLL MODE"\n  },\n  "i18n_scroll_mode_auto" : {\n    "message" : "Auto"\n  },\n  "i18n_scroll_mode_doc" : {\n    "message" : "Document"\n  },\n  "i18n_scroll_mode_continuous" : {\n    "message" : "Continuous"\n  },\n  "i18n_focus_size" : {\n      "message" : "Focus size"\n  },\n  "i18n_focus_thin" : {\n    "message" : "thin"\n  },\n  "i18n_focus_default" : {\n        "message" : "default"\n  },\n    "i18n_focus_heavy" : {\n        "message" : "heavy"\n  },\n  "i18n_page_transition" : {\n    "message" : "PAGE EFFECTS"\n  },\n  "i18n_page_transition_none" : {\n    "message" : "Disabled"\n  },\n  "i18n_page_transition_fade" : {\n    "message" : "Fade"\n  },\n  "i18n_page_transition_slide" : {\n    "message" : "Slide"\n  },\n  "i18n_page_transition_swoosh" : {\n    "message" : "Swoosh"\n  },\n  "i18n_page_transition_butterfly" : {\n    "message" : "Butterfly"\n  },\n  "i18n_foreground_color_customize_theme" : {\n    "message" : "Font Color"\n  },\n  "i18n_background_color_customize_theme" : {\n    "message" : "Background Color"\n  },\n  "i18n_customize_theme_header" : {\n    "message" : "Custom Theme"\n  },\n  "i18n_html_readium_tm_a_project" : {\n    "message" : "Readium for Chrome is the Chrome browser extension configuration of ReadiumJS, an open source reading system and JavaScript library for displaying EPUB® publications in web browsers. ReadiumJS is a project of the Readium Foundation (Readium.org). To learn more or to contribute, visit the <a href=\\"http://readium.org/projects/readiumjs\\">project homepage</a>"\n  },\n  "i18n_toolbar" : {\n    "message" : "Toolbar"\n  },\n  "i18n_toolbar_show" : {\n    "message" : "Show toolbar"\n  },\n  "i18n_toolbar_hide" : {\n    "message" : "Hide toolbar"\n  },\n  "i18n_audio_play" : {\n    "message" : "Play"\n  },\n  "i18n_audio_pause" : {\n    "message" : "Pause"\n  },\n  "i18n_audio_play_background" : {\n    "message" : "Play background track"\n  },\n  "i18n_audio_pause_background" : {\n    "message" : "Pause background track"\n  },\n  "i18n_audio_previous" : {\n    "message" : "Previous audio phrase"\n  },\n  "i18n_audio_next" : {\n    "message" : "Next audio phrase"\n  },\n  "i18n_audio_volume" : {\n    "message" : "Audio volume"\n  },\n  "i18n_audio_volume_increase" : {\n    "message" : "Increase audio volume"\n  },\n  "i18n_audio_volume_decrease" : {\n    "message" : "Decrease audio volume"\n  },\n  "i18n_audio_time" : {\n    "message" : "Audio time cursor"\n  },\n  "i18n_audio_mute" : {\n    "message" : "Mute audio"\n  },\n  "i18n_audio_unmute" : {\n    "message" : "Unmute audio"\n  },\n  "i18n_audio_expand" : {\n    "message" : "Show advanced audio controls"\n  },\n  "i18n_audio_collapse" : {\n    "message" : "Close advanced audio controls"\n  },\n  "i18n_audio_esc" : {\n    "message" : "Escape current audio context"\n  },\n  "i18n_audio_rate" : {\n    "message" : "Audio playback rate"\n  },\n  "i18n_audio_rate_increase" : {\n    "message" : "Increase audio playback rate"\n  },\n  "i18n_audio_rate_decrease" : {\n    "message" : "Decrease audio playback rate"\n  },\n  "i18n_audio_rate_reset" : {\n    "message" : "Reset audio playback to normal speed"\n  },\n  "i18n_audio_skip_disable" : {\n    "message" : "Disable skippability"\n  },\n  "i18n_audio_skip_enable" : {\n    "message" : "Enable skippability"\n  },\n\n  "i18n_auto_page_turn_enable" : {\n    "message" : "Enable automatic page turn"\n  },\n  "i18n_auto_page_turn_disable" : {\n    "message" : "Disable automatic page turn"\n  },\n\n  "i18n_playback_scroll_enable" : {\n    "message" : "Enable scroll during playback"\n  },\n  "i18n_playback_scroll_disable" : {\n    "message" : "Disable scroll during playback"\n  },\n  \n  "i18n_audio_touch_enable" : {\n    "message" : "Enable touch-to-play"\n  },\n  "i18n_audio_touch_disable" : {\n    "message" : "Disable touch-to-play"\n  },\n  "i18n_audio_highlight_default" : {\n    "message" : "default"\n  },\n  "i18n_audio_highlight" : {\n    "message" : "Audio color"\n  },\n  "i18n_audio_sync" : {\n    "message" : "Text/audio synchronization granularity"\n  },\n  "i18n_audio_sync_default" : {\n    "message" : "Default"\n  },\n  "i18n_audio_sync_word" : {\n    "message" : "Word"\n  },\n  "i18n_audio_sync_sentence" : {\n    "message" : "Sentence"\n  },\n  "i18n_audio_sync_paragraph" : {\n    "message" : "Paragraph"\n  },\n  "i18n_page_previous" : {\n    "message" : "Previous Page"\n  },\n  "i18n_page_next" : {\n    "message" : "Next Page"\n  },\n  "i18n_page_navigation" : {\n    "message" : "Page Navigation"\n  },\n  "chrome_accept_languages": {\n    "message": "$CHROME$ accepts $languages$ languages",\n    "placeholders": {\n      "chrome": {\n        "content": "Chrome",\n        "example": "Chrome"\n      },\n      "languages": {\n        "content": "$1",\n        "example": "en-US,ja,sr,de,zh_CN"\n      }\n    }\n  }\n}\n';});
 
 
-define('text!i18n/_locales/fr/messages.json',[],function () { return '{\r\n  "chrome_extension_name": {\r\n    "message": "Readium"\r\n  },\r\n  "chrome_extension_description": {\r\n    "message": "Un lecteur de livres numériques EPUB3."\r\n  },\r\n  "i18n_readium_library" : {\r\n    "message" : "Bibliothèque Readium"\r\n  },\r\n  "i18n_loading" : {\r\n    "message" : "Chargement de la bibliothèque"\r\n  },\r\n  "i18n_readium_options" : {\r\n    "message" : "Options de Readium :"\r\n  },\r\n  "i18n_save_changes" : {\r\n    "message" : "Enregistrer les changements"\r\n  },\r\n  "i18n_close" : {\r\n    "message" : "Fermer"\r\n  },\r\n  "i18n_keyboard_shortcuts" : {\r\n    "message" : "Raccourcis clavier"\r\n  },\r\n  "i18n_keyboard_reload" : {\r\n    "message" : "Veuillez recharger la page pour que les raccourcis clavier prennent effet."\r\n  },\r\n  "i18n_reset_key" : {\r\n    "message" : "Réinitialiser le raccourci clavier par défaut"\r\n  },\r\n  "i18n_reset_key_all" : {\r\n    "message" : "Réinitialiser tous les raccourcis clavier par défaut"\r\n  },\r\n  "i18n_duplicate_keyboard_shortcut" : {\r\n    "message" : "DUPLIQUE"\r\n  },\r\n  "i18n_invalid_keyboard_shortcut" : {\r\n    "message" : "INVALIDE"\r\n  },\r\n  "i18n_paginate_all" : {\r\n    "message" : "Paginer tout le contenu des EPUB recomposables"\r\n  },\r\n  "i18n_automatically" : {\r\n    "message" : "Ouvrir automatiquement les urls *.epub dans Readium"\r\n  },\r\n  "i18n_show_warning" : {\r\n    "message" : "Montrer les messages d\'avertissement pendant la décompression des fichiers EPUB"\r\n  },\r\n  "i18n_details" : {\r\n    "message" : "Détails"\r\n  },\r\n  "i18n_read" : {\r\n    "message" : "Lire"\r\n  },\r\n  "i18n_delete" : {\r\n    "message" : "Supprimer"\r\n  },\r\n  "i18n_author" : {\r\n    "message" : "Auteur : "\r\n  },\r\n  "i18n_publisher" : {\r\n    "message" : "Éditeur : "\r\n  },\r\n  "i18n_source" : {\r\n    "message" : "Source : "\r\n  },\r\n  "i18n_pub_date" : {\r\n    "message" : "Date de publication :  "\r\n  },\r\n  "i18n_modified_date" : {\r\n    "message" : "Date de modification : "\r\n  },\r\n  "i18n_id" : {\r\n    "message" : "ID: "\r\n  },\r\n  "i18n_epub_version" : {\r\n    "message" : "version de l\'EPUB : "\r\n  },\r\n  "i18n_created_at" : {\r\n    "message" : "Ajouté le : "\r\n  },\r\n  "i18n_format" : {\r\n    "message" : "Format : "\r\n  },\r\n  "i18n_added" : {\r\n    "message" : "Ajouté le : "\r\n  },\r\n  "i18n_unknown" : {\r\n    "message" : "Inconnu"\r\n  },\r\n  "i18n_sorry" : {\r\n    "message" : "Désolé, l\'EPUB actuel ne contient pas de média associé (media overlay) pour ce contenu"\r\n  },\r\n  "i18n_add_items" : {\r\n    "message" : "Ajoutez des articles à votre bibliothèque ici !"\r\n  },\r\n  "i18n_extracting" : {\r\n    "message" : "extraction : "\r\n  },\r\n  "i18n_are_you_sure" : {\r\n    "message" : "Voulez-vous vraiment supprimer "\r\n  },\r\n  "i18n_add_book_to_readium_library" : {\r\n    "message" : "Ajoutez un livre à la bibliothèque de Readium :"\r\n  },\r\n  "i18n_add_book" : {\r\n    "message" : "Ajouter un livre"\r\n  },\r\n  "i18n_cancel" : {\r\n    "message" : "Annuler"\r\n  },\r\n  "i18n_from_the_web" : {\r\n    "message" : "À partir du Web :"\r\n  },\r\n  "i18n_from_local_file" : {\r\n    "message" : "À partir d\'un fichier local :"\r\n  },\r\n  "i18n_enter_a_url" : {\r\n    "message" : "Entrez l\'URL d\'un fichier .epub"\r\n  },\r\n  "i18n_unpacked_directory" : {\r\n    "message" : "Répertoire non-compressé :"\r\n  },\r\n  "i18n_validate" : {\r\n    "message" : "Valider :"\r\n  },\r\n  "i18n_confirm_that_this_book" : {\r\n    "message" : "Confirmer que ce livre est conforme aux standards EPUB"\r\n  },\r\n  "i18n_single_pages" : {\r\n    "message" : "Pages simples"\r\n  },\r\n  "i18n_double_pages" : {\r\n    "message" : "Doubles-pages"\r\n  },\r\n  "i18n_save_settings" : {\r\n    "message" : "Enregistrer"\r\n  },\r\n  "i18n_font_size" : {\r\n    "message" : "TAILLE DE LA POLICE"\r\n  },\r\n  "i18n_margins" : {\r\n    "message" : "MARGES"\r\n  },\r\n  "i18n_text_and_background_color" : {\r\n    "message" : "COULEUR DU TEXTE ET DU FOND"\r\n  },\r\n  "i18n_black_and_white" : {\r\n    "message" : "Noir et Blanc"\r\n  },\r\n  "i18n_arabian_nights" : {\r\n    "message" : "Mille et une Nuits"\r\n  },\r\n  "i18n_sands_of_dune" : {\r\n    "message" : "Sables de Dune"\r\n  },\r\n  "i18n_ballard_blues" : {\r\n    "message" : "Le Blues de Ballard"\r\n  },\r\n  "i18n_vancouver_mist" : {\r\n    "message" : "Le Brouillard de Vancouver"\r\n  },\r\n  "i18n_display_format" : {\r\n    "message" : "FORMAT D\'AFFICHAGE"\r\n  },\r\n  "i18n_scroll_mode" : {\r\n    "message" : "MODE DE DÉFILEMENT"\r\n  },\r\n  "i18n_scroll_mode_auto" : {\r\n    "message" : "Auto"\r\n  },\r\n  "i18n_scroll_mode_doc" : {\r\n    "message" : "Document"\r\n  },\r\n  "i18n_scroll_mode_continuous" : {\r\n    "message" : "Continu"\r\n  },\r\n  "i18n_html_readium_tm_a_project" : {\r\n    "message" : "Readium pour Chrome est l\'extension du navigateur Chrome de ReadiumJS, un système de lecture open-source et une librairie JavaScript pour afficher des documents EPUB® dans les navigateurs web. ReadiumJS est un projet de la fondation Readium (Readium.org). Pour en savoir plus ou pour contribuer, visiter la <a href=\\"http://readium.org/projects/readiumjs\\">page d\'accueil du projet</a>."\r\n  },\r\n  "i18n_audio_play" : {\r\n    "message" : "Jouer"\r\n  },\r\n  "i18n_audio_pause" : {\r\n    "message" : "Pauser"\r\n  },\r\n  "i18n_audio_previous" : {\r\n    "message" : "Phrase audio précédente"\r\n  },\r\n  "i18n_audio_next" : {\r\n    "message" : "Phrase audio suivante"\r\n  },\r\n  "i18n_audio_volume" : {\r\n    "message" : "Ajustement du volume audio"\r\n  },\r\n  "i18n_audio_time" : {\r\n    "message" : "Contrôle du curseur temporel audio"\r\n  },\r\n  "i18n_audio_mute" : {\r\n    "message" : "Silence audio"\r\n  },\r\n  "i18n_audio_unmute" : {\r\n    "message" : "Restaurer le volume audio"\r\n  },\r\n  "i18n_audio_expand" : {\r\n    "message" : "Afficher les contrôles audio avancés"\r\n  },\r\n  "i18n_audio_collapse" : {\r\n    "message" : "Fermer les contrôles audio avancés"\r\n  },\r\n  "i18n_audio_esc" : {\r\n    "message" : "Échapper le contexte audio actuel"\r\n  },\r\n  "i18n_audio_rate" : {\r\n    "message" : "Vitesse de lecture audio"\r\n  },\r\n  "i18n_audio_rate_reset" : {\r\n    "message" : "Retour à la vitesse normale de lecture audio"\r\n  },\r\n  "i18n_audio_skip_disable" : {\r\n    "message" : "Désactiver la \'skippabilité\'"\r\n  },\r\n  "i18n_audio_skip_enable" : {\r\n    "message" : "Activer la \'skippabilité\'"\r\n  },\r\n  "i18n_audio_touch_enable" : {\r\n    "message" : "Activer la fonction \'toucher pour jouer\'"\r\n  },\r\n  "i18n_audio_touch_disable" : {\r\n    "message" : "Désactiver la fonction \'toucher pour jouer\'"\r\n  },\r\n  "i18n_audio_highlight_default" : {\r\n    "message" : "défaut"\r\n  },\r\n  "i18n_audio_highlight" : {\r\n    "message" : "Couleur audio"\r\n  },\r\n  "i18n_audio_sync" : {\r\n    "message" : "Granularité de synchronisation texte / audio"\r\n  },\r\n  "i18n_audio_sync_default" : {\r\n    "message" : "Défaut"\r\n  },\r\n  "i18n_audio_sync_word" : {\r\n    "message" : "Mot"\r\n  },\r\n  "i18n_audio_sync_sentence" : {\r\n    "message" : "Phrase"\r\n  },\r\n  "i18n_audio_sync_paragraph" : {\r\n    "message" : "Paragraphe"\r\n  },\r\n  "i18n_page_previous" : {\r\n    "message" : "Page précédente"\r\n  },\r\n  "i18n_page_next" : {\r\n    "message" : "Page suivante"\r\n  },\r\n  "chrome_accept_languages": {\r\n    "message": "$CHROME$ accepts $languages$ languages",\r\n    "placeholders": {\r\n      "chrome": {\r\n        "content": "Chrome",\r\n        "example": "Chrome"\r\n      },\r\n      "languages": {\r\n        "content": "$1",\r\n        "example": "en-US,fr,ja,de"\r\n      }\r\n    }\r\n  }\r\n}\r\n';});
+define('text!i18n/_locales/fr/messages.json',[],function () { return '{\n  "chrome_extension_name": {\n    "message": "Readium"\n  },\n  "chrome_extension_description": {\n    "message": "Un lecteur de livres numériques EPUB3."\n  },\n  "i18n_readium_library" : {\n    "message" : "Bibliothèque Readium"\n  },\n  "i18n_loading" : {\n    "message" : "Chargement de la bibliothèque"\n  },\n  "i18n_readium_options" : {\n    "message" : "Options de Readium :"\n  },\n  "i18n_save_changes" : {\n    "message" : "Enregistrer les changements"\n  },\n  "i18n_close" : {\n    "message" : "Fermer"\n  },\n  "i18n_keyboard_shortcuts" : {\n    "message" : "Raccourcis clavier"\n  },\n  "i18n_keyboard_reload" : {\n    "message" : "Veuillez recharger la page pour que les raccourcis clavier prennent effet."\n  },\n  "i18n_reset_key" : {\n    "message" : "Réinitialiser le raccourci clavier par défaut"\n  },\n  "i18n_reset_key_all" : {\n    "message" : "Réinitialiser tous les raccourcis clavier par défaut"\n  },\n  "i18n_duplicate_keyboard_shortcut" : {\n    "message" : "DUPLIQUE"\n  },\n  "i18n_invalid_keyboard_shortcut" : {\n    "message" : "INVALIDE"\n  },\n  "i18n_paginate_all" : {\n    "message" : "Paginer tout le contenu des EPUB recomposables"\n  },\n  "i18n_automatically" : {\n    "message" : "Ouvrir automatiquement les urls *.epub dans Readium"\n  },\n  "i18n_show_warning" : {\n    "message" : "Montrer les messages d\'avertissement pendant la décompression des fichiers EPUB"\n  },\n  "i18n_details" : {\n    "message" : "Détails"\n  },\n  "i18n_read" : {\n    "message" : "Lire"\n  },\n  "i18n_delete" : {\n    "message" : "Supprimer"\n  },\n  "i18n_author" : {\n    "message" : "Auteur : "\n  },\n  "i18n_publisher" : {\n    "message" : "Éditeur : "\n  },\n  "i18n_source" : {\n    "message" : "Source : "\n  },\n  "i18n_pub_date" : {\n    "message" : "Date de publication :  "\n  },\n  "i18n_modified_date" : {\n    "message" : "Date de modification : "\n  },\n  "i18n_id" : {\n    "message" : "ID: "\n  },\n  "i18n_epub_version" : {\n    "message" : "version de l\'EPUB : "\n  },\n  "i18n_created_at" : {\n    "message" : "Ajouté le : "\n  },\n  "i18n_format" : {\n    "message" : "Format : "\n  },\n  "i18n_added" : {\n    "message" : "Ajouté le : "\n  },\n  "i18n_unknown" : {\n    "message" : "Inconnu"\n  },\n  "i18n_sorry" : {\n    "message" : "Désolé, l\'EPUB actuel ne contient pas de média associé (media overlay) pour ce contenu"\n  },\n  "i18n_add_items" : {\n    "message" : "Ajoutez des articles à votre bibliothèque ici !"\n  },\n  "i18n_extracting" : {\n    "message" : "extraction : "\n  },\n  "i18n_are_you_sure" : {\n    "message" : "Voulez-vous vraiment supprimer "\n  },\n  "i18n_add_book_to_readium_library" : {\n    "message" : "Ajoutez un livre à la bibliothèque de Readium :"\n  },\n  "i18n_add_book" : {\n    "message" : "Ajouter un livre"\n  },\n  "i18n_cancel" : {\n    "message" : "Annuler"\n  },\n  "i18n_from_the_web" : {\n    "message" : "À partir du Web :"\n  },\n  "i18n_from_local_file" : {\n    "message" : "À partir d\'un fichier local :"\n  },\n  "i18n_enter_a_url" : {\n    "message" : "Entrez l\'URL d\'un fichier .epub"\n  },\n  "i18n_unpacked_directory" : {\n    "message" : "Répertoire non-compressé :"\n  },\n  "i18n_validate" : {\n    "message" : "Valider :"\n  },\n  "i18n_confirm_that_this_book" : {\n    "message" : "Confirmer que ce livre est conforme aux standards EPUB"\n  },\n  "i18n_single_pages" : {\n    "message" : "Pages simples"\n  },\n  "i18n_double_pages" : {\n    "message" : "Doubles-pages"\n  },\n  "i18n_save_settings" : {\n    "message" : "Enregistrer"\n  },\n  "i18n_font_size" : {\n    "message" : "TAILLE DE LA POLICE"\n  },\n  "i18n_margins" : {\n    "message" : "MARGES"\n  },\n  "i18n_text_and_background_color" : {\n    "message" : "COULEUR DU TEXTE ET DU FOND"\n  },\n  "i18n_black_and_white" : {\n    "message" : "Noir et Blanc"\n  },\n  "i18n_arabian_nights" : {\n    "message" : "Mille et une Nuits"\n  },\n  "i18n_sands_of_dune" : {\n    "message" : "Sables de Dune"\n  },\n  "i18n_ballard_blues" : {\n    "message" : "Le Blues de Ballard"\n  },\n  "i18n_vancouver_mist" : {\n    "message" : "Le Brouillard de Vancouver"\n  },\n  "i18n_display_format" : {\n    "message" : "FORMAT D\'AFFICHAGE"\n  },\n  "i18n_scroll_mode" : {\n    "message" : "MODE DE DÉFILEMENT"\n  },\n  "i18n_scroll_mode_auto" : {\n    "message" : "Auto"\n  },\n  "i18n_scroll_mode_doc" : {\n    "message" : "Document"\n  },\n  "i18n_scroll_mode_continuous" : {\n    "message" : "Continu"\n  },\n  "i18n_html_readium_tm_a_project" : {\n    "message" : "Readium pour Chrome est l\'extension du navigateur Chrome de ReadiumJS, un système de lecture open-source et une librairie JavaScript pour afficher des documents EPUB® dans les navigateurs web. ReadiumJS est un projet de la fondation Readium (Readium.org). Pour en savoir plus ou pour contribuer, visiter la <a href=\\"http://readium.org/projects/readiumjs\\">page d\'accueil du projet</a>."\n  },\n  "i18n_audio_play" : {\n    "message" : "Jouer"\n  },\n  "i18n_audio_pause" : {\n    "message" : "Pauser"\n  },\n  "i18n_audio_previous" : {\n    "message" : "Phrase audio précédente"\n  },\n  "i18n_audio_next" : {\n    "message" : "Phrase audio suivante"\n  },\n  "i18n_audio_volume" : {\n    "message" : "Ajustement du volume audio"\n  },\n  "i18n_audio_time" : {\n    "message" : "Contrôle du curseur temporel audio"\n  },\n  "i18n_audio_mute" : {\n    "message" : "Silence audio"\n  },\n  "i18n_audio_unmute" : {\n    "message" : "Restaurer le volume audio"\n  },\n  "i18n_audio_expand" : {\n    "message" : "Afficher les contrôles audio avancés"\n  },\n  "i18n_audio_collapse" : {\n    "message" : "Fermer les contrôles audio avancés"\n  },\n  "i18n_audio_esc" : {\n    "message" : "Échapper le contexte audio actuel"\n  },\n  "i18n_audio_rate" : {\n    "message" : "Vitesse de lecture audio"\n  },\n  "i18n_audio_rate_reset" : {\n    "message" : "Retour à la vitesse normale de lecture audio"\n  },\n  "i18n_audio_skip_disable" : {\n    "message" : "Désactiver la \'skippabilité\'"\n  },\n  "i18n_audio_skip_enable" : {\n    "message" : "Activer la \'skippabilité\'"\n  },\n  "i18n_audio_touch_enable" : {\n    "message" : "Activer la fonction \'toucher pour jouer\'"\n  },\n  "i18n_audio_touch_disable" : {\n    "message" : "Désactiver la fonction \'toucher pour jouer\'"\n  },\n  "i18n_audio_highlight_default" : {\n    "message" : "défaut"\n  },\n  "i18n_audio_highlight" : {\n    "message" : "Couleur audio"\n  },\n  "i18n_audio_sync" : {\n    "message" : "Granularité de synchronisation texte / audio"\n  },\n  "i18n_audio_sync_default" : {\n    "message" : "Défaut"\n  },\n  "i18n_audio_sync_word" : {\n    "message" : "Mot"\n  },\n  "i18n_audio_sync_sentence" : {\n    "message" : "Phrase"\n  },\n  "i18n_audio_sync_paragraph" : {\n    "message" : "Paragraphe"\n  },\n  "i18n_page_previous" : {\n    "message" : "Page précédente"\n  },\n  "i18n_page_next" : {\n    "message" : "Page suivante"\n  },\n  "chrome_accept_languages": {\n    "message": "$CHROME$ accepts $languages$ languages",\n    "placeholders": {\n      "chrome": {\n        "content": "Chrome",\n        "example": "Chrome"\n      },\n      "languages": {\n        "content": "$1",\n        "example": "en-US,fr,ja,de"\n      }\n    }\n  }\n}\n';});
 
 
-define('text!i18n/_locales/id/messages.json',[],function () { return '{\r\n  "chrome_extension_name": {\r\n    "message": "Readium"\r\n  },\r\n  "chrome_extension_description": {\r\n    "message": "reader untuk buku-buku EPUB3 ."\r\n  },\r\n  "i18n_readium_library" : {\r\n    "message" : "Perpustakaan Readium"\r\n  },\r\n  "i18n_loading" : {\r\n    "message" : "Loading Library"\r\n  },\r\n  "i18n_readium_options" : {\r\n    "message" : "Pilihan Readium :"\r\n  },\r\n  "i18n_save_changes" : {\r\n    "message" : "Simpan perubahan"\r\n  },\r\n  "i18n_close" : {\r\n    "message" : "Tutup"\r\n  },\r\n  "i18n_paginate_all" : {\r\n    "message" : "Paginate all reflowable ePUB content"\r\n  },\r\n  "i18n_automatically" : {\r\n    "message" : "Secara otomatis buka *.epub urls di readium"\r\n  },\r\n  "i18n_show_warning" : {\r\n    "message" : "Tampilkan pesan peringatan ketika unpacking file EPUB"\r\n  },\r\n  "i18n_details" : {\r\n    "message" : "Detail"\r\n  },\r\n  "i18n_read" : {\r\n    "message" : "Baca"\r\n  },\r\n  "i18n_delete" : {\r\n    "message" : "Hapus"\r\n  },\r\n  "i18n_author" : {\r\n    "message" : "Penulis: "\r\n  },\r\n  "i18n_publisher" : {\r\n    "message" : "Penerbit: "\r\n  },\r\n  "i18n_source" : {\r\n    "message" : "Sumber: "\r\n  },\r\n  "i18n_pub_date" : {\r\n    "message" : "Tgl Terbit: "\r\n  },\r\n  "i18n_modified_date" : {\r\n    "message" : "Tgl Modifikasi: "\r\n  },\r\n  "i18n_id" : {\r\n    "message" : "ID: "\r\n  },\r\n  "i18n_epub_version" : {\r\n    "message" : "Versi EPUB: "\r\n  },\r\n  "i18n_created_at" : {\r\n    "message" : "Dibuat di: "\r\n  },\r\n  "i18n_format" : {\r\n    "message" : "Format: "\r\n  },\r\n  "i18n_added" : {\r\n    "message" : "Menambahkan: "\r\n  },\r\n  "i18n_unknown" : {\r\n    "message" : "Tidak dikenal"\r\n  },\r\n  "i18n_sorry" : {\r\n    "message" : "Maaf, EPUB saat ini tidak berisi overlay media untuk konten ini "\r\n  },\r\n  "i18n_add_items" : {\r\n    "message" : "Masukkan item r Library disini!"\r\n  },\r\n  "i18n_extracting" : {\r\n    "message" : "extracting: "\r\n  },\r\n  "i18n_are_you_sure" : {\r\n    "message" : "Apakah and yakin ingin menghapus secara permanen "\r\n  },\r\n  "i18n_add_book_to_readium_library" : {\r\n    "message" : "Masukkan Buku ke Readium Library:"\r\n  },\r\n  "i18n_add_book" : {\r\n    "message" : "Add Book"\r\n  },\r\n  "i18n_cancel" : {\r\n    "message" : "Batal"\r\n  },\r\n  "i18n_from_the_web" : {\r\n    "message" : "Dari Web:"\r\n  },\r\n  "i18n_from_local_file" : {\r\n    "message" : "Dari File local:"\r\n  },\r\n  "i18n_enter_a_url" : {\r\n    "message" : "Masukkan  URL ke file .epub "\r\n  },\r\n  "i18n_unpacked_directory" : {\r\n    "message" : "Unpacked Directory:"\r\n  },\r\n  "i18n_validate" : {\r\n    "message" : "Validasi:"\r\n  },\r\n  "i18n_confirm_that_this_book" : {\r\n    "message" : "Konfirmasikan bahwa buku ini sesuai dengan standar EPUB"\r\n  },\r\n  "i18n_single_pages" : {\r\n    "message" : "Single Pages"\r\n  },\r\n  "i18n_double_pages" : {\r\n    "message" : "Double Pages"\r\n  },\r\n  "i18n_save_settings" : {\r\n    "message" : "Save Settings"\r\n  },\r\n  "i18n_font_size" : {\r\n    "message" : "FONT SIZE"\r\n  },\r\n  "i18n_margins" : {\r\n    "message" : "MARGINS"\r\n  },\r\n  "i18n_text_and_background_color" : {\r\n    "message" : "TEKS DAN WARNA LATAR"\r\n  },\r\n  "i18n_black_and_white" : {\r\n    "message" : "Black and White"\r\n  },\r\n  "i18n_arabian_nights" : {\r\n    "message" : "Arabian Nights"\r\n  },\r\n  "i18n_sands_of_dune" : {\r\n    "message" : "Sands of Dune"\r\n  },\r\n  "i18n_ballard_blues" : {\r\n    "message" : "Ballard Blues"\r\n  },\r\n  "i18n_vancouver_mist" : {\r\n    "message" : "Vancouver Mist"\r\n  },\r\n  "i18n_display_format" : {\r\n    "message" : "DISPLAY FORMAT"\r\n  },\r\n  "i18n_html_readium_tm_a_project" : {\r\n    "message" : "Readium<sup>TM</sup>, a project of the International Digital Publishing Forum (IDPF) and supporters, adalah sistem referensi open source DAN rendering engine untuk EPUB&reg; publikasi.  Untuk mengetahui lebih lanjut, kunjungi <a href=\\"http://readium.org/\\">project homepage</a>. Sampai saat ini, pengembangan project telah dipimpin oleh  <a href=\\"http://evidentpoint.com/\\">Evident Point</a> and <a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>. Untuk kontribusi, kunjungi <a href=\\"https://github.com/readium/readium-js-viewer\\">github repository</a>"\r\n  },\r\n  "chrome_accept_languages": {\r\n    "message": "$CHROME$ accepts $languages$ languages",\r\n    "placeholders": {\r\n      "chrome": {\r\n        "content": "Chrome",\r\n        "example": "Chrome"\r\n      },\r\n      "languages": {\r\n        "content": "$1",\r\n        "example": "en-US,ja,sr,de,zh_CN"\r\n      }\r\n    }\r\n  }\r\n}\r\n';});
+define('text!i18n/_locales/id/messages.json',[],function () { return '{\n  "chrome_extension_name": {\n    "message": "Readium"\n  },\n  "chrome_extension_description": {\n    "message": "reader untuk buku-buku EPUB3 ."\n  },\n  "i18n_readium_library" : {\n    "message" : "Perpustakaan Readium"\n  },\n  "i18n_loading" : {\n    "message" : "Loading Library"\n  },\n  "i18n_readium_options" : {\n    "message" : "Pilihan Readium :"\n  },\n  "i18n_save_changes" : {\n    "message" : "Simpan perubahan"\n  },\n  "i18n_close" : {\n    "message" : "Tutup"\n  },\n  "i18n_paginate_all" : {\n    "message" : "Paginate all reflowable ePUB content"\n  },\n  "i18n_automatically" : {\n    "message" : "Secara otomatis buka *.epub urls di readium"\n  },\n  "i18n_show_warning" : {\n    "message" : "Tampilkan pesan peringatan ketika unpacking file EPUB"\n  },\n  "i18n_details" : {\n    "message" : "Detail"\n  },\n  "i18n_read" : {\n    "message" : "Baca"\n  },\n  "i18n_delete" : {\n    "message" : "Hapus"\n  },\n  "i18n_author" : {\n    "message" : "Penulis: "\n  },\n  "i18n_publisher" : {\n    "message" : "Penerbit: "\n  },\n  "i18n_source" : {\n    "message" : "Sumber: "\n  },\n  "i18n_pub_date" : {\n    "message" : "Tgl Terbit: "\n  },\n  "i18n_modified_date" : {\n    "message" : "Tgl Modifikasi: "\n  },\n  "i18n_id" : {\n    "message" : "ID: "\n  },\n  "i18n_epub_version" : {\n    "message" : "Versi EPUB: "\n  },\n  "i18n_created_at" : {\n    "message" : "Dibuat di: "\n  },\n  "i18n_format" : {\n    "message" : "Format: "\n  },\n  "i18n_added" : {\n    "message" : "Menambahkan: "\n  },\n  "i18n_unknown" : {\n    "message" : "Tidak dikenal"\n  },\n  "i18n_sorry" : {\n    "message" : "Maaf, EPUB saat ini tidak berisi overlay media untuk konten ini "\n  },\n  "i18n_add_items" : {\n    "message" : "Masukkan item r Library disini!"\n  },\n  "i18n_extracting" : {\n    "message" : "extracting: "\n  },\n  "i18n_are_you_sure" : {\n    "message" : "Apakah and yakin ingin menghapus secara permanen "\n  },\n  "i18n_add_book_to_readium_library" : {\n    "message" : "Masukkan Buku ke Readium Library:"\n  },\n  "i18n_add_book" : {\n    "message" : "Add Book"\n  },\n  "i18n_cancel" : {\n    "message" : "Batal"\n  },\n  "i18n_from_the_web" : {\n    "message" : "Dari Web:"\n  },\n  "i18n_from_local_file" : {\n    "message" : "Dari File local:"\n  },\n  "i18n_enter_a_url" : {\n    "message" : "Masukkan  URL ke file .epub "\n  },\n  "i18n_unpacked_directory" : {\n    "message" : "Unpacked Directory:"\n  },\n  "i18n_validate" : {\n    "message" : "Validasi:"\n  },\n  "i18n_confirm_that_this_book" : {\n    "message" : "Konfirmasikan bahwa buku ini sesuai dengan standar EPUB"\n  },\n  "i18n_single_pages" : {\n    "message" : "Single Pages"\n  },\n  "i18n_double_pages" : {\n    "message" : "Double Pages"\n  },\n  "i18n_save_settings" : {\n    "message" : "Save Settings"\n  },\n  "i18n_font_size" : {\n    "message" : "FONT SIZE"\n  },\n  "i18n_margins" : {\n    "message" : "MARGINS"\n  },\n  "i18n_text_and_background_color" : {\n    "message" : "TEKS DAN WARNA LATAR"\n  },\n  "i18n_black_and_white" : {\n    "message" : "Black and White"\n  },\n  "i18n_arabian_nights" : {\n    "message" : "Arabian Nights"\n  },\n  "i18n_sands_of_dune" : {\n    "message" : "Sands of Dune"\n  },\n  "i18n_ballard_blues" : {\n    "message" : "Ballard Blues"\n  },\n  "i18n_vancouver_mist" : {\n    "message" : "Vancouver Mist"\n  },\n  "i18n_display_format" : {\n    "message" : "DISPLAY FORMAT"\n  },\n  "i18n_html_readium_tm_a_project" : {\n    "message" : "Readium<sup>TM</sup>, a project of the International Digital Publishing Forum (IDPF) and supporters, adalah sistem referensi open source DAN rendering engine untuk EPUB&reg; publikasi.  Untuk mengetahui lebih lanjut, kunjungi <a href=\\"http://readium.org/\\">project homepage</a>. Sampai saat ini, pengembangan project telah dipimpin oleh  <a href=\\"http://evidentpoint.com/\\">Evident Point</a> and <a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>. Untuk kontribusi, kunjungi <a href=\\"https://github.com/readium/readium-js-viewer\\">github repository</a>"\n  },\n  "chrome_accept_languages": {\n    "message": "$CHROME$ accepts $languages$ languages",\n    "placeholders": {\n      "chrome": {\n        "content": "Chrome",\n        "example": "Chrome"\n      },\n      "languages": {\n        "content": "$1",\n        "example": "en-US,ja,sr,de,zh_CN"\n      }\n    }\n  }\n}\n';});
 
 
-define('text!i18n/_locales/it/messages.json',[],function () { return '{\r\n  "chrome_extension_name": {\r\n    "message": "Readium"\r\n  },\r\n  "chrome_extension_description": {\r\n    "message": "Un visualizzatore di documenti EPUB3"\r\n  },\r\n  "i18n_readium_library" : {\r\n    "message" : "Biblioteca di Readium"\r\n  },\r\n  "i18n_loading" : {\r\n    "message" : "Caricamento biblioteca"\r\n  },\r\n  "i18n_readium_options" : {\r\n    "message" : "Opzioni di Readium"\r\n  },\r\n  "i18n_save_changes" : {\r\n    "message" : "Applica"\r\n  },\r\n  "i18n_close" : {\r\n    "message" : "Chiudi"\r\n  },\r\n  "i18n_paginate_all" : {\r\n    "message" : "Impagina anche i file EPUB reflowable"\r\n  },\r\n  "i18n_automatically" : {\r\n    "message" : "Apri in Readium gli URL che terminano in .epub"\r\n  },\r\n  "i18n_show_warning" : {\r\n    "message" : "Mostra errori e avvisi relativi ai file EPUB"\r\n  },\r\n  "i18n_details" : {\r\n    "message" : "Dettagli"\r\n  },\r\n  "i18n_read" : {\r\n    "message" : "Leggi"\r\n  },\r\n  "i18n_delete" : {\r\n    "message" : "Elimina"\r\n  },\r\n  "i18n_author" : {\r\n    "message" : "Autore: "\r\n  },\r\n  "i18n_publisher" : {\r\n    "message" : "Editore: "\r\n  },\r\n  "i18n_source" : {\r\n    "message" : "Origine: "\r\n  },\r\n  "i18n_pub_date" : {\r\n    "message" : "Data pubblicazione: "\r\n  },\r\n  "i18n_modified_date" : {\r\n    "message" : "Data ultima modifica: "\r\n  },\r\n  "i18n_id" : {\r\n    "message" : "ID: "\r\n  },\r\n  "i18n_epub_version" : {\r\n    "message" : "Versione EPUB: "\r\n  },\r\n  "i18n_created_at" : {\r\n    "message" : "Data importazione: "\r\n  },\r\n  "i18n_format" : {\r\n    "message" : "Formato: "\r\n  },\r\n  "i18n_added" : {\r\n    "message" : "Aggiunto: "\r\n  },\r\n  "i18n_unknown" : {\r\n    "message" : "Sconosciuto"\r\n  },\r\n  "i18n_sorry" : {\r\n    "message" : "Spiacente, non ci sono risorse Media Overlays associate a questo elemento."\r\n  },\r\n  "i18n_add_items" : {\r\n    "message" : "Aggiungi libri alla tua biblioteca!"\r\n  },\r\n  "i18n_extracting" : {\r\n    "message" : "Decomprimendo: "\r\n  },\r\n  "i18n_are_you_sure" : {\r\n    "message" : "Sei sicuro di voler cancellare definitivamente "\r\n  },\r\n  "i18n_add_book_to_readium_library" : {\r\n    "message" : "Aggiungi libro alla Biblioteca di Readium"\r\n  },\r\n  "i18n_add_book" : {\r\n    "message" : "Aggiungi libro"\r\n  },\r\n  "i18n_cancel" : {\r\n    "message" : "Annulla"\r\n  },\r\n  "i18n_from_the_web" : {\r\n    "message" : "Scarica dal Web:"\r\n  },\r\n  "i18n_from_local_file" : {\r\n    "message" : "Importa file EPUB dal tuo computer:"\r\n  },\r\n  "i18n_enter_a_url" : {\r\n    "message" : "Indirizzo Web del file EPUB che vuoi aggiungere:"\r\n  },\r\n  "i18n_unpacked_directory" : {\r\n    "message" : "Importa directory decompressa:"\r\n  },\r\n  "i18n_validate" : {\r\n    "message" : "Convalida:"\r\n  },\r\n  "i18n_confirm_that_this_book" : {\r\n    "message" : "Controlla che i file siano conformi allo standard EPUB prima di aprirli"\r\n  },\r\n  "i18n_single_pages" : {\r\n    "message" : "Singole"\r\n  },\r\n  "i18n_double_pages" : {\r\n    "message" : "Affiancate"\r\n  },\r\n  "i18n_save_settings" : {\r\n    "message" : "Applica"\r\n  },\r\n  "i18n_font_size" : {\r\n    "message" : "DIMENSIONE CARATTERE"\r\n  },\r\n  "i18n_margins" : {\r\n    "message" : "MARGINI"\r\n  },\r\n  "i18n_text_and_background_color" : {\r\n    "message" : "COMBINAZIONE COLORE TESTO/SFONDO"\r\n  },\r\n  "i18n_black_and_white" : {\r\n    "message" : "Bianco su nero"\r\n  },\r\n  "i18n_arabian_nights" : {\r\n    "message" : "Notturno"\r\n  },\r\n  "i18n_sands_of_dune" : {\r\n    "message" : "Deserto"\r\n  },\r\n  "i18n_ballard_blues" : {\r\n    "message" : "Mediterraneo"\r\n  },\r\n  "i18n_vancouver_mist" : {\r\n    "message" : "Nebbia"\r\n  },\r\n  "i18n_display_format" : {\r\n    "message" : "VISUALIZZAZIONE PAGINE"\r\n  },\r\n  "i18n_html_readium_tm_a_project" : {\r\n    "message" : "Readium<sup>TM</sup>, progetto dell\'International Digital Publishing Forum (IDPF) e dei suoi sostenitori, è una piattaforma open source di lettura e un motore di rendering per documenti in formato EPUB&reg;. Per saperne di più, visita la <a href=\\"http://readium.org/\\">pagina principale del progetto</a>. Lo sviluppo del progetto è stato guidato da <a href=\\"http://evidentpoint.com/\\">Evident Point</a> e <a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>. Per contribuire, visita il <a href=\\"https://github.com/readium/readium-js-viewer\\">repository github</a>."\r\n  },\r\n  "chrome_accept_languages": {\r\n    "message": "$CHROME$ accetta le seguenti lingue: $languages$",\r\n    "placeholders": {\r\n      "chrome": {\r\n        "content": "Chrome",\r\n        "example": "Chrome"\r\n      },\r\n      "languages": {\r\n        "content": "$1",\r\n        "example": "en-US,it,ja,sr,de,zh_CN"\r\n      }\r\n    }\r\n  }\r\n}\r\n';});
+define('text!i18n/_locales/it/messages.json',[],function () { return '{\n  "chrome_extension_name": {\n    "message": "Readium"\n  },\n  "chrome_extension_description": {\n    "message": "Un visualizzatore di documenti EPUB3"\n  },\n  "i18n_readium_library" : {\n    "message" : "Biblioteca di Readium"\n  },\n  "i18n_loading" : {\n    "message" : "Caricamento biblioteca"\n  },\n  "i18n_readium_options" : {\n    "message" : "Opzioni di Readium"\n  },\n  "i18n_save_changes" : {\n    "message" : "Applica"\n  },\n  "i18n_close" : {\n    "message" : "Chiudi"\n  },\n  "i18n_paginate_all" : {\n    "message" : "Impagina anche i file EPUB reflowable"\n  },\n  "i18n_automatically" : {\n    "message" : "Apri in Readium gli URL che terminano in .epub"\n  },\n  "i18n_show_warning" : {\n    "message" : "Mostra errori e avvisi relativi ai file EPUB"\n  },\n  "i18n_details" : {\n    "message" : "Dettagli"\n  },\n  "i18n_read" : {\n    "message" : "Leggi"\n  },\n  "i18n_delete" : {\n    "message" : "Elimina"\n  },\n  "i18n_author" : {\n    "message" : "Autore: "\n  },\n  "i18n_publisher" : {\n    "message" : "Editore: "\n  },\n  "i18n_source" : {\n    "message" : "Origine: "\n  },\n  "i18n_pub_date" : {\n    "message" : "Data pubblicazione: "\n  },\n  "i18n_modified_date" : {\n    "message" : "Data ultima modifica: "\n  },\n  "i18n_id" : {\n    "message" : "ID: "\n  },\n  "i18n_epub_version" : {\n    "message" : "Versione EPUB: "\n  },\n  "i18n_created_at" : {\n    "message" : "Data importazione: "\n  },\n  "i18n_format" : {\n    "message" : "Formato: "\n  },\n  "i18n_added" : {\n    "message" : "Aggiunto: "\n  },\n  "i18n_unknown" : {\n    "message" : "Sconosciuto"\n  },\n  "i18n_sorry" : {\n    "message" : "Spiacente, non ci sono risorse Media Overlays associate a questo elemento."\n  },\n  "i18n_add_items" : {\n    "message" : "Aggiungi libri alla tua biblioteca!"\n  },\n  "i18n_extracting" : {\n    "message" : "Decomprimendo: "\n  },\n  "i18n_are_you_sure" : {\n    "message" : "Sei sicuro di voler cancellare definitivamente "\n  },\n  "i18n_add_book_to_readium_library" : {\n    "message" : "Aggiungi libro alla Biblioteca di Readium"\n  },\n  "i18n_add_book" : {\n    "message" : "Aggiungi libro"\n  },\n  "i18n_cancel" : {\n    "message" : "Annulla"\n  },\n  "i18n_from_the_web" : {\n    "message" : "Scarica dal Web:"\n  },\n  "i18n_from_local_file" : {\n    "message" : "Importa file EPUB dal tuo computer:"\n  },\n  "i18n_enter_a_url" : {\n    "message" : "Indirizzo Web del file EPUB che vuoi aggiungere:"\n  },\n  "i18n_unpacked_directory" : {\n    "message" : "Importa directory decompressa:"\n  },\n  "i18n_validate" : {\n    "message" : "Convalida:"\n  },\n  "i18n_confirm_that_this_book" : {\n    "message" : "Controlla che i file siano conformi allo standard EPUB prima di aprirli"\n  },\n  "i18n_single_pages" : {\n    "message" : "Singole"\n  },\n  "i18n_double_pages" : {\n    "message" : "Affiancate"\n  },\n  "i18n_save_settings" : {\n    "message" : "Applica"\n  },\n  "i18n_font_size" : {\n    "message" : "DIMENSIONE CARATTERE"\n  },\n  "i18n_margins" : {\n    "message" : "MARGINI"\n  },\n  "i18n_text_and_background_color" : {\n    "message" : "COMBINAZIONE COLORE TESTO/SFONDO"\n  },\n  "i18n_black_and_white" : {\n    "message" : "Bianco su nero"\n  },\n  "i18n_arabian_nights" : {\n    "message" : "Notturno"\n  },\n  "i18n_sands_of_dune" : {\n    "message" : "Deserto"\n  },\n  "i18n_ballard_blues" : {\n    "message" : "Mediterraneo"\n  },\n  "i18n_vancouver_mist" : {\n    "message" : "Nebbia"\n  },\n  "i18n_display_format" : {\n    "message" : "VISUALIZZAZIONE PAGINE"\n  },\n  "i18n_html_readium_tm_a_project" : {\n    "message" : "Readium<sup>TM</sup>, progetto dell\'International Digital Publishing Forum (IDPF) e dei suoi sostenitori, è una piattaforma open source di lettura e un motore di rendering per documenti in formato EPUB&reg;. Per saperne di più, visita la <a href=\\"http://readium.org/\\">pagina principale del progetto</a>. Lo sviluppo del progetto è stato guidato da <a href=\\"http://evidentpoint.com/\\">Evident Point</a> e <a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>. Per contribuire, visita il <a href=\\"https://github.com/readium/readium-js-viewer\\">repository github</a>."\n  },\n  "chrome_accept_languages": {\n    "message": "$CHROME$ accetta le seguenti lingue: $languages$",\n    "placeholders": {\n      "chrome": {\n        "content": "Chrome",\n        "example": "Chrome"\n      },\n      "languages": {\n        "content": "$1",\n        "example": "en-US,it,ja,sr,de,zh_CN"\n      }\n    }\n  }\n}\n';});
 
 
-define('text!i18n/_locales/ja/messages.json',[],function () { return '{\r\n  "chrome_extension_name": {\r\n    "message": "Readium"\r\n  },\r\n  "chrome_extension_description": {\r\n    "message": "EPUB3ブックリーダ"\r\n  },\r\n  "i18n_readium_library" : {\r\n    "message" : "Readiumライブラリ"\r\n  },\r\n  "i18n_loading" : {\r\n    "message" : "Loading Library"\r\n  },\r\n  "i18n_readium_options" : {\r\n    "message" : "Readiumオプション:"\r\n  },\r\n  "i18n_save_changes" : {\r\n    "message" : "変更を保存"\r\n  },\r\n  "i18n_close" : {\r\n    "message" : "閉じる"\r\n  },\r\n  "i18n_paginate_all" : {\r\n    "message" : "リフロー可能なEPUBコンテンツをすべてページネートする"\r\n  },\r\n  "i18n_automatically" : {\r\n    "message" : "URLが*.epubなら自動でReadiumで開く"\r\n  },\r\n  "i18n_show_warning" : {\r\n    "message" : "EPUBファイルを展開する際には警告メッセージを表示する"\r\n  },\r\n  "i18n_details" : {\r\n    "message" : "詳細"\r\n  },\r\n  "i18n_read" : {\r\n    "message" : "読む"\r\n  },\r\n  "i18n_delete" : {\r\n    "message" : "削除"\r\n  },\r\n  "i18n_author" : {\r\n    "message" : "著者: "\r\n  },\r\n  "i18n_publisher" : {\r\n    "message" : "出版社: "\r\n  },\r\n  "i18n_source" : {\r\n    "message" : "ソース: "\r\n  },\r\n  "i18n_pub_date" : {\r\n    "message" : "出版日時: "\r\n  },\r\n  "i18n_modified_date" : {\r\n    "message" : "更新日時: "\r\n  },\r\n  "i18n_id" : {\r\n    "message" : "ID: "\r\n  },\r\n  "i18n_epub_version" : {\r\n    "message" : "EPUBバージョン: "\r\n  },\r\n  "i18n_created_at" : {\r\n    "message" : "追加日時: "\r\n  },\r\n  "i18n_format" : {\r\n    "message" : "フォーマット: "\r\n  },\r\n  "i18n_added" : {\r\n    "message" : "追加日時: "\r\n  },\r\n  "i18n_unknown" : {\r\n    "message" : "不明"\r\n  },\r\n  "i18n_sorry" : {\r\n    "message" : "現在のEPUBにはこのコンテンツのメディアオーバーレイが含まれていません"\r\n  },\r\n  "i18n_add_items" : {\r\n    "message" : "ここをクリックして本を登録します!"\r\n  },\r\n  "i18n_extracting" : {\r\n    "message" : "展開しています: "\r\n  },\r\n  "i18n_are_you_sure" : {\r\n    "message" : "本を削除します: "\r\n  },\r\n  "i18n_add_book_to_readium_library" : {\r\n    "message" : "Readiumライブラリに本を追加します:"\r\n  },\r\n  "i18n_add_book" : {\r\n    "message" : "本の追加"\r\n  },\r\n  "i18n_cancel" : {\r\n    "message" : "キャンセル"\r\n  },\r\n  "i18n_from_the_web" : {\r\n    "message" : "Webから:"\r\n  },\r\n  "i18n_from_local_file" : {\r\n    "message" : "ローカルファイルから:"\r\n  },\r\n  "i18n_enter_a_url" : {\r\n    "message" : ".epubファイルのURLを入力してください"\r\n  },\r\n  "i18n_unpacked_directory" : {\r\n    "message" : "パッケージ化されていないフォルダ:"\r\n  },\r\n  "i18n_validate" : {\r\n    "message" : "検証（バリデート）:"\r\n  },\r\n  "i18n_confirm_that_this_book" : {\r\n    "message" : "この本がEPUB仕様に準拠していることを確認する"\r\n  },\r\n  "i18n_single_pages" : {\r\n    "message" : "単ページ"\r\n  },\r\n  "i18n_double_pages" : {\r\n    "message" : "ダブル"\r\n  },\r\n  "i18n_save_settings" : {\r\n    "message" : "設定を保存する"\r\n  },\r\n  "i18n_font_size" : {\r\n    "message" : "文字サイズ"\r\n  },\r\n  "i18n_margins" : {\r\n    "message" : "マージン"\r\n  },\r\n  "i18n_text_and_background_color" : {\r\n    "message" : "文字色と背景色"\r\n  },\r\n  "i18n_black_and_white" : {\r\n    "message" : "白背景に黒文字"\r\n  },\r\n  "i18n_arabian_nights" : {\r\n    "message" : "アラビアンナイト"\r\n  },\r\n  "i18n_sands_of_dune" : {\r\n    "message" : "砂丘の砂"\r\n  },\r\n  "i18n_ballard_blues" : {\r\n    "message" : "バラード ブルース"\r\n  },\r\n  "i18n_vancouver_mist" : {\r\n    "message" : "バンクーバーの霧"\r\n  },\r\n  "i18n_display_format" : {\r\n    "message" : "表示形式"\r\n  },\r\n  "i18n_html_readium_tm_a_project" : {\r\n    "message" : "Readium<sup>TM</sup>とは, International Digital Publishing Forum (IDPF) と支援企業によるプロジェクトで, EPUB&reg; 出版のためのシステムとレンダリングエンジンのオープンソースリファレンスです。詳しくは、<a href=\\"http://readium.org/\\">プロジェクトホームページ</a>をご覧ください。これまでは<a href=\\"http://evidentpoint.com/\\">Evident Point</a>と<a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>がプロジェクト開発をリードしてきました。 コントリビュートするには<a href=\\"https://github.com/readium/readium-js-viewer\\">githubレポジトリ</a>をご覧ください。"\r\n  },\r\n  "chrome_accept_languages": {\r\n    "message": "$CHROME$ accepts $languages$ languages",\r\n    "placeholders": {\r\n      "chrome": {\r\n        "content": "Chrome",\r\n        "example": "Chrome"\r\n      },\r\n      "languages": {\r\n        "content": "$1",\r\n        "example": "en-US,ja,sr,de"\r\n      }\r\n    }\r\n  }\r\n}\r\n';});
+define('text!i18n/_locales/ja/messages.json',[],function () { return '{\n  "chrome_extension_name": {\n    "message": "Readium"\n  },\n  "chrome_extension_description": {\n    "message": "EPUB3ブックリーダ"\n  },\n  "i18n_readium_library" : {\n    "message" : "Readiumライブラリ"\n  },\n  "i18n_loading" : {\n    "message" : "Loading Library"\n  },\n  "i18n_readium_options" : {\n    "message" : "Readiumオプション:"\n  },\n  "i18n_save_changes" : {\n    "message" : "変更を保存"\n  },\n  "i18n_close" : {\n    "message" : "閉じる"\n  },\n  "i18n_paginate_all" : {\n    "message" : "リフロー可能なEPUBコンテンツをすべてページネートする"\n  },\n  "i18n_automatically" : {\n    "message" : "URLが*.epubなら自動でReadiumで開く"\n  },\n  "i18n_show_warning" : {\n    "message" : "EPUBファイルを展開する際には警告メッセージを表示する"\n  },\n  "i18n_details" : {\n    "message" : "詳細"\n  },\n  "i18n_read" : {\n    "message" : "読む"\n  },\n  "i18n_delete" : {\n    "message" : "削除"\n  },\n  "i18n_author" : {\n    "message" : "著者: "\n  },\n  "i18n_publisher" : {\n    "message" : "出版社: "\n  },\n  "i18n_source" : {\n    "message" : "ソース: "\n  },\n  "i18n_pub_date" : {\n    "message" : "出版日時: "\n  },\n  "i18n_modified_date" : {\n    "message" : "更新日時: "\n  },\n  "i18n_id" : {\n    "message" : "ID: "\n  },\n  "i18n_epub_version" : {\n    "message" : "EPUBバージョン: "\n  },\n  "i18n_created_at" : {\n    "message" : "追加日時: "\n  },\n  "i18n_format" : {\n    "message" : "フォーマット: "\n  },\n  "i18n_added" : {\n    "message" : "追加日時: "\n  },\n  "i18n_unknown" : {\n    "message" : "不明"\n  },\n  "i18n_sorry" : {\n    "message" : "現在のEPUBにはこのコンテンツのメディアオーバーレイが含まれていません"\n  },\n  "i18n_add_items" : {\n    "message" : "ここをクリックして本を登録します!"\n  },\n  "i18n_extracting" : {\n    "message" : "展開しています: "\n  },\n  "i18n_are_you_sure" : {\n    "message" : "本を削除します: "\n  },\n  "i18n_add_book_to_readium_library" : {\n    "message" : "Readiumライブラリに本を追加します:"\n  },\n  "i18n_add_book" : {\n    "message" : "本の追加"\n  },\n  "i18n_cancel" : {\n    "message" : "キャンセル"\n  },\n  "i18n_from_the_web" : {\n    "message" : "Webから:"\n  },\n  "i18n_from_local_file" : {\n    "message" : "ローカルファイルから:"\n  },\n  "i18n_enter_a_url" : {\n    "message" : ".epubファイルのURLを入力してください"\n  },\n  "i18n_unpacked_directory" : {\n    "message" : "パッケージ化されていないフォルダ:"\n  },\n  "i18n_validate" : {\n    "message" : "検証（バリデート）:"\n  },\n  "i18n_confirm_that_this_book" : {\n    "message" : "この本がEPUB仕様に準拠していることを確認する"\n  },\n  "i18n_single_pages" : {\n    "message" : "単ページ"\n  },\n  "i18n_double_pages" : {\n    "message" : "ダブル"\n  },\n  "i18n_save_settings" : {\n    "message" : "設定を保存する"\n  },\n  "i18n_font_size" : {\n    "message" : "文字サイズ"\n  },\n  "i18n_margins" : {\n    "message" : "マージン"\n  },\n  "i18n_text_and_background_color" : {\n    "message" : "文字色と背景色"\n  },\n  "i18n_black_and_white" : {\n    "message" : "白背景に黒文字"\n  },\n  "i18n_arabian_nights" : {\n    "message" : "アラビアンナイト"\n  },\n  "i18n_sands_of_dune" : {\n    "message" : "砂丘の砂"\n  },\n  "i18n_ballard_blues" : {\n    "message" : "バラード ブルース"\n  },\n  "i18n_vancouver_mist" : {\n    "message" : "バンクーバーの霧"\n  },\n  "i18n_display_format" : {\n    "message" : "表示形式"\n  },\n  "i18n_html_readium_tm_a_project" : {\n    "message" : "Readium<sup>TM</sup>とは, International Digital Publishing Forum (IDPF) と支援企業によるプロジェクトで, EPUB&reg; 出版のためのシステムとレンダリングエンジンのオープンソースリファレンスです。詳しくは、<a href=\\"http://readium.org/\\">プロジェクトホームページ</a>をご覧ください。これまでは<a href=\\"http://evidentpoint.com/\\">Evident Point</a>と<a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>がプロジェクト開発をリードしてきました。 コントリビュートするには<a href=\\"https://github.com/readium/readium-js-viewer\\">githubレポジトリ</a>をご覧ください。"\n  },\n  "chrome_accept_languages": {\n    "message": "$CHROME$ accepts $languages$ languages",\n    "placeholders": {\n      "chrome": {\n        "content": "Chrome",\n        "example": "Chrome"\n      },\n      "languages": {\n        "content": "$1",\n        "example": "en-US,ja,sr,de"\n      }\n    }\n  }\n}\n';});
 
 
-define('text!i18n/_locales/ko/messages.json',[],function () { return '{\r\n  "chrome_extension_name": {\r\n    "message": "Readium"\r\n  },\r\n  "chrome_extension_description": {\r\n    "message": "EPUB3책 리더."\r\n  },\r\n  "i18n_readium_library" : {\r\n    "message" : "Readium 라이브러리"\r\n  },\r\n  "i18n_loading" : {\r\n    "message" : "Loading Library"\r\n  },\r\n  "i18n_readium_options" : {\r\n    "message" : "Readium 옵션:"\r\n  },\r\n  "i18n_save_changes" : {\r\n    "message" : "변경사항 저장"\r\n  },\r\n  "i18n_close" : {\r\n    "message" : "닫기"\r\n  },\r\n  "i18n_paginate_all" : {\r\n    "message" : "모든 리플로우 컨텐츠의 페이지네이션"\r\n  },\r\n  "i18n_automatically" : {\r\n    "message" : "*.epub url들을 radium에서 자동으로 열기"\r\n  },\r\n  "i18n_show_warning" : {\r\n    "message" : "EPUB파일들을 열 때 경고메시지 표시"\r\n  },\r\n  "i18n_details" : {\r\n    "message" : "세부항목"\r\n  },\r\n  "i18n_read" : {\r\n    "message" : "읽기"\r\n  },\r\n  "i18n_delete" : {\r\n    "message" : "삭제"\r\n  },\r\n  "i18n_author" : {\r\n    "message" : "저자: "\r\n  },\r\n  "i18n_publisher" : {\r\n    "message" : "출판사: "\r\n  },\r\n  "i18n_source" : {\r\n    "message" : "소스: "\r\n  },\r\n  "i18n_pub_date" : {\r\n    "message" : "출판일: "\r\n  },\r\n  "i18n_modified_date" : {\r\n    "message" : "개정일: "\r\n  },\r\n  "i18n_id" : {\r\n    "message" : "ID: "\r\n  },\r\n  "i18n_epub_version" : {\r\n    "message" : "EPUB 버전: "\r\n  },\r\n  "i18n_created_at" : {\r\n    "message" : "생성: "\r\n  },\r\n  "i18n_format" : {\r\n    "message" : "포맷: "\r\n  },\r\n  "i18n_added" : {\r\n    "message" : "추가일시: "\r\n  },\r\n  "i18n_unknown" : {\r\n    "message" : "미상"\r\n  },\r\n  "i18n_sorry" : {\r\n    "message" : "현재 EPUB은 이 컨텐츠를 위한 미디어 오버레이가 포함되어 있지 않습니다."\r\n  },\r\n  "i18n_add_items" : {\r\n    "message" : "책을 등록하기 위하여 여기를 클릭하세요!"\r\n  },\r\n  "i18n_extracting" : {\r\n    "message" : "정보 추출 중: "\r\n  },\r\n  "i18n_are_you_sure" : {\r\n    "message" : "영구히 삭제하시길 원하십니까? "\r\n  },\r\n  "i18n_add_book_to_readium_library" : {\r\n    "message" : "Readium 라이브러리에 책 추가:"\r\n  },\r\n  "i18n_add_book" : {\r\n    "message" : "책 추가"\r\n  },\r\n  "i18n_cancel" : {\r\n    "message" : "취소"\r\n  },\r\n  "i18n_from_the_web" : {\r\n    "message" : "웹에서:"\r\n  },\r\n  "i18n_from_local_file" : {\r\n    "message" : "로컬 파일에서:"\r\n  },\r\n  "i18n_enter_a_url" : {\r\n    "message" : ".epub 파일의 URL을 입력하세요"\r\n  },\r\n  "i18n_unpacked_directory" : {\r\n    "message" : "추출된 디렉토리:"\r\n  },\r\n  "i18n_validate" : {\r\n    "message" : "승인:"\r\n  },\r\n  "i18n_confirm_that_this_book" : {\r\n    "message" : "이 책이 ePUB표준을 따르는지 확인"\r\n  },\r\n  "i18n_single_pages" : {\r\n    "message" : "단일 페이지"\r\n  },\r\n  "i18n_double_pages" : {\r\n    "message" : "더블 페이지"\r\n  },\r\n  "i18n_save_settings" : {\r\n    "message" : "설정 저장"\r\n  },\r\n  "i18n_font_size" : {\r\n    "message" : "폰트 크기"\r\n  },\r\n  "i18n_margins" : {\r\n    "message" : "여백"\r\n  },\r\n  "i18n_text_and_background_color" : {\r\n    "message" : "글자와 배경 색"\r\n  },\r\n  "i18n_black_and_white" : {\r\n    "message" : "흑백"\r\n  },\r\n  "i18n_arabian_nights" : {\r\n    "message" : "아라비안 나이트"\r\n  },\r\n  "i18n_sands_of_dune" : {\r\n    "message" : "샌즈 오브 듄"\r\n  },\r\n  "i18n_ballard_blues" : {\r\n    "message" : "발라드 블루스"\r\n  },\r\n  "i18n_vancouver_mist" : {\r\n    "message" : "밴쿠버 안개"\r\n  },\r\n  "i18n_display_format" : {\r\n    "message" : "디스플레이 포맷"\r\n  },\r\n  "i18n_html_readium_tm_a_project" : {\r\n    "message" : "Readium<sup>TM</sup>는 EPUB&reg;컨텐츠의 출판을 위한 국제디지털출판포럼(IDPF, International Digital Publishing Forum)과 지원 기업들의 오픈소스 시스템 및 렌더링 엔진 프로젝트입니다. 자세한 내용은 <a href=\\"http://readium.org/\\">프로젝트 홈페이지</a>를 참조하세요. 지금까지, 프로젝트 개발은 <a href=\\"http://evidentpoint.com/\\">Evident Point</a>와 <a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>에 의해서 주도 되었습니다. 프로젝트에 기여하시기 위해서는 <a href=\\"https://github.com/readium/readium-js-viewer\\">github 저장소</a>를 확인하시기 바랍니다."\r\n  },\r\n  "chrome_accept_languages": {\r\n    "message": "$CHROME$ accepts $languages$ languages",\r\n    "placeholders": {\r\n      "chrome": {\r\n        "content": "Chrome",\r\n        "example": "Chrome"\r\n      },\r\n      "languages": {\r\n        "content": "$1",\r\n        "example": "en-US,ja,sr,de,zh_CN"\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\n';});
+define('text!i18n/_locales/ko/messages.json',[],function () { return '{\n  "chrome_extension_name": {\n    "message": "Readium"\n  },\n  "chrome_extension_description": {\n    "message": "EPUB3책 리더."\n  },\n  "i18n_readium_library" : {\n    "message" : "Readium 라이브러리"\n  },\n  "i18n_loading" : {\n    "message" : "Loading Library"\n  },\n  "i18n_readium_options" : {\n    "message" : "Readium 옵션:"\n  },\n  "i18n_save_changes" : {\n    "message" : "변경사항 저장"\n  },\n  "i18n_close" : {\n    "message" : "닫기"\n  },\n  "i18n_paginate_all" : {\n    "message" : "모든 리플로우 컨텐츠의 페이지네이션"\n  },\n  "i18n_automatically" : {\n    "message" : "*.epub url들을 radium에서 자동으로 열기"\n  },\n  "i18n_show_warning" : {\n    "message" : "EPUB파일들을 열 때 경고메시지 표시"\n  },\n  "i18n_details" : {\n    "message" : "세부항목"\n  },\n  "i18n_read" : {\n    "message" : "읽기"\n  },\n  "i18n_delete" : {\n    "message" : "삭제"\n  },\n  "i18n_author" : {\n    "message" : "저자: "\n  },\n  "i18n_publisher" : {\n    "message" : "출판사: "\n  },\n  "i18n_source" : {\n    "message" : "소스: "\n  },\n  "i18n_pub_date" : {\n    "message" : "출판일: "\n  },\n  "i18n_modified_date" : {\n    "message" : "개정일: "\n  },\n  "i18n_id" : {\n    "message" : "ID: "\n  },\n  "i18n_epub_version" : {\n    "message" : "EPUB 버전: "\n  },\n  "i18n_created_at" : {\n    "message" : "생성: "\n  },\n  "i18n_format" : {\n    "message" : "포맷: "\n  },\n  "i18n_added" : {\n    "message" : "추가일시: "\n  },\n  "i18n_unknown" : {\n    "message" : "미상"\n  },\n  "i18n_sorry" : {\n    "message" : "현재 EPUB은 이 컨텐츠를 위한 미디어 오버레이가 포함되어 있지 않습니다."\n  },\n  "i18n_add_items" : {\n    "message" : "책을 등록하기 위하여 여기를 클릭하세요!"\n  },\n  "i18n_extracting" : {\n    "message" : "정보 추출 중: "\n  },\n  "i18n_are_you_sure" : {\n    "message" : "영구히 삭제하시길 원하십니까? "\n  },\n  "i18n_add_book_to_readium_library" : {\n    "message" : "Readium 라이브러리에 책 추가:"\n  },\n  "i18n_add_book" : {\n    "message" : "책 추가"\n  },\n  "i18n_cancel" : {\n    "message" : "취소"\n  },\n  "i18n_from_the_web" : {\n    "message" : "웹에서:"\n  },\n  "i18n_from_local_file" : {\n    "message" : "로컬 파일에서:"\n  },\n  "i18n_enter_a_url" : {\n    "message" : ".epub 파일의 URL을 입력하세요"\n  },\n  "i18n_unpacked_directory" : {\n    "message" : "추출된 디렉토리:"\n  },\n  "i18n_validate" : {\n    "message" : "승인:"\n  },\n  "i18n_confirm_that_this_book" : {\n    "message" : "이 책이 ePUB표준을 따르는지 확인"\n  },\n  "i18n_single_pages" : {\n    "message" : "단일 페이지"\n  },\n  "i18n_double_pages" : {\n    "message" : "더블 페이지"\n  },\n  "i18n_save_settings" : {\n    "message" : "설정 저장"\n  },\n  "i18n_font_size" : {\n    "message" : "폰트 크기"\n  },\n  "i18n_margins" : {\n    "message" : "여백"\n  },\n  "i18n_text_and_background_color" : {\n    "message" : "글자와 배경 색"\n  },\n  "i18n_black_and_white" : {\n    "message" : "흑백"\n  },\n  "i18n_arabian_nights" : {\n    "message" : "아라비안 나이트"\n  },\n  "i18n_sands_of_dune" : {\n    "message" : "샌즈 오브 듄"\n  },\n  "i18n_ballard_blues" : {\n    "message" : "발라드 블루스"\n  },\n  "i18n_vancouver_mist" : {\n    "message" : "밴쿠버 안개"\n  },\n  "i18n_display_format" : {\n    "message" : "디스플레이 포맷"\n  },\n  "i18n_html_readium_tm_a_project" : {\n    "message" : "Readium<sup>TM</sup>는 EPUB&reg;컨텐츠의 출판을 위한 국제디지털출판포럼(IDPF, International Digital Publishing Forum)과 지원 기업들의 오픈소스 시스템 및 렌더링 엔진 프로젝트입니다. 자세한 내용은 <a href=\\"http://readium.org/\\">프로젝트 홈페이지</a>를 참조하세요. 지금까지, 프로젝트 개발은 <a href=\\"http://evidentpoint.com/\\">Evident Point</a>와 <a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>에 의해서 주도 되었습니다. 프로젝트에 기여하시기 위해서는 <a href=\\"https://github.com/readium/readium-js-viewer\\">github 저장소</a>를 확인하시기 바랍니다."\n  },\n  "chrome_accept_languages": {\n    "message": "$CHROME$ accepts $languages$ languages",\n    "placeholders": {\n      "chrome": {\n        "content": "Chrome",\n        "example": "Chrome"\n      },\n      "languages": {\n        "content": "$1",\n        "example": "en-US,ja,sr,de,zh_CN"\n      }\n    }\n  }\n}\n\n';});
 
 
-define('text!i18n/_locales/pt_BR/messages.json',[],function () { return '{\r\n  "chrome_extension_name": {\r\n    "message": "Readium"\r\n  },\r\n  "chrome_extension_description" : {\r\n    "message": "Um leitor para livros para EPUB3."\r\n  },\r\n  "i18n_readium_library" : {\r\n    "message" : "Biblioteca Readium"\r\n  },\r\n  "i18n_loading" : {\r\n   "message" : "Loading Library"\r\n  },\r\n  "i18n_readium_options" : {\r\n    "message" : "Opções do Readium:"\r\n  },\r\n  "i18n_save_changes" : {\r\n    "message" : "Salvar mudanças"\r\n  },\r\n  "i18n_close" : {\r\n    "message" : "Fechar"\r\n  },\r\n  "i18n_paginate_all" : {\r\n    "message" : "Paginar todo o conteúdo ePUB fluído"\r\n  },\r\n  "i18n_automatically" : {\r\n    "message" : "Abrir automaticamente urls *.epub no readium"\r\n  },\r\n  "i18n_show_warning" : {\r\n    "message" : "Exibir mensagem de alerta quando extraindo arquivos EPUB"\r\n  },\r\n  "i18n_details" : {\r\n    "message" : "Detalhes"\r\n  },\r\n  "i18n_read" : {\r\n    "message" : "Ler"\r\n  },\r\n  "i18n_delete" : {\r\n    "message" : "Excluir"\r\n  },\r\n  "i18n_author" : {\r\n    "message" : "Autor: "\r\n  },\r\n  "i18n_publisher" : {\r\n    "message" : "Editora: "\r\n  },\r\n  "i18n_source" : {\r\n    "message" : "Origem: "\r\n  },\r\n  "i18n_pub_date" : {\r\n    "message" : "Publicação: "\r\n  },\r\n  "i18n_modified_date" : {\r\n    "message" : "Data de Modificação: "\r\n  },\r\n  "i18n_id" : {\r\n    "message" : "ID: "\r\n  },\r\n  "i18n_epub_version" : {\r\n    "message" : "Versão do EPUB: "\r\n  },\r\n  "i18n_created_at" : {\r\n    "message" : "Criado aos: "\r\n  },\r\n  "i18n_format" : {\r\n    "message" : "Formato: "\r\n  },\r\n  "i18n_added" : {\r\n    "message" : "Adicionado: "\r\n  },\r\n  "i18n_unknown" : {\r\n    "message" : "Desconhecido"\r\n  },\r\n  "i18n_sorry" : {\r\n    "message" : "Desculpe, o atual EPUB não contém uma mídia de sobreposição para este conteúdo"\r\n  },\r\n  "i18n_add_items" : {\r\n    "message" : "Adicione itens para sua biblioteca aqui!"\r\n  },\r\n  "i18n_extracting" : {\r\n    "message" : "extraindo: "\r\n  },\r\n  "i18n_are_you_sure" : {\r\n    "message" : "Você tem certeza de que deseja excluir permanentemente "\r\n  },\r\n  "i18n_add_book_to_readium_library" : {\r\n    "message" : "Adicionar Livro à Biblioteca Readium:"\r\n  },\r\n  "i18n_add_book" : {\r\n    "message" : "Adicionar Livro"\r\n  },\r\n  "i18n_cancel" : {\r\n    "message" : "Cancelar"\r\n  },\r\n  "i18n_from_the_web" : {\r\n    "message" : "Da Rede:"\r\n  },\r\n  "i18n_from_local_file" : {\r\n    "message" : "De Arquivo Local:"\r\n  },\r\n  "i18n_enter_a_url" : {\r\n    "message" : "Insira uma URL para um arquivo .epub"\r\n  },\r\n  "i18n_unpacked_directory" : {\r\n    "message" : "Diretório Extraido:"\r\n  },\r\n  "i18n_validate" : {\r\n    "message" : "Validar:"\r\n  },\r\n  "i18n_confirm_that_this_book" : {\r\n    "message" : "Confirmar que este livro obedece aos padrões ePUB"\r\n  },\r\n  "i18n_single_pages" : {\r\n    "message" : "Pág. Simples"\r\n  },\r\n  "i18n_double_pages" : {\r\n    "message" : "Pág. Duplas"\r\n  },\r\n  "i18n_save_settings" : {\r\n    "message" : "Salvar Configurações"\r\n  },\r\n  "i18n_font_size" : {\r\n    "message" : "TAMANHO DA FONTE"\r\n  },\r\n  "i18n_margins" : {\r\n    "message" : "MARGENS"\r\n  },\r\n  "i18n_text_and_background_color" : {\r\n    "message" : "COR DO TEXTO E PLANO DE FUNDO"\r\n  },\r\n  "i18n_black_and_white" : {\r\n    "message" : "Preto e Branco"\r\n  },\r\n  "i18n_arabian_nights" : {\r\n    "message" : "Noites Árabes"\r\n  },\r\n  "i18n_sands_of_dune" : {\r\n    "message" : "Areias de Duna"\r\n  },\r\n  "i18n_ballard_blues" : {\r\n    "message" : "Ballard Blues"\r\n  },\r\n  "i18n_vancouver_mist" : {\r\n    "message" : "Névoa de Vancouver"\r\n  },\r\n  "i18n_display_format" : {\r\n    "message" : "FORMATO DE EXIBIÇÃO"\r\n  },\r\n  "i18n_html_readium_tm_a_project" : {\r\n    "message" : "Readium<sup>TM</sup>, a project of the International Digital Publishing Forum (IDPF) and supporters, is an open source reference system and rendering engine for EPUB&reg; publications.  To learn more, visit the <a href=\\"http://readium.org/\\">project homepage</a>. To date, the project development has been lead by <a href=\\"http://evidentpoint.com/\\">Evident Point</a> and <a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>. To contribute visit the <a href=\\"https://github.com/readium/readium-js-viewer\\">github repository</a>"\r\n  },\r\n  "chrome_accept_languages": {\r\n    "message": "$CHROME$ accepts $languages$ languages",\r\n    "placeholders": {\r\n      "chrome": {\r\n        "content": "Chrome",\r\n        "example": "Chrome"\r\n      },\r\n      "languages": {\r\n        "content": "$1",\r\n        "example": "en-US,pt-BR,ja,sr,de,zh_CN"\r\n      }\r\n    }\r\n  }\r\n}\r\n';});
+define('text!i18n/_locales/pt_BR/messages.json',[],function () { return '{\n  "chrome_extension_name": {\n    "message": "Readium"\n  },\n  "chrome_extension_description" : {\n    "message": "Um leitor para livros para EPUB3."\n  },\n  "i18n_readium_library" : {\n    "message" : "Biblioteca Readium"\n  },\n  "i18n_loading" : {\n   "message" : "Loading Library"\n  },\n  "i18n_readium_options" : {\n    "message" : "Opções do Readium:"\n  },\n  "i18n_save_changes" : {\n    "message" : "Salvar mudanças"\n  },\n  "i18n_close" : {\n    "message" : "Fechar"\n  },\n  "i18n_paginate_all" : {\n    "message" : "Paginar todo o conteúdo ePUB fluído"\n  },\n  "i18n_automatically" : {\n    "message" : "Abrir automaticamente urls *.epub no readium"\n  },\n  "i18n_show_warning" : {\n    "message" : "Exibir mensagem de alerta quando extraindo arquivos EPUB"\n  },\n  "i18n_details" : {\n    "message" : "Detalhes"\n  },\n  "i18n_read" : {\n    "message" : "Ler"\n  },\n  "i18n_delete" : {\n    "message" : "Excluir"\n  },\n  "i18n_author" : {\n    "message" : "Autor: "\n  },\n  "i18n_publisher" : {\n    "message" : "Editora: "\n  },\n  "i18n_source" : {\n    "message" : "Origem: "\n  },\n  "i18n_pub_date" : {\n    "message" : "Publicação: "\n  },\n  "i18n_modified_date" : {\n    "message" : "Data de Modificação: "\n  },\n  "i18n_id" : {\n    "message" : "ID: "\n  },\n  "i18n_epub_version" : {\n    "message" : "Versão do EPUB: "\n  },\n  "i18n_created_at" : {\n    "message" : "Criado aos: "\n  },\n  "i18n_format" : {\n    "message" : "Formato: "\n  },\n  "i18n_added" : {\n    "message" : "Adicionado: "\n  },\n  "i18n_unknown" : {\n    "message" : "Desconhecido"\n  },\n  "i18n_sorry" : {\n    "message" : "Desculpe, o atual EPUB não contém uma mídia de sobreposição para este conteúdo"\n  },\n  "i18n_add_items" : {\n    "message" : "Adicione itens para sua biblioteca aqui!"\n  },\n  "i18n_extracting" : {\n    "message" : "extraindo: "\n  },\n  "i18n_are_you_sure" : {\n    "message" : "Você tem certeza de que deseja excluir permanentemente "\n  },\n  "i18n_add_book_to_readium_library" : {\n    "message" : "Adicionar Livro à Biblioteca Readium:"\n  },\n  "i18n_add_book" : {\n    "message" : "Adicionar Livro"\n  },\n  "i18n_cancel" : {\n    "message" : "Cancelar"\n  },\n  "i18n_from_the_web" : {\n    "message" : "Da Rede:"\n  },\n  "i18n_from_local_file" : {\n    "message" : "De Arquivo Local:"\n  },\n  "i18n_enter_a_url" : {\n    "message" : "Insira uma URL para um arquivo .epub"\n  },\n  "i18n_unpacked_directory" : {\n    "message" : "Diretório Extraido:"\n  },\n  "i18n_validate" : {\n    "message" : "Validar:"\n  },\n  "i18n_confirm_that_this_book" : {\n    "message" : "Confirmar que este livro obedece aos padrões ePUB"\n  },\n  "i18n_single_pages" : {\n    "message" : "Pág. Simples"\n  },\n  "i18n_double_pages" : {\n    "message" : "Pág. Duplas"\n  },\n  "i18n_save_settings" : {\n    "message" : "Salvar Configurações"\n  },\n  "i18n_font_size" : {\n    "message" : "TAMANHO DA FONTE"\n  },\n  "i18n_margins" : {\n    "message" : "MARGENS"\n  },\n  "i18n_text_and_background_color" : {\n    "message" : "COR DO TEXTO E PLANO DE FUNDO"\n  },\n  "i18n_black_and_white" : {\n    "message" : "Preto e Branco"\n  },\n  "i18n_arabian_nights" : {\n    "message" : "Noites Árabes"\n  },\n  "i18n_sands_of_dune" : {\n    "message" : "Areias de Duna"\n  },\n  "i18n_ballard_blues" : {\n    "message" : "Ballard Blues"\n  },\n  "i18n_vancouver_mist" : {\n    "message" : "Névoa de Vancouver"\n  },\n  "i18n_display_format" : {\n    "message" : "FORMATO DE EXIBIÇÃO"\n  },\n  "i18n_html_readium_tm_a_project" : {\n    "message" : "Readium<sup>TM</sup>, a project of the International Digital Publishing Forum (IDPF) and supporters, is an open source reference system and rendering engine for EPUB&reg; publications.  To learn more, visit the <a href=\\"http://readium.org/\\">project homepage</a>. To date, the project development has been lead by <a href=\\"http://evidentpoint.com/\\">Evident Point</a> and <a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>. To contribute visit the <a href=\\"https://github.com/readium/readium-js-viewer\\">github repository</a>"\n  },\n  "chrome_accept_languages": {\n    "message": "$CHROME$ accepts $languages$ languages",\n    "placeholders": {\n      "chrome": {\n        "content": "Chrome",\n        "example": "Chrome"\n      },\n      "languages": {\n        "content": "$1",\n        "example": "en-US,pt-BR,ja,sr,de,zh_CN"\n      }\n    }\n  }\n}\n';});
 
 
-define('text!i18n/_locales/zh_CN/messages.json',[],function () { return '{\r\n  "chrome_extension_name": {\r\n    "message": "Readium"\r\n  },\r\n  "chrome_extension_description": {\r\n    "message": "EPUB3电子书阅览器"\r\n  },\r\n  "i18n_readium_library" : {\r\n    "message" : "Readium书库"\r\n  },\r\n  "i18n_loading" : {\r\n    "message" : "Loading Library"\r\n  },\r\n  "i18n_readium_options" : {\r\n    "message" : "Readium选项:"\r\n  },\r\n  "i18n_save_changes" : {\r\n    "message" : "保存更改"\r\n  },\r\n  "i18n_close" : {\r\n    "message" : "关闭"\r\n  },\r\n  "i18n_paginate_all" : {\r\n    "message" : "分页显示所有可重排版EPUB文件"\r\n  },\r\n  "i18n_automatically" : {\r\n    "message" : "自动用Readium打开*.epub网址"\r\n  },\r\n  "i18n_show_warning" : {\r\n    "message" : "解压缩EPUB文件时显示警告消息"\r\n  },\r\n  "i18n_details" : {\r\n    "message" : "详细信息"\r\n  },\r\n  "i18n_read" : {\r\n    "message" : "阅读"\r\n  },\r\n  "i18n_delete" : {\r\n    "message" : "删除"\r\n  },\r\n  "i18n_author" : {\r\n    "message" : "作者: "\r\n  },\r\n  "i18n_publisher" : {\r\n    "message" : "出版社: "\r\n  },\r\n  "i18n_source" : {\r\n    "message" : "源自: "\r\n  },\r\n  "i18n_pub_date" : {\r\n    "message" : "出版日期: "\r\n  },\r\n  "i18n_modified_date" : {\r\n    "message" : "更新日期: "\r\n  },\r\n  "i18n_id" : {\r\n    "message" : "ID: "\r\n  },\r\n  "i18n_epub_version" : {\r\n    "message" : "EPUB版本: "\r\n  },\r\n  "i18n_created_at" : {\r\n    "message" : "创建日期: "\r\n  },\r\n  "i18n_format" : {\r\n    "message" : "格式: "\r\n  },\r\n  "i18n_added" : {\r\n    "message" : "添加: "\r\n  },\r\n  "i18n_unknown" : {\r\n    "message" : "未知"\r\n  },\r\n  "i18n_sorry" : {\r\n    "message" : "目前EPUB不支持此内容的媒体格式"\r\n  },\r\n  "i18n_add_items" : {\r\n    "message" : "点击这里添加新书"\r\n  },\r\n  "i18n_extracting" : {\r\n    "message" : "解压中: "\r\n  },\r\n  "i18n_are_you_sure" : {\r\n    "message" : "确定永久删除 "\r\n  },\r\n  "i18n_add_book_to_readium_library" : {\r\n    "message" : "添加新书到Readium书库:"\r\n  },\r\n  "i18n_add_book" : {\r\n    "message" : "添加"\r\n  },\r\n  "i18n_cancel" : {\r\n    "message" : "取消"\r\n  },\r\n  "i18n_from_the_web" : {\r\n    "message" : "从网络:"\r\n  },\r\n  "i18n_from_local_file" : {\r\n    "message" : "从本地文件:"\r\n  },\r\n  "i18n_enter_a_url" : {\r\n    "message" : "请输入一个.EPUB文件的URL"\r\n  },\r\n  "i18n_unpacked_directory" : {\r\n    "message" : "未打包目录:"\r\n  },\r\n  "i18n_validate" : {\r\n    "message" : "验证:"\r\n  },\r\n  "i18n_confirm_that_this_book" : {\r\n    "message" : "确认这本书是否符合EPUB标准"\r\n  },\r\n  "i18n_single_pages" : {\r\n    "message" : "单页"\r\n  },\r\n  "i18n_double_pages" : {\r\n    "message" : "双页"\r\n  },\r\n  "i18n_save_settings" : {\r\n    "message" : "保存设置"\r\n  },\r\n  "i18n_font_size" : {\r\n    "message" : "字体大小"\r\n  },\r\n  "i18n_margins" : {\r\n    "message" : "页边距"\r\n  },\r\n  "i18n_text_and_background_color" : {\r\n    "message" : "字体和背景颜色"\r\n  },\r\n  "i18n_black_and_white" : {\r\n    "message" : "Black and White"\r\n  },\r\n  "i18n_arabian_nights" : {\r\n    "message" : "Arabian Nights"\r\n  },\r\n  "i18n_sands_of_dune" : {\r\n    "message" : "Sands of Dune"\r\n  },\r\n  "i18n_ballard_blues" : {\r\n    "message" : "Ballard Blues"\r\n  },\r\n  "i18n_vancouver_mist" : {\r\n    "message" : "Vancouver Mist"\r\n  },\r\n  "i18n_display_format" : {\r\n    "message" : "显示格式"\r\n  },\r\n  "i18n_html_readium_tm_a_project" : {\r\n    "message" : "Readium<sup>TM</sup>，是一个International Digital Publishing Forum (IDPF)和技术支持者们共同开发的项目，也是一个开放源代码的EPUB格式出版物的渲染引擎。要了解更多信息，请访问<a href=\\"http://readium.org/\\">项目主页</a>。迄今为止，该项目的开发一直由<a href=\\"http://evidentpoint.com/\\">Evident Point</a>和<a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>来领导。要贡献请访问<a href=\\"https://github.com/readium/readium-js-viewer\\">GitHub资料库</a>"\r\n  },\r\n  "chrome_accept_languages": {\r\n    "message": "$CHROME$ accepts $languages$ languages",\r\n    "placeholders": {\r\n      "chrome": {\r\n        "content": "Chrome",\r\n        "example": "Chrome"\r\n      },\r\n      "languages": {\r\n        "content": "$1",\r\n        "example": "en-US,ja,sr,de,zh_CN"\r\n      }\r\n    }\r\n  }\r\n}\r\n';});
+define('text!i18n/_locales/zh_CN/messages.json',[],function () { return '{\n  "chrome_extension_name": {\n    "message": "Readium"\n  },\n  "chrome_extension_description": {\n    "message": "EPUB3电子书阅览器"\n  },\n  "i18n_readium_library" : {\n    "message" : "Readium书库"\n  },\n  "i18n_loading" : {\n    "message" : "Loading Library"\n  },\n  "i18n_readium_options" : {\n    "message" : "Readium选项:"\n  },\n  "i18n_save_changes" : {\n    "message" : "保存更改"\n  },\n  "i18n_close" : {\n    "message" : "关闭"\n  },\n  "i18n_paginate_all" : {\n    "message" : "分页显示所有可重排版EPUB文件"\n  },\n  "i18n_automatically" : {\n    "message" : "自动用Readium打开*.epub网址"\n  },\n  "i18n_show_warning" : {\n    "message" : "解压缩EPUB文件时显示警告消息"\n  },\n  "i18n_details" : {\n    "message" : "详细信息"\n  },\n  "i18n_read" : {\n    "message" : "阅读"\n  },\n  "i18n_delete" : {\n    "message" : "删除"\n  },\n  "i18n_author" : {\n    "message" : "作者: "\n  },\n  "i18n_publisher" : {\n    "message" : "出版社: "\n  },\n  "i18n_source" : {\n    "message" : "源自: "\n  },\n  "i18n_pub_date" : {\n    "message" : "出版日期: "\n  },\n  "i18n_modified_date" : {\n    "message" : "更新日期: "\n  },\n  "i18n_id" : {\n    "message" : "ID: "\n  },\n  "i18n_epub_version" : {\n    "message" : "EPUB版本: "\n  },\n  "i18n_created_at" : {\n    "message" : "创建日期: "\n  },\n  "i18n_format" : {\n    "message" : "格式: "\n  },\n  "i18n_added" : {\n    "message" : "添加: "\n  },\n  "i18n_unknown" : {\n    "message" : "未知"\n  },\n  "i18n_sorry" : {\n    "message" : "目前EPUB不支持此内容的媒体格式"\n  },\n  "i18n_add_items" : {\n    "message" : "点击这里添加新书"\n  },\n  "i18n_extracting" : {\n    "message" : "解压中: "\n  },\n  "i18n_are_you_sure" : {\n    "message" : "确定永久删除 "\n  },\n  "i18n_add_book_to_readium_library" : {\n    "message" : "添加新书到Readium书库:"\n  },\n  "i18n_add_book" : {\n    "message" : "添加"\n  },\n  "i18n_cancel" : {\n    "message" : "取消"\n  },\n  "i18n_from_the_web" : {\n    "message" : "从网络:"\n  },\n  "i18n_from_local_file" : {\n    "message" : "从本地文件:"\n  },\n  "i18n_enter_a_url" : {\n    "message" : "请输入一个.EPUB文件的URL"\n  },\n  "i18n_unpacked_directory" : {\n    "message" : "未打包目录:"\n  },\n  "i18n_validate" : {\n    "message" : "验证:"\n  },\n  "i18n_confirm_that_this_book" : {\n    "message" : "确认这本书是否符合EPUB标准"\n  },\n  "i18n_single_pages" : {\n    "message" : "单页"\n  },\n  "i18n_double_pages" : {\n    "message" : "双页"\n  },\n  "i18n_save_settings" : {\n    "message" : "保存设置"\n  },\n  "i18n_font_size" : {\n    "message" : "字体大小"\n  },\n  "i18n_margins" : {\n    "message" : "页边距"\n  },\n  "i18n_text_and_background_color" : {\n    "message" : "字体和背景颜色"\n  },\n  "i18n_black_and_white" : {\n    "message" : "Black and White"\n  },\n  "i18n_arabian_nights" : {\n    "message" : "Arabian Nights"\n  },\n  "i18n_sands_of_dune" : {\n    "message" : "Sands of Dune"\n  },\n  "i18n_ballard_blues" : {\n    "message" : "Ballard Blues"\n  },\n  "i18n_vancouver_mist" : {\n    "message" : "Vancouver Mist"\n  },\n  "i18n_display_format" : {\n    "message" : "显示格式"\n  },\n  "i18n_html_readium_tm_a_project" : {\n    "message" : "Readium<sup>TM</sup>，是一个International Digital Publishing Forum (IDPF)和技术支持者们共同开发的项目，也是一个开放源代码的EPUB格式出版物的渲染引擎。要了解更多信息，请访问<a href=\\"http://readium.org/\\">项目主页</a>。迄今为止，该项目的开发一直由<a href=\\"http://evidentpoint.com/\\">Evident Point</a>和<a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>来领导。要贡献请访问<a href=\\"https://github.com/readium/readium-js-viewer\\">GitHub资料库</a>"\n  },\n  "chrome_accept_languages": {\n    "message": "$CHROME$ accepts $languages$ languages",\n    "placeholders": {\n      "chrome": {\n        "content": "Chrome",\n        "example": "Chrome"\n      },\n      "languages": {\n        "content": "$1",\n        "example": "en-US,ja,sr,de,zh_CN"\n      }\n    }\n  }\n}\n';});
 
 
-define('text!i18n/_locales/zh_TW/messages.json',[],function () { return '{\r\n  "chrome_extension_name": {\r\n    "message": "Readium"\r\n  },\r\n  "chrome_extension_description": {\r\n    "message": "EPUB3電子書閱讀器"\r\n  },\r\n  "i18n_readium_library" : {\r\n    "message" : "Readium書櫃"\r\n  },\r\n  "i18n_loading" : {\r\n    "message" : "Loading Library"\r\n  },\r\n  "i18n_readium_options" : {\r\n    "message" : "Readium設定:"\r\n  },\r\n  "i18n_save_changes" : {\r\n    "message" : "儲存變更"\r\n  },\r\n  "i18n_close" : {\r\n    "message" : "關閉"\r\n  },\r\n  "i18n_paginate_all" : {\r\n    "message" : "分頁呈現所有文字順走型的EPUB內容"\r\n  },\r\n  "i18n_automatically" : {\r\n    "message" : "自動以Readium開啟任何以.epub結尾的網址"\r\n  },\r\n  "i18n_show_warning" : {\r\n    "message" : "解壓縮EPUB檔案時顯示警告訊息"\r\n  },\r\n  "i18n_details" : {\r\n    "message" : "詳細"\r\n  },\r\n  "i18n_read" : {\r\n    "message" : "閱讀"\r\n  },\r\n  "i18n_delete" : {\r\n    "message" : "刪除"\r\n  },\r\n  "i18n_author" : {\r\n    "message" : "作者："\r\n  },\r\n  "i18n_publisher" : {\r\n    "message" : "出版社："\r\n  },\r\n  "i18n_source" : {\r\n    "message" : "來源："\r\n  },\r\n  "i18n_pub_date" : {\r\n    "message" : "出版日期："\r\n  },\r\n  "i18n_modified_date" : {\r\n    "message" : "更新日期："\r\n  },\r\n  "i18n_id" : {\r\n    "message" : "ID："\r\n  },\r\n  "i18n_epub_version" : {\r\n    "message" : "EPUB版本："\r\n  },\r\n  "i18n_created_at" : {\r\n    "message" : "建立日期："\r\n  },\r\n  "i18n_format" : {\r\n    "message" : "格式："\r\n  },\r\n  "i18n_added" : {\r\n    "message" : "加入日期："\r\n  },\r\n  "i18n_unknown" : {\r\n    "message" : "未知"\r\n  },\r\n  "i18n_sorry" : {\r\n    "message" : "目前的EPUB內容並不包含朗讀聲音"\r\n  },\r\n  "i18n_add_items" : {\r\n    "message" : "按下這裡加入新書"\r\n  },\r\n  "i18n_extracting" : {\r\n    "message" : "解壓縮中："\r\n  },\r\n  "i18n_are_you_sure" : {\r\n    "message" : "你確定要永久刪除 "\r\n  },\r\n  "i18n_add_book_to_readium_library" : {\r\n    "message" : "將書籍加入Readium書櫃："\r\n  },\r\n  "i18n_add_book" : {\r\n    "message" : "加入書籍"\r\n  },\r\n  "i18n_cancel" : {\r\n    "message" : "取消"\r\n  },\r\n  "i18n_from_the_web" : {\r\n    "message" : "從網站加入："\r\n  },\r\n  "i18n_from_local_file" : {\r\n    "message" : "從檔案加入："\r\n  },\r\n  "i18n_enter_a_url" : {\r\n    "message" : "請輸入 .epub 檔案所在網址"\r\n  },\r\n  "i18n_unpacked_directory" : {\r\n    "message" : "未壓縮目錄："\r\n  },\r\n  "i18n_validate" : {\r\n    "message" : "檢證："\r\n  },\r\n  "i18n_confirm_that_this_book" : {\r\n    "message" : "確認這本書是否符合EPUB標準"\r\n  },\r\n  "i18n_single_pages" : {\r\n    "message" : "單頁呈現"\r\n  },\r\n  "i18n_double_pages" : {\r\n    "message" : "跨頁呈現"\r\n  },\r\n  "i18n_save_settings" : {\r\n    "message" : "儲存設定"\r\n  },\r\n  "i18n_font_size" : {\r\n    "message" : "文字尺寸"\r\n  },\r\n  "i18n_margins" : {\r\n    "message" : "頁緣餘白"\r\n  },\r\n  "i18n_text_and_background_color" : {\r\n    "message" : "文字與背景色彩"\r\n  },\r\n  "i18n_black_and_white" : {\r\n    "message" : "黑底與白字"\r\n  },\r\n  "i18n_arabian_nights" : {\r\n    "message" : "阿拉伯之夜"\r\n  },\r\n  "i18n_sands_of_dune" : {\r\n    "message" : "砂丘之黃砂"\r\n  },\r\n  "i18n_ballard_blues" : {\r\n    "message" : "抒情曲藍調"\r\n  },\r\n  "i18n_vancouver_mist" : {\r\n    "message" : "溫哥華之霧"\r\n  },\r\n  "i18n_display_format" : {\r\n    "message" : "顯示格式"\r\n  },\r\n  "i18n_html_readium_tm_a_project" : {\r\n    "message" : "Readium<sup>TM</sup>是由是International Digital Publishing Forum (IDPF)與技術協助者們共同開發的專案，是供EPUB&reg; 出版品使用的開放原始碼參考系統與排版引擎。要了解更多訊息，請前往<a href=\\"http://readium.org/\\">專案網頁</a>。迄今為止，本專案持續由<a href=\\"http://evidentpoint.com/\\">Evident Point</a>和<a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>所主導。若想協助開發，請前往<a href=\\"https://github.com/readium/readium-js-viewer\\">GitHub專案</a>"\r\n  },\r\n  "chrome_accept_languages": {\r\n    "message": "$CHROME$ accepts $languages$ languages",\r\n    "placeholders": {\r\n      "chrome": {\r\n        "content": "Chrome",\r\n        "example": "Chrome"\r\n      },\r\n      "languages": {\r\n        "content": "$1",\r\n        "example": "en-US,zh-TW,zh-HK,ja,sr,de"\r\n      }\r\n    }\r\n  }\r\n}\r\n';});
+define('text!i18n/_locales/zh_TW/messages.json',[],function () { return '{\n  "chrome_extension_name": {\n    "message": "Readium"\n  },\n  "chrome_extension_description": {\n    "message": "EPUB3電子書閱讀器"\n  },\n  "i18n_readium_library" : {\n    "message" : "Readium書櫃"\n  },\n  "i18n_loading" : {\n    "message" : "Loading Library"\n  },\n  "i18n_readium_options" : {\n    "message" : "Readium設定:"\n  },\n  "i18n_save_changes" : {\n    "message" : "儲存變更"\n  },\n  "i18n_close" : {\n    "message" : "關閉"\n  },\n  "i18n_paginate_all" : {\n    "message" : "分頁呈現所有文字順走型的EPUB內容"\n  },\n  "i18n_automatically" : {\n    "message" : "自動以Readium開啟任何以.epub結尾的網址"\n  },\n  "i18n_show_warning" : {\n    "message" : "解壓縮EPUB檔案時顯示警告訊息"\n  },\n  "i18n_details" : {\n    "message" : "詳細"\n  },\n  "i18n_read" : {\n    "message" : "閱讀"\n  },\n  "i18n_delete" : {\n    "message" : "刪除"\n  },\n  "i18n_author" : {\n    "message" : "作者："\n  },\n  "i18n_publisher" : {\n    "message" : "出版社："\n  },\n  "i18n_source" : {\n    "message" : "來源："\n  },\n  "i18n_pub_date" : {\n    "message" : "出版日期："\n  },\n  "i18n_modified_date" : {\n    "message" : "更新日期："\n  },\n  "i18n_id" : {\n    "message" : "ID："\n  },\n  "i18n_epub_version" : {\n    "message" : "EPUB版本："\n  },\n  "i18n_created_at" : {\n    "message" : "建立日期："\n  },\n  "i18n_format" : {\n    "message" : "格式："\n  },\n  "i18n_added" : {\n    "message" : "加入日期："\n  },\n  "i18n_unknown" : {\n    "message" : "未知"\n  },\n  "i18n_sorry" : {\n    "message" : "目前的EPUB內容並不包含朗讀聲音"\n  },\n  "i18n_add_items" : {\n    "message" : "按下這裡加入新書"\n  },\n  "i18n_extracting" : {\n    "message" : "解壓縮中："\n  },\n  "i18n_are_you_sure" : {\n    "message" : "你確定要永久刪除 "\n  },\n  "i18n_add_book_to_readium_library" : {\n    "message" : "將書籍加入Readium書櫃："\n  },\n  "i18n_add_book" : {\n    "message" : "加入書籍"\n  },\n  "i18n_cancel" : {\n    "message" : "取消"\n  },\n  "i18n_from_the_web" : {\n    "message" : "從網站加入："\n  },\n  "i18n_from_local_file" : {\n    "message" : "從檔案加入："\n  },\n  "i18n_enter_a_url" : {\n    "message" : "請輸入 .epub 檔案所在網址"\n  },\n  "i18n_unpacked_directory" : {\n    "message" : "未壓縮目錄："\n  },\n  "i18n_validate" : {\n    "message" : "檢證："\n  },\n  "i18n_confirm_that_this_book" : {\n    "message" : "確認這本書是否符合EPUB標準"\n  },\n  "i18n_single_pages" : {\n    "message" : "單頁呈現"\n  },\n  "i18n_double_pages" : {\n    "message" : "跨頁呈現"\n  },\n  "i18n_save_settings" : {\n    "message" : "儲存設定"\n  },\n  "i18n_font_size" : {\n    "message" : "文字尺寸"\n  },\n  "i18n_margins" : {\n    "message" : "頁緣餘白"\n  },\n  "i18n_text_and_background_color" : {\n    "message" : "文字與背景色彩"\n  },\n  "i18n_black_and_white" : {\n    "message" : "黑底與白字"\n  },\n  "i18n_arabian_nights" : {\n    "message" : "阿拉伯之夜"\n  },\n  "i18n_sands_of_dune" : {\n    "message" : "砂丘之黃砂"\n  },\n  "i18n_ballard_blues" : {\n    "message" : "抒情曲藍調"\n  },\n  "i18n_vancouver_mist" : {\n    "message" : "溫哥華之霧"\n  },\n  "i18n_display_format" : {\n    "message" : "顯示格式"\n  },\n  "i18n_html_readium_tm_a_project" : {\n    "message" : "Readium<sup>TM</sup>是由是International Digital Publishing Forum (IDPF)與技術協助者們共同開發的專案，是供EPUB&reg; 出版品使用的開放原始碼參考系統與排版引擎。要了解更多訊息，請前往<a href=\\"http://readium.org/\\">專案網頁</a>。迄今為止，本專案持續由<a href=\\"http://evidentpoint.com/\\">Evident Point</a>和<a href=\\"http://www.bluefirereader.com/\\">Bluefire Productions</a>所主導。若想協助開發，請前往<a href=\\"https://github.com/readium/readium-js-viewer\\">GitHub專案</a>"\n  },\n  "chrome_accept_languages": {\n    "message": "$CHROME$ accepts $languages$ languages",\n    "placeholders": {\n      "chrome": {\n        "content": "Chrome",\n        "example": "Chrome"\n      },\n      "languages": {\n        "content": "$1",\n        "example": "en-US,zh-TW,zh-HK,ja,sr,de"\n      }\n    }\n  }\n}\n';});
 
 //  Copyright (c) 2014 Readium Foundation and/or its licensees. All rights reserved.
 //  
@@ -13223,43 +13223,43 @@ define('hgn',['hogan', 'text'], function (hogan, text) {
 
 });
 
-define("hgn!templates/library-navbar.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"btn-group navbar-left\">\r");t.b("\n" + i);t.b("    <button id=\"aboutButt1\" tabindex=\"1\" type=\"button\" class=\"btn icon-logo\" data-toggle=\"modal\" data-target=\"#about-dialog\" title=\"");t.b(t.v(t.d("strings.about",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.AboutDialog",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.about",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.AboutDialog",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.AboutDialog",c,p,0)));t.b("\"></button>\r");t.b("\n" + i);t.b("</div>\r");t.b("\n" + i);t.b("<div class=\"btn-group navbar-right\">\r");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" class=\"btn icon-thumbnails\" title=\"");t.b(t.v(t.d("strings.thumbnail_view",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.thumbnail_view",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("	<span class=\"glyphicon glyphicon-th\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" class=\"btn icon-list-view\" title=\"");t.b(t.v(t.d("strings.list_view",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.list_view",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-align-justify\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("    <button id=\"addbutt\" tabindex=\"1\" type=\"button\" class=\"btn icon-add-epub\" title=\"");t.b(t.v(t.d("strings.i18n_add_book",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.AddEpubDialog",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_add_book",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.AddEpubDialog",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.AddEpubDialog",c,p,0)));t.b("\"data-toggle=\"modal\" data-target=\"#add-epub-dialog\">\r");t.b("\n" + i);t.b("    	<span class=\"glyphicon glyphicon-plus\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("    <button id=\"settbutt1\" tabindex=\"1\" type=\"button\" class=\"btn icon-settings\" title=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ShowSettingsModal",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ShowSettingsModal",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.ShowSettingsModal",c,p,0)));t.b("\" data-toggle=\"modal\" data-target=\"#settings-dialog\">\r");t.b("\n" + i);t.b("    	<span class=\"glyphicon glyphicon-cog\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/library-navbar.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"btn-group navbar-left\">");t.b("\n" + i);t.b("    <button id=\"aboutButt1\" tabindex=\"1\" type=\"button\" class=\"btn icon-logo\" data-toggle=\"modal\" data-target=\"#about-dialog\" title=\"");t.b(t.v(t.d("strings.about",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.AboutDialog",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.about",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.AboutDialog",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.AboutDialog",c,p,0)));t.b("\"></button>");t.b("\n" + i);t.b("</div>");t.b("\n" + i);t.b("<div class=\"btn-group navbar-right\">");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" class=\"btn icon-thumbnails\" title=\"");t.b(t.v(t.d("strings.thumbnail_view",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.thumbnail_view",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("\">");t.b("\n" + i);t.b("	<span class=\"glyphicon glyphicon-th\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" class=\"btn icon-list-view\" title=\"");t.b(t.v(t.d("strings.list_view",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.list_view",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.ListViewThumbnailViewToggle",c,p,0)));t.b("\">");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-align-justify\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n" + i);t.b("    <button id=\"addbutt\" tabindex=\"1\" type=\"button\" class=\"btn icon-add-epub\" title=\"");t.b(t.v(t.d("strings.i18n_add_book",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.AddEpubDialog",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_add_book",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.AddEpubDialog",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.AddEpubDialog",c,p,0)));t.b("\"data-toggle=\"modal\" data-target=\"#add-epub-dialog\">");t.b("\n" + i);t.b("    	<span class=\"glyphicon glyphicon-plus\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n" + i);t.b("    <button id=\"settbutt1\" tabindex=\"1\" type=\"button\" class=\"btn icon-settings\" title=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ShowSettingsModal",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ShowSettingsModal",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.ShowSettingsModal",c,p,0)));t.b("\" data-toggle=\"modal\" data-target=\"#settings-dialog\">");t.b("\n" + i);t.b("    	<span class=\"glyphicon glyphicon-cog\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/library-body.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"row library-items\" role=\"main\">\r");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/library-body.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"row library-items\" role=\"main\">");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/empty-library.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"pull-right\">\r");t.b("\n" + i);t.b("	<div id=\"empty-message\">\r");t.b("\n" + i);t.b("		");t.b(t.v(t.d("strings.i18n_add_items",c,p,0)));t.b("\r");t.b("\n" + i);t.b("	</div>\r");t.b("\n" + i);t.b("	<img id=\"empty-message-arrow\" src=\"images/library_arrow.png\" alt=\"\">\r");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/empty-library.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"pull-right\">");t.b("\n" + i);t.b("	<div id=\"empty-message\">");t.b("\n" + i);t.b("		");t.b(t.v(t.d("strings.i18n_add_items",c,p,0)));t.b("\n" + i);t.b("	</div>");t.b("\n" + i);t.b("	<img id=\"empty-message-arrow\" src=\"images/library_arrow.png\" alt=\"\">");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/library-item.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"col-xs-4 col-sm-3 col-md-2 library-item\">\r");t.b("\n" + i);t.b("    <div class='info-wrap'>\r");t.b("\n" + i);t.b("        <!-- <div class='caption book-info'>\r");t.b("\n" + i);t.b("            <h4 class='title'>");t.b(t.v(t.d("epub.title",c,p,0)));t.b("</h4>\r");t.b("\n" + i);t.b("            <div class='author'>");t.b(t.v(t.d("epub.author",c,p,0)));if(!t.s(t.d("epub.author",c,p,1),c,p,1,0,0,"")){t.b("No Author Listed");};t.b("</div>\r");t.b("\n" + i);t.b("        </div> -->\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <button type=\"button\" style=\"background: none; border: none;\" class=\"read\" data-book=\"");t.b(t.v(t.d("epub.rootUrl",c,p,0)));t.b("\"  aria-label=\"(");t.b(t.v(t.d("count.n",c,p,0)));t.b(") ");t.b(t.v(t.d("epub.title",c,p,0)));t.b("\" tabindex=\"");t.b(t.v(t.d("count.tabindex",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);if(t.s(t.d("epub.coverHref",c,p,1),c,p,0,537,687,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("        <div aria-hidden=\"true\" class=\"no-cover has-cover\" style=\"background-image:url(");t.b(t.v(t.d("epub.coverHref",c,p,0)));t.b(");\"><p>&nbsp;</p></div>\r");t.b("\n" + i);});c.pop();}t.b("            \r");t.b("\n" + i);t.b("                \r");t.b("\n" + i);if(!t.s(t.d("epub.coverHref",c,p,1),c,p,1,0,0,"")){t.b("        <div aria-hidden=\"true\" class=\"no-cover\" style=\"background-image: url('");t.b(t.v(t.f("noCoverBackground",c,p,0)));t.b("')\"><p>");t.b(t.v(t.d("epub.title",c,p,0)));t.b("</p></div>\r");t.b("\n" + i);};t.b("    </button>\r");t.b("\n" + i);t.b("    </div>\r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("    <!-- <div class=\"caption buttons\">\r");t.b("\n" + i);t.b("        <a href=\"#\" class=\"btn btn-default read\" data-book=\"");t.b(t.v(t.d("epub.packageUrl",c,p,0)));t.b("\" role=\"button\">");t.b(t.v(t.d("strings.i18n_read",c,p,0)));t.b("</a>\r");t.b("\n" + i);t.b("        <a href=\"#details-modal\" data-book=\"");t.b(t.v(t.d("epub.packageUrl",c,p,0)));t.b("\" aria-pressed=\"true\" class=\"btn btn-default details\" data-toggle=\"modal\" role=\"button\">");t.b(t.v(t.d("strings.i18n_details",c,p,0)));t.b("</a>\r");t.b("\n" + i);t.b("    </div> -->\r");t.b("\n" + i);t.b("    <div class='caption book-info'>\r");t.b("\n" + i);t.b("        <h4 class='title'>");t.b(t.v(t.d("epub.title",c,p,0)));t.b("</h4>\r");t.b("\n" + i);t.b("        <div class='author'>");t.b(t.v(t.d("epub.author",c,p,0)));if(!t.s(t.d("epub.author",c,p,1),c,p,1,0,0,"")){t.b("No Author Listed");};t.b("</div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("        <div class=\"buttons\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("         <button aria-label=\"");t.b(t.v(t.d("strings.i18n_details",c,p,0)));t.b(" (");t.b(t.v(t.d("count.n",c,p,0)));t.b(") ");t.b(t.v(t.d("epub.title",c,p,0)));t.b("\" tabindex=\"");t.b(t.v(t.d("count.tabindex",c,p,0)));t.b("\" data-toggle=\"modal\" data-target=\"#details-modal\" data-package=\"");t.b(t.v(t.d("epub.rootUrl",c,p,0)));t.b("/");t.b(t.v(t.d("epub.packagePath",c,p,0)));t.b("\" data-root=\"");t.b(t.v(t.d("epub.rootUrl",c,p,0)));t.b("\" data-root-dir=\"");t.b(t.v(t.d("epub.rootDir",c,p,0)));t.b("\" ");if(!t.s(t.d("epub.coverHref",c,p,1),c,p,1,0,0,"")){t.b(" data-no-cover=\"");t.b(t.v(t.f("noCoverBackground",c,p,0)));t.b("\" ");};t.b(" class=\"btn btn-info details\">");t.b(t.v(t.d("strings.i18n_details",c,p,0)));t.b("</button></div>\r");t.b("\n" + i);t.b("    </div>\r");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/library-item.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"col-xs-4 col-sm-3 col-md-2 library-item\">");t.b("\n" + i);t.b("    <div class='info-wrap'>");t.b("\n" + i);t.b("        <!-- <div class='caption book-info'>");t.b("\n" + i);t.b("            <h4 class='title'>");t.b(t.v(t.d("epub.title",c,p,0)));t.b("</h4>");t.b("\n" + i);t.b("            <div class='author'>");t.b(t.v(t.d("epub.author",c,p,0)));if(!t.s(t.d("epub.author",c,p,1),c,p,1,0,0,"")){t.b("No Author Listed");};t.b("</div>");t.b("\n" + i);t.b("        </div> -->");t.b("\n");t.b("\n" + i);t.b("            <button type=\"button\" style=\"background: none; border: none;\" class=\"read\" data-book=\"");t.b(t.v(t.d("epub.rootUrl",c,p,0)));t.b("\"  aria-label=\"(");t.b(t.v(t.d("count.n",c,p,0)));t.b(") ");t.b(t.v(t.d("epub.title",c,p,0)));t.b("\" tabindex=\"");t.b(t.v(t.d("count.tabindex",c,p,0)));t.b("\">");t.b("\n");t.b("\n" + i);if(t.s(t.d("epub.coverHref",c,p,1),c,p,0,528,676,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("        <div aria-hidden=\"true\" class=\"no-cover has-cover\" style=\"background-image:url(");t.b(t.v(t.d("epub.coverHref",c,p,0)));t.b(");\"><p>&nbsp;</p></div>");t.b("\n" + i);});c.pop();}t.b("            ");t.b("\n" + i);t.b("                ");t.b("\n" + i);if(!t.s(t.d("epub.coverHref",c,p,1),c,p,1,0,0,"")){t.b("        <div aria-hidden=\"true\" class=\"no-cover\" style=\"background-image: url('");t.b(t.v(t.f("noCoverBackground",c,p,0)));t.b("')\"><p>");t.b(t.v(t.d("epub.title",c,p,0)));t.b("</p></div>");t.b("\n" + i);};t.b("    </button>");t.b("\n" + i);t.b("    </div>");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("    <!-- <div class=\"caption buttons\">");t.b("\n" + i);t.b("        <a href=\"#\" class=\"btn btn-default read\" data-book=\"");t.b(t.v(t.d("epub.packageUrl",c,p,0)));t.b("\" role=\"button\">");t.b(t.v(t.d("strings.i18n_read",c,p,0)));t.b("</a>");t.b("\n" + i);t.b("        <a href=\"#details-modal\" data-book=\"");t.b(t.v(t.d("epub.packageUrl",c,p,0)));t.b("\" aria-pressed=\"true\" class=\"btn btn-default details\" data-toggle=\"modal\" role=\"button\">");t.b(t.v(t.d("strings.i18n_details",c,p,0)));t.b("</a>");t.b("\n" + i);t.b("    </div> -->");t.b("\n" + i);t.b("    <div class='caption book-info'>");t.b("\n" + i);t.b("        <h4 class='title'>");t.b(t.v(t.d("epub.title",c,p,0)));t.b("</h4>");t.b("\n" + i);t.b("        <div class='author'>");t.b(t.v(t.d("epub.author",c,p,0)));if(!t.s(t.d("epub.author",c,p,1),c,p,1,0,0,"")){t.b("No Author Listed");};t.b("</div>");t.b("\n");t.b("\n" + i);t.b("        <div class=\"buttons\">");t.b("\n");t.b("\n" + i);t.b("         <button aria-label=\"");t.b(t.v(t.d("strings.i18n_details",c,p,0)));t.b(" (");t.b(t.v(t.d("count.n",c,p,0)));t.b(") ");t.b(t.v(t.d("epub.title",c,p,0)));t.b("\" tabindex=\"");t.b(t.v(t.d("count.tabindex",c,p,0)));t.b("\" data-toggle=\"modal\" data-target=\"#details-modal\" data-package=\"");t.b(t.v(t.d("epub.rootUrl",c,p,0)));t.b("/");t.b(t.v(t.d("epub.packagePath",c,p,0)));t.b("\" data-root=\"");t.b(t.v(t.d("epub.rootUrl",c,p,0)));t.b("\" data-root-dir=\"");t.b(t.v(t.d("epub.rootDir",c,p,0)));t.b("\" ");if(!t.s(t.d("epub.coverHref",c,p,1),c,p,1,0,0,"")){t.b(" data-no-cover=\"");t.b(t.v(t.f("noCoverBackground",c,p,0)));t.b("\" ");};t.b(" class=\"btn btn-info details\">");t.b(t.v(t.d("strings.i18n_details",c,p,0)));t.b("</button></div>");t.b("\n" + i);t.b("    </div>");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/details-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div id=\"details-dialog\" class=\"modal fade details-dialog\" tabindex=\"-1\">\r");t.b("\n" + i);t.b("  <div class=\"modal-dialog\">\r");t.b("\n" + i);t.b("    <div class=\"modal-content\">\r");t.b("\n" + i);t.b("      <div class=\"modal-body\">\r");t.b("\n" + i);t.b("        <p>Loading Details...</p>\r");t.b("\n" + i);t.b("        <progress></progress>\r");t.b("\n" + i);t.b("      </div>\r");t.b("\n" + i);t.b("    </div><!-- /.modal-content -->\r");t.b("\n" + i);t.b("  </div><!-- /.modal-dialog -->\r");t.b("\n" + i);t.b("</div><!-- /.modal -->");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/details-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div id=\"details-dialog\" class=\"modal fade details-dialog\" tabindex=\"-1\">");t.b("\n" + i);t.b("  <div class=\"modal-dialog\">");t.b("\n" + i);t.b("    <div class=\"modal-content\">");t.b("\n" + i);t.b("      <div class=\"modal-body\">");t.b("\n" + i);t.b("        <p>Loading Details...</p>");t.b("\n" + i);t.b("        <progress></progress>");t.b("\n" + i);t.b("      </div>");t.b("\n" + i);t.b("    </div><!-- /.modal-content -->");t.b("\n" + i);t.b("  </div><!-- /.modal-dialog -->");t.b("\n" + i);t.b("</div><!-- /.modal -->");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/about-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"modal fade\" id=\"about-dialog\" tabindex=\"-1\">\r");t.b("\n" + i);t.b("  <div class=\"modal-dialog\">\r");t.b("\n" + i);t.b("    <div class=\"modal-content\">\r");t.b("\n" + i);t.b("      <div class=\"modal-body\">\r");t.b("\n" + i);t.b("        <button type=\"button\" class=\"close\" id=\"closeAboutCross\" data-dismiss=\"modal\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.about",c,p,0)));t.b("\"><span aria-hidden=\"true\">&times;</span></button>\r");t.b("\n" + i);t.b("      	<div class=\"splash-logo\">\r");t.b("\n" + i);t.b("      		<img src=\"images/about_readium_logo.png\">\r");t.b("\n" + i);t.b("      	</div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("      	<div class=\"about-message\">\r");t.b("\n" + i);t.b("	      	<span>");t.b(t.t(t.d("strings.i18n_html_readium_tm_a_project",c,p,0)));t.b("</span>\r");t.b("\n" + i);t.b("      	</div>\r");t.b("\n" + i);t.b("      	<div>\r");t.b("\n" + i);t.b("			     <img src=\"images/partner_logos.png\">\r");t.b("\n" + i);t.b("		    </div>\r");t.b("\n" + i);t.b("        <h4 style=\"color:#111155\">");t.b(t.t(t.d("strings.gethelp",c,p,0)));t.b("</h4>\r");t.b("\n" + i);t.b("        <div class=\"version\">");t.b(t.v(t.d("viewer.chromeVersion",c,p,0)));t.b("</div>\r");t.b("\n" + i);t.b("        <div class=\"build-date\">");t.b(t.v(t.d("viewer.dateTimeString",c,p,0)));t.b("</div>\r");t.b("\n" + i);t.b("        <div class=\"version-details\">\r");t.b("\n" + i);t.b("        <div><a target=\"_blank\" href=\"https://github.com/readium/readium-js-viewer/tree/");t.b(t.v(t.d("viewer.sha",c,p,0)));t.b("\">readium-js-viewer@");t.b(t.v(t.d("viewer.sha",c,p,0)));t.b("</a>");if(!t.s(t.d("viewer.clean",c,p,1),c,p,1,0,0,"")){t.b("<span class=\"local-changes-alert\">(with local changes)</span>");};t.b("</div>\r");t.b("\n" + i);t.b("          <div><a target=\"_blank\" href=\"https://github.com/readium/readium-js/tree/");t.b(t.v(t.d("readium.sha",c,p,0)));t.b("\">readium-js@");t.b(t.v(t.d("readium.sha",c,p,0)));t.b("</a>");if(!t.s(t.d("readium.clean",c,p,1),c,p,1,0,0,"")){t.b("<span class=\"local-changes-alert\">(with local changes)</span>");};t.b("</div>\r");t.b("\n" + i);t.b("          <div><a target=\"_blank\" href=\"https://github.com/readium/readium-shared-js/tree/");t.b(t.v(t.d("sharedJs.sha",c,p,0)));t.b("\">readium-shared-js@");t.b(t.v(t.d("sharedJs.sha",c,p,0)));t.b("</a>");if(!t.s(t.d("sharedJs.clean",c,p,1),c,p,1,0,0,"")){t.b("<span class=\"local-changes-alert\">(with local changes)</span>");};t.b("</div>\r");t.b("\n" + i);t.b("        </div>\r");t.b("\n" + i);t.b("      </div>\r");t.b("\n" + i);t.b("    </div><!-- /.modal-content -->\r");t.b("\n" + i);t.b("  </div><!-- /.modal-dialog -->\r");t.b("\n" + i);t.b("</div><!-- /.modal -->");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/about-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"modal fade\" id=\"about-dialog\" tabindex=\"-1\">");t.b("\n" + i);t.b("  <div class=\"modal-dialog\">");t.b("\n" + i);t.b("    <div class=\"modal-content\">");t.b("\n" + i);t.b("      <div class=\"modal-body\">");t.b("\n" + i);t.b("        <button type=\"button\" class=\"close\" id=\"closeAboutCross\" data-dismiss=\"modal\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.about",c,p,0)));t.b("\"><span aria-hidden=\"true\">&times;</span></button>");t.b("\n" + i);t.b("      	<div class=\"splash-logo\">");t.b("\n" + i);t.b("      		<img src=\"images/about_readium_logo.png\">");t.b("\n" + i);t.b("      	</div>");t.b("\n");t.b("\n" + i);t.b("      	<div class=\"about-message\">");t.b("\n" + i);t.b("	      	<span>");t.b(t.t(t.d("strings.i18n_html_readium_tm_a_project",c,p,0)));t.b("</span>");t.b("\n" + i);t.b("      	</div>");t.b("\n" + i);t.b("      	<div>");t.b("\n" + i);t.b("			     <img src=\"images/partner_logos.png\">");t.b("\n" + i);t.b("		    </div>");t.b("\n" + i);t.b("        <h4 style=\"color:#111155\">");t.b(t.t(t.d("strings.gethelp",c,p,0)));t.b("</h4>");t.b("\n" + i);t.b("        <div class=\"version\">");t.b(t.v(t.d("viewer.chromeVersion",c,p,0)));t.b("</div>");t.b("\n" + i);t.b("        <div class=\"build-date\">");t.b(t.v(t.d("viewer.dateTimeString",c,p,0)));t.b("</div>");t.b("\n" + i);t.b("        <div class=\"version-details\">");t.b("\n" + i);t.b("        <div><a target=\"_blank\" href=\"https://github.com/readium/readium-js-viewer/tree/");t.b(t.v(t.d("viewer.sha",c,p,0)));t.b("\">readium-js-viewer@");t.b(t.v(t.d("viewer.sha",c,p,0)));t.b("</a>");if(!t.s(t.d("viewer.clean",c,p,1),c,p,1,0,0,"")){t.b("<span class=\"local-changes-alert\">(with local changes)</span>");};t.b("</div>");t.b("\n" + i);t.b("          <div><a target=\"_blank\" href=\"https://github.com/readium/readium-js/tree/");t.b(t.v(t.d("readium.sha",c,p,0)));t.b("\">readium-js@");t.b(t.v(t.d("readium.sha",c,p,0)));t.b("</a>");if(!t.s(t.d("readium.clean",c,p,1),c,p,1,0,0,"")){t.b("<span class=\"local-changes-alert\">(with local changes)</span>");};t.b("</div>");t.b("\n" + i);t.b("          <div><a target=\"_blank\" href=\"https://github.com/readium/readium-shared-js/tree/");t.b(t.v(t.d("sharedJs.sha",c,p,0)));t.b("\">readium-shared-js@");t.b(t.v(t.d("sharedJs.sha",c,p,0)));t.b("</a>");if(!t.s(t.d("sharedJs.clean",c,p,1),c,p,1,0,0,"")){t.b("<span class=\"local-changes-alert\">(with local changes)</span>");};t.b("</div>");t.b("\n" + i);t.b("        </div>");t.b("\n" + i);t.b("      </div>");t.b("\n" + i);t.b("    </div><!-- /.modal-content -->");t.b("\n" + i);t.b("  </div><!-- /.modal-dialog -->");t.b("\n" + i);t.b("</div><!-- /.modal -->");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/details-body.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"details-body\">\r");t.b("\n" + i);t.b("    <button id=\"closeMetadataCross\" type=\"button\" class=\"close\" data-dismiss=\"modal\"  tabindex=\"1000\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_details",c,p,0)));t.b("\"><span aria-hidden=\"true\">&times;</span></button>\r");t.b("\n" + i);t.b("    <div class=\"offscreenText\">Details Start</div>\r");t.b("\n" + i);t.b("    <div class=\"modal-cover-wrap\">\r");t.b("\n" + i);if(t.s(t.d("data.coverHref",c,p,1),c,p,0,356,468,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("        <img class=\"details-cover-image img-responsive\" src=\"");t.b(t.v(t.d("data.coverHref",c,p,0)));t.b("\" alt=\"ePUB cover\">\r");t.b("\n" + i);});c.pop();}if(!t.s(t.d("data.coverHref",c,p,1),c,p,1,0,0,"")){t.b("        <div class=\"no-cover\" style=\"background-image: url('");t.b(t.v(t.d("data.noCoverBackground",c,p,0)));t.b("')\"><p>");t.b(t.v(t.d("data.title",c,p,0)));t.b("</p></div>\r");t.b("\n" + i);};t.b("        <div id='details-button-div' class=\"buttons\"hidden aria-hidden='true'>\r");t.b("\n" + i);t.b("            <button class=\"btn btn-default delete\" data-dismiss=\"modal\" type=\"button\" tabindex=\"1000\">");t.b(t.v(t.d("strings.i18n_delete",c,p,0)));t.b("</button>\r");t.b("\n" + i);t.b("            <button class=\"btn btn-default read\" data-dismiss=\"modal\" data-book=\"");t.b(t.v(t.d("data.rootUrl",c,p,0)));t.b("\" type=\"button\" tabindex=\"1000\">");t.b(t.v(t.d("strings.i18n_read",c,p,0)));t.b("</button>\r");t.b("\n" + i);t.b("        </div>\r");t.b("\n" + i);t.b("    </div>\r");t.b("\n" + i);t.b("    <div class='modal-book-info'>\r");t.b("\n" + i);t.b("        <h3 class='modal-title'>");t.b(t.v(t.d("data.title",c,p,0)));t.b("</h3>\r");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_author",c,p,0)));t.b(t.v(t.d("data.author",c,p,0)));t.b("</div>\r");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_publisher",c,p,0)));t.b(t.v(t.d("data.publisher",c,p,0)));t.b("</div>\r");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_pub_date",c,p,0)));t.b(t.v(t.d("data.pubdate",c,p,0)));t.b("</div>\r");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_modified_date",c,p,0)));t.b(t.v(t.d("data.modified_date",c,p,0)));t.b("</div>\r");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_id",c,p,0)));t.b(t.v(t.d("data.id",c,p,0)));t.b("</div>\r");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_epub_version",c,p,0)));t.b(t.v(t.d("data.epub_version",c,p,0)));t.b("</div>\r");t.b("\n" + i);t.b("    </div>\r");t.b("\n" + i);t.b("    <div class=\"offscreenText\">Details End</div>\r");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/details-body.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"details-body\">");t.b("\n" + i);t.b("    <button id=\"closeMetadataCross\" type=\"button\" class=\"close\" data-dismiss=\"modal\"  tabindex=\"1000\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_details",c,p,0)));t.b("\"><span aria-hidden=\"true\">&times;</span></button>");t.b("\n" + i);t.b("    <div class=\"offscreenText\">Details Start</div>");t.b("\n" + i);t.b("    <div class=\"modal-cover-wrap\">");t.b("\n" + i);if(t.s(t.d("data.coverHref",c,p,1),c,p,0,352,462,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("        <img class=\"details-cover-image img-responsive\" src=\"");t.b(t.v(t.d("data.coverHref",c,p,0)));t.b("\" alt=\"ePUB cover\">");t.b("\n" + i);});c.pop();}if(!t.s(t.d("data.coverHref",c,p,1),c,p,1,0,0,"")){t.b("        <div class=\"no-cover\" style=\"background-image: url('");t.b(t.v(t.d("data.noCoverBackground",c,p,0)));t.b("')\"><p>");t.b(t.v(t.d("data.title",c,p,0)));t.b("</p></div>");t.b("\n" + i);};t.b("        <div id='details-button-div' class=\"buttons\"hidden aria-hidden='true'>");t.b("\n" + i);t.b("            <button class=\"btn btn-default delete\" data-dismiss=\"modal\" type=\"button\" tabindex=\"1000\">");t.b(t.v(t.d("strings.i18n_delete",c,p,0)));t.b("</button>");t.b("\n" + i);t.b("            <button class=\"btn btn-default read\" data-dismiss=\"modal\" data-book=\"");t.b(t.v(t.d("data.rootUrl",c,p,0)));t.b("\" type=\"button\" tabindex=\"1000\">");t.b(t.v(t.d("strings.i18n_read",c,p,0)));t.b("</button>");t.b("\n" + i);t.b("        </div>");t.b("\n" + i);t.b("    </div>");t.b("\n" + i);t.b("    <div class='modal-book-info'>");t.b("\n" + i);t.b("        <h3 class='modal-title'>");t.b(t.v(t.d("data.title",c,p,0)));t.b("</h3>");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_author",c,p,0)));t.b(t.v(t.d("data.author",c,p,0)));t.b("</div>");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_publisher",c,p,0)));t.b(t.v(t.d("data.publisher",c,p,0)));t.b("</div>");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_pub_date",c,p,0)));t.b(t.v(t.d("data.pubdate",c,p,0)));t.b("</div>");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_modified_date",c,p,0)));t.b(t.v(t.d("data.modified_date",c,p,0)));t.b("</div>");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_id",c,p,0)));t.b(t.v(t.d("data.id",c,p,0)));t.b("</div>");t.b("\n" + i);t.b("        <div class='modal-detail'>");t.b(t.v(t.d("strings.i18n_epub_version",c,p,0)));t.b(t.v(t.d("data.epub_version",c,p,0)));t.b("</div>");t.b("\n" + i);t.b("    </div>");t.b("\n" + i);t.b("    <div class=\"offscreenText\">Details End</div>");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/add-epub-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"modal fade\" id=\"add-epub-dialog\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"add-epub-label\" aria-hidden=\"true\">\r");t.b("\n" + i);t.b("    <div class=\"modal-dialog\">\r");t.b("\n" + i);t.b("        <div class=\"modal-content\">\r");t.b("\n" + i);t.b("            <div class=\"modal-header\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                <button id=\"closeAddEpubCross\" type=\"button\" class=\"close\" data-dismiss=\"modal\" tabindex=\"999\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_add_book",c,p,0)));t.b("\"><span aria-hidden=\"true\">&times;</span></button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                <h4 class=\"modal-title\" id=\"add-epub-label\">");t.b(t.v(t.d("strings.i18n_add_book",c,p,0)));t.b("</h4>\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("            <div class=\"modal-body\">\r");t.b("\n" + i);t.b("                <form class=\"form-horizontal\" role=\"form\">\r");t.b("\n" + i);if(t.s(t.f("canHandleUrl",c,p,1),c,p,0,706,1133,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("                <div class=\"form-group\">\r");t.b("\n" + i);t.b("                    <label id=\"add1\" class=\"control-label col-sm-5\">");t.b(t.v(t.d("strings.i18n_from_the_web",c,p,0)));t.b("</label>\r");t.b("\n" + i);t.b("                    <div class=\"col-sm-7\">\r");t.b("\n" + i);t.b("                        <input tabindex=\"1000\" type=\"text\" id=\"url-upload\" class=\"form-control\" placeholder=\"");t.b(t.v(t.d("strings.i18n_enter_a_url",c,p,0)));t.b("\" aria-labelledby=\"add1\">\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("                </div>\r");t.b("\n" + i);});c.pop();}t.b("                <div id=\"epub-upload-div\" class=\"form-group\">\r");t.b("\n" + i);t.b("                    <label id=\"add2\" class=\"control-label col-sm-5\">");t.b(t.v(t.d("strings.i18n_from_local_file",c,p,0)));t.b("</label>\r");t.b("\n" + i);t.b("                    <div class=\"col-sm-7\">\r");t.b("\n" + i);t.b("                        <input type=\"file\" id=\"epub-upload\" class=\"form-control\" aria-labelledby=\"add2\" role=\"button\" tabindex=\"1000\" >\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("                </div>\r");t.b("\n" + i);if(t.s(t.f("canHandleDirectory",c,p,1),c,p,0,1597,2050,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("                <div class=\"form-group\">\r");t.b("\n" + i);t.b("                    <label id=\"add3\" class=\"control-label col-sm-5\">");t.b(t.v(t.d("strings.i18n_unpacked_directory",c,p,0)));t.b("</label>\r");t.b("\n" + i);t.b("                    <div class=\"col-sm-7\">\r");t.b("\n" + i);t.b("                        <input tabindex=\"1000\" type=\"file\" id=\"dir-upload\" webkitdirectory=\"\" mozdirectory=\"\" directory=\"\" class=\"form-control\" aria-labelledby=\"add3\"  role=\"button\">\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("                </div>\r");t.b("\n" + i);});c.pop();}t.b("                </form>\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("            <div class=\"modal-footer\">\r");t.b("\n" + i);t.b("                <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" tabindex=\"1000\">");t.b(t.v(t.d("strings.i18n_cancel",c,p,0)));t.b("</button>\r");t.b("\n" + i);t.b("                <button type=\"button\" class=\"btn btn-primary add-book\" data-dismiss=\"modal\" disabled=\"disabled\" tabindex=\"1000\">");t.b(t.v(t.d("strings.i18n_add_book",c,p,0)));t.b("</button>\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("        </div>\r");t.b("\n" + i);t.b("        <!-- /.modal-content --> \r");t.b("\n" + i);t.b("    </div><!-- /.modal-dialog -->\r");t.b("\n" + i);t.b("</div>\r");t.b("\n" + i);t.b("<!-- /.modal -->");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/add-epub-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"modal fade\" id=\"add-epub-dialog\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"add-epub-label\" aria-hidden=\"true\">");t.b("\n" + i);t.b("    <div class=\"modal-dialog\">");t.b("\n" + i);t.b("        <div class=\"modal-content\">");t.b("\n" + i);t.b("            <div class=\"modal-header\">");t.b("\n");t.b("\n" + i);t.b("                <button id=\"closeAddEpubCross\" type=\"button\" class=\"close\" data-dismiss=\"modal\" tabindex=\"999\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_add_book",c,p,0)));t.b("\"><span aria-hidden=\"true\">&times;</span></button>");t.b("\n");t.b("\n" + i);t.b("                <h4 class=\"modal-title\" id=\"add-epub-label\">");t.b(t.v(t.d("strings.i18n_add_book",c,p,0)));t.b("</h4>");t.b("\n" + i);t.b("            </div>");t.b("\n" + i);t.b("            <div class=\"modal-body\">");t.b("\n" + i);t.b("                <form class=\"form-horizontal\" role=\"form\">");t.b("\n" + i);if(t.s(t.f("canHandleUrl",c,p,1),c,p,0,695,1115,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("                <div class=\"form-group\">");t.b("\n" + i);t.b("                    <label id=\"add1\" class=\"control-label col-sm-5\">");t.b(t.v(t.d("strings.i18n_from_the_web",c,p,0)));t.b("</label>");t.b("\n" + i);t.b("                    <div class=\"col-sm-7\">");t.b("\n" + i);t.b("                        <input tabindex=\"1000\" type=\"text\" id=\"url-upload\" class=\"form-control\" placeholder=\"");t.b(t.v(t.d("strings.i18n_enter_a_url",c,p,0)));t.b("\" aria-labelledby=\"add1\">");t.b("\n" + i);t.b("                    </div>");t.b("\n" + i);t.b("                </div>");t.b("\n" + i);});c.pop();}t.b("                <div id=\"epub-upload-div\" class=\"form-group\">");t.b("\n" + i);t.b("                    <label id=\"add2\" class=\"control-label col-sm-5\">");t.b(t.v(t.d("strings.i18n_from_local_file",c,p,0)));t.b("</label>");t.b("\n" + i);t.b("                    <div class=\"col-sm-7\">");t.b("\n" + i);t.b("                        <input type=\"file\" id=\"epub-upload\" class=\"form-control\" aria-labelledby=\"add2\" role=\"button\" tabindex=\"1000\" >");t.b("\n" + i);t.b("                    </div>");t.b("\n" + i);t.b("                </div>");t.b("\n" + i);if(t.s(t.f("canHandleDirectory",c,p,1),c,p,0,1572,2018,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("                <div class=\"form-group\">");t.b("\n" + i);t.b("                    <label id=\"add3\" class=\"control-label col-sm-5\">");t.b(t.v(t.d("strings.i18n_unpacked_directory",c,p,0)));t.b("</label>");t.b("\n" + i);t.b("                    <div class=\"col-sm-7\">");t.b("\n" + i);t.b("                        <input tabindex=\"1000\" type=\"file\" id=\"dir-upload\" webkitdirectory=\"\" mozdirectory=\"\" directory=\"\" class=\"form-control\" aria-labelledby=\"add3\"  role=\"button\">");t.b("\n" + i);t.b("                    </div>");t.b("\n" + i);t.b("                </div>");t.b("\n" + i);});c.pop();}t.b("                </form>");t.b("\n" + i);t.b("            </div>");t.b("\n" + i);t.b("            <div class=\"modal-footer\">");t.b("\n" + i);t.b("                <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" tabindex=\"1000\">");t.b(t.v(t.d("strings.i18n_cancel",c,p,0)));t.b("</button>");t.b("\n" + i);t.b("                <button type=\"button\" class=\"btn btn-primary add-book\" data-dismiss=\"modal\" disabled=\"disabled\" tabindex=\"1000\">");t.b(t.v(t.d("strings.i18n_add_book",c,p,0)));t.b("</button>");t.b("\n" + i);t.b("            </div>");t.b("\n" + i);t.b("        </div>");t.b("\n" + i);t.b("        <!-- /.modal-content --> ");t.b("\n" + i);t.b("    </div><!-- /.modal-dialog -->");t.b("\n" + i);t.b("</div>");t.b("\n" + i);t.b("<!-- /.modal -->");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/settings-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div tabindex=\"-1\" class=\"modal fade\" id=\"settings-dialog\" role=\"dialog\" aria-label=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b("\" aria-hidden=\"true\">\r");t.b("\n" + i);t.b("    <div class=\"modal-dialog\">\r");t.b("\n" + i);t.b("        <div class=\"modal-content\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("           <!-- div class=\"modal-header\">\r");t.b("\n" + i);t.b("            <h4 class=\"modal-title\" id=\"settings-label\">");t.b(t.v(t.d("strings.settings",c,p,0)));t.b("</h4>\r");t.b("\n" + i);t.b("           </div -->\r");t.b("\n" + i);t.b("               \r");t.b("\n" + i);t.b("            <div class=\"modal-body\">\r");t.b("\n" + i);t.b("           <button type=\"button\" class=\"close\" id=\"closeSettingsCross\" data-dismiss=\"modal\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.settings",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SettingsModalClose",c,p,0)));t.b("]\"><span aria-hidden=\"true\">&times;</span></button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("           <ul class=\"nav nav-tabs\" role=\"tablist\" aria-owns=\"tab-butt-style tab-butt-layout tab-butt-keys\">\r");t.b("\n" + i);t.b("             <li class=\"active\" role=\"presentation\"><button id=\"tab-butt-style\" aria-label=\"");t.b(t.v(t.d("strings.style",c,p,0)));t.b("\" role='tab' aria-controls=\"tab-style\" data-toggle=\"tab\" data-target=\"#tab-style\">");t.b(t.v(t.d("strings.style",c,p,0)));t.b("</button></li>\r");t.b("\n" + i);t.b("             <li role=\"presentation\"><button id=\"tab-butt-layout\" aria-label=\"");t.b(t.v(t.d("strings.layout",c,p,0)));t.b("\" role='tab' aria-controls=\"tab-layout\" data-toggle=\"tab\" data-target=\"#tab-layout\">");t.b(t.v(t.d("strings.layout",c,p,0)));t.b("</button></li>\r");t.b("\n" + i);t.b("             <li role=\"presentation\"><button id=\"tab-butt-keys\" aria-label=\"");t.b(t.v(t.d("strings.i18n_keyboard_shortcuts",c,p,0)));t.b("\" role='tab' aria-controls=\"tab-keyboard\" data-toggle=\"tab\" data-target=\"#tab-keyboard\">");t.b(t.v(t.d("strings.i18n_keyboard_shortcuts",c,p,0)));t.b("</button></li>\r");t.b("\n" + i);t.b("           </ul>\r");t.b("\n" + i);t.b("           \r");t.b("\n" + i);t.b("           \r");t.b("\n" + i);t.b("           <div class=\"tab-content\">\r");t.b("\n" + i);t.b("                <div id=\"tab-style\" class=\"tab-pane active\" role=\"tabpanel\" aria-expanded=\"true\">\r");t.b("\n" + i);t.b("                    \r");t.b("\n" + i);t.b("                    <div id=\"theme-preview\">\r");t.b("\n" + i);t.b("                        <h5 aria-hidden=\"true\">");t.b(t.v(t.d("strings.preview",c,p,0)));t.b("</h5>\r");t.b("\n" + i);t.b("                        <div  aria-hidden=\"true\" class=\"row\">\r");t.b("\n" + i);t.b("                            <div data-theme=\"default-theme\" class=\"col-xs-10 col-xs-offset-1 preview-text default-theme\">\r");t.b("\n" + i);t.b("                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque dui, congue a suscipit non, feugiat eu urna. Cras in felis sed orci aliquam sagittis. \r");t.b("\n" + i);t.b("                            </div>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("<!-- button  type=\"button\" title=\"TESTING\" aria-label=\"TESTING\">TESTING DANIEL</button -->\r");t.b("\n" + i);t.b("                \r");t.b("\n" + i);t.b("                    <h5 id=\"setting-header-font-size\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_font_size",c,p,0)));t.b("</h5>\r");t.b("\n" + i);t.b("                    <div class=\"row\">\r");t.b("\n" + i);t.b("                        <div class=\"col-xs-2 icon-scale-down\">\r");t.b("\n" + i);t.b("                            <img src=\"images/glyphicons_115_text_smaller.png\" alt=\"\" aria-hidden=\"true\">\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        <div class=\"col-xs-8\">\r");t.b("\n" + i);t.b("                            <input  type=\"range\" role=\"slider\" aria-labelledby=\"setting-header-font-size\" id=\"font-size-input\" min=\"60\" aria-value-min=\"60\" aria-valuemin=\"60\" step=\"10\" max=\"170\" aria-value-max=\"170\" aria-valuemax=\"170\" value=\"100\" aria-valuenow=\"100\" aria-value-now=\"100\" aria-valuetext=\"1em\" aria-value-text=\"1em\" title=\"");t.b(t.v(t.d("strings.i18n_font_size",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_font_size",c,p,0)));t.b("\" />\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        <div class=\"col-xs-2\">\r");t.b("\n" + i);t.b("                            <img src=\"images/glyphicons_116_text_bigger.png\" alt=\"\" aria-hidden=\"true\">\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                    <h5 id=\"setting-header-color-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_text_and_background_color",c,p,0)));t.b("</h5>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                    <div role=\"radiogroup\" aria-labelledby=\"setting-header-color-legend\" class=\"row\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div id=\"author-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option author-theme clickable\" data-theme=\"author-theme\">\r");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">\r");t.b("\n" + i);t.b("                                <input id=\"author-theme-radio\" name=\"color-theme\" value=\"author-theme\" type=\"radio\"/>\r");t.b("\n" + i);t.b("                                <label id=\"author-theme-radio-label\" for=\"author-theme-radio\" class=\"color-theme-label\">\r");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_author_theme",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                                </label>\r");t.b("\n" + i);t.b("                            </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div id=\"default-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option default-theme clickable\" data-theme=\"default-theme\">\r");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">\r");t.b("\n" + i);t.b("                                <input id=\"default-theme-radio\" name=\"color-theme\" value=\"default-theme\" type=\"radio\"/>\r");t.b("\n" + i);t.b("                                <label id=\"default-theme-radio-label\" for=\"default-theme-radio\" class=\"color-theme-label\">\r");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_black_and_white",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                                </label>\r");t.b("\n" + i);t.b("                            </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div id=\"night-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option night-theme clickable\" data-theme=\"night-theme\">\r");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">\r");t.b("\n" + i);t.b("                                <input id=\"night-theme-radio\" name=\"color-theme\" value=\"night-theme\" type=\"radio\"/>\r");t.b("\n" + i);t.b("                                <label id=\"night-theme-radio-label\" for=\"night-theme-radio\" class=\"color-theme-label\">\r");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_arabian_nights",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                                </label>\r");t.b("\n" + i);t.b("                            </div>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div id=\"parchment-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option parchment-theme clickable\" data-theme=\"parchment-theme\">\r");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">\r");t.b("\n" + i);t.b("                                <input id=\"parchment-theme-radio\" name=\"color-theme\" value=\"parchment-theme\" type=\"radio\"/>\r");t.b("\n" + i);t.b("                                <label id=\"parchment-theme-radio-label\" for=\"parchment-theme-radio\" class=\"color-theme-label\">\r");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_sands_of_dune",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                                </label>\r");t.b("\n" + i);t.b("                            </div>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div id=\"ballard-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option ballard-theme clickable\" data-theme=\"ballard-theme\">\r");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">\r");t.b("\n" + i);t.b("                                <input id=\"ballard-theme-radio\" name=\"color-theme\" value=\"ballard-theme\" type=\"radio\"/>\r");t.b("\n" + i);t.b("                                <label id=\"ballard-theme-radio-label\" for=\"ballard-theme-radio\" class=\"color-theme-label\">\r");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_ballard_blues",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                                </label>\r");t.b("\n" + i);t.b("                            </div>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        <div id=\"custom-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option default-theme clickable\" data-theme=\"custom-theme\">\r");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">\r");t.b("\n" + i);t.b("                                <input id=\"custom-theme-radio\" name=\"color-theme\" value=\"custom-theme\" type=\"radio\"e/>\r");t.b("\n" + i);t.b("                                <label id=\"custom-theme-radio-label\" class=\"color-theme-label\" > <!--this must be added again to the label: for=\"custom-theme-radio\"-->\r");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_custom_theme",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                                </label>\r");t.b("\n" + i);t.b("                            </div>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("               </div>\r");t.b("\n" + i);t.b("                    <div id=\"tab-layout\" class=\"tab-pane\" role=\"tabpanel\">\r");t.b("\n" + i);t.b("                    \r");t.b("\n" + i);t.b("                    <h5 id=\"setting-header-margins-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_margins",c,p,0)));t.b("</h5>\r");t.b("\n" + i);t.b("                     <div class=\"row\">\r");t.b("\n" + i);t.b("                        <div class=\"col-xs-2 icon-scale-down\">\r");t.b("\n" + i);t.b("                            <img style=\"height: 32px;\" src=\"images/margin1_off.png\" alt=\"\" aria-hidden=\"true\">\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        <div class=\"col-xs-8\">\r");t.b("\n" + i);t.b("                            <input  type=\"range\" role=\"slider\" aria-labelledby=\"setting-header-margins-legend\" id=\"margin-size-input\" min=\"20\" aria-value-min=\"20\" aria-valuemin=\"20\" step=\"20\" max=\"100\" aria-value-max=\"100\" aria-valuemax=\"100\" value=\"20\" aria-valuenow=\"20\" aria-value-now=\"20\" aria-valuetext=\"20\" aria-value-text=\"20\" title=\"");t.b(t.v(t.d("strings.i18n_margins",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_margins",c,p,0)));t.b("\"/>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        <div class=\"col-xs-2\">\r");t.b("\n" + i);t.b("                            <img style=\"height: 32px;\" src=\"images/margin4_off.png\" alt=\"\" aria-hidden=\"true\">\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                    <h5 id=\"setting-header-display-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_display_format",c,p,0)));t.b("</h5>\r");t.b("\n" + i);t.b("                    \r");t.b("\n" + i);t.b("                    <div role=\"radiogroup\" class=\"row\" style=\"width:100%;text-align:center;\" aria-labelledby=\"setting-header-display-legend\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"spread-default-option\"\r");t.b("\n" + i);t.b("                        style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"display-format\" value=\"single\" type=\"radio\" id=\"spread-default-radio\"/>\r");t.b("\n" + i);t.b("                            <label style=\"\" for=\"spread-default-radio\">\r");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_spread_auto",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"one-up-option\"\r");t.b("\n" + i);t.b("                        style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            \r");t.b("\n" + i);t.b("                            <input  name=\"display-format\" value=\"single\" type=\"radio\" id=\"single-page-radio\" />\r");t.b("\n" + i);t.b("                                            <label for=\"single-page-radio\">\r");t.b("\n" + i);t.b("                                            <img src=\"images/ico_singlepage_up.png\" alt=\"");t.b(t.v(t.d("strings.i18n_display_format",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_single_pages",c,p,0)));t.b("\"/>\r");t.b("\n" + i);t.b("                                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"two-up-option\"\r");t.b("\n" + i);t.b("                        style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            \r");t.b("\n" + i);t.b("                                <input  name=\"display-format\" value=\"double\" type=\"radio\" id=\"double-page-radio\" />\r");t.b("\n" + i);t.b("                                            <label for=\"double-page-radio\">\r");t.b("\n" + i);t.b("                                            <img src=\"images/ico_doublepage_up.png\" alt=\"");t.b(t.v(t.d("strings.i18n_display_format",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_double_pages",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("                                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                    <h5 id=\"setting-header-scroll-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_scroll_mode",c,p,0)));t.b("</h5>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                    <div role=\"radiogroup\" class=\"row\" style=\"width:100%;text-align:center;\" aria-labelledby=\"setting-header-scroll-legend\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"scroll-default-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"scrolling\" value=\"single\" type=\"radio\" id=\"scroll-default-radio\"/>\r");t.b("\n" + i);t.b("                            <label style=\"\" for=\"scroll-default-radio\">\r");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_scroll_mode_auto",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"scroll-doc-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"scrolling\" value=\"single\" type=\"radio\" id=\"scroll-doc-radio\"/>\r");t.b("\n" + i);t.b("                            <label style=\"\" for=\"scroll-doc-radio\">\r");t.b("\n" + i);t.b("                                <span style=\"font-size:150%;color:#888888;\" class=\"glyphicon glyphicon-file\" aria-hidden=\"true\"></span> ");t.b(t.v(t.d("strings.i18n_scroll_mode_doc",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"scroll-continuous-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"scrolling\" value=\"single\" type=\"radio\" id=\"scroll-continuous-radio\"/>\r");t.b("\n" + i);t.b("                            <label style=\"\" for=\"scroll-continuous-radio\">\r");t.b("\n" + i);t.b("                                <span style=\"font-size:150%;color:#888888;\" class=\"glyphicon glyphicon-road\" aria-hidden=\"true\"></span> ");t.b(t.v(t.d("strings.i18n_scroll_mode_continuous",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <h5 id=\"setting-header-focus-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_focus_size",c,p,0)));t.b("</h5>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        <div role=\"radiogroup\" class=\"row\" style=\"width:100%;text-align:center;\" aria-labelledby=\"setting-header-focus-legend\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                            <div role=\"radio\" id=\"focus-thin-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                                <input style=\"\"  name=\"focus\" value=\"thin\" type=\"radio\" id=\"focus-thin-radio\"/>\r");t.b("\n" + i);t.b("                                <label class=\"focus_thin\" for=\"focus-thin-radio\">\r");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_focus_thin",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                                </label>\r");t.b("\n" + i);t.b("                            </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                            <div role=\"radio\" id=\"focus-default-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                                <input style=\"\"  name=\"focus\" value=\"default\" type=\"radio\" id=\"focus-default-radio\"/>\r");t.b("\n" + i);t.b("                                <label class=\"focus_default\" for=\"focus-default-radio\">\r");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_focus_default",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                                </label>\r");t.b("\n" + i);t.b("                            </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                            <div role=\"radio\" id=\"focus-heavy-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                                <input style=\"\"  name=\"focus\" value=\"heavy\" type=\"radio\" id=\"focus-heavy-radio\"/>\r");t.b("\n" + i);t.b("                                <label class=\"focus_heavy\" for=\"focus-heavy-radio\">\r");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_focus_heavy",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                                </label>\r");t.b("\n" + i);t.b("                            </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                    <h5 hiddenx=\"hidden\" id=\"setting-header-pageTransition-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_page_transition",c,p,0)));t.b("</h5>\r");t.b("\n" + i);t.b("                    \r");t.b("\n" + i);t.b("                    <div hiddenx=\"hidden\" role=\"radiogroup\" class=\"row\" style=\"width:100%;text-align:center;\" aria-labelledby=\"setting-header-pageTransition-legend\">\r");t.b("\n" + i);t.b("                        \r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"pageTransition-none-option\" style=\"vertical-align:middle;width:15%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"pageTransition\" value=\"single\" type=\"radio\" id=\"pageTransition-none-radio\"/>\r");t.b("\n" + i);t.b("                            <label style=\"\" for=\"pageTransition-none-radio\">\r");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_page_transition_none",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        \r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"pageTransition-1-option\" style=\"vertical-align:middle;width:15%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"pageTransition\" value=\"single\" type=\"radio\" id=\"pageTransition-1-radio\"/>\r");t.b("\n" + i);t.b("                            <label style=\"\" for=\"pageTransition-1-radio\">\r");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_page_transition_fade",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        \r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"pageTransition-2-option\" style=\"vertical-align:middle;width:15%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"pageTransition\" value=\"single\" type=\"radio\" id=\"pageTransition-2-radio\"/>\r");t.b("\n" + i);t.b("                            <label style=\"\" for=\"pageTransition-2-radio\">\r");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_page_transition_slide",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        \r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"pageTransition-3-option\" style=\"vertical-align:middle;width:15%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"pageTransition\" value=\"single\" type=\"radio\" id=\"pageTransition-3-radio\"/>\r");t.b("\n" + i);t.b("                            <label style=\"\" for=\"pageTransition-3-radio\">\r");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_page_transition_swoosh",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        \r");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"pageTransition-4-option\" style=\"vertical-align:middle;width:15%;display:inline-block;position:relative;\">\r");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"pageTransition\" value=\"single\" type=\"radio\" id=\"pageTransition-4-radio\"/>\r");t.b("\n" + i);t.b("                            <label style=\"\" for=\"pageTransition-4-radio\">\r");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_page_transition_butterfly",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                            </label>\r");t.b("\n" + i);t.b("                        </div>\r");t.b("\n" + i);t.b("                        \r");t.b("\n" + i);t.b("                        \r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("                    \r");t.b("\n" + i);t.b("                    \r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("                    <div id=\"tab-keyboard\" class=\"tab-pane\" role=\"tabpanel\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                    <div class=\"row\" style=\"position:relative;\">\r");t.b("\n" + i);t.b("                        \r");t.b("\n" + i);t.b("                        <div id=\"invalid_keyboard_shortcut_ALERT\"></div>\r");t.b("\n" + i);t.b("                        \r");t.b("\n" + i);t.b("                        <ul id=\"keyboard-list\">\r");t.b("\n" + i);t.b("                        </ul>\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("                    </div>\r");t.b("\n" + i);t.b("                </div>\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("            <div class=\"modal-footer\">\r");t.b("\n" + i);t.b("                <button id=\"buttClose\" type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SettingsModalClose",c,p,0)));t.b("]\">");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b("</button>\r");t.b("\n" + i);t.b("                <button id=\"buttSave\"  type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" aria-label=\"");t.b(t.v(t.d("strings.i18n_save_changes",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SettingsModalSave",c,p,0)));t.b("]\">");t.b(t.v(t.d("strings.i18n_save_changes",c,p,0)));t.b("</button>\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("        </div>\r");t.b("\n" + i);t.b("        <!-- /.modal-content -->\r");t.b("\n" + i);t.b("    </div>\r");t.b("\n" + i);t.b("    <!-- /.modal-dialog -->\r");t.b("\n" + i);t.b("</div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("<div tabindex=\"-1\" class=\"modal fade\" id=\"custom-theme-dialog\" role=\"dialog\" aria-label=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b("\"\r");t.b("\n" + i);t.b("     aria-hidden=\"true\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("    <div class=\"modal-dialog\">\r");t.b("\n" + i);t.b("        <div class=\"modal-content\">\r");t.b("\n" + i);t.b("            <div class=\"modal-header\">\r");t.b("\n" + i);t.b("                <button type=\"button\" class=\"close\" id=\"closeCustomThemeCross\" data-dismiss=\"modal\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_custom_theme",c,p,0)));t.b("\"><span aria-hidden=\"true\">&times;</span></button>\r");t.b("\n" + i);t.b("                <h5>");t.b(t.v(t.d("strings.i18n_custom_theme",c,p,0)));t.b("</h5>\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <div class=\"modal-body\" id=\"custom-theme-dialog-body\">\r");t.b("\n" + i);t.b("                <div role=\"group\" aria-labelledby=\"custom-theme-options\" id=\"custom-theme-options\" class=\"row\">\r");t.b("\n" + i);t.b("                    <button style=\"\" aria-label=\"");t.b(t.v(t.d("strings.i18n_foreground_color_customize_theme",c,p,0)));t.b("\" type=\"button\" id=\"foreground-color-btn\"\r");t.b("\n" + i);t.b("                            class=\"col-xs-8 col-xs-offset-2 theme-option-custom clickable \">\r");t.b("\n" + i);t.b("                    ");t.b(t.v(t.d("strings.i18n_foreground_color_customize_theme",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                    </button>\r");t.b("\n" + i);t.b("                    <button style=\"\" aria-label=\"");t.b(t.v(t.d("strings.i18n_background_color_customize_theme",c,p,0)));t.b("\" type=\"button\" id=\"background-color-btn\"\r");t.b("\n" + i);t.b("                            class=\"col-xs-8 col-xs-offset-2 theme-option-custom clickable\">\r");t.b("\n" + i);t.b("                    ");t.b(t.v(t.d("strings.i18n_background_color_customize_theme",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                    </button>\r");t.b("\n" + i);t.b("                </div>\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <div class=\"modal-footer\">\r");t.b("\n" + i);t.b("                <button id=\"custom-theme-ok-btn\" type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\"\r");t.b("\n" + i);t.b("                        aria-label=\"");t.b(t.v(t.d("strings.ok",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("                    ");t.b(t.v(t.d("strings.ok",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                </button>\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("        </div>\r");t.b("\n" + i);t.b("    </div>\r");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/settings-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div tabindex=\"-1\" class=\"modal fade\" id=\"settings-dialog\" role=\"dialog\" aria-label=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b("\" aria-hidden=\"true\">");t.b("\n" + i);t.b("    <div class=\"modal-dialog\">");t.b("\n" + i);t.b("        <div class=\"modal-content\">");t.b("\n");t.b("\n" + i);t.b("           <!-- div class=\"modal-header\">");t.b("\n" + i);t.b("            <h4 class=\"modal-title\" id=\"settings-label\">");t.b(t.v(t.d("strings.settings",c,p,0)));t.b("</h4>");t.b("\n" + i);t.b("           </div -->");t.b("\n" + i);t.b("               ");t.b("\n" + i);t.b("            <div class=\"modal-body\">");t.b("\n" + i);t.b("           <button type=\"button\" class=\"close\" id=\"closeSettingsCross\" data-dismiss=\"modal\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.settings",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SettingsModalClose",c,p,0)));t.b("]\"><span aria-hidden=\"true\">&times;</span></button>");t.b("\n");t.b("\n" + i);t.b("           <ul class=\"nav nav-tabs\" role=\"tablist\" aria-owns=\"tab-butt-style tab-butt-layout tab-butt-keys\">");t.b("\n" + i);t.b("             <li class=\"active\" role=\"presentation\"><button id=\"tab-butt-style\" aria-label=\"");t.b(t.v(t.d("strings.style",c,p,0)));t.b("\" role='tab' aria-controls=\"tab-style\" data-toggle=\"tab\" data-target=\"#tab-style\">");t.b(t.v(t.d("strings.style",c,p,0)));t.b("</button></li>");t.b("\n" + i);t.b("             <li role=\"presentation\"><button id=\"tab-butt-layout\" aria-label=\"");t.b(t.v(t.d("strings.layout",c,p,0)));t.b("\" role='tab' aria-controls=\"tab-layout\" data-toggle=\"tab\" data-target=\"#tab-layout\">");t.b(t.v(t.d("strings.layout",c,p,0)));t.b("</button></li>");t.b("\n" + i);t.b("             <li role=\"presentation\"><button id=\"tab-butt-keys\" aria-label=\"");t.b(t.v(t.d("strings.i18n_keyboard_shortcuts",c,p,0)));t.b("\" role='tab' aria-controls=\"tab-keyboard\" data-toggle=\"tab\" data-target=\"#tab-keyboard\">");t.b(t.v(t.d("strings.i18n_keyboard_shortcuts",c,p,0)));t.b("</button></li>");t.b("\n" + i);t.b("           </ul>");t.b("\n" + i);t.b("           ");t.b("\n" + i);t.b("           ");t.b("\n" + i);t.b("           <div class=\"tab-content\">");t.b("\n" + i);t.b("                <div id=\"tab-style\" class=\"tab-pane active\" role=\"tabpanel\" aria-expanded=\"true\">");t.b("\n" + i);t.b("                    ");t.b("\n" + i);t.b("                    <div id=\"theme-preview\">");t.b("\n" + i);t.b("                        <h5 aria-hidden=\"true\">");t.b(t.v(t.d("strings.preview",c,p,0)));t.b("</h5>");t.b("\n" + i);t.b("                        <div  aria-hidden=\"true\" class=\"row\">");t.b("\n" + i);t.b("                            <div data-theme=\"default-theme\" class=\"col-xs-10 col-xs-offset-1 preview-text default-theme\">");t.b("\n" + i);t.b("                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque dui, congue a suscipit non, feugiat eu urna. Cras in felis sed orci aliquam sagittis. ");t.b("\n" + i);t.b("                            </div>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                    </div>");t.b("\n");t.b("\n" + i);t.b("<!-- button  type=\"button\" title=\"TESTING\" aria-label=\"TESTING\">TESTING DANIEL</button -->");t.b("\n" + i);t.b("                ");t.b("\n" + i);t.b("                    <h5 id=\"setting-header-font-size\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_font_size",c,p,0)));t.b("</h5>");t.b("\n" + i);t.b("                    <div class=\"row\">");t.b("\n" + i);t.b("                        <div class=\"col-xs-2 icon-scale-down\">");t.b("\n" + i);t.b("                            <img src=\"images/glyphicons_115_text_smaller.png\" alt=\"\" aria-hidden=\"true\">");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        <div class=\"col-xs-8\">");t.b("\n" + i);t.b("                            <input  type=\"range\" role=\"slider\" aria-labelledby=\"setting-header-font-size\" id=\"font-size-input\" min=\"60\" aria-value-min=\"60\" aria-valuemin=\"60\" step=\"10\" max=\"170\" aria-value-max=\"170\" aria-valuemax=\"170\" value=\"100\" aria-valuenow=\"100\" aria-value-now=\"100\" aria-valuetext=\"1em\" aria-value-text=\"1em\" title=\"");t.b(t.v(t.d("strings.i18n_font_size",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_font_size",c,p,0)));t.b("\" />");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        <div class=\"col-xs-2\">");t.b("\n" + i);t.b("                            <img src=\"images/glyphicons_116_text_bigger.png\" alt=\"\" aria-hidden=\"true\">");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                    </div>");t.b("\n");t.b("\n" + i);t.b("                    <h5 id=\"setting-header-color-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_text_and_background_color",c,p,0)));t.b("</h5>");t.b("\n");t.b("\n" + i);t.b("                    <div role=\"radiogroup\" aria-labelledby=\"setting-header-color-legend\" class=\"row\">");t.b("\n");t.b("\n" + i);t.b("                        <div id=\"author-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option author-theme clickable\" data-theme=\"author-theme\">");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">");t.b("\n" + i);t.b("                                <input id=\"author-theme-radio\" name=\"color-theme\" value=\"author-theme\" type=\"radio\"/>");t.b("\n" + i);t.b("                                <label id=\"author-theme-radio-label\" for=\"author-theme-radio\" class=\"color-theme-label\">");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_author_theme",c,p,0)));t.b("\n" + i);t.b("                                </label>");t.b("\n" + i);t.b("                            </div>");t.b("\n");t.b("\n");t.b("\n" + i);t.b("                        </div>");t.b("\n");t.b("\n" + i);t.b("                        <div id=\"default-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option default-theme clickable\" data-theme=\"default-theme\">");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">");t.b("\n" + i);t.b("                                <input id=\"default-theme-radio\" name=\"color-theme\" value=\"default-theme\" type=\"radio\"/>");t.b("\n" + i);t.b("                                <label id=\"default-theme-radio-label\" for=\"default-theme-radio\" class=\"color-theme-label\">");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_black_and_white",c,p,0)));t.b("\n" + i);t.b("                                </label>");t.b("\n" + i);t.b("                            </div>");t.b("\n");t.b("\n" + i);t.b("                        </div>");t.b("\n");t.b("\n" + i);t.b("                        <div id=\"night-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option night-theme clickable\" data-theme=\"night-theme\">");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">");t.b("\n" + i);t.b("                                <input id=\"night-theme-radio\" name=\"color-theme\" value=\"night-theme\" type=\"radio\"/>");t.b("\n" + i);t.b("                                <label id=\"night-theme-radio-label\" for=\"night-theme-radio\" class=\"color-theme-label\">");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_arabian_nights",c,p,0)));t.b("\n" + i);t.b("                                </label>");t.b("\n" + i);t.b("                            </div>");t.b("\n" + i);t.b("                        </div>");t.b("\n");t.b("\n" + i);t.b("                        <div id=\"parchment-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option parchment-theme clickable\" data-theme=\"parchment-theme\">");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">");t.b("\n" + i);t.b("                                <input id=\"parchment-theme-radio\" name=\"color-theme\" value=\"parchment-theme\" type=\"radio\"/>");t.b("\n" + i);t.b("                                <label id=\"parchment-theme-radio-label\" for=\"parchment-theme-radio\" class=\"color-theme-label\">");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_sands_of_dune",c,p,0)));t.b("\n" + i);t.b("                                </label>");t.b("\n" + i);t.b("                            </div>");t.b("\n" + i);t.b("                        </div>");t.b("\n");t.b("\n" + i);t.b("                        <div id=\"ballard-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option ballard-theme clickable\" data-theme=\"ballard-theme\">");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">");t.b("\n" + i);t.b("                                <input id=\"ballard-theme-radio\" name=\"color-theme\" value=\"ballard-theme\" type=\"radio\"/>");t.b("\n" + i);t.b("                                <label id=\"ballard-theme-radio-label\" for=\"ballard-theme-radio\" class=\"color-theme-label\">");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_ballard_blues",c,p,0)));t.b("\n" + i);t.b("                                </label>");t.b("\n" + i);t.b("                            </div>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        <div id=\"custom-theme-radio-div\" role=\"radio\" class=\"col-xs-8 col-xs-offset-2 theme-option default-theme clickable\" data-theme=\"custom-theme\">");t.b("\n" + i);t.b("                            <div class=\"col-xs-offset-3\">");t.b("\n" + i);t.b("                                <input id=\"custom-theme-radio\" name=\"color-theme\" value=\"custom-theme\" type=\"radio\"e/>");t.b("\n" + i);t.b("                                <label id=\"custom-theme-radio-label\" class=\"color-theme-label\" > <!--this must be added again to the label: for=\"custom-theme-radio\"-->");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_custom_theme",c,p,0)));t.b("\n" + i);t.b("                                </label>");t.b("\n" + i);t.b("                            </div>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                    </div>");t.b("\n" + i);t.b("               </div>");t.b("\n" + i);t.b("                    <div id=\"tab-layout\" class=\"tab-pane\" role=\"tabpanel\">");t.b("\n" + i);t.b("                    ");t.b("\n" + i);t.b("                    <h5 id=\"setting-header-margins-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_margins",c,p,0)));t.b("</h5>");t.b("\n" + i);t.b("                     <div class=\"row\">");t.b("\n" + i);t.b("                        <div class=\"col-xs-2 icon-scale-down\">");t.b("\n" + i);t.b("                            <img style=\"height: 32px;\" src=\"images/margin1_off.png\" alt=\"\" aria-hidden=\"true\">");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        <div class=\"col-xs-8\">");t.b("\n" + i);t.b("                            <input  type=\"range\" role=\"slider\" aria-labelledby=\"setting-header-margins-legend\" id=\"margin-size-input\" min=\"20\" aria-value-min=\"20\" aria-valuemin=\"20\" step=\"20\" max=\"100\" aria-value-max=\"100\" aria-valuemax=\"100\" value=\"20\" aria-valuenow=\"20\" aria-value-now=\"20\" aria-valuetext=\"20\" aria-value-text=\"20\" title=\"");t.b(t.v(t.d("strings.i18n_margins",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_margins",c,p,0)));t.b("\"/>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        <div class=\"col-xs-2\">");t.b("\n" + i);t.b("                            <img style=\"height: 32px;\" src=\"images/margin4_off.png\" alt=\"\" aria-hidden=\"true\">");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                    </div>");t.b("\n");t.b("\n" + i);t.b("                    <h5 id=\"setting-header-display-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_display_format",c,p,0)));t.b("</h5>");t.b("\n" + i);t.b("                    ");t.b("\n" + i);t.b("                    <div role=\"radiogroup\" class=\"row\" style=\"width:100%;text-align:center;\" aria-labelledby=\"setting-header-display-legend\">");t.b("\n");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"spread-default-option\"");t.b("\n" + i);t.b("                        style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"display-format\" value=\"single\" type=\"radio\" id=\"spread-default-radio\"/>");t.b("\n" + i);t.b("                            <label style=\"\" for=\"spread-default-radio\">");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_spread_auto",c,p,0)));t.b("\n" + i);t.b("                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n");t.b("\n");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"one-up-option\"");t.b("\n" + i);t.b("                        style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            ");t.b("\n" + i);t.b("                            <input  name=\"display-format\" value=\"single\" type=\"radio\" id=\"single-page-radio\" />");t.b("\n" + i);t.b("                                            <label for=\"single-page-radio\">");t.b("\n" + i);t.b("                                            <img src=\"images/ico_singlepage_up.png\" alt=\"");t.b(t.v(t.d("strings.i18n_display_format",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_single_pages",c,p,0)));t.b("\"/>");t.b("\n" + i);t.b("                                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"two-up-option\"");t.b("\n" + i);t.b("                        style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            ");t.b("\n" + i);t.b("                                <input  name=\"display-format\" value=\"double\" type=\"radio\" id=\"double-page-radio\" />");t.b("\n" + i);t.b("                                            <label for=\"double-page-radio\">");t.b("\n" + i);t.b("                                            <img src=\"images/ico_doublepage_up.png\" alt=\"");t.b(t.v(t.d("strings.i18n_display_format",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_double_pages",c,p,0)));t.b("\">");t.b("\n" + i);t.b("                                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                    </div>");t.b("\n");t.b("\n" + i);t.b("                    <h5 id=\"setting-header-scroll-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_scroll_mode",c,p,0)));t.b("</h5>");t.b("\n");t.b("\n" + i);t.b("                    <div role=\"radiogroup\" class=\"row\" style=\"width:100%;text-align:center;\" aria-labelledby=\"setting-header-scroll-legend\">");t.b("\n");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"scroll-default-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"scrolling\" value=\"single\" type=\"radio\" id=\"scroll-default-radio\"/>");t.b("\n" + i);t.b("                            <label style=\"\" for=\"scroll-default-radio\">");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_scroll_mode_auto",c,p,0)));t.b("\n" + i);t.b("                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"scroll-doc-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"scrolling\" value=\"single\" type=\"radio\" id=\"scroll-doc-radio\"/>");t.b("\n" + i);t.b("                            <label style=\"\" for=\"scroll-doc-radio\">");t.b("\n" + i);t.b("                                <span style=\"font-size:150%;color:#888888;\" class=\"glyphicon glyphicon-file\" aria-hidden=\"true\"></span> ");t.b(t.v(t.d("strings.i18n_scroll_mode_doc",c,p,0)));t.b("\n" + i);t.b("                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"scroll-continuous-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"scrolling\" value=\"single\" type=\"radio\" id=\"scroll-continuous-radio\"/>");t.b("\n" + i);t.b("                            <label style=\"\" for=\"scroll-continuous-radio\">");t.b("\n" + i);t.b("                                <span style=\"font-size:150%;color:#888888;\" class=\"glyphicon glyphicon-road\" aria-hidden=\"true\"></span> ");t.b(t.v(t.d("strings.i18n_scroll_mode_continuous",c,p,0)));t.b("\n" + i);t.b("                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n");t.b("\n" + i);t.b("                    </div>");t.b("\n");t.b("\n" + i);t.b("                        <h5 id=\"setting-header-focus-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_focus_size",c,p,0)));t.b("</h5>");t.b("\n");t.b("\n" + i);t.b("                        <div role=\"radiogroup\" class=\"row\" style=\"width:100%;text-align:center;\" aria-labelledby=\"setting-header-focus-legend\">");t.b("\n");t.b("\n" + i);t.b("                            <div role=\"radio\" id=\"focus-thin-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                                <input style=\"\"  name=\"focus\" value=\"thin\" type=\"radio\" id=\"focus-thin-radio\"/>");t.b("\n" + i);t.b("                                <label class=\"focus_thin\" for=\"focus-thin-radio\">");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_focus_thin",c,p,0)));t.b("\n" + i);t.b("                                </label>");t.b("\n" + i);t.b("                            </div>");t.b("\n");t.b("\n" + i);t.b("                            <div role=\"radio\" id=\"focus-default-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                                <input style=\"\"  name=\"focus\" value=\"default\" type=\"radio\" id=\"focus-default-radio\"/>");t.b("\n" + i);t.b("                                <label class=\"focus_default\" for=\"focus-default-radio\">");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_focus_default",c,p,0)));t.b("\n" + i);t.b("                                </label>");t.b("\n" + i);t.b("                            </div>");t.b("\n");t.b("\n" + i);t.b("                            <div role=\"radio\" id=\"focus-heavy-option\" style=\"vertical-align:middle;width:30%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                                <input style=\"\"  name=\"focus\" value=\"heavy\" type=\"radio\" id=\"focus-heavy-radio\"/>");t.b("\n" + i);t.b("                                <label class=\"focus_heavy\" for=\"focus-heavy-radio\">");t.b("\n" + i);t.b("                                    ");t.b(t.v(t.d("strings.i18n_focus_heavy",c,p,0)));t.b("\n" + i);t.b("                                </label>");t.b("\n" + i);t.b("                            </div>");t.b("\n");t.b("\n" + i);t.b("                        </div>");t.b("\n");t.b("\n");t.b("\n" + i);t.b("                    <h5 hiddenx=\"hidden\" id=\"setting-header-pageTransition-legend\" class=\"setting-header\">");t.b(t.v(t.d("strings.i18n_page_transition",c,p,0)));t.b("</h5>");t.b("\n" + i);t.b("                    ");t.b("\n" + i);t.b("                    <div hiddenx=\"hidden\" role=\"radiogroup\" class=\"row\" style=\"width:100%;text-align:center;\" aria-labelledby=\"setting-header-pageTransition-legend\">");t.b("\n" + i);t.b("                        ");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"pageTransition-none-option\" style=\"vertical-align:middle;width:15%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"pageTransition\" value=\"single\" type=\"radio\" id=\"pageTransition-none-radio\"/>");t.b("\n" + i);t.b("                            <label style=\"\" for=\"pageTransition-none-radio\">");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_page_transition_none",c,p,0)));t.b("\n" + i);t.b("                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        ");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"pageTransition-1-option\" style=\"vertical-align:middle;width:15%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"pageTransition\" value=\"single\" type=\"radio\" id=\"pageTransition-1-radio\"/>");t.b("\n" + i);t.b("                            <label style=\"\" for=\"pageTransition-1-radio\">");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_page_transition_fade",c,p,0)));t.b("\n" + i);t.b("                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        ");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"pageTransition-2-option\" style=\"vertical-align:middle;width:15%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"pageTransition\" value=\"single\" type=\"radio\" id=\"pageTransition-2-radio\"/>");t.b("\n" + i);t.b("                            <label style=\"\" for=\"pageTransition-2-radio\">");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_page_transition_slide",c,p,0)));t.b("\n" + i);t.b("                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        ");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"pageTransition-3-option\" style=\"vertical-align:middle;width:15%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"pageTransition\" value=\"single\" type=\"radio\" id=\"pageTransition-3-radio\"/>");t.b("\n" + i);t.b("                            <label style=\"\" for=\"pageTransition-3-radio\">");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_page_transition_swoosh",c,p,0)));t.b("\n" + i);t.b("                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        ");t.b("\n" + i);t.b("                        <div role=\"radio\" id=\"pageTransition-4-option\" style=\"vertical-align:middle;width:15%;display:inline-block;position:relative;\">");t.b("\n" + i);t.b("                            <input style=\"\"  name=\"pageTransition\" value=\"single\" type=\"radio\" id=\"pageTransition-4-radio\"/>");t.b("\n" + i);t.b("                            <label style=\"\" for=\"pageTransition-4-radio\">");t.b("\n" + i);t.b("                                ");t.b(t.v(t.d("strings.i18n_page_transition_butterfly",c,p,0)));t.b("\n" + i);t.b("                            </label>");t.b("\n" + i);t.b("                        </div>");t.b("\n" + i);t.b("                        ");t.b("\n" + i);t.b("                        ");t.b("\n" + i);t.b("                    </div>");t.b("\n" + i);t.b("                    ");t.b("\n" + i);t.b("                    ");t.b("\n" + i);t.b("                    </div>");t.b("\n" + i);t.b("                    <div id=\"tab-keyboard\" class=\"tab-pane\" role=\"tabpanel\">");t.b("\n");t.b("\n" + i);t.b("                    <div class=\"row\" style=\"position:relative;\">");t.b("\n" + i);t.b("                        ");t.b("\n" + i);t.b("                        <div id=\"invalid_keyboard_shortcut_ALERT\"></div>");t.b("\n" + i);t.b("                        ");t.b("\n" + i);t.b("                        <ul id=\"keyboard-list\">");t.b("\n" + i);t.b("                        </ul>");t.b("\n" + i);t.b("                    </div>");t.b("\n" + i);t.b("                    </div>");t.b("\n" + i);t.b("                </div>");t.b("\n" + i);t.b("            </div>");t.b("\n" + i);t.b("            <div class=\"modal-footer\">");t.b("\n" + i);t.b("                <button id=\"buttClose\" type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SettingsModalClose",c,p,0)));t.b("]\">");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b("</button>");t.b("\n" + i);t.b("                <button id=\"buttSave\"  type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\" aria-label=\"");t.b(t.v(t.d("strings.i18n_save_changes",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SettingsModalSave",c,p,0)));t.b("]\">");t.b(t.v(t.d("strings.i18n_save_changes",c,p,0)));t.b("</button>");t.b("\n" + i);t.b("            </div>");t.b("\n" + i);t.b("        </div>");t.b("\n" + i);t.b("        <!-- /.modal-content -->");t.b("\n" + i);t.b("    </div>");t.b("\n" + i);t.b("    <!-- /.modal-dialog -->");t.b("\n" + i);t.b("</div>");t.b("\n");t.b("\n" + i);t.b("<div tabindex=\"-1\" class=\"modal fade\" id=\"custom-theme-dialog\" role=\"dialog\" aria-label=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b("\"");t.b("\n" + i);t.b("     aria-hidden=\"true\">");t.b("\n");t.b("\n" + i);t.b("    <div class=\"modal-dialog\">");t.b("\n" + i);t.b("        <div class=\"modal-content\">");t.b("\n" + i);t.b("            <div class=\"modal-header\">");t.b("\n" + i);t.b("                <button type=\"button\" class=\"close\" id=\"closeCustomThemeCross\" data-dismiss=\"modal\" aria-label=\"");t.b(t.v(t.d("strings.i18n_close",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_custom_theme",c,p,0)));t.b("\"><span aria-hidden=\"true\">&times;</span></button>");t.b("\n" + i);t.b("                <h5>");t.b(t.v(t.d("strings.i18n_custom_theme",c,p,0)));t.b("</h5>");t.b("\n" + i);t.b("            </div>");t.b("\n");t.b("\n" + i);t.b("            <div class=\"modal-body\" id=\"custom-theme-dialog-body\">");t.b("\n" + i);t.b("                <div role=\"group\" aria-labelledby=\"custom-theme-options\" id=\"custom-theme-options\" class=\"row\">");t.b("\n" + i);t.b("                    <button style=\"\" aria-label=\"");t.b(t.v(t.d("strings.i18n_foreground_color_customize_theme",c,p,0)));t.b("\" type=\"button\" id=\"foreground-color-btn\"");t.b("\n" + i);t.b("                            class=\"col-xs-8 col-xs-offset-2 theme-option-custom clickable \">");t.b("\n" + i);t.b("                    ");t.b(t.v(t.d("strings.i18n_foreground_color_customize_theme",c,p,0)));t.b("\n" + i);t.b("                    </button>");t.b("\n" + i);t.b("                    <button style=\"\" aria-label=\"");t.b(t.v(t.d("strings.i18n_background_color_customize_theme",c,p,0)));t.b("\" type=\"button\" id=\"background-color-btn\"");t.b("\n" + i);t.b("                            class=\"col-xs-8 col-xs-offset-2 theme-option-custom clickable\">");t.b("\n" + i);t.b("                    ");t.b(t.v(t.d("strings.i18n_background_color_customize_theme",c,p,0)));t.b("\n" + i);t.b("                    </button>");t.b("\n" + i);t.b("                </div>");t.b("\n" + i);t.b("            </div>");t.b("\n");t.b("\n" + i);t.b("            <div class=\"modal-footer\">");t.b("\n" + i);t.b("                <button id=\"custom-theme-ok-btn\" type=\"button\" class=\"btn btn-primary\" data-dismiss=\"modal\"");t.b("\n" + i);t.b("                        aria-label=\"");t.b(t.v(t.d("strings.ok",c,p,0)));t.b("\">");t.b("\n" + i);t.b("                    ");t.b(t.v(t.d("strings.ok",c,p,0)));t.b("\n" + i);t.b("                </button>");t.b("\n" + i);t.b("            </div>");t.b("\n" + i);t.b("        </div>");t.b("\n" + i);t.b("    </div>");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/settings-keyboard-item.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");if(t.s(t.f("name",c,p,1),c,p,0,9,769,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("<li>\r");t.b("\n" + i);t.b("<label id=\"label_");t.b(t.v(t.f("name",c,p,0)));t.b("\">");t.b(t.v(t.f("i18n",c,p,0)));t.b("<br/><span>");t.b(t.v(t.f("name",c,p,0)));t.b("</span></label>\r");t.b("\n" + i);t.b("<input id=\"");t.b(t.v(t.f("name",c,p,0)));t.b("\" name=\"");t.b(t.v(t.f("name",c,p,0)));t.b("\" class=\"keyboardInput\" type=\"text\"  placeholder=\"");t.b(t.v(t.f("shortcut",c,p,0)));t.b("\" value=\"");t.b(t.v(t.f("shortcut",c,p,0)));t.b("\" aria-labelledby=\"label_");t.b(t.v(t.f("name",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.f("i18n",c,p,0)));t.b("\"></input>\r");t.b("\n" + i);t.b("<button class=\"resetKey captureKeyboardShortcut\" role=\"button\" data-key=\"");t.b(t.v(t.f("name",c,p,0)));t.b("\"  title=\"");t.b(t.v(t.f("i18n",c,p,0)));t.b("  (");t.b(t.v(t.f("def",c,p,0)));t.b(") ");t.b(t.v(t.d("strings.i18n_reset_key",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.f("i18n",c,p,0)));t.b("  (");t.b(t.v(t.f("def",c,p,0)));t.b(") ");t.b(t.v(t.d("strings.i18n_reset_key",c,p,0)));t.b("\"><span class=\"glyphicon glyphicon-repeat icon-flipped\"></span></button>\r");t.b("\n" + i);t.b("<span id=\"duplicate_keyboard_shortcut\" aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_duplicate_keyboard_shortcut",c,p,0)));t.b("</span>\r");t.b("\n" + i);t.b("<span id=\"invalid_keyboard_shortcut\" aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_invalid_keyboard_shortcut",c,p,0)));t.b("</span>\r");t.b("\n" + i);t.b("</li>\r");t.b("\n" + i);});c.pop();}if(!t.s(t.f("name",c,p,1),c,p,1,0,0,"")){t.b("<li id=\"resetAllKeys");t.b(t.v(t.f("id",c,p,0)));t.b("\" class=\"resetAllKeys\">\r");t.b("\n" + i);t.b("<button class=\"resetKey\" role=\"button\" aria-label=\"");t.b(t.v(t.d("strings.i18n_reset_key_all",c,p,0)));t.b("\"><span aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_reset_key_all",c,p,0)));t.b("&nbsp;&nbsp;<span class=\"glyphicon glyphicon-repeat icon-flipped\"></span></span></button>\r");t.b("\n" + i);t.b("</li>\r");t.b("\n" + i);};return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/settings-keyboard-item.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");if(t.s(t.f("name",c,p,1),c,p,0,9,761,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("<li>");t.b("\n" + i);t.b("<label id=\"label_");t.b(t.v(t.f("name",c,p,0)));t.b("\">");t.b(t.v(t.f("i18n",c,p,0)));t.b("<br/><span>");t.b(t.v(t.f("name",c,p,0)));t.b("</span></label>");t.b("\n" + i);t.b("<input id=\"");t.b(t.v(t.f("name",c,p,0)));t.b("\" name=\"");t.b(t.v(t.f("name",c,p,0)));t.b("\" class=\"keyboardInput\" type=\"text\"  placeholder=\"");t.b(t.v(t.f("shortcut",c,p,0)));t.b("\" value=\"");t.b(t.v(t.f("shortcut",c,p,0)));t.b("\" aria-labelledby=\"label_");t.b(t.v(t.f("name",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.f("i18n",c,p,0)));t.b("\"></input>");t.b("\n" + i);t.b("<button class=\"resetKey captureKeyboardShortcut\" role=\"button\" data-key=\"");t.b(t.v(t.f("name",c,p,0)));t.b("\"  title=\"");t.b(t.v(t.f("i18n",c,p,0)));t.b("  (");t.b(t.v(t.f("def",c,p,0)));t.b(") ");t.b(t.v(t.d("strings.i18n_reset_key",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.f("i18n",c,p,0)));t.b("  (");t.b(t.v(t.f("def",c,p,0)));t.b(") ");t.b(t.v(t.d("strings.i18n_reset_key",c,p,0)));t.b("\"><span class=\"glyphicon glyphicon-repeat icon-flipped\"></span></button>");t.b("\n" + i);t.b("<span id=\"duplicate_keyboard_shortcut\" aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_duplicate_keyboard_shortcut",c,p,0)));t.b("</span>");t.b("\n" + i);t.b("<span id=\"invalid_keyboard_shortcut\" aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_invalid_keyboard_shortcut",c,p,0)));t.b("</span>");t.b("\n" + i);t.b("</li>");t.b("\n" + i);});c.pop();}if(!t.s(t.f("name",c,p,1),c,p,1,0,0,"")){t.b("<li id=\"resetAllKeys");t.b(t.v(t.f("id",c,p,0)));t.b("\" class=\"resetAllKeys\">");t.b("\n" + i);t.b("<button class=\"resetKey\" role=\"button\" aria-label=\"");t.b(t.v(t.d("strings.i18n_reset_key_all",c,p,0)));t.b("\"><span aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_reset_key_all",c,p,0)));t.b("&nbsp;&nbsp;<span class=\"glyphicon glyphicon-repeat icon-flipped\"></span></span></button>");t.b("\n" + i);t.b("</li>");t.b("\n" + i);};return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/managed-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"modal fade\" id=\"managed-dialog\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"managed-label\">\r");t.b("\n" + i);t.b("    <div class=\"modal-dialog\">\r");t.b("\n" + i);t.b("        <div class=\"modal-content\">\r");t.b("\n" + i);t.b("            <div class=\"modal-header\">\r");t.b("\n" + i);t.b("                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"close\" title=\"close\"><span aria-hidden=\"true\">&times;<span></button>\r");t.b("\n" + i);t.b("                <h4 class=\"modal-title\" id=\"managed-label\"></h4>\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("            <div class=\"modal-body\">\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("            <div class=\"modal-footer\">\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("        </div>\r");t.b("\n" + i);t.b("        <!-- /.modal-content --> \r");t.b("\n" + i);t.b("    </div><!-- /.modal-dialog -->\r");t.b("\n" + i);t.b("</div>\r");t.b("\n" + i);t.b("<!-- /.modal -->");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/managed-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"modal fade\" id=\"managed-dialog\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"managed-label\">");t.b("\n" + i);t.b("    <div class=\"modal-dialog\">");t.b("\n" + i);t.b("        <div class=\"modal-content\">");t.b("\n" + i);t.b("            <div class=\"modal-header\">");t.b("\n" + i);t.b("                <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"close\" title=\"close\"><span aria-hidden=\"true\">&times;<span></button>");t.b("\n" + i);t.b("                <h4 class=\"modal-title\" id=\"managed-label\"></h4>");t.b("\n" + i);t.b("            </div>");t.b("\n" + i);t.b("            <div class=\"modal-body\">");t.b("\n" + i);t.b("            </div>");t.b("\n" + i);t.b("            <div class=\"modal-footer\">");t.b("\n" + i);t.b("            </div>");t.b("\n" + i);t.b("        </div>");t.b("\n" + i);t.b("        <!-- /.modal-content --> ");t.b("\n" + i);t.b("    </div><!-- /.modal-dialog -->");t.b("\n" + i);t.b("</div>");t.b("\n" + i);t.b("<!-- /.modal -->");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/progress-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"progress progress-striped active\">\r");t.b("\n" + i);t.b("  <div class=\"progress-bar\"  role=\"progressbar\" aria-valuenow=\"1\" aria-valuemin=\"1\" aria-valuemax=\"100\" style=\"width: 1%\">\r");t.b("\n" + i);t.b("    <!-- <span class=\"progress-message sr-only\">");t.b(t.v(t.f("message",c,p,0)));t.b("</span> -->\r");t.b("\n" + i);t.b("  </div>\r");t.b("\n" + i);t.b("</div>\r");t.b("\n" + i);t.b("<div class=\"progress-message\">");t.b(t.v(t.f("message",c,p,0)));t.b("</div>\r");t.b("\n");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/progress-dialog.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"progress progress-striped active\">");t.b("\n" + i);t.b("  <div class=\"progress-bar\"  role=\"progressbar\" aria-valuenow=\"1\" aria-valuemin=\"1\" aria-valuemax=\"100\" style=\"width: 1%\">");t.b("\n" + i);t.b("    <!-- <span class=\"progress-message sr-only\">");t.b(t.v(t.f("message",c,p,0)));t.b("</span> -->");t.b("\n" + i);t.b("  </div>");t.b("\n" + i);t.b("</div>");t.b("\n" + i);t.b("<div class=\"progress-message\">");t.b(t.v(t.f("message",c,p,0)));t.b("</div>");t.b("\n");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/managed-buttons.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");if(t.s(t.f("buttons",c,p,1),c,p,0,12,157,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("<button type=\"button\" class=\"btn btn-default ");if(t.s(t.f("classes",c,p,1),c,p,0,71,77,"{{ }}")){t.rs(c,p,function(c,p,t){t.b(t.v(t.d(".",c,p,0)));t.b(" ");});c.pop();}t.b("\" ");if(t.s(t.f("dismiss",c,p,1),c,p,0,103,125,"{{ }}")){t.rs(c,p,function(c,p,t){t.b(" data-dismiss=\"modal\" ");});c.pop();}t.b(">");t.b(t.v(t.f("text",c,p,0)));t.b("</button>\r");t.b("\n" + i);});c.pop();}return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/managed-buttons.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");if(t.s(t.f("buttons",c,p,1),c,p,0,12,155,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("<button type=\"button\" class=\"btn btn-default ");if(t.s(t.f("classes",c,p,1),c,p,0,70,76,"{{ }}")){t.rs(c,p,function(c,p,t){t.b(t.v(t.d(".",c,p,0)));t.b(" ");});c.pop();}t.b("\" ");if(t.s(t.f("dismiss",c,p,1),c,p,0,102,124,"{{ }}")){t.rs(c,p,function(c,p,t){t.b(" data-dismiss=\"modal\" ");});c.pop();}t.b(">");t.b(t.v(t.f("text",c,p,0)));t.b("</button>");t.b("\n" + i);});c.pop();}return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 define('Dialogs',['hgn!templates/managed-dialog.html', 'hgn!templates/progress-dialog.html', 'hgn!templates/managed-buttons.html', 'i18n/Strings', 'workers/Messages'], function(ManagedDialog, ProgressDialog, ButtonTemplate, Strings, Messages){
 	var $currentModal,
@@ -15671,7 +15671,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.16.0","chromeVersion":"2.16.0","sha":"00a96ae7918457274432fd6c53aa2f3d745070e9","tag":"","clean":false,"release":false,"timestamp":1423747385748}';});
+define('text!viewer-version',[],function () { return '{"version":"0.16.0","chromeVersion":"2.16.0","sha":"2622c98620e3c52504f4d78b410e9a72e1c844b1","tag":"0.16.0-290-g2622c98","clean":false,"release":false,"timestamp":1425552664176}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
@@ -53212,8 +53212,6 @@ define('EpubLibrary',['jquery', 'bootstrap', 'storage/StorageManager', 'storage/
             $('#details-dialog').on('hidden.bs.modal', function () {
                 Keyboard.scope(caller);
                 if (caller=='library') {
-                    bookRoot
-
                     setTimeout(function(){$("button[data-root='"+bookRoot+"']").focus();}, 50);
                 }else{
                     setTimeout(function(){ $(".icon-metadata").focus(); }, 50);
@@ -53535,13 +53533,13 @@ define('Spinner',['spin'], function(Spinner){
     return new Spinner(opts);
 });
 
-define("hgn!templates/reader-navbar.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"btn-group navbar-left\">\r");t.b("\n" + i);t.b("        <!-- <button type=\"button\" class=\"btn btn-default icon icon-show-hide\"></button>  -->\r");t.b("\n" + i);t.b("    <button id=\"aboutButt1\" tabindex=\"1\" type=\"button\" class=\"btn icon-logo\" data-toggle=\"modal\" data-target=\"#about-dialog\" title=\"");t.b(t.v(t.d("strings.about",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.about",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("        <span class=\"icon-readium\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("    \r");t.b("\n" + i);t.b("    <button id=\"buttShowToolBar\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:1px;height=1px;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.ToolbarShow",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.ToolbarShow",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.ToolbarShow",c,p,0)));t.b("\"> </button>\r");t.b("\n" + i);t.b("    \r");t.b("\n" + i);t.b("    <button id=\"buttHideToolBar\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.ToolbarHide",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.ToolbarHide",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.ToolbarHide",c,p,0)));t.b("\"> </button>\r");t.b("\n" + i);t.b("    \r");t.b("\n" + i);t.b("    <button id=\"buttNightTheme\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.NightTheme",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.NightTheme",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.NightTheme",c,p,0)));t.b("\"> </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("    <button id=\"buttRatePlus\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysRateIncrease",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysRateIncrease",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysRateIncrease",c,p,0)));t.b("\"> </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("    <button id=\"buttRateMinus\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysRateDecrease",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysRateDecrease",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysRateDecrease",c,p,0)));t.b("\"> </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("    <button id=\"buttVolumePlus\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeIncrease",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeIncrease",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysVolumeIncrease",c,p,0)));t.b("\"> </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("    <button id=\"buttVolumeMinus\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeDecrease",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeDecrease",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysVolumeDecrease",c,p,0)));t.b("\"> </button>\r");t.b("\n" + i);t.b("    \r");t.b("\n" + i);t.b("</div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("<!--<div class=\"navbar-middle\">-->\r");t.b("\n" + i);t.b("        <!--<div id=\"pagination-numbering\" class=\"pagination\"></div>-->\r");t.b("\n" + i);t.b("        <!--<div id=\"pagination-in-percent\" class=\"pagination\"></div>-->\r");t.b("\n" + i);t.b("        <!--&lt;!&ndash;<input  type=\"text\" role=\"slider\" id=\"pagination-in-percent-slider\" value=\"\" data-slider-min=\"0\" data-slider-max=\"100\" data-slider-step=\"1\" data-slider-id=\"p-slider\" data-slider-tooltip=\"hide\" data-slider-handle=\"round\" />&ndash;&gt;-->\r");t.b("\n" + i);t.b("<!--</div>-->\r");t.b("\n" + i);t.b("<div class=\"btn-group navbar-right\">\r");t.b("\n" + i);t.b("    \r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("    <div id=\"backgroundAudioTrack-div\">\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"backgroundAudioTrack-button-play\" type=\"button\" class=\"btn icon-play-audio-background\"  title=\"");t.b(t.v(t.d("strings.i18n_audio_play_background",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.BackgroundAudioPlayPause",c,p,0)));t.b("]\"  aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_play_background",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.BackgroundAudioPlayPause",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.BackgroundAudioPlayPause",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-music\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"backgroundAudioTrack-button-pause\" type=\"button\" class=\"btn icon-pause-audio-background\"  title=\"");t.b(t.v(t.d("strings.i18n_audio_pause_background",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.BackgroundAudioPlayPause",c,p,0)));t.b("]\"  aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_pause_background",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.BackgroundAudioPlayPause",c,p,0)));t.b("]\">\r");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-volume-up\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("        \r");t.b("\n" + i);t.b("    </div>\r");t.b("\n" + i);t.b("    \r");t.b("\n" + i);t.b("    \r");t.b("\n" + i);t.b("    <!--Audioplayer Controls START-->\r");t.b("\n" + i);t.b("    <div id=\"audioplayer\">\r");t.b("\n" + i);t.b("        \r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-collapse-audio\" type=\"button\" class=\"btn icon-collapse-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_collapse",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysAdvancedPanelShowHide",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_collapse",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysAdvancedPanelShowHide",c,p,0)));t.b("]\">\r");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-open\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-expand-audio\" type=\"button\" class=\"btn icon-expand-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_expand",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysAdvancedPanelShowHide",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_expand",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysAdvancedPanelShowHide",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysAdvancedPanelShowHide",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-save\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("        \r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-previous-audio\" type=\"button\" class=\"btn icon-previous-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_previous",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPrevious",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_previous",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPrevious",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysPrevious",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-backward\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("        \r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-play-audio\" type=\"button\" class=\"btn icon-play-audio\"  title=\"");t.b(t.v(t.d("strings.i18n_audio_play",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPlayPause",c,p,0)));t.b("]\"  aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_play",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPlayPause",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysPlayPause",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-play\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-pause-audio\" type=\"button\" class=\"btn icon-pause-audio\"  title=\"");t.b(t.v(t.d("strings.i18n_audio_pause",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPlayPause",c,p,0)));t.b("]\"  aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_pause",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPlayPause",c,p,0)));t.b("]\">\r");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-pause\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("        \r");t.b("\n" + i);t.b("        \r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-next-audio\" type=\"button\" class=\"btn icon-next-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_next",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysNext",c,p,0)));t.b("]\" arial-label=\"");t.b(t.v(t.d("strings.i18n_audio_next",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysNext",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysNext",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-forward\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("        <div id=\"audioResponsive\">\r");t.b("\n" + i);t.b("        \r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-audio-volume-mute\" type=\"button\" class=\"btn icon-audio-volume-mute\" title=\"");t.b(t.v(t.d("strings.i18n_audio_mute",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeMuteToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_mute",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeMuteToggle",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysVolumeMuteToggle",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-volume-up\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-audio-volume-unmute\" type=\"button\" class=\"btn icon-audio-volume-unmute\" title=\"");t.b(t.v(t.d("strings.i18n_audio_unmute",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeMuteToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_unmute",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeMuteToggle",c,p,0)));t.b("]\">\r");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-volume-off\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("        \r");t.b("\n" + i);t.b("        <input tabindex=\"1\" id=\"volume-range-slider\" type=\"range\" role=\"slider\" min=\"0\" aria-value-min=\"0\" aria-valuemin=\"0\" max=\"100\" aria-value-max=\"100\" aria-valuemax=\"100\" value=\"100\" aria-valuenow=\"100\" aria-value-now=\"100\" aria-valuetext=\"100%\" aria-value-text=\"100%\" title=\"");t.b(t.v(t.d("strings.i18n_audio_volume",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeDecrease",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeIncrease",c,p,0)));t.b("]\" arial-label=\"");t.b(t.v(t.d("strings.i18n_audio_volume",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeDecrease",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeIncrease",c,p,0)));t.b("]\" />\r");t.b("\n" + i);t.b("        \r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("        <button tabindex=\"1\" tabindex=\"1\" id=\"btn-touch-audio-enable\" type=\"button\" class=\"btn icon-touch-audio-enable\" title=\"");t.b(t.v(t.d("strings.i18n_audio_touch_enable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_touch_enable",c,p,0)));t.b("\" >\r");t.b("\n" + i);t.b("            <span id=\"icon-touch-off-hand\" class=\"glyphicon glyphicon-hand-up\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <span id=\"icon-touch-off\" class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-touch-audio-disable\" type=\"button\" class=\"btn icon-touch-audio-disable\" title=\"");t.b(t.v(t.d("strings.i18n_audio_touch_disable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_touch_disable",c,p,0)));t.b("\" >\r");t.b("\n" + i);t.b("            <span id=\"icon-touch-on-hand\" class=\"glyphicon glyphicon-hand-up\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <span id=\"icon-touch-on\" class=\"glyphicon glyphicon-ok\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("        </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("        \r");t.b("\n" + i);t.b("    </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("        <div id=\"audioExpanded\" role=\"alert\">\r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("            <input tabindex=\"1\" id=\"time-range-slider\" type=\"range\" role=\"slider\" min=\"0\" aria-value-min=\"0\" aria-valuemin=\"0\" max=\"100\" aria-value-max=\"100\" aria-valuemax=\"100\" value=\"0\" aria-valuenow=\"0\" aria-value-now=\"0\" aria-valuetext=\"0%\" aria-value-text=\"0%\" data-value=\"0\" title=\"");t.b(t.v(t.d("strings.i18n_audio_time",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_time",c,p,0)));t.b("\"  />\r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-audio-rate\" type=\"button\" class=\"btn icon-rate-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_rate_reset",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysRateReset",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_rate_reset",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysRateReset",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysRateReset",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("                <span class=\"glyphicon glyphicon-play-circle\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("            </button>\r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("            <input tabindex=\"1\" id=\"rate-range-slider\" type=\"range\" role=\"slider\" min=\"0\" aria-value-min=\"0\" aria-valuemin=\"0\" max=\"4\" aria-value-max=\"4\" aria-valuemax=\"4\" value=\"1\" aria-valuenow=\"1\" aria-value-now=\"1\" aria-valuetext=\"1x\" aria-value-text=\"1x\" step=\"0.5\" title=\"");t.b(t.v(t.d("strings.i18n_audio_rate",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysRateDecrease",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.MediaOverlaysRateIncrease",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_rate",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysRateDecrease",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.MediaOverlaysRateIncrease",c,p,0)));t.b("]\" />\r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("            <span aria-hidden=\"true\" tabindex=\"-1\" id=\"rate-range-slider-label\">1x</span>\r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("            <form action=\"\" id=\"mo-sync-form\">\r");t.b("\n" + i);t.b("                <input tabindex=\"1\" type=\"radio\" name=\"mo-sync\" value=\"default\" id=\"mo-sync-default\" class=\"mo-sync\" checked=\"checked\"  title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_default",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_sync_default",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"> </input>\r");t.b("\n" + i);t.b("                <label tabindex=\"1\" for=\"mo-sync-default\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_default",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"><span aria-hidden=\"true\">&#8855;</span></label>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                <input tabindex=\"1\" type=\"radio\" name=\"mo-sync\" value=\"word\" id=\"mo-sync-word\" class=\"mo-sync\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_word",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_sync_word",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"> </input>\r");t.b("\n" + i);t.b("                <label tabindex=\"1\" for=\"mo-sync-word\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_word",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"><span aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_audio_sync_word",c,p,0)));t.b("</span></label>\r");t.b("\n" + i);t.b("                \r");t.b("\n" + i);t.b("                <input tabindex=\"1\" type=\"radio\" name=\"mo-sync\" value=\"sentence\" id=\"mo-sync-sentence\" class=\"mo-sync\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_sentence",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_sync_sentence",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"> </input>\r");t.b("\n" + i);t.b("                <label tabindex=\"1\" for=\"mo-sync-sentence\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_sentence",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"><span aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_audio_sync_sentence",c,p,0)));t.b("</span></label>\r");t.b("\n" + i);t.b("                \r");t.b("\n" + i);t.b("                <input tabindex=\"1\" type=\"radio\" name=\"mo-sync\" value=\"paragraph\" id=\"mo-sync-paragraph\" class=\"mo-sync\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_paragraph",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_sync_paragraph",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"> </input>\r");t.b("\n" + i);t.b("                <label tabindex=\"1\" for=\"mo-sync-paragraph\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_paragraph",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"><span aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_audio_sync_paragraph",c,p,0)));t.b("</span></label>\r");t.b("\n" + i);t.b("            </form>\r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("            <div id=\"audio-block\">\r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("            <div id=\"mo-highlighters\">\r");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-0\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": ");t.b(t.v(t.d("strings.i18n_audio_highlight_default",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": ");t.b(t.v(t.d("strings.i18n_audio_highlight_default",c,p,0)));t.b("\" aria-selected=\"true\" data-mohighlight=\"0\" >\r");t.b("\n" + i);t.b("                    ");t.b(t.v(t.d("strings.i18n_audio_highlight_default",c,p,0)));t.b("\r");t.b("\n" + i);t.b("                </button>\r");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-1\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #1\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #1\" data-mohighlight=\"1\" >\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                </button>\r");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-2\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #2\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #2\" data-mohighlight=\"2\" >\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                </button>\r");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-3\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #3\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #3\" data-mohighlight=\"3\" >\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                </button>\r");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-4\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #4\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #4\" data-mohighlight=\"4\" >\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                </button>\r");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-5\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #5\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #5\" data-mohighlight=\"5\" >\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                </button>\r");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-6\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #6\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #6\" data-mohighlight=\"6\" >\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("                </button>\r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-playback-scroll-enable\" type=\"button\" class=\"btn icon-playback-scroll-enable\" title=\"");t.b(t.v(t.d("strings.i18n_playback_scroll_enable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_playback_scroll_enable",c,p,0)));t.b("\" >\r");t.b("\n" + i);t.b("                <span id=\"icon-playback-scroll-off\" class=\"glyphicon glyphicon-sort-by-attributes\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("            </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-playback-scroll-disable\" type=\"button\" class=\"btn icon-playback-scroll-disable\" title=\"");t.b(t.v(t.d("strings.i18n_playback_scroll_disable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_playback_scroll_disable",c,p,0)));t.b("\" >\r");t.b("\n" + i);t.b("                <span id=\"icon-playback-scroll-on\" class=\"glyphicon glyphicon-sort\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("            </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-auto-page-turn-enable\" type=\"button\" class=\"btn icon-auto-page-turn-enable\" title=\"");t.b(t.v(t.d("strings.i18n_auto_page_turn_enable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_auto_page_turn_enable",c,p,0)));t.b("\" >\r");t.b("\n" + i);t.b("                <span id=\"icon-auto-page-turn-off\" class=\"glyphicon glyphicon-sound-stereo\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("            </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-auto-page-turn-disable\" type=\"button\" class=\"btn icon-auto-page-turn-disable\" title=\"");t.b(t.v(t.d("strings.i18n_auto_page_turn_disable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_auto_page_turn_disable",c,p,0)));t.b("\" >\r");t.b("\n" + i);t.b("                <span id=\"icon-auto-page-turn-on\" class=\"glyphicon glyphicon-sound-dolby\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("            </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-skip-audio-enable\" type=\"button\" class=\"btn icon-skip-audio-enable\" title=\"");t.b(t.v(t.d("strings.i18n_audio_skip_enable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_skip_enable",c,p,0)));t.b("\" >\r");t.b("\n" + i);t.b("                <span id=\"icon-skip-off\" class=\"glyphicon glyphicon-remove-circle\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("            </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-skip-audio-disable\" type=\"button\" class=\"btn icon-skip-audio-disable\" title=\"");t.b(t.v(t.d("strings.i18n_audio_skip_disable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_skip_disable",c,p,0)));t.b("\" >\r");t.b("\n" + i);t.b("                <span id=\"icon-skip-on\" class=\"glyphicon glyphicon-ok-circle\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("            </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-esc-audio\" type=\"button\" class=\"btn icon-esc-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_esc",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysEscape",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_esc",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysEscape",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysEscape",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("                <span class=\"glyphicon glyphicon-eject\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("            </button>\r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("            </div>\r");t.b("\n" + i);t.b("            \r");t.b("\n" + i);t.b("            <!-- div class=\"checkbox\">\r");t.b("\n" + i);t.b("              <label>\r");t.b("\n" + i);t.b("                <input type=\"checkbox\" value=\"false\"> Skip\r");t.b("\n" + i);t.b("              </label>\r");t.b("\n" + i);t.b("            </div -->\r");t.b("\n" + i);t.b("        </div>\r");t.b("\n" + i);t.b("    </div> \r");t.b("\n" + i);t.b("    <!--Audioplayer Controls END-->\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("    <div class=\"zoom-wrapper dropdown\" style=\"display:none\">\r");t.b("\n" + i);t.b("        <a id=\"zoom-menu-link\" tabindex=\"1\" title=\"");t.b(t.v(t.d("strings.zoom",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.zoom",c,p,0)));t.b("\" href=\"#\" data-toggle=\"dropdown\"><input tabindex=\"1\" type=\"text\" value=\"100%\" disabled/><span class=\"caret\"></span></a>\r");t.b("\n" + i);t.b("        <ul id=\"zoom-menu\" class=\"dropdown-menu\" role=\"menu\">\r");t.b("\n" + i);t.b("            <li id=\"zoom-custom\"><a role=\"menuitem\" href=\"#\" tabindex=\"1\">");t.b(t.v(t.d("strings.zoom_custom",c,p,0)));t.b(" <span class=\"glyphicon glyphicon-ok\"></span></a></li>\r");t.b("\n" + i);t.b("            <li id=\"zoom-fit-width\"><a role=\"menuitem\" href=\"#\" tabindex=\"1\">");t.b(t.v(t.d("strings.zoom_fit_width",c,p,0)));t.b(" <span class=\"glyphicon glyphicon-ok\"></span></a></li>\r");t.b("\n" + i);t.b("            <li id=\"zoom-fit-screen\" class=\"active-zoom\"><a role=\"menuitem\" href=\"#\" tabindex=\"1\">");t.b(t.v(t.d("strings.zoom_fit_screen",c,p,0)));t.b(" <span class=\"glyphicon glyphicon-ok\"></span></a></li>\r");t.b("\n" + i);t.b("        </ul>\r");t.b("\n" + i);t.b("    </div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" class=\"btn icon-library\" title=\"");t.b(t.v(t.d("strings.view_library",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SwitchToLibrary",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.view_library",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SwitchToLibrary",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.SwitchToLibrary",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-folder-open\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" class=\"btn icon-metadata\" title=\"");t.b(t.v(t.d("strings.show_metadata",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MetadataDialog",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.show_metadata",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MetadataDialog",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MetadataDialog",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" class=\"btn icon-annotations\" title=\"");t.b(t.v(t.d("strings.highlight_selection",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.highlight_selection",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-edit\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("    <button id=\"tocButt\" tabindex=\"1\" tabindex=\"1\" type=\"button\" class=\"btn icon-toc\" title=\"");t.b(t.v(t.d("strings.toc",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.TocShowHideToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.toc",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.TocShowHideToggle",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.TocShowHideToggle",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-list\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("    <button id=\"settbutt1\" tabindex=\"1\" type=\"button\" class=\"btn icon-settings\" data-toggle=\"modal\" data-target=\"#settings-dialog\" title=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ShowSettingsModal",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ShowSettingsModal",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.ShowSettingsModal",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-cog\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("    \r");t.b("\n" + i);t.b("    <button tabindex=\"1\" id=\"buttFullScreenToggle\" type=\"button\" class=\"btn icon-full-screen\" title=\"");t.b(t.v(t.d("strings.enter_fullscreen",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.FullScreenToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.enter_fullscreen",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.FullScreenToggle",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.FullScreenToggle",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-resize-full\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("    </button>\r");t.b("\n" + i);t.b("    \r");t.b("\n" + i);t.b("    <!-- <button type=\"button\" class=\"btn btn-default icon icon-bookmark\"></button>-->\r");t.b("\n" + i);t.b("</div>\r");t.b("\n" + i);t.b("\r");t.b("\n");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/reader-navbar.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div class=\"btn-group navbar-left\">");t.b("\n" + i);t.b("        <!-- <button type=\"button\" class=\"btn btn-default icon icon-show-hide\"></button>  -->");t.b("\n" + i);t.b("    <button id=\"aboutButt1\" tabindex=\"1\" type=\"button\" class=\"btn icon-logo\" data-toggle=\"modal\" data-target=\"#about-dialog\" title=\"");t.b(t.v(t.d("strings.about",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.about",c,p,0)));t.b("\">");t.b("\n" + i);t.b("        <span class=\"icon-readium\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n" + i);t.b("    ");t.b("\n" + i);t.b("    <button id=\"buttShowToolBar\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:1px;height=1px;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.ToolbarShow",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.ToolbarShow",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.ToolbarShow",c,p,0)));t.b("\"> </button>");t.b("\n" + i);t.b("    ");t.b("\n" + i);t.b("    <button id=\"buttHideToolBar\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.ToolbarHide",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.ToolbarHide",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.ToolbarHide",c,p,0)));t.b("\"> </button>");t.b("\n" + i);t.b("    ");t.b("\n" + i);t.b("    <button id=\"buttNightTheme\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.NightTheme",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.NightTheme",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.NightTheme",c,p,0)));t.b("\"> </button>");t.b("\n");t.b("\n" + i);t.b("    <button id=\"buttRatePlus\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysRateIncrease",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysRateIncrease",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysRateIncrease",c,p,0)));t.b("\"> </button>");t.b("\n");t.b("\n" + i);t.b("    <button id=\"buttRateMinus\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysRateDecrease",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysRateDecrease",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysRateDecrease",c,p,0)));t.b("\"> </button>");t.b("\n");t.b("\n" + i);t.b("    <button id=\"buttVolumePlus\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeIncrease",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeIncrease",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysVolumeIncrease",c,p,0)));t.b("\"> </button>");t.b("\n");t.b("\n" + i);t.b("    <button id=\"buttVolumeMinus\" style=\"opacity:0;visibility:hidden;border:0;outline:0;padding:0;margin:0;width:0;height=0;\" tabindex=\"-1\" aria-hidden=\"true\" type=\"button\" title=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeDecrease",c,p,0)));t.b("\" aria-label=\"access key ");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeDecrease",c,p,0)));t.b("\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysVolumeDecrease",c,p,0)));t.b("\"> </button>");t.b("\n" + i);t.b("    ");t.b("\n" + i);t.b("</div>");t.b("\n");t.b("\n" + i);t.b("<!--<div class=\"navbar-middle\">-->");t.b("\n" + i);t.b("        <!--<div id=\"pagination-numbering\" class=\"pagination\"></div>-->");t.b("\n" + i);t.b("        <!--<div id=\"pagination-in-percent\" class=\"pagination\"></div>-->");t.b("\n" + i);t.b("        <!--&lt;!&ndash;<input  type=\"text\" role=\"slider\" id=\"pagination-in-percent-slider\" value=\"\" data-slider-min=\"0\" data-slider-max=\"100\" data-slider-step=\"1\" data-slider-id=\"p-slider\" data-slider-tooltip=\"hide\" data-slider-handle=\"round\" />&ndash;&gt;-->");t.b("\n" + i);t.b("<!--</div>-->");t.b("\n" + i);t.b("<div class=\"btn-group navbar-right\">");t.b("\n" + i);t.b("    ");t.b("\n");t.b("\n" + i);t.b("    <div id=\"backgroundAudioTrack-div\">");t.b("\n");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"backgroundAudioTrack-button-play\" type=\"button\" class=\"btn icon-play-audio-background\"  title=\"");t.b(t.v(t.d("strings.i18n_audio_play_background",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.BackgroundAudioPlayPause",c,p,0)));t.b("]\"  aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_play_background",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.BackgroundAudioPlayPause",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.BackgroundAudioPlayPause",c,p,0)));t.b("\">");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-music\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"backgroundAudioTrack-button-pause\" type=\"button\" class=\"btn icon-pause-audio-background\"  title=\"");t.b(t.v(t.d("strings.i18n_audio_pause_background",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.BackgroundAudioPlayPause",c,p,0)));t.b("]\"  aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_pause_background",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.BackgroundAudioPlayPause",c,p,0)));t.b("]\">");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-volume-up\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n" + i);t.b("        ");t.b("\n" + i);t.b("    </div>");t.b("\n" + i);t.b("    ");t.b("\n" + i);t.b("    ");t.b("\n" + i);t.b("    <!--Audioplayer Controls START-->");t.b("\n" + i);t.b("    <div id=\"audioplayer\">");t.b("\n" + i);t.b("        ");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-collapse-audio\" type=\"button\" class=\"btn icon-collapse-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_collapse",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysAdvancedPanelShowHide",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_collapse",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysAdvancedPanelShowHide",c,p,0)));t.b("]\">");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-open\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-expand-audio\" type=\"button\" class=\"btn icon-expand-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_expand",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysAdvancedPanelShowHide",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_expand",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysAdvancedPanelShowHide",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysAdvancedPanelShowHide",c,p,0)));t.b("\">");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-save\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n" + i);t.b("        ");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-previous-audio\" type=\"button\" class=\"btn icon-previous-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_previous",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPrevious",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_previous",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPrevious",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysPrevious",c,p,0)));t.b("\">");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-backward\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n" + i);t.b("        ");t.b("\n");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-play-audio\" type=\"button\" class=\"btn icon-play-audio\"  title=\"");t.b(t.v(t.d("strings.i18n_audio_play",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPlayPause",c,p,0)));t.b("]\"  aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_play",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPlayPause",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysPlayPause",c,p,0)));t.b("\">");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-play\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-pause-audio\" type=\"button\" class=\"btn icon-pause-audio\"  title=\"");t.b(t.v(t.d("strings.i18n_audio_pause",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPlayPause",c,p,0)));t.b("]\"  aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_pause",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysPlayPause",c,p,0)));t.b("]\">");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-pause\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n" + i);t.b("        ");t.b("\n" + i);t.b("        ");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-next-audio\" type=\"button\" class=\"btn icon-next-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_next",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysNext",c,p,0)));t.b("]\" arial-label=\"");t.b(t.v(t.d("strings.i18n_audio_next",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysNext",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysNext",c,p,0)));t.b("\">");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-forward\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n");t.b("\n" + i);t.b("        <div id=\"audioResponsive\">");t.b("\n" + i);t.b("        ");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-audio-volume-mute\" type=\"button\" class=\"btn icon-audio-volume-mute\" title=\"");t.b(t.v(t.d("strings.i18n_audio_mute",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeMuteToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_mute",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeMuteToggle",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysVolumeMuteToggle",c,p,0)));t.b("\">");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-volume-up\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-audio-volume-unmute\" type=\"button\" class=\"btn icon-audio-volume-unmute\" title=\"");t.b(t.v(t.d("strings.i18n_audio_unmute",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeMuteToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_unmute",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeMuteToggle",c,p,0)));t.b("]\">");t.b("\n" + i);t.b("            <span class=\"glyphicon glyphicon-volume-off\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n" + i);t.b("        ");t.b("\n" + i);t.b("        <input tabindex=\"1\" id=\"volume-range-slider\" type=\"range\" role=\"slider\" min=\"0\" aria-value-min=\"0\" aria-valuemin=\"0\" max=\"100\" aria-value-max=\"100\" aria-valuemax=\"100\" value=\"100\" aria-valuenow=\"100\" aria-value-now=\"100\" aria-valuetext=\"100%\" aria-value-text=\"100%\" title=\"");t.b(t.v(t.d("strings.i18n_audio_volume",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeDecrease",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeIncrease",c,p,0)));t.b("]\" arial-label=\"");t.b(t.v(t.d("strings.i18n_audio_volume",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeDecrease",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.MediaOverlaysVolumeIncrease",c,p,0)));t.b("]\" />");t.b("\n" + i);t.b("        ");t.b("\n");t.b("\n" + i);t.b("        <button tabindex=\"1\" tabindex=\"1\" id=\"btn-touch-audio-enable\" type=\"button\" class=\"btn icon-touch-audio-enable\" title=\"");t.b(t.v(t.d("strings.i18n_audio_touch_enable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_touch_enable",c,p,0)));t.b("\" >");t.b("\n" + i);t.b("            <span id=\"icon-touch-off-hand\" class=\"glyphicon glyphicon-hand-up\" aria-hidden=\"true\"></span>");t.b("\n");t.b("\n" + i);t.b("            <span id=\"icon-touch-off\" class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n");t.b("\n" + i);t.b("        <button tabindex=\"1\" id=\"btn-touch-audio-disable\" type=\"button\" class=\"btn icon-touch-audio-disable\" title=\"");t.b(t.v(t.d("strings.i18n_audio_touch_disable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_touch_disable",c,p,0)));t.b("\" >");t.b("\n" + i);t.b("            <span id=\"icon-touch-on-hand\" class=\"glyphicon glyphicon-hand-up\" aria-hidden=\"true\"></span>");t.b("\n");t.b("\n" + i);t.b("            <span id=\"icon-touch-on\" class=\"glyphicon glyphicon-ok\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("        </button>");t.b("\n");t.b("\n" + i);t.b("        ");t.b("\n" + i);t.b("    </div>");t.b("\n");t.b("\n" + i);t.b("        <div id=\"audioExpanded\" role=\"alert\">");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("            <input tabindex=\"1\" id=\"time-range-slider\" type=\"range\" role=\"slider\" min=\"0\" aria-value-min=\"0\" aria-valuemin=\"0\" max=\"100\" aria-value-max=\"100\" aria-valuemax=\"100\" value=\"0\" aria-valuenow=\"0\" aria-value-now=\"0\" aria-valuetext=\"0%\" aria-value-text=\"0%\" data-value=\"0\" title=\"");t.b(t.v(t.d("strings.i18n_audio_time",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_time",c,p,0)));t.b("\"  />");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-audio-rate\" type=\"button\" class=\"btn icon-rate-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_rate_reset",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysRateReset",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_rate_reset",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysRateReset",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysRateReset",c,p,0)));t.b("\">");t.b("\n" + i);t.b("                <span class=\"glyphicon glyphicon-play-circle\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("            </button>");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("            <input tabindex=\"1\" id=\"rate-range-slider\" type=\"range\" role=\"slider\" min=\"0\" aria-value-min=\"0\" aria-valuemin=\"0\" max=\"4\" aria-value-max=\"4\" aria-valuemax=\"4\" value=\"1\" aria-valuenow=\"1\" aria-value-now=\"1\" aria-valuetext=\"1x\" aria-value-text=\"1x\" step=\"0.5\" title=\"");t.b(t.v(t.d("strings.i18n_audio_rate",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysRateDecrease",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.MediaOverlaysRateIncrease",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_rate",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysRateDecrease",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.MediaOverlaysRateIncrease",c,p,0)));t.b("]\" />");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("            <span aria-hidden=\"true\" tabindex=\"-1\" id=\"rate-range-slider-label\">1x</span>");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("            <form action=\"\" id=\"mo-sync-form\">");t.b("\n" + i);t.b("                <input tabindex=\"1\" type=\"radio\" name=\"mo-sync\" value=\"default\" id=\"mo-sync-default\" class=\"mo-sync\" checked=\"checked\"  title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_default",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_sync_default",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"> </input>");t.b("\n" + i);t.b("                <label tabindex=\"1\" for=\"mo-sync-default\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_default",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"><span aria-hidden=\"true\">&#8855;</span></label>");t.b("\n");t.b("\n" + i);t.b("                <input tabindex=\"1\" type=\"radio\" name=\"mo-sync\" value=\"word\" id=\"mo-sync-word\" class=\"mo-sync\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_word",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_sync_word",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"> </input>");t.b("\n" + i);t.b("                <label tabindex=\"1\" for=\"mo-sync-word\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_word",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"><span aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_audio_sync_word",c,p,0)));t.b("</span></label>");t.b("\n" + i);t.b("                ");t.b("\n" + i);t.b("                <input tabindex=\"1\" type=\"radio\" name=\"mo-sync\" value=\"sentence\" id=\"mo-sync-sentence\" class=\"mo-sync\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_sentence",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_sync_sentence",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"> </input>");t.b("\n" + i);t.b("                <label tabindex=\"1\" for=\"mo-sync-sentence\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_sentence",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"><span aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_audio_sync_sentence",c,p,0)));t.b("</span></label>");t.b("\n" + i);t.b("                ");t.b("\n" + i);t.b("                <input tabindex=\"1\" type=\"radio\" name=\"mo-sync\" value=\"paragraph\" id=\"mo-sync-paragraph\" class=\"mo-sync\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_paragraph",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_sync_paragraph",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"> </input>");t.b("\n" + i);t.b("                <label tabindex=\"1\" for=\"mo-sync-paragraph\" title=\"");t.b(t.v(t.d("strings.i18n_audio_sync_paragraph",c,p,0)));t.b(" ");t.b(t.v(t.d("strings.i18n_audio_sync",c,p,0)));t.b("\"><span aria-hidden=\"true\">");t.b(t.v(t.d("strings.i18n_audio_sync_paragraph",c,p,0)));t.b("</span></label>");t.b("\n" + i);t.b("            </form>");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("            <div id=\"audio-block\">");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("            <div id=\"mo-highlighters\">");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-0\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": ");t.b(t.v(t.d("strings.i18n_audio_highlight_default",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": ");t.b(t.v(t.d("strings.i18n_audio_highlight_default",c,p,0)));t.b("\" aria-selected=\"true\" data-mohighlight=\"0\" >");t.b("\n" + i);t.b("                    ");t.b(t.v(t.d("strings.i18n_audio_highlight_default",c,p,0)));t.b("\n" + i);t.b("                </button>");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-1\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #1\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #1\" data-mohighlight=\"1\" >");t.b("\n");t.b("\n" + i);t.b("                </button>");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-2\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #2\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #2\" data-mohighlight=\"2\" >");t.b("\n");t.b("\n" + i);t.b("                </button>");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-3\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #3\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #3\" data-mohighlight=\"3\" >");t.b("\n");t.b("\n" + i);t.b("                </button>");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-4\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #4\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #4\" data-mohighlight=\"4\" >");t.b("\n");t.b("\n" + i);t.b("                </button>");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-5\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #5\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #5\" data-mohighlight=\"5\" >");t.b("\n");t.b("\n" + i);t.b("                </button>");t.b("\n" + i);t.b("                <button tabindex=\"1\" id=\"mo-highlighter-6\" type=\"button\" class=\"btn btn-mo-highlighter\" title=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #6\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_highlight",c,p,0)));t.b(": #6\" data-mohighlight=\"6\" >");t.b("\n");t.b("\n" + i);t.b("                </button>");t.b("\n" + i);t.b("            </div>");t.b("\n");t.b("\n");t.b("\n");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-playback-scroll-enable\" type=\"button\" class=\"btn icon-playback-scroll-enable\" title=\"");t.b(t.v(t.d("strings.i18n_playback_scroll_enable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_playback_scroll_enable",c,p,0)));t.b("\" >");t.b("\n" + i);t.b("                <span id=\"icon-playback-scroll-off\" class=\"glyphicon glyphicon-sort-by-attributes\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("            </button>");t.b("\n");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-playback-scroll-disable\" type=\"button\" class=\"btn icon-playback-scroll-disable\" title=\"");t.b(t.v(t.d("strings.i18n_playback_scroll_disable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_playback_scroll_disable",c,p,0)));t.b("\" >");t.b("\n" + i);t.b("                <span id=\"icon-playback-scroll-on\" class=\"glyphicon glyphicon-sort\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("            </button>");t.b("\n");t.b("\n");t.b("\n");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-auto-page-turn-enable\" type=\"button\" class=\"btn icon-auto-page-turn-enable\" title=\"");t.b(t.v(t.d("strings.i18n_auto_page_turn_enable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_auto_page_turn_enable",c,p,0)));t.b("\" >");t.b("\n" + i);t.b("                <span id=\"icon-auto-page-turn-off\" class=\"glyphicon glyphicon-sound-stereo\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("            </button>");t.b("\n");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-auto-page-turn-disable\" type=\"button\" class=\"btn icon-auto-page-turn-disable\" title=\"");t.b(t.v(t.d("strings.i18n_auto_page_turn_disable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_auto_page_turn_disable",c,p,0)));t.b("\" >");t.b("\n" + i);t.b("                <span id=\"icon-auto-page-turn-on\" class=\"glyphicon glyphicon-sound-dolby\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("            </button>");t.b("\n");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-skip-audio-enable\" type=\"button\" class=\"btn icon-skip-audio-enable\" title=\"");t.b(t.v(t.d("strings.i18n_audio_skip_enable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_skip_enable",c,p,0)));t.b("\" >");t.b("\n" + i);t.b("                <span id=\"icon-skip-off\" class=\"glyphicon glyphicon-remove-circle\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("            </button>");t.b("\n");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-skip-audio-disable\" type=\"button\" class=\"btn icon-skip-audio-disable\" title=\"");t.b(t.v(t.d("strings.i18n_audio_skip_disable",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_skip_disable",c,p,0)));t.b("\" >");t.b("\n" + i);t.b("                <span id=\"icon-skip-on\" class=\"glyphicon glyphicon-ok-circle\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("            </button>");t.b("\n");t.b("\n");t.b("\n" + i);t.b("            <button tabindex=\"1\" id=\"btn-esc-audio\" type=\"button\" class=\"btn icon-esc-audio\" title=\"");t.b(t.v(t.d("strings.i18n_audio_esc",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysEscape",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.i18n_audio_esc",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MediaOverlaysEscape",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MediaOverlaysEscape",c,p,0)));t.b("\">");t.b("\n" + i);t.b("                <span class=\"glyphicon glyphicon-eject\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("            </button>");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("            </div>");t.b("\n" + i);t.b("            ");t.b("\n" + i);t.b("            <!-- div class=\"checkbox\">");t.b("\n" + i);t.b("              <label>");t.b("\n" + i);t.b("                <input type=\"checkbox\" value=\"false\"> Skip");t.b("\n" + i);t.b("              </label>");t.b("\n" + i);t.b("            </div -->");t.b("\n" + i);t.b("        </div>");t.b("\n" + i);t.b("    </div> ");t.b("\n" + i);t.b("    <!--Audioplayer Controls END-->");t.b("\n");t.b("\n");t.b("\n");t.b("\n" + i);t.b("    <div class=\"zoom-wrapper dropdown\" style=\"display:none\">");t.b("\n" + i);t.b("        <a id=\"zoom-menu-link\" tabindex=\"1\" title=\"");t.b(t.v(t.d("strings.zoom",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.zoom",c,p,0)));t.b("\" href=\"#\" data-toggle=\"dropdown\"><input tabindex=\"1\" type=\"text\" value=\"100%\" disabled/><span class=\"caret\"></span></a>");t.b("\n" + i);t.b("        <ul id=\"zoom-menu\" class=\"dropdown-menu\" role=\"menu\">");t.b("\n" + i);t.b("            <li id=\"zoom-custom\"><a role=\"menuitem\" href=\"#\" tabindex=\"1\">");t.b(t.v(t.d("strings.zoom_custom",c,p,0)));t.b(" <span class=\"glyphicon glyphicon-ok\"></span></a></li>");t.b("\n" + i);t.b("            <li id=\"zoom-fit-width\"><a role=\"menuitem\" href=\"#\" tabindex=\"1\">");t.b(t.v(t.d("strings.zoom_fit_width",c,p,0)));t.b(" <span class=\"glyphicon glyphicon-ok\"></span></a></li>");t.b("\n" + i);t.b("            <li id=\"zoom-fit-screen\" class=\"active-zoom\"><a role=\"menuitem\" href=\"#\" tabindex=\"1\">");t.b(t.v(t.d("strings.zoom_fit_screen",c,p,0)));t.b(" <span class=\"glyphicon glyphicon-ok\"></span></a></li>");t.b("\n" + i);t.b("        </ul>");t.b("\n" + i);t.b("    </div>");t.b("\n");t.b("\n");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" data-toggle=\"dropdown\" class=\"btn icon-search\" title=\"Suche\" aria-label=\"");t.b(t.v(t.d("strings.search_epub",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SearchEpub",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.SearchEpub",c,p,0)));t.b("\">");t.b("\n" + i);t.b("         <span class=\"glyphicon glyphicon-search\"></span>");t.b("\n" + i);t.b("     </button>");t.b("\n" + i);t.b("     <ul id=\"search-menu\" class=\"dropdown-menu\" role=\"menu\">");t.b("\n" + i);t.b("         <li>");t.b("\n" + i);t.b("             <input id=\"searchbox\"  data-provide=\"typeahead\" class=\"form-control\" class=\"typeahead\" type=\"text\" placeholder=\"Search\" autocomplete=\"off\">");t.b("\n" + i);t.b("             <!--<span class=\"glyphicon glyphicon-search\"></span>-->");t.b("\n" + i);t.b("             <button id=\"search-btn-previous\" type=\"button\" class=\"btn sml\">");t.b("\n" + i);t.b("                 <span class=\"glyphicon glyphicon-arrow-left\"></span>");t.b("\n" + i);t.b("             </button>");t.b("\n" + i);t.b("             <button id=\"search-btn-next\" type=\"button\" class=\"btn sml\">");t.b("\n" + i);t.b("                 <span class=\"glyphicon glyphicon-arrow-right\"></span>");t.b("\n" + i);t.b("             </button>");t.b("\n" + i);t.b("         </li>");t.b("\n" + i);t.b("     </ul>");t.b("\n");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" class=\"btn icon-library\" title=\"");t.b(t.v(t.d("strings.view_library",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SwitchToLibrary",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.view_library",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.SwitchToLibrary",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.SwitchToLibrary",c,p,0)));t.b("\">");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-folder-open\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" class=\"btn icon-metadata\" title=\"");t.b(t.v(t.d("strings.show_metadata",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MetadataDialog",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.show_metadata",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.MetadataDialog",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.MetadataDialog",c,p,0)));t.b("\">");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-info-sign\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n");t.b("\n");t.b("\n" + i);t.b("    <button tabindex=\"1\" type=\"button\" class=\"btn icon-annotations\" title=\"");t.b(t.v(t.d("strings.highlight_selection",c,p,0)));t.b("\" aria-label=\"");t.b(t.v(t.d("strings.highlight_selection",c,p,0)));t.b("\">");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-edit\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n" + i);t.b("    <button id=\"tocButt\" tabindex=\"1\" tabindex=\"1\" type=\"button\" class=\"btn icon-toc\" title=\"");t.b(t.v(t.d("strings.toc",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.TocShowHideToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.toc",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.TocShowHideToggle",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.TocShowHideToggle",c,p,0)));t.b("\">");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-list\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n" + i);t.b("    <button id=\"settbutt1\" tabindex=\"1\" type=\"button\" class=\"btn icon-settings\" data-toggle=\"modal\" data-target=\"#settings-dialog\" title=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ShowSettingsModal",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.settings",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.ShowSettingsModal",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.ShowSettingsModal",c,p,0)));t.b("\">");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-cog\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n" + i);t.b("    ");t.b("\n" + i);t.b("    <button tabindex=\"1\" id=\"buttFullScreenToggle\" type=\"button\" class=\"btn icon-full-screen\" title=\"");t.b(t.v(t.d("strings.enter_fullscreen",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.FullScreenToggle",c,p,0)));t.b("]\" aria-label=\"");t.b(t.v(t.d("strings.enter_fullscreen",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.FullScreenToggle",c,p,0)));t.b("]\" accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.FullScreenToggle",c,p,0)));t.b("\">");t.b("\n" + i);t.b("        <span class=\"glyphicon glyphicon-resize-full\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("    </button>");t.b("\n" + i);t.b("    ");t.b("\n" + i);t.b("    <!-- <button type=\"button\" class=\"btn btn-default icon icon-bookmark\"></button>-->");t.b("\n" + i);t.b("</div>");t.b("\n");t.b("\n");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/reader-body.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div id=\"readium-toc-body\"\r");t.b("\n" + i);t.b("aria-label=\"");t.b(t.v(t.d("strings.toc",c,p,0)));t.b("\"\r");t.b("\n" + i);t.b("role=\"navigation\"\r");t.b("\n" + i);t.b(">\r");t.b("\n" + i);t.b("</div>\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("<div id=\"reading-area\" role=\"main\">  \r");t.b("\n" + i);t.b("  <div id=\"epub-reader-container\">\r");t.b("\n" + i);t.b("    <div id=\"epub-reader-frame\">\r");t.b("\n" + i);t.b("    </div>\r");t.b("\n" + i);t.b("  </div>\r");t.b("\n" + i);t.b("  \r");t.b("\n" + i);t.b("  <div id=\"readium-page-btns\" role=\"region\" aria-label=\"");t.b(t.v(t.d("strings.i18n_page_navigation",c,p,0)));t.b("\">\r");t.b("\n" + i);t.b("  <!-- page left/right buttons inserted here when EPUB is loaded (page progression direction) -->\r");t.b("\n" + i);t.b("  </div>\r");t.b("\n" + i);t.b("  \r");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/reader-body.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<div id=\"readium-toc-body\"");t.b("\n" + i);t.b("aria-label=\"");t.b(t.v(t.d("strings.toc",c,p,0)));t.b("\"");t.b("\n" + i);t.b("role=\"navigation\"");t.b("\n" + i);t.b(">");t.b("\n" + i);t.b("</div>");t.b("\n");t.b("\n" + i);t.b("<div id=\"reading-area\" role=\"main\">  ");t.b("\n" + i);t.b("  <div id=\"epub-reader-container\">");t.b("\n" + i);t.b("    <div id=\"epub-reader-frame\">");t.b("\n" + i);t.b("    </div>");t.b("\n" + i);t.b("  </div>");t.b("\n" + i);t.b("  ");t.b("\n" + i);t.b("  <div id=\"readium-page-btns\" role=\"region\" aria-label=\"");t.b(t.v(t.d("strings.i18n_page_navigation",c,p,0)));t.b("\">");t.b("\n" + i);t.b("  <!-- page left/right buttons inserted here when EPUB is loaded (page progression direction) -->");t.b("\n" + i);t.b("  </div>");t.b("\n" + i);t.b("  ");t.b("\n" + i);t.b("</div>");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 
-define("hgn!templates/reader-body-page-btns.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<!-- Left page -->\r");t.b("\n" + i);t.b("<button tabindex=\"0\" id=\"left-page-btn\" class=\"page-switch-overlay-icon\" type=\"button\"\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);if(t.s(t.f("pageProgressionDirectionIsRTL",c,p,1),c,p,0,144,315,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("title=\"\"\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("aria-label=\"");t.b(t.v(t.d("strings.i18n_page_next",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.PagePrevious",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.PagePreviousAlt",c,p,0)));t.b("]\"\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.PagePreviousAlt",c,p,0)));t.b("\"\r");t.b("\n" + i);});c.pop();}t.b("\r");t.b("\n" + i);if(!t.s(t.f("pageProgressionDirectionIsRTL",c,p,1),c,p,1,0,0,"")){t.b("title=\"\"\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("aria-label=\"");t.b(t.v(t.d("strings.i18n_page_previous",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.PagePrevious",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.PagePreviousAlt",c,p,0)));t.b("]\"\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.PagePreviousAlt",c,p,0)));t.b("\"\r");t.b("\n" + i);};t.b("\r");t.b("\n" + i);t.b(">\r");t.b("\n" + i);t.b("<!-- img aria-hidden=\"true\" src=\"images/pagination1.svg\" -->\r");t.b("\n" + i);t.b("<span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("</button>\r");t.b("\n" + i);t.b("  \r");t.b("\n" + i);t.b("<!-- Right page -->\r");t.b("\n" + i);t.b("<button tabindex=\"0\" id=\"right-page-btn\" class=\"page-switch-overlay-icon\" type=\"button\"\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);if(t.s(t.f("pageProgressionDirectionIsRTL",c,p,1),c,p,0,901,1064,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("title=\"\"\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("aria-label=\"");t.b(t.v(t.d("strings.i18n_page_previous",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.PageNext",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.PageNextAlt",c,p,0)));t.b("]\"\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.PageNextAlt",c,p,0)));t.b("\"\r");t.b("\n" + i);});c.pop();}t.b("\r");t.b("\n" + i);if(!t.s(t.f("pageProgressionDirectionIsRTL",c,p,1),c,p,1,0,0,"")){t.b("title=\"\"\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("aria-label=\"");t.b(t.v(t.d("strings.i18n_page_next",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.PageNext",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.PageNextAlt",c,p,0)));t.b("]\"\r");t.b("\n" + i);t.b("\r");t.b("\n" + i);t.b("accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.PageNextAlt",c,p,0)));t.b("\"\r");t.b("\n" + i);};t.b("\r");t.b("\n" + i);t.b(">\r");t.b("\n" + i);t.b("<!-- img aria-hidden=\"true\" src=\"images/pagination1.svg\" -->\r");t.b("\n" + i);t.b("<span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>\r");t.b("\n" + i);t.b("</button>\r");t.b("\n");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
+define("hgn!templates/reader-body-page-btns.html", ["hogan"], function(hogan){  var tmpl = new hogan.Template({code: function (c,p,i) { var t=this;t.b(i=i||"");t.b("<!-- Left page -->");t.b("\n" + i);t.b("<button tabindex=\"0\" id=\"left-page-btn\" class=\"page-switch-overlay-icon\" type=\"button\"");t.b("\n");t.b("\n" + i);if(t.s(t.f("pageProgressionDirectionIsRTL",c,p,1),c,p,0,141,306,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("title=\"\"");t.b("\n");t.b("\n" + i);t.b("aria-label=\"");t.b(t.v(t.d("strings.i18n_page_next",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.PagePrevious",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.PagePreviousAlt",c,p,0)));t.b("]\"");t.b("\n");t.b("\n" + i);t.b("accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.PagePreviousAlt",c,p,0)));t.b("\"");t.b("\n" + i);});c.pop();}t.b("\n" + i);if(!t.s(t.f("pageProgressionDirectionIsRTL",c,p,1),c,p,1,0,0,"")){t.b("title=\"\"");t.b("\n");t.b("\n" + i);t.b("aria-label=\"");t.b(t.v(t.d("strings.i18n_page_previous",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.PagePrevious",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.PagePreviousAlt",c,p,0)));t.b("]\"");t.b("\n");t.b("\n" + i);t.b("accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.PagePreviousAlt",c,p,0)));t.b("\"");t.b("\n" + i);};t.b("\n" + i);t.b(">");t.b("\n" + i);t.b("<!-- img aria-hidden=\"true\" src=\"images/pagination1.svg\" -->");t.b("\n" + i);t.b("<span class=\"glyphicon glyphicon-chevron-left\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("</button>");t.b("\n" + i);t.b("  ");t.b("\n" + i);t.b("<!-- Right page -->");t.b("\n" + i);t.b("<button tabindex=\"0\" id=\"right-page-btn\" class=\"page-switch-overlay-icon\" type=\"button\"");t.b("\n");t.b("\n" + i);if(t.s(t.f("pageProgressionDirectionIsRTL",c,p,1),c,p,0,874,1031,"{{ }}")){t.rs(c,p,function(c,p,t){t.b("title=\"\"");t.b("\n");t.b("\n" + i);t.b("aria-label=\"");t.b(t.v(t.d("strings.i18n_page_previous",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.PageNext",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.PageNextAlt",c,p,0)));t.b("]\"");t.b("\n");t.b("\n" + i);t.b("accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.PageNextAlt",c,p,0)));t.b("\"");t.b("\n" + i);});c.pop();}t.b("\n" + i);if(!t.s(t.f("pageProgressionDirectionIsRTL",c,p,1),c,p,1,0,0,"")){t.b("title=\"\"");t.b("\n");t.b("\n" + i);t.b("aria-label=\"");t.b(t.v(t.d("strings.i18n_page_next",c,p,0)));t.b(" [");t.b(t.v(t.d("keyboard.PageNext",c,p,0)));t.b("] / [");t.b(t.v(t.d("keyboard.PageNextAlt",c,p,0)));t.b("]\"");t.b("\n");t.b("\n" + i);t.b("accesskey=\"");t.b(t.v(t.d("keyboard.accesskeys.PageNextAlt",c,p,0)));t.b("\"");t.b("\n" + i);};t.b("\n" + i);t.b(">");t.b("\n" + i);t.b("<!-- img aria-hidden=\"true\" src=\"images/pagination1.svg\" -->");t.b("\n" + i);t.b("<span class=\"glyphicon glyphicon-chevron-right\" aria-hidden=\"true\"></span>");t.b("\n" + i);t.b("</button>");t.b("\n");return t.fl(); },partials: {}, subs: {  }}, "", hogan);  function render(){ return tmpl.render.apply(tmpl, arguments); } render.template = tmpl; return render;});
 
 /*!
 * screenfull
@@ -56360,6 +56358,2943 @@ define('gestures',['jquery','jquery_hammer','hammer'], function($,jqueryHammer,H
     };
     return gesturesHandler;
 });
+/*! jQuery UI - v1.11.2 - 2015-02-02
+* http://jqueryui.com
+* Includes: core.js, widget.js, position.js, autocomplete.js, menu.js
+* Copyright 2015 jQuery Foundation and other contributors; Licensed MIT */
+
+(function( factory ) {
+	if ( typeof define === "function" && define.amd ) {
+
+		// AMD. Register as an anonymous module.
+		define('jquery-ui',[ "jquery" ], factory );
+	} else {
+
+		// Browser globals
+		factory( jQuery );
+	}
+}(function( $ ) {
+/*!
+ * jQuery UI Core 1.11.2
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/category/ui-core/
+ */
+
+
+// $.ui might exist from components with no dependencies, e.g., $.ui.position
+$.ui = $.ui || {};
+
+$.extend( $.ui, {
+	version: "1.11.2",
+
+	keyCode: {
+		BACKSPACE: 8,
+		COMMA: 188,
+		DELETE: 46,
+		DOWN: 40,
+		END: 35,
+		ENTER: 13,
+		ESCAPE: 27,
+		HOME: 36,
+		LEFT: 37,
+		PAGE_DOWN: 34,
+		PAGE_UP: 33,
+		PERIOD: 190,
+		RIGHT: 39,
+		SPACE: 32,
+		TAB: 9,
+		UP: 38
+	}
+});
+
+// plugins
+$.fn.extend({
+	scrollParent: function( includeHidden ) {
+		var position = this.css( "position" ),
+			excludeStaticParent = position === "absolute",
+			overflowRegex = includeHidden ? /(auto|scroll|hidden)/ : /(auto|scroll)/,
+			scrollParent = this.parents().filter( function() {
+				var parent = $( this );
+				if ( excludeStaticParent && parent.css( "position" ) === "static" ) {
+					return false;
+				}
+				return overflowRegex.test( parent.css( "overflow" ) + parent.css( "overflow-y" ) + parent.css( "overflow-x" ) );
+			}).eq( 0 );
+
+		return position === "fixed" || !scrollParent.length ? $( this[ 0 ].ownerDocument || document ) : scrollParent;
+	},
+
+	uniqueId: (function() {
+		var uuid = 0;
+
+		return function() {
+			return this.each(function() {
+				if ( !this.id ) {
+					this.id = "ui-id-" + ( ++uuid );
+				}
+			});
+		};
+	})(),
+
+	removeUniqueId: function() {
+		return this.each(function() {
+			if ( /^ui-id-\d+$/.test( this.id ) ) {
+				$( this ).removeAttr( "id" );
+			}
+		});
+	}
+});
+
+// selectors
+function focusable( element, isTabIndexNotNaN ) {
+	var map, mapName, img,
+		nodeName = element.nodeName.toLowerCase();
+	if ( "area" === nodeName ) {
+		map = element.parentNode;
+		mapName = map.name;
+		if ( !element.href || !mapName || map.nodeName.toLowerCase() !== "map" ) {
+			return false;
+		}
+		img = $( "img[usemap='#" + mapName + "']" )[ 0 ];
+		return !!img && visible( img );
+	}
+	return ( /input|select|textarea|button|object/.test( nodeName ) ?
+		!element.disabled :
+		"a" === nodeName ?
+			element.href || isTabIndexNotNaN :
+			isTabIndexNotNaN) &&
+		// the element and all of its ancestors must be visible
+		visible( element );
+}
+
+function visible( element ) {
+	return $.expr.filters.visible( element ) &&
+		!$( element ).parents().addBack().filter(function() {
+			return $.css( this, "visibility" ) === "hidden";
+		}).length;
+}
+
+$.extend( $.expr[ ":" ], {
+	data: $.expr.createPseudo ?
+		$.expr.createPseudo(function( dataName ) {
+			return function( elem ) {
+				return !!$.data( elem, dataName );
+			};
+		}) :
+		// support: jQuery <1.8
+		function( elem, i, match ) {
+			return !!$.data( elem, match[ 3 ] );
+		},
+
+	focusable: function( element ) {
+		return focusable( element, !isNaN( $.attr( element, "tabindex" ) ) );
+	},
+
+	tabbable: function( element ) {
+		var tabIndex = $.attr( element, "tabindex" ),
+			isTabIndexNaN = isNaN( tabIndex );
+		return ( isTabIndexNaN || tabIndex >= 0 ) && focusable( element, !isTabIndexNaN );
+	}
+});
+
+// support: jQuery <1.8
+if ( !$( "<a>" ).outerWidth( 1 ).jquery ) {
+	$.each( [ "Width", "Height" ], function( i, name ) {
+		var side = name === "Width" ? [ "Left", "Right" ] : [ "Top", "Bottom" ],
+			type = name.toLowerCase(),
+			orig = {
+				innerWidth: $.fn.innerWidth,
+				innerHeight: $.fn.innerHeight,
+				outerWidth: $.fn.outerWidth,
+				outerHeight: $.fn.outerHeight
+			};
+
+		function reduce( elem, size, border, margin ) {
+			$.each( side, function() {
+				size -= parseFloat( $.css( elem, "padding" + this ) ) || 0;
+				if ( border ) {
+					size -= parseFloat( $.css( elem, "border" + this + "Width" ) ) || 0;
+				}
+				if ( margin ) {
+					size -= parseFloat( $.css( elem, "margin" + this ) ) || 0;
+				}
+			});
+			return size;
+		}
+
+		$.fn[ "inner" + name ] = function( size ) {
+			if ( size === undefined ) {
+				return orig[ "inner" + name ].call( this );
+			}
+
+			return this.each(function() {
+				$( this ).css( type, reduce( this, size ) + "px" );
+			});
+		};
+
+		$.fn[ "outer" + name] = function( size, margin ) {
+			if ( typeof size !== "number" ) {
+				return orig[ "outer" + name ].call( this, size );
+			}
+
+			return this.each(function() {
+				$( this).css( type, reduce( this, size, true, margin ) + "px" );
+			});
+		};
+	});
+}
+
+// support: jQuery <1.8
+if ( !$.fn.addBack ) {
+	$.fn.addBack = function( selector ) {
+		return this.add( selector == null ?
+			this.prevObject : this.prevObject.filter( selector )
+		);
+	};
+}
+
+// support: jQuery 1.6.1, 1.6.2 (http://bugs.jquery.com/ticket/9413)
+if ( $( "<a>" ).data( "a-b", "a" ).removeData( "a-b" ).data( "a-b" ) ) {
+	$.fn.removeData = (function( removeData ) {
+		return function( key ) {
+			if ( arguments.length ) {
+				return removeData.call( this, $.camelCase( key ) );
+			} else {
+				return removeData.call( this );
+			}
+		};
+	})( $.fn.removeData );
+}
+
+// deprecated
+$.ui.ie = !!/msie [\w.]+/.exec( navigator.userAgent.toLowerCase() );
+
+$.fn.extend({
+	focus: (function( orig ) {
+		return function( delay, fn ) {
+			return typeof delay === "number" ?
+				this.each(function() {
+					var elem = this;
+					setTimeout(function() {
+						$( elem ).focus();
+						if ( fn ) {
+							fn.call( elem );
+						}
+					}, delay );
+				}) :
+				orig.apply( this, arguments );
+		};
+	})( $.fn.focus ),
+
+	disableSelection: (function() {
+		var eventType = "onselectstart" in document.createElement( "div" ) ?
+			"selectstart" :
+			"mousedown";
+
+		return function() {
+			return this.bind( eventType + ".ui-disableSelection", function( event ) {
+				event.preventDefault();
+			});
+		};
+	})(),
+
+	enableSelection: function() {
+		return this.unbind( ".ui-disableSelection" );
+	},
+
+	zIndex: function( zIndex ) {
+		if ( zIndex !== undefined ) {
+			return this.css( "zIndex", zIndex );
+		}
+
+		if ( this.length ) {
+			var elem = $( this[ 0 ] ), position, value;
+			while ( elem.length && elem[ 0 ] !== document ) {
+				// Ignore z-index if position is set to a value where z-index is ignored by the browser
+				// This makes behavior of this function consistent across browsers
+				// WebKit always returns auto if the element is positioned
+				position = elem.css( "position" );
+				if ( position === "absolute" || position === "relative" || position === "fixed" ) {
+					// IE returns 0 when zIndex is not specified
+					// other browsers return a string
+					// we ignore the case of nested elements with an explicit value of 0
+					// <div style="z-index: -10;"><div style="z-index: 0;"></div></div>
+					value = parseInt( elem.css( "zIndex" ), 10 );
+					if ( !isNaN( value ) && value !== 0 ) {
+						return value;
+					}
+				}
+				elem = elem.parent();
+			}
+		}
+
+		return 0;
+	}
+});
+
+// $.ui.plugin is deprecated. Use $.widget() extensions instead.
+$.ui.plugin = {
+	add: function( module, option, set ) {
+		var i,
+			proto = $.ui[ module ].prototype;
+		for ( i in set ) {
+			proto.plugins[ i ] = proto.plugins[ i ] || [];
+			proto.plugins[ i ].push( [ option, set[ i ] ] );
+		}
+	},
+	call: function( instance, name, args, allowDisconnected ) {
+		var i,
+			set = instance.plugins[ name ];
+
+		if ( !set ) {
+			return;
+		}
+
+		if ( !allowDisconnected && ( !instance.element[ 0 ].parentNode || instance.element[ 0 ].parentNode.nodeType === 11 ) ) {
+			return;
+		}
+
+		for ( i = 0; i < set.length; i++ ) {
+			if ( instance.options[ set[ i ][ 0 ] ] ) {
+				set[ i ][ 1 ].apply( instance.element, args );
+			}
+		}
+	}
+};
+
+
+/*!
+ * jQuery UI Widget 1.11.2
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/jQuery.widget/
+ */
+
+
+var widget_uuid = 0,
+	widget_slice = Array.prototype.slice;
+
+$.cleanData = (function( orig ) {
+	return function( elems ) {
+		var events, elem, i;
+		for ( i = 0; (elem = elems[i]) != null; i++ ) {
+			try {
+
+				// Only trigger remove when necessary to save time
+				events = $._data( elem, "events" );
+				if ( events && events.remove ) {
+					$( elem ).triggerHandler( "remove" );
+				}
+
+			// http://bugs.jquery.com/ticket/8235
+			} catch ( e ) {}
+		}
+		orig( elems );
+	};
+})( $.cleanData );
+
+$.widget = function( name, base, prototype ) {
+	var fullName, existingConstructor, constructor, basePrototype,
+		// proxiedPrototype allows the provided prototype to remain unmodified
+		// so that it can be used as a mixin for multiple widgets (#8876)
+		proxiedPrototype = {},
+		namespace = name.split( "." )[ 0 ];
+
+	name = name.split( "." )[ 1 ];
+	fullName = namespace + "-" + name;
+
+	if ( !prototype ) {
+		prototype = base;
+		base = $.Widget;
+	}
+
+	// create selector for plugin
+	$.expr[ ":" ][ fullName.toLowerCase() ] = function( elem ) {
+		return !!$.data( elem, fullName );
+	};
+
+	$[ namespace ] = $[ namespace ] || {};
+	existingConstructor = $[ namespace ][ name ];
+	constructor = $[ namespace ][ name ] = function( options, element ) {
+		// allow instantiation without "new" keyword
+		if ( !this._createWidget ) {
+			return new constructor( options, element );
+		}
+
+		// allow instantiation without initializing for simple inheritance
+		// must use "new" keyword (the code above always passes args)
+		if ( arguments.length ) {
+			this._createWidget( options, element );
+		}
+	};
+	// extend with the existing constructor to carry over any static properties
+	$.extend( constructor, existingConstructor, {
+		version: prototype.version,
+		// copy the object used to create the prototype in case we need to
+		// redefine the widget later
+		_proto: $.extend( {}, prototype ),
+		// track widgets that inherit from this widget in case this widget is
+		// redefined after a widget inherits from it
+		_childConstructors: []
+	});
+
+	basePrototype = new base();
+	// we need to make the options hash a property directly on the new instance
+	// otherwise we'll modify the options hash on the prototype that we're
+	// inheriting from
+	basePrototype.options = $.widget.extend( {}, basePrototype.options );
+	$.each( prototype, function( prop, value ) {
+		if ( !$.isFunction( value ) ) {
+			proxiedPrototype[ prop ] = value;
+			return;
+		}
+		proxiedPrototype[ prop ] = (function() {
+			var _super = function() {
+					return base.prototype[ prop ].apply( this, arguments );
+				},
+				_superApply = function( args ) {
+					return base.prototype[ prop ].apply( this, args );
+				};
+			return function() {
+				var __super = this._super,
+					__superApply = this._superApply,
+					returnValue;
+
+				this._super = _super;
+				this._superApply = _superApply;
+
+				returnValue = value.apply( this, arguments );
+
+				this._super = __super;
+				this._superApply = __superApply;
+
+				return returnValue;
+			};
+		})();
+	});
+	constructor.prototype = $.widget.extend( basePrototype, {
+		// TODO: remove support for widgetEventPrefix
+		// always use the name + a colon as the prefix, e.g., draggable:start
+		// don't prefix for widgets that aren't DOM-based
+		widgetEventPrefix: existingConstructor ? (basePrototype.widgetEventPrefix || name) : name
+	}, proxiedPrototype, {
+		constructor: constructor,
+		namespace: namespace,
+		widgetName: name,
+		widgetFullName: fullName
+	});
+
+	// If this widget is being redefined then we need to find all widgets that
+	// are inheriting from it and redefine all of them so that they inherit from
+	// the new version of this widget. We're essentially trying to replace one
+	// level in the prototype chain.
+	if ( existingConstructor ) {
+		$.each( existingConstructor._childConstructors, function( i, child ) {
+			var childPrototype = child.prototype;
+
+			// redefine the child widget using the same prototype that was
+			// originally used, but inherit from the new version of the base
+			$.widget( childPrototype.namespace + "." + childPrototype.widgetName, constructor, child._proto );
+		});
+		// remove the list of existing child constructors from the old constructor
+		// so the old child constructors can be garbage collected
+		delete existingConstructor._childConstructors;
+	} else {
+		base._childConstructors.push( constructor );
+	}
+
+	$.widget.bridge( name, constructor );
+
+	return constructor;
+};
+
+$.widget.extend = function( target ) {
+	var input = widget_slice.call( arguments, 1 ),
+		inputIndex = 0,
+		inputLength = input.length,
+		key,
+		value;
+	for ( ; inputIndex < inputLength; inputIndex++ ) {
+		for ( key in input[ inputIndex ] ) {
+			value = input[ inputIndex ][ key ];
+			if ( input[ inputIndex ].hasOwnProperty( key ) && value !== undefined ) {
+				// Clone objects
+				if ( $.isPlainObject( value ) ) {
+					target[ key ] = $.isPlainObject( target[ key ] ) ?
+						$.widget.extend( {}, target[ key ], value ) :
+						// Don't extend strings, arrays, etc. with objects
+						$.widget.extend( {}, value );
+				// Copy everything else by reference
+				} else {
+					target[ key ] = value;
+				}
+			}
+		}
+	}
+	return target;
+};
+
+$.widget.bridge = function( name, object ) {
+	var fullName = object.prototype.widgetFullName || name;
+	$.fn[ name ] = function( options ) {
+		var isMethodCall = typeof options === "string",
+			args = widget_slice.call( arguments, 1 ),
+			returnValue = this;
+
+		// allow multiple hashes to be passed on init
+		options = !isMethodCall && args.length ?
+			$.widget.extend.apply( null, [ options ].concat(args) ) :
+			options;
+
+		if ( isMethodCall ) {
+			this.each(function() {
+				var methodValue,
+					instance = $.data( this, fullName );
+				if ( options === "instance" ) {
+					returnValue = instance;
+					return false;
+				}
+				if ( !instance ) {
+					return $.error( "cannot call methods on " + name + " prior to initialization; " +
+						"attempted to call method '" + options + "'" );
+				}
+				if ( !$.isFunction( instance[options] ) || options.charAt( 0 ) === "_" ) {
+					return $.error( "no such method '" + options + "' for " + name + " widget instance" );
+				}
+				methodValue = instance[ options ].apply( instance, args );
+				if ( methodValue !== instance && methodValue !== undefined ) {
+					returnValue = methodValue && methodValue.jquery ?
+						returnValue.pushStack( methodValue.get() ) :
+						methodValue;
+					return false;
+				}
+			});
+		} else {
+			this.each(function() {
+				var instance = $.data( this, fullName );
+				if ( instance ) {
+					instance.option( options || {} );
+					if ( instance._init ) {
+						instance._init();
+					}
+				} else {
+					$.data( this, fullName, new object( options, this ) );
+				}
+			});
+		}
+
+		return returnValue;
+	};
+};
+
+$.Widget = function( /* options, element */ ) {};
+$.Widget._childConstructors = [];
+
+$.Widget.prototype = {
+	widgetName: "widget",
+	widgetEventPrefix: "",
+	defaultElement: "<div>",
+	options: {
+		disabled: false,
+
+		// callbacks
+		create: null
+	},
+	_createWidget: function( options, element ) {
+		element = $( element || this.defaultElement || this )[ 0 ];
+		this.element = $( element );
+		this.uuid = widget_uuid++;
+		this.eventNamespace = "." + this.widgetName + this.uuid;
+
+		this.bindings = $();
+		this.hoverable = $();
+		this.focusable = $();
+
+		if ( element !== this ) {
+			$.data( element, this.widgetFullName, this );
+			this._on( true, this.element, {
+				remove: function( event ) {
+					if ( event.target === element ) {
+						this.destroy();
+					}
+				}
+			});
+			this.document = $( element.style ?
+				// element within the document
+				element.ownerDocument :
+				// element is window or document
+				element.document || element );
+			this.window = $( this.document[0].defaultView || this.document[0].parentWindow );
+		}
+
+		this.options = $.widget.extend( {},
+			this.options,
+			this._getCreateOptions(),
+			options );
+
+		this._create();
+		this._trigger( "create", null, this._getCreateEventData() );
+		this._init();
+	},
+	_getCreateOptions: $.noop,
+	_getCreateEventData: $.noop,
+	_create: $.noop,
+	_init: $.noop,
+
+	destroy: function() {
+		this._destroy();
+		// we can probably remove the unbind calls in 2.0
+		// all event bindings should go through this._on()
+		this.element
+			.unbind( this.eventNamespace )
+			.removeData( this.widgetFullName )
+			// support: jquery <1.6.3
+			// http://bugs.jquery.com/ticket/9413
+			.removeData( $.camelCase( this.widgetFullName ) );
+		this.widget()
+			.unbind( this.eventNamespace )
+			.removeAttr( "aria-disabled" )
+			.removeClass(
+				this.widgetFullName + "-disabled " +
+				"ui-state-disabled" );
+
+		// clean up events and states
+		this.bindings.unbind( this.eventNamespace );
+		this.hoverable.removeClass( "ui-state-hover" );
+		this.focusable.removeClass( "ui-state-focus" );
+	},
+	_destroy: $.noop,
+
+	widget: function() {
+		return this.element;
+	},
+
+	option: function( key, value ) {
+		var options = key,
+			parts,
+			curOption,
+			i;
+
+		if ( arguments.length === 0 ) {
+			// don't return a reference to the internal hash
+			return $.widget.extend( {}, this.options );
+		}
+
+		if ( typeof key === "string" ) {
+			// handle nested keys, e.g., "foo.bar" => { foo: { bar: ___ } }
+			options = {};
+			parts = key.split( "." );
+			key = parts.shift();
+			if ( parts.length ) {
+				curOption = options[ key ] = $.widget.extend( {}, this.options[ key ] );
+				for ( i = 0; i < parts.length - 1; i++ ) {
+					curOption[ parts[ i ] ] = curOption[ parts[ i ] ] || {};
+					curOption = curOption[ parts[ i ] ];
+				}
+				key = parts.pop();
+				if ( arguments.length === 1 ) {
+					return curOption[ key ] === undefined ? null : curOption[ key ];
+				}
+				curOption[ key ] = value;
+			} else {
+				if ( arguments.length === 1 ) {
+					return this.options[ key ] === undefined ? null : this.options[ key ];
+				}
+				options[ key ] = value;
+			}
+		}
+
+		this._setOptions( options );
+
+		return this;
+	},
+	_setOptions: function( options ) {
+		var key;
+
+		for ( key in options ) {
+			this._setOption( key, options[ key ] );
+		}
+
+		return this;
+	},
+	_setOption: function( key, value ) {
+		this.options[ key ] = value;
+
+		if ( key === "disabled" ) {
+			this.widget()
+				.toggleClass( this.widgetFullName + "-disabled", !!value );
+
+			// If the widget is becoming disabled, then nothing is interactive
+			if ( value ) {
+				this.hoverable.removeClass( "ui-state-hover" );
+				this.focusable.removeClass( "ui-state-focus" );
+			}
+		}
+
+		return this;
+	},
+
+	enable: function() {
+		return this._setOptions({ disabled: false });
+	},
+	disable: function() {
+		return this._setOptions({ disabled: true });
+	},
+
+	_on: function( suppressDisabledCheck, element, handlers ) {
+		var delegateElement,
+			instance = this;
+
+		// no suppressDisabledCheck flag, shuffle arguments
+		if ( typeof suppressDisabledCheck !== "boolean" ) {
+			handlers = element;
+			element = suppressDisabledCheck;
+			suppressDisabledCheck = false;
+		}
+
+		// no element argument, shuffle and use this.element
+		if ( !handlers ) {
+			handlers = element;
+			element = this.element;
+			delegateElement = this.widget();
+		} else {
+			element = delegateElement = $( element );
+			this.bindings = this.bindings.add( element );
+		}
+
+		$.each( handlers, function( event, handler ) {
+			function handlerProxy() {
+				// allow widgets to customize the disabled handling
+				// - disabled as an array instead of boolean
+				// - disabled class as method for disabling individual parts
+				if ( !suppressDisabledCheck &&
+						( instance.options.disabled === true ||
+							$( this ).hasClass( "ui-state-disabled" ) ) ) {
+					return;
+				}
+				return ( typeof handler === "string" ? instance[ handler ] : handler )
+					.apply( instance, arguments );
+			}
+
+			// copy the guid so direct unbinding works
+			if ( typeof handler !== "string" ) {
+				handlerProxy.guid = handler.guid =
+					handler.guid || handlerProxy.guid || $.guid++;
+			}
+
+			var match = event.match( /^([\w:-]*)\s*(.*)$/ ),
+				eventName = match[1] + instance.eventNamespace,
+				selector = match[2];
+			if ( selector ) {
+				delegateElement.delegate( selector, eventName, handlerProxy );
+			} else {
+				element.bind( eventName, handlerProxy );
+			}
+		});
+	},
+
+	_off: function( element, eventName ) {
+		eventName = (eventName || "").split( " " ).join( this.eventNamespace + " " ) +
+			this.eventNamespace;
+		element.unbind( eventName ).undelegate( eventName );
+
+		// Clear the stack to avoid memory leaks (#10056)
+		this.bindings = $( this.bindings.not( element ).get() );
+		this.focusable = $( this.focusable.not( element ).get() );
+		this.hoverable = $( this.hoverable.not( element ).get() );
+	},
+
+	_delay: function( handler, delay ) {
+		function handlerProxy() {
+			return ( typeof handler === "string" ? instance[ handler ] : handler )
+				.apply( instance, arguments );
+		}
+		var instance = this;
+		return setTimeout( handlerProxy, delay || 0 );
+	},
+
+	_hoverable: function( element ) {
+		this.hoverable = this.hoverable.add( element );
+		this._on( element, {
+			mouseenter: function( event ) {
+				$( event.currentTarget ).addClass( "ui-state-hover" );
+			},
+			mouseleave: function( event ) {
+				$( event.currentTarget ).removeClass( "ui-state-hover" );
+			}
+		});
+	},
+
+	_focusable: function( element ) {
+		this.focusable = this.focusable.add( element );
+		this._on( element, {
+			focusin: function( event ) {
+				$( event.currentTarget ).addClass( "ui-state-focus" );
+			},
+			focusout: function( event ) {
+				$( event.currentTarget ).removeClass( "ui-state-focus" );
+			}
+		});
+	},
+
+	_trigger: function( type, event, data ) {
+		var prop, orig,
+			callback = this.options[ type ];
+
+		data = data || {};
+		event = $.Event( event );
+		event.type = ( type === this.widgetEventPrefix ?
+			type :
+			this.widgetEventPrefix + type ).toLowerCase();
+		// the original event may come from any element
+		// so we need to reset the target on the new event
+		event.target = this.element[ 0 ];
+
+		// copy original event properties over to the new event
+		orig = event.originalEvent;
+		if ( orig ) {
+			for ( prop in orig ) {
+				if ( !( prop in event ) ) {
+					event[ prop ] = orig[ prop ];
+				}
+			}
+		}
+
+		this.element.trigger( event, data );
+		return !( $.isFunction( callback ) &&
+			callback.apply( this.element[0], [ event ].concat( data ) ) === false ||
+			event.isDefaultPrevented() );
+	}
+};
+
+$.each( { show: "fadeIn", hide: "fadeOut" }, function( method, defaultEffect ) {
+	$.Widget.prototype[ "_" + method ] = function( element, options, callback ) {
+		if ( typeof options === "string" ) {
+			options = { effect: options };
+		}
+		var hasOptions,
+			effectName = !options ?
+				method :
+				options === true || typeof options === "number" ?
+					defaultEffect :
+					options.effect || defaultEffect;
+		options = options || {};
+		if ( typeof options === "number" ) {
+			options = { duration: options };
+		}
+		hasOptions = !$.isEmptyObject( options );
+		options.complete = callback;
+		if ( options.delay ) {
+			element.delay( options.delay );
+		}
+		if ( hasOptions && $.effects && $.effects.effect[ effectName ] ) {
+			element[ method ]( options );
+		} else if ( effectName !== method && element[ effectName ] ) {
+			element[ effectName ]( options.duration, options.easing, callback );
+		} else {
+			element.queue(function( next ) {
+				$( this )[ method ]();
+				if ( callback ) {
+					callback.call( element[ 0 ] );
+				}
+				next();
+			});
+		}
+	};
+});
+
+var widget = $.widget;
+
+
+/*!
+ * jQuery UI Position 1.11.2
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/position/
+ */
+
+(function() {
+
+$.ui = $.ui || {};
+
+var cachedScrollbarWidth, supportsOffsetFractions,
+	max = Math.max,
+	abs = Math.abs,
+	round = Math.round,
+	rhorizontal = /left|center|right/,
+	rvertical = /top|center|bottom/,
+	roffset = /[\+\-]\d+(\.[\d]+)?%?/,
+	rposition = /^\w+/,
+	rpercent = /%$/,
+	_position = $.fn.position;
+
+function getOffsets( offsets, width, height ) {
+	return [
+		parseFloat( offsets[ 0 ] ) * ( rpercent.test( offsets[ 0 ] ) ? width / 100 : 1 ),
+		parseFloat( offsets[ 1 ] ) * ( rpercent.test( offsets[ 1 ] ) ? height / 100 : 1 )
+	];
+}
+
+function parseCss( element, property ) {
+	return parseInt( $.css( element, property ), 10 ) || 0;
+}
+
+function getDimensions( elem ) {
+	var raw = elem[0];
+	if ( raw.nodeType === 9 ) {
+		return {
+			width: elem.width(),
+			height: elem.height(),
+			offset: { top: 0, left: 0 }
+		};
+	}
+	if ( $.isWindow( raw ) ) {
+		return {
+			width: elem.width(),
+			height: elem.height(),
+			offset: { top: elem.scrollTop(), left: elem.scrollLeft() }
+		};
+	}
+	if ( raw.preventDefault ) {
+		return {
+			width: 0,
+			height: 0,
+			offset: { top: raw.pageY, left: raw.pageX }
+		};
+	}
+	return {
+		width: elem.outerWidth(),
+		height: elem.outerHeight(),
+		offset: elem.offset()
+	};
+}
+
+$.position = {
+	scrollbarWidth: function() {
+		if ( cachedScrollbarWidth !== undefined ) {
+			return cachedScrollbarWidth;
+		}
+		var w1, w2,
+			div = $( "<div style='display:block;position:absolute;width:50px;height:50px;overflow:hidden;'><div style='height:100px;width:auto;'></div></div>" ),
+			innerDiv = div.children()[0];
+
+		$( "body" ).append( div );
+		w1 = innerDiv.offsetWidth;
+		div.css( "overflow", "scroll" );
+
+		w2 = innerDiv.offsetWidth;
+
+		if ( w1 === w2 ) {
+			w2 = div[0].clientWidth;
+		}
+
+		div.remove();
+
+		return (cachedScrollbarWidth = w1 - w2);
+	},
+	getScrollInfo: function( within ) {
+		var overflowX = within.isWindow || within.isDocument ? "" :
+				within.element.css( "overflow-x" ),
+			overflowY = within.isWindow || within.isDocument ? "" :
+				within.element.css( "overflow-y" ),
+			hasOverflowX = overflowX === "scroll" ||
+				( overflowX === "auto" && within.width < within.element[0].scrollWidth ),
+			hasOverflowY = overflowY === "scroll" ||
+				( overflowY === "auto" && within.height < within.element[0].scrollHeight );
+		return {
+			width: hasOverflowY ? $.position.scrollbarWidth() : 0,
+			height: hasOverflowX ? $.position.scrollbarWidth() : 0
+		};
+	},
+	getWithinInfo: function( element ) {
+		var withinElement = $( element || window ),
+			isWindow = $.isWindow( withinElement[0] ),
+			isDocument = !!withinElement[ 0 ] && withinElement[ 0 ].nodeType === 9;
+		return {
+			element: withinElement,
+			isWindow: isWindow,
+			isDocument: isDocument,
+			offset: withinElement.offset() || { left: 0, top: 0 },
+			scrollLeft: withinElement.scrollLeft(),
+			scrollTop: withinElement.scrollTop(),
+
+			// support: jQuery 1.6.x
+			// jQuery 1.6 doesn't support .outerWidth/Height() on documents or windows
+			width: isWindow || isDocument ? withinElement.width() : withinElement.outerWidth(),
+			height: isWindow || isDocument ? withinElement.height() : withinElement.outerHeight()
+		};
+	}
+};
+
+$.fn.position = function( options ) {
+	if ( !options || !options.of ) {
+		return _position.apply( this, arguments );
+	}
+
+	// make a copy, we don't want to modify arguments
+	options = $.extend( {}, options );
+
+	var atOffset, targetWidth, targetHeight, targetOffset, basePosition, dimensions,
+		target = $( options.of ),
+		within = $.position.getWithinInfo( options.within ),
+		scrollInfo = $.position.getScrollInfo( within ),
+		collision = ( options.collision || "flip" ).split( " " ),
+		offsets = {};
+
+	dimensions = getDimensions( target );
+	if ( target[0].preventDefault ) {
+		// force left top to allow flipping
+		options.at = "left top";
+	}
+	targetWidth = dimensions.width;
+	targetHeight = dimensions.height;
+	targetOffset = dimensions.offset;
+	// clone to reuse original targetOffset later
+	basePosition = $.extend( {}, targetOffset );
+
+	// force my and at to have valid horizontal and vertical positions
+	// if a value is missing or invalid, it will be converted to center
+	$.each( [ "my", "at" ], function() {
+		var pos = ( options[ this ] || "" ).split( " " ),
+			horizontalOffset,
+			verticalOffset;
+
+		if ( pos.length === 1) {
+			pos = rhorizontal.test( pos[ 0 ] ) ?
+				pos.concat( [ "center" ] ) :
+				rvertical.test( pos[ 0 ] ) ?
+					[ "center" ].concat( pos ) :
+					[ "center", "center" ];
+		}
+		pos[ 0 ] = rhorizontal.test( pos[ 0 ] ) ? pos[ 0 ] : "center";
+		pos[ 1 ] = rvertical.test( pos[ 1 ] ) ? pos[ 1 ] : "center";
+
+		// calculate offsets
+		horizontalOffset = roffset.exec( pos[ 0 ] );
+		verticalOffset = roffset.exec( pos[ 1 ] );
+		offsets[ this ] = [
+			horizontalOffset ? horizontalOffset[ 0 ] : 0,
+			verticalOffset ? verticalOffset[ 0 ] : 0
+		];
+
+		// reduce to just the positions without the offsets
+		options[ this ] = [
+			rposition.exec( pos[ 0 ] )[ 0 ],
+			rposition.exec( pos[ 1 ] )[ 0 ]
+		];
+	});
+
+	// normalize collision option
+	if ( collision.length === 1 ) {
+		collision[ 1 ] = collision[ 0 ];
+	}
+
+	if ( options.at[ 0 ] === "right" ) {
+		basePosition.left += targetWidth;
+	} else if ( options.at[ 0 ] === "center" ) {
+		basePosition.left += targetWidth / 2;
+	}
+
+	if ( options.at[ 1 ] === "bottom" ) {
+		basePosition.top += targetHeight;
+	} else if ( options.at[ 1 ] === "center" ) {
+		basePosition.top += targetHeight / 2;
+	}
+
+	atOffset = getOffsets( offsets.at, targetWidth, targetHeight );
+	basePosition.left += atOffset[ 0 ];
+	basePosition.top += atOffset[ 1 ];
+
+	return this.each(function() {
+		var collisionPosition, using,
+			elem = $( this ),
+			elemWidth = elem.outerWidth(),
+			elemHeight = elem.outerHeight(),
+			marginLeft = parseCss( this, "marginLeft" ),
+			marginTop = parseCss( this, "marginTop" ),
+			collisionWidth = elemWidth + marginLeft + parseCss( this, "marginRight" ) + scrollInfo.width,
+			collisionHeight = elemHeight + marginTop + parseCss( this, "marginBottom" ) + scrollInfo.height,
+			position = $.extend( {}, basePosition ),
+			myOffset = getOffsets( offsets.my, elem.outerWidth(), elem.outerHeight() );
+
+		if ( options.my[ 0 ] === "right" ) {
+			position.left -= elemWidth;
+		} else if ( options.my[ 0 ] === "center" ) {
+			position.left -= elemWidth / 2;
+		}
+
+		if ( options.my[ 1 ] === "bottom" ) {
+			position.top -= elemHeight;
+		} else if ( options.my[ 1 ] === "center" ) {
+			position.top -= elemHeight / 2;
+		}
+
+		position.left += myOffset[ 0 ];
+		position.top += myOffset[ 1 ];
+
+		// if the browser doesn't support fractions, then round for consistent results
+		if ( !supportsOffsetFractions ) {
+			position.left = round( position.left );
+			position.top = round( position.top );
+		}
+
+		collisionPosition = {
+			marginLeft: marginLeft,
+			marginTop: marginTop
+		};
+
+		$.each( [ "left", "top" ], function( i, dir ) {
+			if ( $.ui.position[ collision[ i ] ] ) {
+				$.ui.position[ collision[ i ] ][ dir ]( position, {
+					targetWidth: targetWidth,
+					targetHeight: targetHeight,
+					elemWidth: elemWidth,
+					elemHeight: elemHeight,
+					collisionPosition: collisionPosition,
+					collisionWidth: collisionWidth,
+					collisionHeight: collisionHeight,
+					offset: [ atOffset[ 0 ] + myOffset[ 0 ], atOffset [ 1 ] + myOffset[ 1 ] ],
+					my: options.my,
+					at: options.at,
+					within: within,
+					elem: elem
+				});
+			}
+		});
+
+		if ( options.using ) {
+			// adds feedback as second argument to using callback, if present
+			using = function( props ) {
+				var left = targetOffset.left - position.left,
+					right = left + targetWidth - elemWidth,
+					top = targetOffset.top - position.top,
+					bottom = top + targetHeight - elemHeight,
+					feedback = {
+						target: {
+							element: target,
+							left: targetOffset.left,
+							top: targetOffset.top,
+							width: targetWidth,
+							height: targetHeight
+						},
+						element: {
+							element: elem,
+							left: position.left,
+							top: position.top,
+							width: elemWidth,
+							height: elemHeight
+						},
+						horizontal: right < 0 ? "left" : left > 0 ? "right" : "center",
+						vertical: bottom < 0 ? "top" : top > 0 ? "bottom" : "middle"
+					};
+				if ( targetWidth < elemWidth && abs( left + right ) < targetWidth ) {
+					feedback.horizontal = "center";
+				}
+				if ( targetHeight < elemHeight && abs( top + bottom ) < targetHeight ) {
+					feedback.vertical = "middle";
+				}
+				if ( max( abs( left ), abs( right ) ) > max( abs( top ), abs( bottom ) ) ) {
+					feedback.important = "horizontal";
+				} else {
+					feedback.important = "vertical";
+				}
+				options.using.call( this, props, feedback );
+			};
+		}
+
+		elem.offset( $.extend( position, { using: using } ) );
+	});
+};
+
+$.ui.position = {
+	fit: {
+		left: function( position, data ) {
+			var within = data.within,
+				withinOffset = within.isWindow ? within.scrollLeft : within.offset.left,
+				outerWidth = within.width,
+				collisionPosLeft = position.left - data.collisionPosition.marginLeft,
+				overLeft = withinOffset - collisionPosLeft,
+				overRight = collisionPosLeft + data.collisionWidth - outerWidth - withinOffset,
+				newOverRight;
+
+			// element is wider than within
+			if ( data.collisionWidth > outerWidth ) {
+				// element is initially over the left side of within
+				if ( overLeft > 0 && overRight <= 0 ) {
+					newOverRight = position.left + overLeft + data.collisionWidth - outerWidth - withinOffset;
+					position.left += overLeft - newOverRight;
+				// element is initially over right side of within
+				} else if ( overRight > 0 && overLeft <= 0 ) {
+					position.left = withinOffset;
+				// element is initially over both left and right sides of within
+				} else {
+					if ( overLeft > overRight ) {
+						position.left = withinOffset + outerWidth - data.collisionWidth;
+					} else {
+						position.left = withinOffset;
+					}
+				}
+			// too far left -> align with left edge
+			} else if ( overLeft > 0 ) {
+				position.left += overLeft;
+			// too far right -> align with right edge
+			} else if ( overRight > 0 ) {
+				position.left -= overRight;
+			// adjust based on position and margin
+			} else {
+				position.left = max( position.left - collisionPosLeft, position.left );
+			}
+		},
+		top: function( position, data ) {
+			var within = data.within,
+				withinOffset = within.isWindow ? within.scrollTop : within.offset.top,
+				outerHeight = data.within.height,
+				collisionPosTop = position.top - data.collisionPosition.marginTop,
+				overTop = withinOffset - collisionPosTop,
+				overBottom = collisionPosTop + data.collisionHeight - outerHeight - withinOffset,
+				newOverBottom;
+
+			// element is taller than within
+			if ( data.collisionHeight > outerHeight ) {
+				// element is initially over the top of within
+				if ( overTop > 0 && overBottom <= 0 ) {
+					newOverBottom = position.top + overTop + data.collisionHeight - outerHeight - withinOffset;
+					position.top += overTop - newOverBottom;
+				// element is initially over bottom of within
+				} else if ( overBottom > 0 && overTop <= 0 ) {
+					position.top = withinOffset;
+				// element is initially over both top and bottom of within
+				} else {
+					if ( overTop > overBottom ) {
+						position.top = withinOffset + outerHeight - data.collisionHeight;
+					} else {
+						position.top = withinOffset;
+					}
+				}
+			// too far up -> align with top
+			} else if ( overTop > 0 ) {
+				position.top += overTop;
+			// too far down -> align with bottom edge
+			} else if ( overBottom > 0 ) {
+				position.top -= overBottom;
+			// adjust based on position and margin
+			} else {
+				position.top = max( position.top - collisionPosTop, position.top );
+			}
+		}
+	},
+	flip: {
+		left: function( position, data ) {
+			var within = data.within,
+				withinOffset = within.offset.left + within.scrollLeft,
+				outerWidth = within.width,
+				offsetLeft = within.isWindow ? within.scrollLeft : within.offset.left,
+				collisionPosLeft = position.left - data.collisionPosition.marginLeft,
+				overLeft = collisionPosLeft - offsetLeft,
+				overRight = collisionPosLeft + data.collisionWidth - outerWidth - offsetLeft,
+				myOffset = data.my[ 0 ] === "left" ?
+					-data.elemWidth :
+					data.my[ 0 ] === "right" ?
+						data.elemWidth :
+						0,
+				atOffset = data.at[ 0 ] === "left" ?
+					data.targetWidth :
+					data.at[ 0 ] === "right" ?
+						-data.targetWidth :
+						0,
+				offset = -2 * data.offset[ 0 ],
+				newOverRight,
+				newOverLeft;
+
+			if ( overLeft < 0 ) {
+				newOverRight = position.left + myOffset + atOffset + offset + data.collisionWidth - outerWidth - withinOffset;
+				if ( newOverRight < 0 || newOverRight < abs( overLeft ) ) {
+					position.left += myOffset + atOffset + offset;
+				}
+			} else if ( overRight > 0 ) {
+				newOverLeft = position.left - data.collisionPosition.marginLeft + myOffset + atOffset + offset - offsetLeft;
+				if ( newOverLeft > 0 || abs( newOverLeft ) < overRight ) {
+					position.left += myOffset + atOffset + offset;
+				}
+			}
+		},
+		top: function( position, data ) {
+			var within = data.within,
+				withinOffset = within.offset.top + within.scrollTop,
+				outerHeight = within.height,
+				offsetTop = within.isWindow ? within.scrollTop : within.offset.top,
+				collisionPosTop = position.top - data.collisionPosition.marginTop,
+				overTop = collisionPosTop - offsetTop,
+				overBottom = collisionPosTop + data.collisionHeight - outerHeight - offsetTop,
+				top = data.my[ 1 ] === "top",
+				myOffset = top ?
+					-data.elemHeight :
+					data.my[ 1 ] === "bottom" ?
+						data.elemHeight :
+						0,
+				atOffset = data.at[ 1 ] === "top" ?
+					data.targetHeight :
+					data.at[ 1 ] === "bottom" ?
+						-data.targetHeight :
+						0,
+				offset = -2 * data.offset[ 1 ],
+				newOverTop,
+				newOverBottom;
+			if ( overTop < 0 ) {
+				newOverBottom = position.top + myOffset + atOffset + offset + data.collisionHeight - outerHeight - withinOffset;
+				if ( ( position.top + myOffset + atOffset + offset) > overTop && ( newOverBottom < 0 || newOverBottom < abs( overTop ) ) ) {
+					position.top += myOffset + atOffset + offset;
+				}
+			} else if ( overBottom > 0 ) {
+				newOverTop = position.top - data.collisionPosition.marginTop + myOffset + atOffset + offset - offsetTop;
+				if ( ( position.top + myOffset + atOffset + offset) > overBottom && ( newOverTop > 0 || abs( newOverTop ) < overBottom ) ) {
+					position.top += myOffset + atOffset + offset;
+				}
+			}
+		}
+	},
+	flipfit: {
+		left: function() {
+			$.ui.position.flip.left.apply( this, arguments );
+			$.ui.position.fit.left.apply( this, arguments );
+		},
+		top: function() {
+			$.ui.position.flip.top.apply( this, arguments );
+			$.ui.position.fit.top.apply( this, arguments );
+		}
+	}
+};
+
+// fraction support test
+(function() {
+	var testElement, testElementParent, testElementStyle, offsetLeft, i,
+		body = document.getElementsByTagName( "body" )[ 0 ],
+		div = document.createElement( "div" );
+
+	//Create a "fake body" for testing based on method used in jQuery.support
+	testElement = document.createElement( body ? "div" : "body" );
+	testElementStyle = {
+		visibility: "hidden",
+		width: 0,
+		height: 0,
+		border: 0,
+		margin: 0,
+		background: "none"
+	};
+	if ( body ) {
+		$.extend( testElementStyle, {
+			position: "absolute",
+			left: "-1000px",
+			top: "-1000px"
+		});
+	}
+	for ( i in testElementStyle ) {
+		testElement.style[ i ] = testElementStyle[ i ];
+	}
+	testElement.appendChild( div );
+	testElementParent = body || document.documentElement;
+	testElementParent.insertBefore( testElement, testElementParent.firstChild );
+
+	div.style.cssText = "position: absolute; left: 10.7432222px;";
+
+	offsetLeft = $( div ).offset().left;
+	supportsOffsetFractions = offsetLeft > 10 && offsetLeft < 11;
+
+	testElement.innerHTML = "";
+	testElementParent.removeChild( testElement );
+})();
+
+})();
+
+var position = $.ui.position;
+
+
+/*!
+ * jQuery UI Menu 1.11.2
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/menu/
+ */
+
+
+var menu = $.widget( "ui.menu", {
+	version: "1.11.2",
+	defaultElement: "<ul>",
+	delay: 300,
+	options: {
+		icons: {
+			submenu: "ui-icon-carat-1-e"
+		},
+		items: "> *",
+		menus: "ul",
+		position: {
+			my: "left-1 top",
+			at: "right top"
+		},
+		role: "menu",
+
+		// callbacks
+		blur: null,
+		focus: null,
+		select: null
+	},
+
+	_create: function() {
+		this.activeMenu = this.element;
+
+		// Flag used to prevent firing of the click handler
+		// as the event bubbles up through nested menus
+		this.mouseHandled = false;
+		this.element
+			.uniqueId()
+			.addClass( "ui-menu ui-widget ui-widget-content" )
+			.toggleClass( "ui-menu-icons", !!this.element.find( ".ui-icon" ).length )
+			.attr({
+				role: this.options.role,
+				tabIndex: 0
+			});
+
+		if ( this.options.disabled ) {
+			this.element
+				.addClass( "ui-state-disabled" )
+				.attr( "aria-disabled", "true" );
+		}
+
+		this._on({
+			// Prevent focus from sticking to links inside menu after clicking
+			// them (focus should always stay on UL during navigation).
+			"mousedown .ui-menu-item": function( event ) {
+				event.preventDefault();
+			},
+			"click .ui-menu-item": function( event ) {
+				var target = $( event.target );
+				if ( !this.mouseHandled && target.not( ".ui-state-disabled" ).length ) {
+					this.select( event );
+
+					// Only set the mouseHandled flag if the event will bubble, see #9469.
+					if ( !event.isPropagationStopped() ) {
+						this.mouseHandled = true;
+					}
+
+					// Open submenu on click
+					if ( target.has( ".ui-menu" ).length ) {
+						this.expand( event );
+					} else if ( !this.element.is( ":focus" ) && $( this.document[ 0 ].activeElement ).closest( ".ui-menu" ).length ) {
+
+						// Redirect focus to the menu
+						this.element.trigger( "focus", [ true ] );
+
+						// If the active item is on the top level, let it stay active.
+						// Otherwise, blur the active item since it is no longer visible.
+						if ( this.active && this.active.parents( ".ui-menu" ).length === 1 ) {
+							clearTimeout( this.timer );
+						}
+					}
+				}
+			},
+			"mouseenter .ui-menu-item": function( event ) {
+				// Ignore mouse events while typeahead is active, see #10458.
+				// Prevents focusing the wrong item when typeahead causes a scroll while the mouse
+				// is over an item in the menu
+				if ( this.previousFilter ) {
+					return;
+				}
+				var target = $( event.currentTarget );
+				// Remove ui-state-active class from siblings of the newly focused menu item
+				// to avoid a jump caused by adjacent elements both having a class with a border
+				target.siblings( ".ui-state-active" ).removeClass( "ui-state-active" );
+				this.focus( event, target );
+			},
+			mouseleave: "collapseAll",
+			"mouseleave .ui-menu": "collapseAll",
+			focus: function( event, keepActiveItem ) {
+				// If there's already an active item, keep it active
+				// If not, activate the first item
+				var item = this.active || this.element.find( this.options.items ).eq( 0 );
+
+				if ( !keepActiveItem ) {
+					this.focus( event, item );
+				}
+			},
+			blur: function( event ) {
+				this._delay(function() {
+					if ( !$.contains( this.element[0], this.document[0].activeElement ) ) {
+						this.collapseAll( event );
+					}
+				});
+			},
+			keydown: "_keydown"
+		});
+
+		this.refresh();
+
+		// Clicks outside of a menu collapse any open menus
+		this._on( this.document, {
+			click: function( event ) {
+				if ( this._closeOnDocumentClick( event ) ) {
+					this.collapseAll( event );
+				}
+
+				// Reset the mouseHandled flag
+				this.mouseHandled = false;
+			}
+		});
+	},
+
+	_destroy: function() {
+		// Destroy (sub)menus
+		this.element
+			.removeAttr( "aria-activedescendant" )
+			.find( ".ui-menu" ).addBack()
+				.removeClass( "ui-menu ui-widget ui-widget-content ui-menu-icons ui-front" )
+				.removeAttr( "role" )
+				.removeAttr( "tabIndex" )
+				.removeAttr( "aria-labelledby" )
+				.removeAttr( "aria-expanded" )
+				.removeAttr( "aria-hidden" )
+				.removeAttr( "aria-disabled" )
+				.removeUniqueId()
+				.show();
+
+		// Destroy menu items
+		this.element.find( ".ui-menu-item" )
+			.removeClass( "ui-menu-item" )
+			.removeAttr( "role" )
+			.removeAttr( "aria-disabled" )
+			.removeUniqueId()
+			.removeClass( "ui-state-hover" )
+			.removeAttr( "tabIndex" )
+			.removeAttr( "role" )
+			.removeAttr( "aria-haspopup" )
+			.children().each( function() {
+				var elem = $( this );
+				if ( elem.data( "ui-menu-submenu-carat" ) ) {
+					elem.remove();
+				}
+			});
+
+		// Destroy menu dividers
+		this.element.find( ".ui-menu-divider" ).removeClass( "ui-menu-divider ui-widget-content" );
+	},
+
+	_keydown: function( event ) {
+		var match, prev, character, skip,
+			preventDefault = true;
+
+		switch ( event.keyCode ) {
+		case $.ui.keyCode.PAGE_UP:
+			this.previousPage( event );
+			break;
+		case $.ui.keyCode.PAGE_DOWN:
+			this.nextPage( event );
+			break;
+		case $.ui.keyCode.HOME:
+			this._move( "first", "first", event );
+			break;
+		case $.ui.keyCode.END:
+			this._move( "last", "last", event );
+			break;
+		case $.ui.keyCode.UP:
+			this.previous( event );
+			break;
+		case $.ui.keyCode.DOWN:
+			this.next( event );
+			break;
+		case $.ui.keyCode.LEFT:
+			this.collapse( event );
+			break;
+		case $.ui.keyCode.RIGHT:
+			if ( this.active && !this.active.is( ".ui-state-disabled" ) ) {
+				this.expand( event );
+			}
+			break;
+		case $.ui.keyCode.ENTER:
+		case $.ui.keyCode.SPACE:
+			this._activate( event );
+			break;
+		case $.ui.keyCode.ESCAPE:
+			this.collapse( event );
+			break;
+		default:
+			preventDefault = false;
+			prev = this.previousFilter || "";
+			character = String.fromCharCode( event.keyCode );
+			skip = false;
+
+			clearTimeout( this.filterTimer );
+
+			if ( character === prev ) {
+				skip = true;
+			} else {
+				character = prev + character;
+			}
+
+			match = this._filterMenuItems( character );
+			match = skip && match.index( this.active.next() ) !== -1 ?
+				this.active.nextAll( ".ui-menu-item" ) :
+				match;
+
+			// If no matches on the current filter, reset to the last character pressed
+			// to move down the menu to the first item that starts with that character
+			if ( !match.length ) {
+				character = String.fromCharCode( event.keyCode );
+				match = this._filterMenuItems( character );
+			}
+
+			if ( match.length ) {
+				this.focus( event, match );
+				this.previousFilter = character;
+				this.filterTimer = this._delay(function() {
+					delete this.previousFilter;
+				}, 1000 );
+			} else {
+				delete this.previousFilter;
+			}
+		}
+
+		if ( preventDefault ) {
+			event.preventDefault();
+		}
+	},
+
+	_activate: function( event ) {
+		if ( !this.active.is( ".ui-state-disabled" ) ) {
+			if ( this.active.is( "[aria-haspopup='true']" ) ) {
+				this.expand( event );
+			} else {
+				this.select( event );
+			}
+		}
+	},
+
+	refresh: function() {
+		var menus, items,
+			that = this,
+			icon = this.options.icons.submenu,
+			submenus = this.element.find( this.options.menus );
+
+		this.element.toggleClass( "ui-menu-icons", !!this.element.find( ".ui-icon" ).length );
+
+		// Initialize nested menus
+		submenus.filter( ":not(.ui-menu)" )
+			.addClass( "ui-menu ui-widget ui-widget-content ui-front" )
+			.hide()
+			.attr({
+				role: this.options.role,
+				"aria-hidden": "true",
+				"aria-expanded": "false"
+			})
+			.each(function() {
+				var menu = $( this ),
+					item = menu.parent(),
+					submenuCarat = $( "<span>" )
+						.addClass( "ui-menu-icon ui-icon " + icon )
+						.data( "ui-menu-submenu-carat", true );
+
+				item
+					.attr( "aria-haspopup", "true" )
+					.prepend( submenuCarat );
+				menu.attr( "aria-labelledby", item.attr( "id" ) );
+			});
+
+		menus = submenus.add( this.element );
+		items = menus.find( this.options.items );
+
+		// Initialize menu-items containing spaces and/or dashes only as dividers
+		items.not( ".ui-menu-item" ).each(function() {
+			var item = $( this );
+			if ( that._isDivider( item ) ) {
+				item.addClass( "ui-widget-content ui-menu-divider" );
+			}
+		});
+
+		// Don't refresh list items that are already adapted
+		items.not( ".ui-menu-item, .ui-menu-divider" )
+			.addClass( "ui-menu-item" )
+			.uniqueId()
+			.attr({
+				tabIndex: -1,
+				role: this._itemRole()
+			});
+
+		// Add aria-disabled attribute to any disabled menu item
+		items.filter( ".ui-state-disabled" ).attr( "aria-disabled", "true" );
+
+		// If the active item has been removed, blur the menu
+		if ( this.active && !$.contains( this.element[ 0 ], this.active[ 0 ] ) ) {
+			this.blur();
+		}
+	},
+
+	_itemRole: function() {
+		return {
+			menu: "menuitem",
+			listbox: "option"
+		}[ this.options.role ];
+	},
+
+	_setOption: function( key, value ) {
+		if ( key === "icons" ) {
+			this.element.find( ".ui-menu-icon" )
+				.removeClass( this.options.icons.submenu )
+				.addClass( value.submenu );
+		}
+		if ( key === "disabled" ) {
+			this.element
+				.toggleClass( "ui-state-disabled", !!value )
+				.attr( "aria-disabled", value );
+		}
+		this._super( key, value );
+	},
+
+	focus: function( event, item ) {
+		var nested, focused;
+		this.blur( event, event && event.type === "focus" );
+
+		this._scrollIntoView( item );
+
+		this.active = item.first();
+		focused = this.active.addClass( "ui-state-focus" ).removeClass( "ui-state-active" );
+		// Only update aria-activedescendant if there's a role
+		// otherwise we assume focus is managed elsewhere
+		if ( this.options.role ) {
+			this.element.attr( "aria-activedescendant", focused.attr( "id" ) );
+		}
+
+		// Highlight active parent menu item, if any
+		this.active
+			.parent()
+			.closest( ".ui-menu-item" )
+			.addClass( "ui-state-active" );
+
+		if ( event && event.type === "keydown" ) {
+			this._close();
+		} else {
+			this.timer = this._delay(function() {
+				this._close();
+			}, this.delay );
+		}
+
+		nested = item.children( ".ui-menu" );
+		if ( nested.length && event && ( /^mouse/.test( event.type ) ) ) {
+			this._startOpening(nested);
+		}
+		this.activeMenu = item.parent();
+
+		this._trigger( "focus", event, { item: item } );
+	},
+
+	_scrollIntoView: function( item ) {
+		var borderTop, paddingTop, offset, scroll, elementHeight, itemHeight;
+		if ( this._hasScroll() ) {
+			borderTop = parseFloat( $.css( this.activeMenu[0], "borderTopWidth" ) ) || 0;
+			paddingTop = parseFloat( $.css( this.activeMenu[0], "paddingTop" ) ) || 0;
+			offset = item.offset().top - this.activeMenu.offset().top - borderTop - paddingTop;
+			scroll = this.activeMenu.scrollTop();
+			elementHeight = this.activeMenu.height();
+			itemHeight = item.outerHeight();
+
+			if ( offset < 0 ) {
+				this.activeMenu.scrollTop( scroll + offset );
+			} else if ( offset + itemHeight > elementHeight ) {
+				this.activeMenu.scrollTop( scroll + offset - elementHeight + itemHeight );
+			}
+		}
+	},
+
+	blur: function( event, fromFocus ) {
+		if ( !fromFocus ) {
+			clearTimeout( this.timer );
+		}
+
+		if ( !this.active ) {
+			return;
+		}
+
+		this.active.removeClass( "ui-state-focus" );
+		this.active = null;
+
+		this._trigger( "blur", event, { item: this.active } );
+	},
+
+	_startOpening: function( submenu ) {
+		clearTimeout( this.timer );
+
+		// Don't open if already open fixes a Firefox bug that caused a .5 pixel
+		// shift in the submenu position when mousing over the carat icon
+		if ( submenu.attr( "aria-hidden" ) !== "true" ) {
+			return;
+		}
+
+		this.timer = this._delay(function() {
+			this._close();
+			this._open( submenu );
+		}, this.delay );
+	},
+
+	_open: function( submenu ) {
+		var position = $.extend({
+			of: this.active
+		}, this.options.position );
+
+		clearTimeout( this.timer );
+		this.element.find( ".ui-menu" ).not( submenu.parents( ".ui-menu" ) )
+			.hide()
+			.attr( "aria-hidden", "true" );
+
+		submenu
+			.show()
+			.removeAttr( "aria-hidden" )
+			.attr( "aria-expanded", "true" )
+			.position( position );
+	},
+
+	collapseAll: function( event, all ) {
+		clearTimeout( this.timer );
+		this.timer = this._delay(function() {
+			// If we were passed an event, look for the submenu that contains the event
+			var currentMenu = all ? this.element :
+				$( event && event.target ).closest( this.element.find( ".ui-menu" ) );
+
+			// If we found no valid submenu ancestor, use the main menu to close all sub menus anyway
+			if ( !currentMenu.length ) {
+				currentMenu = this.element;
+			}
+
+			this._close( currentMenu );
+
+			this.blur( event );
+			this.activeMenu = currentMenu;
+		}, this.delay );
+	},
+
+	// With no arguments, closes the currently active menu - if nothing is active
+	// it closes all menus.  If passed an argument, it will search for menus BELOW
+	_close: function( startMenu ) {
+		if ( !startMenu ) {
+			startMenu = this.active ? this.active.parent() : this.element;
+		}
+
+		startMenu
+			.find( ".ui-menu" )
+				.hide()
+				.attr( "aria-hidden", "true" )
+				.attr( "aria-expanded", "false" )
+			.end()
+			.find( ".ui-state-active" ).not( ".ui-state-focus" )
+				.removeClass( "ui-state-active" );
+	},
+
+	_closeOnDocumentClick: function( event ) {
+		return !$( event.target ).closest( ".ui-menu" ).length;
+	},
+
+	_isDivider: function( item ) {
+
+		// Match hyphen, em dash, en dash
+		return !/[^\-\u2014\u2013\s]/.test( item.text() );
+	},
+
+	collapse: function( event ) {
+		var newItem = this.active &&
+			this.active.parent().closest( ".ui-menu-item", this.element );
+		if ( newItem && newItem.length ) {
+			this._close();
+			this.focus( event, newItem );
+		}
+	},
+
+	expand: function( event ) {
+		var newItem = this.active &&
+			this.active
+				.children( ".ui-menu " )
+				.find( this.options.items )
+				.first();
+
+		if ( newItem && newItem.length ) {
+			this._open( newItem.parent() );
+
+			// Delay so Firefox will not hide activedescendant change in expanding submenu from AT
+			this._delay(function() {
+				this.focus( event, newItem );
+			});
+		}
+	},
+
+	next: function( event ) {
+		this._move( "next", "first", event );
+	},
+
+	previous: function( event ) {
+		this._move( "prev", "last", event );
+	},
+
+	isFirstItem: function() {
+		return this.active && !this.active.prevAll( ".ui-menu-item" ).length;
+	},
+
+	isLastItem: function() {
+		return this.active && !this.active.nextAll( ".ui-menu-item" ).length;
+	},
+
+	_move: function( direction, filter, event ) {
+		var next;
+		if ( this.active ) {
+			if ( direction === "first" || direction === "last" ) {
+				next = this.active
+					[ direction === "first" ? "prevAll" : "nextAll" ]( ".ui-menu-item" )
+					.eq( -1 );
+			} else {
+				next = this.active
+					[ direction + "All" ]( ".ui-menu-item" )
+					.eq( 0 );
+			}
+		}
+		if ( !next || !next.length || !this.active ) {
+			next = this.activeMenu.find( this.options.items )[ filter ]();
+		}
+
+		this.focus( event, next );
+	},
+
+	nextPage: function( event ) {
+		var item, base, height;
+
+		if ( !this.active ) {
+			this.next( event );
+			return;
+		}
+		if ( this.isLastItem() ) {
+			return;
+		}
+		if ( this._hasScroll() ) {
+			base = this.active.offset().top;
+			height = this.element.height();
+			this.active.nextAll( ".ui-menu-item" ).each(function() {
+				item = $( this );
+				return item.offset().top - base - height < 0;
+			});
+
+			this.focus( event, item );
+		} else {
+			this.focus( event, this.activeMenu.find( this.options.items )
+				[ !this.active ? "first" : "last" ]() );
+		}
+	},
+
+	previousPage: function( event ) {
+		var item, base, height;
+		if ( !this.active ) {
+			this.next( event );
+			return;
+		}
+		if ( this.isFirstItem() ) {
+			return;
+		}
+		if ( this._hasScroll() ) {
+			base = this.active.offset().top;
+			height = this.element.height();
+			this.active.prevAll( ".ui-menu-item" ).each(function() {
+				item = $( this );
+				return item.offset().top - base + height > 0;
+			});
+
+			this.focus( event, item );
+		} else {
+			this.focus( event, this.activeMenu.find( this.options.items ).first() );
+		}
+	},
+
+	_hasScroll: function() {
+		return this.element.outerHeight() < this.element.prop( "scrollHeight" );
+	},
+
+	select: function( event ) {
+		// TODO: It should never be possible to not have an active item at this
+		// point, but the tests don't trigger mouseenter before click.
+		this.active = this.active || $( event.target ).closest( ".ui-menu-item" );
+		var ui = { item: this.active };
+		if ( !this.active.has( ".ui-menu" ).length ) {
+			this.collapseAll( event, true );
+		}
+		this._trigger( "select", event, ui );
+	},
+
+	_filterMenuItems: function(character) {
+		var escapedCharacter = character.replace( /[\-\[\]{}()*+?.,\\\^$|#\s]/g, "\\$&" ),
+			regex = new RegExp( "^" + escapedCharacter, "i" );
+
+		return this.activeMenu
+			.find( this.options.items )
+
+			// Only match on items, not dividers or other content (#10571)
+			.filter( ".ui-menu-item" )
+			.filter(function() {
+				return regex.test( $.trim( $( this ).text() ) );
+			});
+	}
+});
+
+
+/*!
+ * jQuery UI Autocomplete 1.11.2
+ * http://jqueryui.com
+ *
+ * Copyright 2014 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ *
+ * http://api.jqueryui.com/autocomplete/
+ */
+
+
+$.widget( "ui.autocomplete", {
+	version: "1.11.2",
+	defaultElement: "<input>",
+	options: {
+		appendTo: null,
+		autoFocus: false,
+		delay: 300,
+		minLength: 1,
+		position: {
+			my: "left top",
+			at: "left bottom",
+			collision: "none"
+		},
+		source: null,
+
+		// callbacks
+		change: null,
+		close: null,
+		focus: null,
+		open: null,
+		response: null,
+		search: null,
+		select: null
+	},
+
+	requestIndex: 0,
+	pending: 0,
+
+	_create: function() {
+		// Some browsers only repeat keydown events, not keypress events,
+		// so we use the suppressKeyPress flag to determine if we've already
+		// handled the keydown event. #7269
+		// Unfortunately the code for & in keypress is the same as the up arrow,
+		// so we use the suppressKeyPressRepeat flag to avoid handling keypress
+		// events when we know the keydown event was used to modify the
+		// search term. #7799
+		var suppressKeyPress, suppressKeyPressRepeat, suppressInput,
+			nodeName = this.element[ 0 ].nodeName.toLowerCase(),
+			isTextarea = nodeName === "textarea",
+			isInput = nodeName === "input";
+
+		this.isMultiLine =
+			// Textareas are always multi-line
+			isTextarea ? true :
+			// Inputs are always single-line, even if inside a contentEditable element
+			// IE also treats inputs as contentEditable
+			isInput ? false :
+			// All other element types are determined by whether or not they're contentEditable
+			this.element.prop( "isContentEditable" );
+
+		this.valueMethod = this.element[ isTextarea || isInput ? "val" : "text" ];
+		this.isNewMenu = true;
+
+		this.element
+			.addClass( "ui-autocomplete-input" )
+			.attr( "autocomplete", "off" );
+
+		this._on( this.element, {
+			keydown: function( event ) {
+				if ( this.element.prop( "readOnly" ) ) {
+					suppressKeyPress = true;
+					suppressInput = true;
+					suppressKeyPressRepeat = true;
+					return;
+				}
+
+				suppressKeyPress = false;
+				suppressInput = false;
+				suppressKeyPressRepeat = false;
+				var keyCode = $.ui.keyCode;
+				switch ( event.keyCode ) {
+				case keyCode.PAGE_UP:
+					suppressKeyPress = true;
+					this._move( "previousPage", event );
+					break;
+				case keyCode.PAGE_DOWN:
+					suppressKeyPress = true;
+					this._move( "nextPage", event );
+					break;
+				case keyCode.UP:
+					suppressKeyPress = true;
+					this._keyEvent( "previous", event );
+					break;
+				case keyCode.DOWN:
+					suppressKeyPress = true;
+					this._keyEvent( "next", event );
+					break;
+				case keyCode.ENTER:
+					// when menu is open and has focus
+					if ( this.menu.active ) {
+						// #6055 - Opera still allows the keypress to occur
+						// which causes forms to submit
+						suppressKeyPress = true;
+						event.preventDefault();
+						this.menu.select( event );
+					}
+					break;
+				case keyCode.TAB:
+					if ( this.menu.active ) {
+						this.menu.select( event );
+					}
+					break;
+				case keyCode.ESCAPE:
+					if ( this.menu.element.is( ":visible" ) ) {
+						if ( !this.isMultiLine ) {
+							this._value( this.term );
+						}
+						this.close( event );
+						// Different browsers have different default behavior for escape
+						// Single press can mean undo or clear
+						// Double press in IE means clear the whole form
+						event.preventDefault();
+					}
+					break;
+				default:
+					suppressKeyPressRepeat = true;
+					// search timeout should be triggered before the input value is changed
+					this._searchTimeout( event );
+					break;
+				}
+			},
+			keypress: function( event ) {
+				if ( suppressKeyPress ) {
+					suppressKeyPress = false;
+					if ( !this.isMultiLine || this.menu.element.is( ":visible" ) ) {
+						event.preventDefault();
+					}
+					return;
+				}
+				if ( suppressKeyPressRepeat ) {
+					return;
+				}
+
+				// replicate some key handlers to allow them to repeat in Firefox and Opera
+				var keyCode = $.ui.keyCode;
+				switch ( event.keyCode ) {
+				case keyCode.PAGE_UP:
+					this._move( "previousPage", event );
+					break;
+				case keyCode.PAGE_DOWN:
+					this._move( "nextPage", event );
+					break;
+				case keyCode.UP:
+					this._keyEvent( "previous", event );
+					break;
+				case keyCode.DOWN:
+					this._keyEvent( "next", event );
+					break;
+				}
+			},
+			input: function( event ) {
+				if ( suppressInput ) {
+					suppressInput = false;
+					event.preventDefault();
+					return;
+				}
+				this._searchTimeout( event );
+			},
+			focus: function() {
+				this.selectedItem = null;
+				this.previous = this._value();
+			},
+			blur: function( event ) {
+				if ( this.cancelBlur ) {
+					delete this.cancelBlur;
+					return;
+				}
+
+				clearTimeout( this.searching );
+				this.close( event );
+				this._change( event );
+			}
+		});
+
+		this._initSource();
+		this.menu = $( "<ul>" )
+			.addClass( "ui-autocomplete ui-front" )
+			.appendTo( this._appendTo() )
+			.menu({
+				// disable ARIA support, the live region takes care of that
+				role: null
+			})
+			.hide()
+			.menu( "instance" );
+
+		this._on( this.menu.element, {
+			mousedown: function( event ) {
+				// prevent moving focus out of the text field
+				event.preventDefault();
+
+				// IE doesn't prevent moving focus even with event.preventDefault()
+				// so we set a flag to know when we should ignore the blur event
+				this.cancelBlur = true;
+				this._delay(function() {
+					delete this.cancelBlur;
+				});
+
+				// clicking on the scrollbar causes focus to shift to the body
+				// but we can't detect a mouseup or a click immediately afterward
+				// so we have to track the next mousedown and close the menu if
+				// the user clicks somewhere outside of the autocomplete
+				var menuElement = this.menu.element[ 0 ];
+				if ( !$( event.target ).closest( ".ui-menu-item" ).length ) {
+					this._delay(function() {
+						var that = this;
+						this.document.one( "mousedown", function( event ) {
+							if ( event.target !== that.element[ 0 ] &&
+									event.target !== menuElement &&
+									!$.contains( menuElement, event.target ) ) {
+								that.close();
+							}
+						});
+					});
+				}
+			},
+			menufocus: function( event, ui ) {
+				var label, item;
+				// support: Firefox
+				// Prevent accidental activation of menu items in Firefox (#7024 #9118)
+				if ( this.isNewMenu ) {
+					this.isNewMenu = false;
+					if ( event.originalEvent && /^mouse/.test( event.originalEvent.type ) ) {
+						this.menu.blur();
+
+						this.document.one( "mousemove", function() {
+							$( event.target ).trigger( event.originalEvent );
+						});
+
+						return;
+					}
+				}
+
+				item = ui.item.data( "ui-autocomplete-item" );
+				if ( false !== this._trigger( "focus", event, { item: item } ) ) {
+					// use value to match what will end up in the input, if it was a key event
+					if ( event.originalEvent && /^key/.test( event.originalEvent.type ) ) {
+						this._value( item.value );
+					}
+				}
+
+				// Announce the value in the liveRegion
+				label = ui.item.attr( "aria-label" ) || item.value;
+				if ( label && $.trim( label ).length ) {
+					this.liveRegion.children().hide();
+					$( "<div>" ).text( label ).appendTo( this.liveRegion );
+				}
+			},
+			menuselect: function( event, ui ) {
+				var item = ui.item.data( "ui-autocomplete-item" ),
+					previous = this.previous;
+
+				// only trigger when focus was lost (click on menu)
+				if ( this.element[ 0 ] !== this.document[ 0 ].activeElement ) {
+					this.element.focus();
+					this.previous = previous;
+					// #6109 - IE triggers two focus events and the second
+					// is asynchronous, so we need to reset the previous
+					// term synchronously and asynchronously :-(
+					this._delay(function() {
+						this.previous = previous;
+						this.selectedItem = item;
+					});
+				}
+
+				if ( false !== this._trigger( "select", event, { item: item } ) ) {
+					this._value( item.value );
+				}
+				// reset the term after the select event
+				// this allows custom select handling to work properly
+				this.term = this._value();
+
+				this.close( event );
+				this.selectedItem = item;
+			}
+		});
+
+		this.liveRegion = $( "<span>", {
+				role: "status",
+				"aria-live": "assertive",
+				"aria-relevant": "additions"
+			})
+			.addClass( "ui-helper-hidden-accessible" )
+			.appendTo( this.document[ 0 ].body );
+
+		// turning off autocomplete prevents the browser from remembering the
+		// value when navigating through history, so we re-enable autocomplete
+		// if the page is unloaded before the widget is destroyed. #7790
+		this._on( this.window, {
+			beforeunload: function() {
+				this.element.removeAttr( "autocomplete" );
+			}
+		});
+	},
+
+	_destroy: function() {
+		clearTimeout( this.searching );
+		this.element
+			.removeClass( "ui-autocomplete-input" )
+			.removeAttr( "autocomplete" );
+		this.menu.element.remove();
+		this.liveRegion.remove();
+	},
+
+	_setOption: function( key, value ) {
+		this._super( key, value );
+		if ( key === "source" ) {
+			this._initSource();
+		}
+		if ( key === "appendTo" ) {
+			this.menu.element.appendTo( this._appendTo() );
+		}
+		if ( key === "disabled" && value && this.xhr ) {
+			this.xhr.abort();
+		}
+	},
+
+	_appendTo: function() {
+		var element = this.options.appendTo;
+
+		if ( element ) {
+			element = element.jquery || element.nodeType ?
+				$( element ) :
+				this.document.find( element ).eq( 0 );
+		}
+
+		if ( !element || !element[ 0 ] ) {
+			element = this.element.closest( ".ui-front" );
+		}
+
+		if ( !element.length ) {
+			element = this.document[ 0 ].body;
+		}
+
+		return element;
+	},
+
+	_initSource: function() {
+		var array, url,
+			that = this;
+		if ( $.isArray( this.options.source ) ) {
+			array = this.options.source;
+			this.source = function( request, response ) {
+				response( $.ui.autocomplete.filter( array, request.term ) );
+			};
+		} else if ( typeof this.options.source === "string" ) {
+			url = this.options.source;
+			this.source = function( request, response ) {
+				if ( that.xhr ) {
+					that.xhr.abort();
+				}
+				that.xhr = $.ajax({
+					url: url,
+					data: request,
+					dataType: "json",
+					success: function( data ) {
+						response( data );
+					},
+					error: function() {
+						response([]);
+					}
+				});
+			};
+		} else {
+			this.source = this.options.source;
+		}
+	},
+
+	_searchTimeout: function( event ) {
+		clearTimeout( this.searching );
+		this.searching = this._delay(function() {
+
+			// Search if the value has changed, or if the user retypes the same value (see #7434)
+			var equalValues = this.term === this._value(),
+				menuVisible = this.menu.element.is( ":visible" ),
+				modifierKey = event.altKey || event.ctrlKey || event.metaKey || event.shiftKey;
+
+			if ( !equalValues || ( equalValues && !menuVisible && !modifierKey ) ) {
+				this.selectedItem = null;
+				this.search( null, event );
+			}
+		}, this.options.delay );
+	},
+
+	search: function( value, event ) {
+		value = value != null ? value : this._value();
+
+		// always save the actual value, not the one passed as an argument
+		this.term = this._value();
+
+		if ( value.length < this.options.minLength ) {
+			return this.close( event );
+		}
+
+		if ( this._trigger( "search", event ) === false ) {
+			return;
+		}
+
+		return this._search( value );
+	},
+
+	_search: function( value ) {
+		this.pending++;
+		this.element.addClass( "ui-autocomplete-loading" );
+		this.cancelSearch = false;
+
+		this.source( { term: value }, this._response() );
+	},
+
+	_response: function() {
+		var index = ++this.requestIndex;
+
+		return $.proxy(function( content ) {
+			if ( index === this.requestIndex ) {
+				this.__response( content );
+			}
+
+			this.pending--;
+			if ( !this.pending ) {
+				this.element.removeClass( "ui-autocomplete-loading" );
+			}
+		}, this );
+	},
+
+	__response: function( content ) {
+		if ( content ) {
+			content = this._normalize( content );
+		}
+		this._trigger( "response", null, { content: content } );
+		if ( !this.options.disabled && content && content.length && !this.cancelSearch ) {
+			this._suggest( content );
+			this._trigger( "open" );
+		} else {
+			// use ._close() instead of .close() so we don't cancel future searches
+			this._close();
+		}
+	},
+
+	close: function( event ) {
+		this.cancelSearch = true;
+		this._close( event );
+	},
+
+	_close: function( event ) {
+		if ( this.menu.element.is( ":visible" ) ) {
+			this.menu.element.hide();
+			this.menu.blur();
+			this.isNewMenu = true;
+			this._trigger( "close", event );
+		}
+	},
+
+	_change: function( event ) {
+		if ( this.previous !== this._value() ) {
+			this._trigger( "change", event, { item: this.selectedItem } );
+		}
+	},
+
+	_normalize: function( items ) {
+		// assume all items have the right format when the first item is complete
+		if ( items.length && items[ 0 ].label && items[ 0 ].value ) {
+			return items;
+		}
+		return $.map( items, function( item ) {
+			if ( typeof item === "string" ) {
+				return {
+					label: item,
+					value: item
+				};
+			}
+			return $.extend( {}, item, {
+				label: item.label || item.value,
+				value: item.value || item.label
+			});
+		});
+	},
+
+	_suggest: function( items ) {
+		var ul = this.menu.element.empty();
+		this._renderMenu( ul, items );
+		this.isNewMenu = true;
+		this.menu.refresh();
+
+		// size and position menu
+		ul.show();
+		this._resizeMenu();
+		ul.position( $.extend({
+			of: this.element
+		}, this.options.position ) );
+
+		if ( this.options.autoFocus ) {
+			this.menu.next();
+		}
+	},
+
+	_resizeMenu: function() {
+		var ul = this.menu.element;
+		ul.outerWidth( Math.max(
+			// Firefox wraps long text (possibly a rounding bug)
+			// so we add 1px to avoid the wrapping (#7513)
+			ul.width( "" ).outerWidth() + 1,
+			this.element.outerWidth()
+		) );
+	},
+
+	_renderMenu: function( ul, items ) {
+		var that = this;
+		$.each( items, function( index, item ) {
+			that._renderItemData( ul, item );
+		});
+	},
+
+	_renderItemData: function( ul, item ) {
+		return this._renderItem( ul, item ).data( "ui-autocomplete-item", item );
+	},
+
+	_renderItem: function( ul, item ) {
+		return $( "<li>" ).text( item.label ).appendTo( ul );
+	},
+
+	_move: function( direction, event ) {
+		if ( !this.menu.element.is( ":visible" ) ) {
+			this.search( null, event );
+			return;
+		}
+		if ( this.menu.isFirstItem() && /^previous/.test( direction ) ||
+				this.menu.isLastItem() && /^next/.test( direction ) ) {
+
+			if ( !this.isMultiLine ) {
+				this._value( this.term );
+			}
+
+			this.menu.blur();
+			return;
+		}
+		this.menu[ direction ]( event );
+	},
+
+	widget: function() {
+		return this.menu.element;
+	},
+
+	_value: function() {
+		return this.valueMethod.apply( this.element, arguments );
+	},
+
+	_keyEvent: function( keyEvent, event ) {
+		if ( !this.isMultiLine || this.menu.element.is( ":visible" ) ) {
+			this._move( keyEvent, event );
+
+			// prevents moving cursor to beginning/end of the text field in some browsers
+			event.preventDefault();
+		}
+	}
+});
+
+$.extend( $.ui.autocomplete, {
+	escapeRegex: function( value ) {
+		return value.replace( /[\-\[\]{}()*+?.,\\\^$|#\s]/g, "\\$&" );
+	},
+	filter: function( array, term ) {
+		var matcher = new RegExp( $.ui.autocomplete.escapeRegex( term ), "i" );
+		return $.grep( array, function( value ) {
+			return matcher.test( value.label || value.value || value );
+		});
+	}
+});
+
+// live region extension, adding a `messages` option
+// NOTE: This is an experimental API. We are still investigating
+// a full solution for string manipulation and internationalization.
+$.widget( "ui.autocomplete", $.ui.autocomplete, {
+	options: {
+		messages: {
+			noResults: "No search results.",
+			results: function( amount ) {
+				return amount + ( amount > 1 ? " results are" : " result is" ) +
+					" available, use up and down arrow keys to navigate.";
+			}
+		}
+	},
+
+	__response: function( content ) {
+		var message;
+		this._superApply( arguments );
+		if ( this.options.disabled || this.cancelSearch ) {
+			return;
+		}
+		if ( content && content.length ) {
+			message = this.options.messages.results( content.length );
+		} else {
+			message = this.options.messages.noResults;
+		}
+		this.liveRegion.children().hide();
+		$( "<div>" ).text( message ).appendTo( this.liveRegion );
+	}
+});
+
+var autocomplete = $.ui.autocomplete;
+
+
+
+}));
+define('FullTextSearch',['jquery', 'jquery-ui'], function ($) {
+
+    // CfiNavigationLogic
+// openSpineItemElementCfi
+// getFirstVisibleElementCfi
+// get all Highlights?
+// get next Highlight ?
+// Highlight navigation?
+    
+    // key enter find next
+    // on last hit go to first hit
+    // on first hit go to last hit
+    // stop word remove ???
+    // remove numbers
+
+    var readium;
+    var newSearch;
+    var cfis = [];
+
+    var curIdRef;
+    var curCfi;
+    var matchingSpineItems = [];
+    var currentCfiIndex = 0;
+    var PREVIOUS = "previous";
+    var NEXT = "next";
+    var direction;
+
+    var FullTextSearch = function (readium) {
+        readium = readium;
+
+
+        this.init = function () {
+
+            $("#searchbox").keyup(function (event) {
+
+                instantSearch();
+                newSearch = true;
+                event.stopPropagation();
+            });
+
+            $("#search-btn-next").click(function () {
+
+                direction = NEXT;
+
+                var q = $("#searchbox").val();
+
+                if (newSearch) {
+                    searchRequest(q);
+                    newSearch = false;
+                } else
+                    findNext(q)
+            });
+
+            $("#search-btn-previous").click(function () {
+
+                direction = PREVIOUS;
+
+                var q = $("#searchbox").val();
+
+                if (newSearch) {
+                    searchRequest(q);
+                    newSearch = false;
+                } else
+                    findPrevious(q)
+            });
+
+            readium.reader.on(ReadiumSDK.Events.CONTENT_DOCUMENT_LOADED, function contentLoadedHandler($iframe, spineItem) {
+                findHitsInSpineItem()
+            });
+
+        }
+
+        function searchRequest(pattern) {
+
+            var request = window.location.protocol + '//' + window.location.hostname + ':3030/' + 'search?q=' + pattern + '&searchFields[]=body';
+
+            $.getJSON(request, '', {})
+                .done(function (data) {
+                    if (data.hits) {
+
+                        var matchingHrefs = [];
+                        $.each(data.hits, function (i, item) {
+                            matchingHrefs.push(item.id);
+                        });
+
+                        matchingSpineItems = [];
+                        var spineItems = readium.reader.getLoadedSpineItems()[0].spine.items;
+                        for (var spineItem in spineItems) {
+
+                            if (containsHref(matchingHrefs, spineItems[spineItem])) {
+                                matchingSpineItems.push(spineItems[spineItem]);
+                                //console.debug("href: " + spineItems[spineItem].href);
+                            }
+                        }
+                        console.debug("\n\n");
+                        console.debug("matching request ready");
+
+                        if (direction === NEXT)
+                            openNextMatchingPage();
+                        else
+                            openPreviousMatchingPage();
+                    }
+                }
+            )
+                .fail(function () {
+                    console.log("error fulltext search request");
+                });
+        }
+
+        function instantSearch() {
+
+            var matcher = "matcher?beginsWith=" + $("#searchbox").val();
+            var request = window.location.protocol + '//' + window.location.hostname + ':3030/' + matcher;
+
+            console.debug(request);
+
+            $.getJSON(request, '', {})
+                .done(function (data) {
+
+                    $("#searchbox").autocomplete({
+                        source: data,
+                        //select: function(event, ui){  } 
+                    });
+
+                })
+                .fail(function () {
+                    console.log("error fulltext search request");
+                });
+        }
+
+        function findNext(pattern) {
+
+            if (pattern == "") {
+                alert("Please enter some text to search!");
+                return;
+            }
+            setNextCfi();
+
+            if (curCfi)
+                showCfi(curCfi);
+            else
+                openNextMatchingPage();
+
+
+            //var fVCfi = readium.reader.getFirstVisibleElementCfi();
+            //var element = readium.reader.getElementByCfi(currentSpine, fVCfi, ["cfi-marker"],[],[]);
+        }
+
+        function findPrevious(pattern) {
+
+            if (pattern == "") {
+                alert("Please enter some text to search!");
+                return;
+            }
+            setPreviousCfi();
+
+            if (curCfi)
+                showCfi(curCfi);
+            else
+                openPreviousMatchingPage();
+        }
+
+        function highlightFirstMatch() {
+
+            if (cfis.length !== 0) {
+                setTimeout(function () {
+                    showCfi(curCfi), 100
+                });
+                console.debug("highlight first hit");
+            }
+        }
+
+
+        function showCfi(cfi) {
+
+            var currentSpineItem = readium.reader.getLoadedSpineItems()[0];
+
+            if (!cfi) {
+                console.error("cfi not defined");
+                return;
+            }
+
+            readium.reader.removeHighlight(999999);
+            readium.reader.openSpineItemElementCfi(currentSpineItem.idref, cfi);
+            readium.reader.addHighlight(
+                currentSpineItem.idref,
+                cfi,
+                999999,// Math.floor((Math.random() * 1000000)),
+                "highlight", //"underline"
+                undefined // styles
+            );
+            console.debug("show cfi " + cfi);
+        }
+
+        function openNextMatchingPage() {
+
+            var currentIndex = readium.reader.getLoadedSpineItems()[0].index; // current spine item
+
+            for (var spineItem in matchingSpineItems) {
+
+                if (currentIndex == matchingSpineItems[spineItem].index && cfis.length === 0) {
+                    // current spine item contains hits 
+                    findHitsInSpineItem();
+                    return;
+
+                } else if (currentIndex < matchingSpineItems[spineItem].index) {
+                    // TODO: clear current hit highlighting
+                    readium.reader.openSpineItemPage(matchingSpineItems[spineItem].idref, 0, readium.reader);
+                    console.debug("open next matching page " + matchingSpineItems[spineItem].idref);
+                }
+            }
+        }
+
+
+        function openPreviousMatchingPage() {
+
+            var currentIndex = readium.reader.getLoadedSpineItems()[0].index; // current spine item
+
+            for (var i = matchingSpineItems.length - 1; i > 0; --i) {
+
+                if (currentIndex == matchingSpineItems[i].index && cfis.length === 0) {
+                    // current spine item contains hits 
+                    findHitsInSpineItem();
+                    return;
+
+                } else if (currentIndex > matchingSpineItems[i].index) {
+                    // TODO: clear current hit highlighting
+                    readium.reader.openSpineItemPage(matchingSpineItems[i].idref, 0, readium.reader);
+                    console.debug("open next matching page " + matchingSpineItems[i].href);
+                }
+            }
+        }
+
+        function containsHref(matchingHrefs, spineItem) {
+
+            return $.inArray(spineItem.href.replace(/\..+$/, ''), matchingHrefs) > -1;
+        }
+
+        function findHitsInSpineItem() {
+
+            cfis = []; // clear old hits 
+            currentCfiIndex = 0;
+            var pattern = $("#searchbox").val();
+            if (pattern === "")
+                return;
+
+            var $iframe = $("#epubContentIframe");
+            var body = $iframe.contents().find('body')[0];
+
+            var range = rangy.createRange();
+            range.selectNodeContents(body);
+
+            while (range.findText(pattern)) {
+
+                var cfi = EPUBcfi.Generator.generateCharOffsetRangeComponent(
+                    range.startContainer,
+                    range.startOffset,
+                    range.endContainer,
+                    range.endOffset,
+                    ["cfi-marker"],
+                    [],
+                    []
+                );
+                cfis.push(cfi);
+                // Collapse the range to the position immediately after the match
+                range.collapse(false);
+            }
+            // todo is cfi visible  ???
+            if (direction === NEXT)
+                curCfi = cfis[0];
+            else
+                curCfi = cfis[cfis.length - 1];
+            console.debug("looking for hits ready \n found " + cfis.length + " hits in spine item");
+
+            highlightFirstMatch();
+        }
+
+        function setNextCfi() {
+
+            curCfi = cfis[++currentCfiIndex];
+            return curCfi;
+        }
+
+        function setPreviousCfi() {
+
+            curCfi = cfis[--currentCfiIndex];
+            return curCfi;
+        }
+
+    };
+
+    return FullTextSearch;
+
+});
+//angular.module('fullTextSearch')
+//    .controller('instantSearchCtrl',
+//    function ($scope, $window, $http, limitToFilter) {
+//        $scope.suggestions = function (suggestion) {
+//            return $http.get("matcher?beginsWith=" + suggestion)
+//                .then(function (response) {
+//                    return limitToFilter(response.data, 15);
+//                });
+//        };
+//        $scope.onSelect = function ($item) {
+//            $window.location = '#/search?q=' + $item;
+//        };
+//    })
+//    .controller('tabCtrl', function ($scope, $location) {
+//        $scope.isActive = function (route) {
+//            return route === $location.path();
+//        };
+//    })
+//    .controller('searchCtrl', function ($scope, Norch) {
+//        $scope.norch = new Norch();
+//    })
+//    .factory('Norch', function ($http, $location) {
+//        var Norch = function () {
+//            this.activeFilters = {};
+//            this.busy = false;
+//            this.facets = {};
+//            this.items = [];
+//            this.offset = 0;
+//            this.pagesize = 20;
+//            this.totalHits = 0;
+//        };
+//    });
+
+
 define('EpubReader',[
 'module',
 'jquery',
@@ -56381,7 +59316,8 @@ define('EpubReader',[
 'EpubReaderBackgroundAudioTrack',
 'gestures',
 'versioning/Versioning',
-'Readium'],
+'Readium', 
+'FullTextSearch'],
 
 function (
 module,
@@ -56404,7 +59340,8 @@ EpubReaderMediaOverlays,
 EpubReaderBackgroundAudioTrack,
 GesturesHandler,
 Versioning,
-Readium){
+Readium,
+FullTextSearch){
 
     var readium, 
         embedded,
@@ -56439,6 +59376,8 @@ Readium){
             $("#left-page-btn").on("click", prevPage);
             $("#right-page-btn").on("click", nextPage);
 
+            new FullTextSearch(readium).init();
+            
         }, openPageRequest);
     };
 
@@ -56535,59 +59474,67 @@ Readium){
     }
 
     var loadToc = function(dom){
-        $('script', dom).remove();
-
-        var tocNav;
-
-        var $navs = $('nav', dom);
-        Array.prototype.every.call($navs, function(nav){
-            if (nav.getAttributeNS('http://www.idpf.org/2007/ops', 'type') == 'toc'){
-                tocNav = nav;
-                return false;
-            }
-            return true;
-        });
-
-        var isRTL = false;
-        var pparent = tocNav;
-
-        while (pparent && pparent.getAttributeNS)
-        {
-            var dir = pparent.getAttributeNS("http://www.w3.org/1999/xhtml", "dir") || pparent.getAttribute("dir");
-
-            if (dir && dir === "rtl")
-            {
-                isRTL = true;
-                break;
-            }
-            pparent = pparent.parentNode;
-        }
         
-        var toc = (tocNav && $(tocNav).html()) || $('body', dom).html() || $(dom).html();
-        var tocUrl = currentDocument.getToc();
+        if (dom) {
+            $('script', dom).remove();
 
-        if (toc && toc.length)
-        {
-            var $toc = $(toc);
+            var tocNav;
 
-            // "iframe" elements need to be stripped out, because of potential vulnerability when loading malicious EPUBs
-            // e.g. src="javascript:doHorribleThings(window.top)"
-            // Note that "embed" and "object" elements with AllowScriptAccess="always" do not need to be removed,
-            // because unlike "iframe" the @src URI does not trigger the execution of the "javascript:" statement,
-            // and because the "data:" base64 encoding of an image/svg that contains ecmascript
-            // automatically results in origin/domain restrictions (thereby preventing access to window.top / window.parent).
-            // Also note that "script" elements are discarded automatically by jQuery.
-            $('iframe', $toc).remove();
+            var $navs = $('nav', dom);
+            Array.prototype.every.call($navs, function(nav){
+                if (nav.getAttributeNS('http://www.idpf.org/2007/ops', 'type') == 'toc'){
+                    tocNav = nav;
+                    return false;
+                }
+                return true;
+            });
 
-            $('#readium-toc-body').append($toc);
+            var isRTL = false;
+            var pparent = tocNav;
 
-            if (isRTL)
+            while (pparent && pparent.getAttributeNS)
             {
-                $toc[0].setAttributeNS("http://www.w3.org/1999/xhtml", "dir", "rtl");
-                $toc[0].style.direction = "rtl"; // The CSS stylesheet property does not trigger :(
-            }
-        }
+                var dir = pparent.getAttributeNS("http://www.w3.org/1999/xhtml", "dir") || pparent.getAttribute("dir");
 
+                if (dir && dir === "rtl")
+                {
+                    isRTL = true;
+                    break;
+                }
+                pparent = pparent.parentNode;
+            }
+        
+            var toc = (tocNav && $(tocNav).html()) || $('body', dom).html() || $(dom).html();
+            var tocUrl = currentDocument.getToc();
+
+            if (toc && toc.length)
+            {
+                var $toc = $(toc);
+
+                // "iframe" elements need to be stripped out, because of potential vulnerability when loading malicious EPUBs
+                // e.g. src="javascript:doHorribleThings(window.top)"
+                // Note that "embed" and "object" elements with AllowScriptAccess="always" do not need to be removed,
+                // because unlike "iframe" the @src URI does not trigger the execution of the "javascript:" statement,
+                // and because the "data:" base64 encoding of an image/svg that contains ecmascript
+                // automatically results in origin/domain restrictions (thereby preventing access to window.top / window.parent).
+                // Also note that "script" elements are discarded automatically by jQuery.
+                $('iframe', $toc).remove();
+
+                $('#readium-toc-body').append($toc);
+
+                if (isRTL)
+                {
+                    $toc[0].setAttributeNS("http://www.w3.org/1999/xhtml", "dir", "rtl");
+                    $toc[0].style.direction = "rtl"; // The CSS stylesheet property does not trigger :(
+                }
+            }
+        
+        } else {
+            var tocUrl = currentDocument.getToc();
+
+            $('#readium-toc-body').append("?? " + tocUrl);
+        }
+    
         var _tocLinkActivated = false;
         
         var lastIframe = undefined,
@@ -56965,6 +59912,8 @@ Readium){
             return false;
         });
 
+        $('#search-menu').click(function(e) {e.stopPropagation();});
+
         $('.zoom-wrapper input').on('click', function(){
             if (!this.disabled){
                 this.focus();
@@ -57278,7 +60227,7 @@ Readium){
             EpubReaderBackgroundAudioTrack.init(readium);
             
             loadEbook(url, readerSettings, openPageRequest);
-
+            
             readium.reader.on("annotationClicked", function(type, idref, cfi, id) {
                 readium.reader.removeHighlight(id);
             });
