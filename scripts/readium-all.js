@@ -14684,10 +14684,11 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
         $("button[class='resetKey']").css({'color': color, 'background-color': backgroundColor});
 
         $('#app-container').css({'color': color, 'background-color': backgroundColor});
-        
-        backgroundColorHover = colorChangeLuminance ($('#app-container').css('background-color') /*get background color as rgb*/, luminanceChangePercent);
 
-        alert (backgroundColor + "  " + backgroundColorHover);
+        /*get background color as rgb*/
+        
+        backgroundColorHover = colorChangeLuminance ($('#app-container').css('background-color') , luminanceChangePercent);
+
         var numberOfStylesheets = document.styleSheets.length;
 
         for (i = 0; i < numberOfStylesheets; i++) {
@@ -15311,7 +15312,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"cb9e084cc69eef8163e60f407faba0d9307dfbbd","tag":"0.17.0-309-gcb9e084","clean":true,"release":false,"timestamp":1426598372431}';});
+define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"ca8180e3bde49e64d53778b687bf419010133742","tag":"0.17.0-310-gca8180e","clean":false,"release":false,"timestamp":1426599684049}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
