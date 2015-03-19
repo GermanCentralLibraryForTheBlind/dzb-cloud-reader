@@ -15056,14 +15056,15 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
                 if (readerSettings.theme) {
 
                     if(!isTemporaryCustomColorSet()) {
+                        
                         setPreviewTheme($previewText, readerSettings);
-                        if(readerSettings.themeColor)
+                        
+                        if(readerSettings.customThemeColor)
                             setCustomThemeColor($("#custom-theme-radio-div"), readerSettings);
+                        
                         $('#' + readerSettings.theme + '-radio').prop('checked', true);
-                    }
-                    
+                    } 
                 }
-                
                 $previewText.css({fontSize: (readerSettings.fontSize / 100) + 'em'});
             });
         });
@@ -15311,7 +15312,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"63053faa7baca33a9ec412d8dda45b6e067578df","tag":"0.17.0-303-g63053fa","clean":true,"release":false,"timestamp":1426769130825}';});
+define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"cf13b5109981c9e2f43e6ff16c18c8dd07d4a2d9","tag":"0.17.0-304-gcf13b51","clean":true,"release":false,"timestamp":1426769969193}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
