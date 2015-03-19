@@ -15057,7 +15057,8 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
 
                     if(!isTemporaryCustomColorSet()) {
                         setPreviewTheme($previewText, readerSettings);
-                        setCustomThemeColor($("#custom-theme-radio-div"), readerSettings);
+                        if(readerSettings.themeColor)
+                            setCustomThemeColor($("#custom-theme-radio-div"), readerSettings);
                         $('#' + readerSettings.theme + '-radio').prop('checked', true);
                     }
                     
@@ -15310,7 +15311,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"4b7626b46a8bb68a9179d4a60f34367c12f60733","tag":"0.17.0-290-g4b7626b","clean":true,"release":false,"timestamp":1426609108681}';});
+define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"63053faa7baca33a9ec412d8dda45b6e067578df","tag":"0.17.0-303-g63053fa","clean":true,"release":false,"timestamp":1426769130825}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
@@ -52864,16 +52865,17 @@ Versioning){
                     setTimeout(function(){ $(".icon-metadata").focus(); }, 50);
                 }
         });
-		$('#details-dialog').on('shown.bs.modal', function(){
+		$('.details-dialog').on('shown.bs.modal', function(){
                 if (caller=='library') {
                     $('#details-button-div').attr('hidden', false);
                     $('#details-button-div').attr('aria-hidden', false);
                 }
                 setTimeout(function(){ $('#closeMetadataCross')[0].focus(); }, 50);
-            Keyboard.scope('details');
+                Keyboard.scope('details');
+                SettingsDialog.setUserInterfaceStyles();
 		});
         
-        
+
 		$('.details-dialog').modal();
             libraryManager.retrieveFullEpubDetails(packageUrl, bookRoot, rootDir, noCoverBg, showDetailsDialog, showError);
 	}
@@ -53141,6 +53143,8 @@ Versioning){
                 doMigration();
             }
         });
+
+            SettingsDialog.setUserInterfaceStyles();
     }
 
     var applyKeyboardSettingsAndLoadUi = function(data)
@@ -59003,7 +59007,7 @@ spinner,
 Settings,
 Strings,
 Dialogs,
-readerSettingsDialog,
+SettingsDialog,
 AboutDialog,
 ReaderNavbar,
 ReaderBody,
@@ -59648,7 +59652,7 @@ FullTextSearch){
         $('#zoom-custom a').on('click', enableCustom);
         $('.zoom-wrapper input').on('change', setCustom);
 
-        readerSettingsDialog.setUserInterfaceStyles();
+        SettingsDialog.setUserInterfaceStyles();
         spin();
     }
     
@@ -59777,7 +59781,7 @@ FullTextSearch){
                 $(window).trigger("focus");
             });
 
-            readerSettingsDialog.initDialog(readium.reader);
+            SettingsDialog.initDialog(readium.reader);
 
             $('#settings-dialog').on('hidden.bs.modal', function () {
 
@@ -59816,8 +59820,8 @@ FullTextSearch){
                 readerSettings = JSON.parse(settings.reader);
             }
             if (!embedded){
-                readerSettings = readerSettings || readerSettingsDialog.defaultSettings;
-                readerSettingsDialog.updateReader(readium.reader, readerSettings);
+                readerSettings = readerSettings || SettingsDialog.defaultSettings;
+                SettingsDialog.updateReader(readium.reader, readerSettings);
             }
             else{
                 readium.reader.updateSettings({
@@ -59843,7 +59847,7 @@ FullTextSearch){
                         
                         Settings.put('reader', json);
 
-                        readerSettingsDialog.updateReader(readium.reader, json);
+                        SettingsDialog.updateReader(readium.reader, json);
                     });
                 }
             };
