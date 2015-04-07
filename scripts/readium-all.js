@@ -15316,7 +15316,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"8865c7cc18fde1f2e5af1f9b00689c424c9c5030","tag":"0.17.0-346-g8865c7c","clean":true,"release":false,"timestamp":1427205270506}';});
+define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"572fd7562a188407c331067171172c70c52ff2c5","tag":"0.17.0-352-g572fd75","clean":true,"release":false,"timestamp":1428390270238}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
@@ -23034,7 +23034,7 @@ define('text',['module'], function (module) {
 });
 
 
-define('text!version.json',[],function () { return '{"readiumJs":{"sha":"fea658670491efc02b916f930690982a653a8831","tag":"0.15-53-gfea6586","clean":true},"readiumSharedJs":{"sha":"f7952a608e6fbf58cc1bbbfc719bdc94ad2c3658","tag":"0.16-8-gf7952a6","clean":true}}';});
+define('text!version.json',[],function () { return '{"readiumJs":{"sha":"69955a34d7959e150c382d1e9d715c1705fe0969","tag":"0.15-55-g69955a3","clean":false},"readiumSharedJs":{"sha":"0848f393deea3d1427234cab12e2da382f476adc","tag":"0.16-10-g0848f39","clean":true}}';});
 
 /*
 This code is required to IE for console shim
@@ -43582,28 +43582,21 @@ ReadiumSDK.Views.ReflowableView = function(options, reader){
         _$htmlBody.css('margin', 0);
         _$htmlBody.css('padding', 0);
 
-        var spacing = 0;
-        try
-        {
-            spacing = parseInt(_$htmlBody.css('padding-top')) + parseInt(_$htmlBody.css('border-top-width')) + parseInt(_$htmlBody.css('border-bottom-width'));
-        }
-        catch(err)
-        {
-            
-        }
-        // Needed for Firefox, otherwise content shrinks vertically, resulting in scrollWidth accomodating more columns than necessary
-        //_$htmlBody.css("min-height", _lastViewPortSize.height-spacing-9 + "px");
-        _$htmlBody.css("min-height", "50%");
-        _$htmlBody.css("max-height", _lastViewPortSize.height-spacing + "px");
-
         _paginationInfo.rightToLeft = _spine.isRightToLeft();
 
         _paginationInfo.columnWidth = Math.round(((_htmlBodyIsVerticalWritingMode ? _lastViewPortSize.height : _lastViewPortSize.width) - _paginationInfo.columnGap * (_paginationInfo.visibleColumnCount - 1)) / _paginationInfo.visibleColumnCount);
 
-        _$epubHtml.css("width", (_htmlBodyIsVerticalWritingMode ? _lastViewPortSize.width : _paginationInfo.columnWidth) + "px");
+        var useColumnCountNotWidth = _paginationInfo.visibleColumnCount > 1; // column-count == 1 does not work in Chrome, and is not needed anyway (HTML width is full viewport width, no Firefox video flickering)
+        if (useColumnCountNotWidth) {
+            _$epubHtml.css("width", _lastViewPortSize.width + "px");
+            _$epubHtml.css("column-count", _paginationInfo.visibleColumnCount);
+        } else {
+            _$epubHtml.css("width", (_htmlBodyIsVerticalWritingMode ? _lastViewPortSize.width : _paginationInfo.columnWidth) + "px");
+            _$epubHtml.css("column-width", _paginationInfo.columnWidth + "px");
+        }
 
-        _$epubHtml.css("column-width", _paginationInfo.columnWidth + "px");
-
+        _$epubHtml.css("column-fill", "auto");
+        
         _$epubHtml.css({left: "0", right: "0", top: "0"});
         
         ReadiumSDK.Helpers.triggerLayout(_$iframe);
