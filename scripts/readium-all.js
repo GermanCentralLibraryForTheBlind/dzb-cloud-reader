@@ -15350,7 +15350,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"8d984a7bab6e3e1e003ba4b24e5023a36e0e67fe","tag":"0.17.0-375-g8d984a7","clean":false,"release":false,"timestamp":1429616502781}';});
+define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"2089ffcab3ee0739e766fc0f3400c385a0cb1646","tag":"0.17.0-376-g2089ffc","clean":false,"release":false,"timestamp":1429616666490}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
