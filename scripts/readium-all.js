@@ -11027,13 +11027,19 @@ define('workers/Messages',[],function(){
 
 define('encryptionHandler',['require', 'module'], function (require, module) {
 
-    var EncryptionHandler = function (encryptionData) {
+    var EncryptionHandler = function (packageJson, publicationFetcher) {
         var self = this;
+
+        var _uid = packageJson.metadata.id;
+        var _encryptionDom;
+        var _encryptionHash;
+        var _isEncryptionSpecified = false;
 
         var ENCRYPTION_METHODS = {
             'http://www.idpf.org/2008/embedding': embeddedFontDeobfuscateIdpf,
             'http://ns.adobe.com/pdf/enc#RC': embeddedFontDeobfuscateAdobe
         };
+
 
         // INTERNAL FUNCTIONS
 
@@ -11063,11 +11069,11 @@ define('encryptionHandler',['require', 'module'], function (require, module) {
         }
 
         function embeddedFontDeobfuscateIdpf(obfuscatedResourceBlob, callback) {
-
+            var hashedUid = window.Crypto.SHA1(unescape(encodeURIComponent(_uid.trim())), { asBytes: true });
             var prefixLength = 1040;
             // Shamelessly copied from
             // https://github.com/readium/readium-chrome-extension/blob/26d4b0cafd254cfa93bf7f6225887b83052642e0/scripts/models/path_resolver.js#L102 :
-            xorObfuscatedBlob(obfuscatedResourceBlob, prefixLength, encryptionData.uidHash, callback);
+            xorObfuscatedBlob(obfuscatedResourceBlob, prefixLength, hashedUid, callback);
         }
 
         function urnUuidToByteArray(id) {
@@ -11089,7 +11095,7 @@ define('encryptionHandler',['require', 'module'], function (require, module) {
         function embeddedFontDeobfuscateAdobe(obfuscatedResourceBlob, callback) {
 
             // extract the UUID and convert to big-endian binary form (16 bytes):
-            var uidWordArray = urnUuidToByteArray(encryptionData.uid);
+            var uidWordArray = urnUuidToByteArray(_uid);
             var prefixLength = 1024;
             xorObfuscatedBlob(obfuscatedResourceBlob, prefixLength, uidWordArray, callback)
         }
@@ -11097,14 +11103,53 @@ define('encryptionHandler',['require', 'module'], function (require, module) {
 
         // PUBLIC API
 
-        this.isEncryptionSpecified = function () {
-            return encryptionData && encryptionData.encryptions;
+        this.getEncryptionDom = function (callback, onerror) {
+            if (_encryptionDom) {
+                callback(_encryptionDom);
+            } else {
+                publicationFetcher.getXmlFileDom('META-INF/encryption.xml', function (encryptionDom) {
+                    _encryptionDom = encryptionDom;
+                    callback(_encryptionDom);
+                }, onerror);
+            }
         };
 
+        this.isEncryptionSpecified = function () {
+            return _isEncryptionSpecified;
+        };
+
+        this.initializeEncryptionHash = function (encryptionInitializedCallback) {
+            self.getEncryptionDom(function (encryptionDom) {
+                if (!_encryptionHash) {
+                    _encryptionHash = {};
+                }
+
+                var encryptedData = $('EncryptedData', encryptionDom);
+                encryptedData.each(function (index, encryptedData) {
+                    var encryptionAlgorithm = $('EncryptionMethod', encryptedData).first().attr('Algorithm');
+
+                    // For some reason, jQuery selector "" against XML DOM sometimes doesn't match properly
+                    var cipherReference = $('CipherReference', encryptedData);
+                    cipherReference.each(function (index, CipherReference) {
+                        var cipherReferenceURI = $(CipherReference).attr('URI');
+                        console.log('Encryption/obfuscation algorithm ' + encryptionAlgorithm + ' specified for ' +
+                            cipherReferenceURI);
+                        _isEncryptionSpecified = true;
+                        _encryptionHash[cipherReferenceURI] = encryptionAlgorithm;
+                    });
+                });
+
+                encryptionInitializedCallback();
+            }, function (error) {
+                console.log(error.message);
+                console.log("Document doesn't make use of encryption.");
+                encryptionInitializedCallback();
+            });
+        };
 
         this.getEncryptionMethodForRelativePath = function (pathRelativeToRoot) {
-            if (self.isEncryptionSpecified()) {
-                return encryptionData.encryptions[pathRelativeToRoot];
+            if (_encryptionHash) {
+                return _encryptionHash[pathRelativeToRoot];
             } else {
                 return undefined;
             }
@@ -11112,7 +11157,7 @@ define('encryptionHandler',['require', 'module'], function (require, module) {
 
         this.getDecryptionFunctionForRelativePath = function (pathRelativeToRoot) {
             var encryptionMethod = self.getEncryptionMethodForRelativePath(pathRelativeToRoot);
-            if (encryptionMethod && ENCRYPTION_METHODS[encryptionMethod]) {
+            if (ENCRYPTION_METHODS[encryptionMethod]) {
                 return ENCRYPTION_METHODS[encryptionMethod];
             } else {
                 return undefined;
@@ -11120,37 +11165,6 @@ define('encryptionHandler',['require', 'module'], function (require, module) {
         };
 
     };
-
-    EncryptionHandler.CreateEncryptionData =  function(id, encryptionDom) {
-
-        var encryptionData = {
-            uid: id,
-            uidHash: window.Crypto.SHA1(unescape(encodeURIComponent(id.trim())), { asBytes: true }),
-            encryptions: undefined
-        };
-
-        var encryptedData = $('EncryptedData', encryptionDom);
-        encryptedData.each(function (index, encryptedData) {
-            var encryptionAlgorithm = $('EncryptionMethod', encryptedData).first().attr('Algorithm');
-
-            // For some reason, jQuery selector "" against XML DOM sometimes doesn't match properly
-            var cipherReference = $('CipherReference', encryptedData);
-            cipherReference.each(function (index, CipherReference) {
-                var cipherReferenceURI = $(CipherReference).attr('URI');
-                console.log('Encryption/obfuscation algorithm ' + encryptionAlgorithm + ' specified for ' +
-                    cipherReferenceURI);
-
-                if(!encryptionData.encryptions) {
-                    encryptionData.encryptions = {};
-                }
-
-                encryptionData.encryptions[cipherReferenceURI] = encryptionAlgorithm;
-            });
-        });
-
-        return encryptionData;
-    };
-
     return EncryptionHandler;
 });
 define('workers/WorkerProxy',['module', 'workers/Messages', 'jquery', 'PackageParser', 'encryptionHandler'], function(module, Messages, $, PackageParser, EncryptionHandler){
@@ -14683,7 +14697,7 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
 
     }
 
-    var styleUserInterfaceCSS = function(color, backgroundColor){
+    var styleUserInterfaceCSS = function(color, backgroundColor, theme){
 
         var luminanceChangePercent = 20;
 
@@ -14693,14 +14707,18 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
 
         //$("*").css("font-family", "Times New Roman, Times, serif");
 
-        $('#app-navbar').css({'color': color, 'background-color': backgroundColor});
+        if(theme && theme !== "default-theme") {
+            
+            $('#app-navbar').css({'color': color, 'background-color': backgroundColor});
+            $(':button').css({'color': color, 'background-color': backgroundColor});
+        }
+        
+        
         $('#audioplayer').css({'color': color, 'background-color': backgroundColor});
 
         /* $('.modal-body').css({'color': color, 'background-color': backgroundColor});
          $('.modal-footer').css({'color': color, 'background-color': backgroundColor});*/
         $('.modal-content').css({'color': color, 'background-color': backgroundColor});
-
-        $(':button').css({'color': color, 'background-color': backgroundColor});
 
         $("button[class='resetKey']").css({'color': color, 'background-color': backgroundColor});
 
@@ -14716,21 +14734,21 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
         var numberOfStylesheets = document.styleSheets.length;
 
         for (i = 0; i < numberOfStylesheets; i++) {
-
+        
             var stylesheet = document.styleSheets[i];
             var rules = stylesheet.cssRules || stylesheet.rules;
-
+        
             for (var j = 0; j < rules.length; j++) {
-
+        
                 if (rules[j].type == 1 && rules[j].selectorText.toLowerCase().indexOf(".tooltip-inner") > -1) { //find ":hover" rules
                     rules[j].style.setProperty("color", backgroundColor, "important");
                     rules[j].style.setProperty("background-color", color, "important");
                 }
-
+        
                 if (rules[j].type == 1 && rules[j].selectorText.toLowerCase().indexOf(".tooltip-arrow") > -1) { //find ":hover" rules
                     rules[j].style.setProperty("border-bottom-color", color, "important");
                 }
-
+        
                 if (rules[j].type == 1 && rules[j].selectorText.toLowerCase().indexOf(":hover") > -1 && rules[j].selectorText.toLowerCase().indexOf("a:hover") == -1) { //find ":hover" rules
                     rules[j].style.setProperty("background-color", backgroundColorHover, "important");
                 }
@@ -14753,7 +14771,7 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
                     color = json['themeColor'].color;
                     backgroundColor = json['themeColor'].backgroundColor;
 
-                    styleUserInterfaceCSS(color, backgroundColor);
+                    styleUserInterfaceCSS(color, backgroundColor, theme);
                 }
             }
         });
@@ -14916,6 +14934,10 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
 
     function isTemporaryCustomColorSet() {
         return localStorage.hasOwnProperty("tempThemeColor");
+    }
+
+    function getTheme() {
+        return localStorage["theme"];
     }
 
     var initDialog = function (reader) {
@@ -15328,7 +15350,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"fcb304b9aec150fc689376f6f65a6eaa482f46c5","tag":"0.17.0-370-gfcb304b","clean":true,"release":false,"timestamp":1429089715429}';});
+define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"8d984a7bab6e3e1e003ba4b24e5023a36e0e67fe","tag":"0.17.0-375-g8d984a7","clean":false,"release":false,"timestamp":1429616352814}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
