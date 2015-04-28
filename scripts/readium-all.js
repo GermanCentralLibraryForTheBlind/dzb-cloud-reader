@@ -15350,7 +15350,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"34b747707b2b7019d49d8b0d71ac3c0a2f76c3d2","tag":"0.17.0-386-g34b7477","clean":false,"release":false,"timestamp":1429709068691}';});
+define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"f3dc791d95222af447e1021a9600aaed52b813c2","tag":"0.17.0-393-gf3dc791","clean":false,"release":false,"timestamp":1430216344395}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
@@ -23068,7 +23068,7 @@ define('text',['module'], function (module) {
 });
 
 
-define('text!version.json',[],function () { return '{"readiumJs":{"sha":"69955a34d7959e150c382d1e9d715c1705fe0969","tag":"0.15-55-g69955a3","clean":false},"readiumSharedJs":{"sha":"0848f393deea3d1427234cab12e2da382f476adc","tag":"0.16-10-g0848f39","clean":true}}';});
+define('text!version.json',[],function () { return '{"readiumJs":{"sha":"2cc8a263b27bcbfe139aeb7e6b88b10791c5be69","tag":"0.15-56-g2cc8a26","clean":true},"readiumSharedJs":{"sha":"0848f393deea3d1427234cab12e2da382f476adc","tag":"0.16-10-g0848f39","clean":true}}';});
 
 /*
 This code is required to IE for console shim
