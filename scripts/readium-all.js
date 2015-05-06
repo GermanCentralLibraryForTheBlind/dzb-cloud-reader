@@ -14706,14 +14706,10 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
         //$('*').css("");
 
         //$("*").css("font-family", "Times New Roman, Times, serif");
-
-        if(theme && theme !== "default-theme") {
             
-            $('#app-navbar').css({'color': color, 'background-color': backgroundColor});
+        $('#app-navbar').css({'color': color, 'background-color': backgroundColor});
             $(':button').css({'color': color, 'background-color': backgroundColor});
-        }
-        
-        
+
         $('#audioplayer').css({'color': color, 'background-color': backgroundColor});
 
         /* $('.modal-body').css({'color': color, 'background-color': backgroundColor});
@@ -14772,6 +14768,28 @@ define('ReaderSettingsDialog',['hgn!templates/settings-dialog.html', 'ReaderSett
                     backgroundColor = json['themeColor'].backgroundColor;
 
                     styleUserInterfaceCSS(color, backgroundColor, theme);
+
+                    //*alert ("color: " + color + "\nbackgroundColor: " + backgroundColor + "\ntheme: " + theme)
+                }else{
+                    var defaultColor = "#DDDDDD";
+                    var defaultBackgroundColor = "#4D4D4D";
+
+                    //* TODO UI mit readium-org standard outfit sytlen und author styles des Epub content wiederherstellen
+                    //* Funktionale Differenzierung zw. verschiedenen Readium Breichen nötig! z.B: styleNavbarCSS, styleEpubContentCSS, styleModalDialogsCSS, styleLibrary
+                    styleUserInterfaceCSS("#000000", "#FFFFFF", "author-theme ");
+
+
+                    //*style navbar
+
+                    $("#app-navbar").css({'color': defaultColor, 'background-color': "defaultBackgroundColor"});
+
+                    $(".navbar-left").css({'color': defaultColor, 'background-color': "defaultBackgroundColor"});
+
+                    $(".navbar-right").css({'color': defaultColor, 'background-color': "defaultBackgroundColor"});
+
+
+
+
                 }
             }
         });
@@ -15350,7 +15368,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"f3dc791d95222af447e1021a9600aaed52b813c2","tag":"0.17.0-393-gf3dc791","clean":false,"release":false,"timestamp":1430216344395}';});
+define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"307fd894944e824b24fb6d84866b34f10c3e0e08","tag":"0.17.0-392-g307fd89","clean":true,"release":false,"timestamp":1430889981059}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
