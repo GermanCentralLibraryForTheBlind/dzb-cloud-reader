@@ -15368,7 +15368,7 @@ define('analytics/Analytics',[],function(){
 	}
 });
 
-define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"307fd894944e824b24fb6d84866b34f10c3e0e08","tag":"0.17.0-392-g307fd89","clean":true,"release":false,"timestamp":1430890323833}';});
+define('text!viewer-version',[],function () { return '{"version":"0.17.0","chromeVersion":"2.17.0","sha":"307fd894944e824b24fb6d84866b34f10c3e0e08","tag":"0.17.0-392-g307fd89","clean":true,"release":false,"timestamp":1430890702552}';});
 
 //     Underscore.js 1.4.4
 //     http://underscorejs.org
